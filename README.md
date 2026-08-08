@@ -1,6 +1,6 @@
 # SCMDB 中文翻译 (SCMDB_zh_cn)
 
-[SCMDB](https://scmdb.dev)（星际公民任务数据浏览器）社区中文（简体）翻译文件。
+[SCMDB](https://scmdb.net)（星际公民任务数据浏览器）社区中文（简体）翻译文件。
 
 由 [SCMDB Community Language Support Kit](https://github.com/KrovaxCode/SCMDB_LANG) 从 Star Citizen 官方中文 `global.ini` 自动生成，随游戏补丁更新。
 
@@ -9,23 +9,21 @@
 在任意 SCMDB 页面 URL 后附加 `lang` 参数（只需设置一次，偏好保存在浏览器）：
 
 ```
-https://scmdb.dev?lang=https://raw.githubusercontent.com/Walkersifolia/SCMDB_zh_cn/main/lang-zh_CN-4.10.0-ptu.12399239.json
+https://scmdb.net?lang=https://raw.githubusercontent.com/Walkersifolia/SCMDB_zh_cn/main/lang-zh_CN_live-4.9.0-live.12344265.json
 ```
 
 有 SCMDB 账号的用户也可以在 Settings 中粘贴上述 URL，设置会跨设备同步。
 
-清除翻译：访问 `https://scmdb.dev?lang=clear`，或从 Settings 中移除 URL。
+清除翻译：访问 `https://scmdb.net?lang=clear`，或从 Settings 中移除 URL。
+
+> 提示：翻译文件版本必须与 SCMDB 网站数据版本一致，否则页面会提示 `version mismatch` 且翻译不会生效。SCMDB 网站跟随 LIVE 数据，请加载 LIVE 版本翻译。
 
 ## 当前状态
 
-| 项目 | 值 |
-|---|---|
-| 版本 | 4.10.0-ptu.12399239 |
-| 总 key 数 | 2736 |
-| 已翻译 | 2608 |
-| 缺失 | 0 |
-| 无 loc key（保持英文） | 60 |
-| 纯占位符回退英文 | 68 |
+| 版本 | 总 key | 已翻译 | 缺失 | 无 loc key | 占位符回退 |
+|---|---|---|---|---|---|
+| **4.9.0-live.12344265**（当前生效） | 2722 | 2594 | 0 | 60 | 68 |
+| 4.10.0-ptu.12399239（PTU 备用） | 2736 | 2608 | 0 | 60 | 68 |
 
 说明：
 - 翻译范围仅限游戏内数据（任务、地点、船只、物品、阵营等）；SCMDB 网站 UI 本身不参与本地化。
@@ -35,9 +33,13 @@ https://scmdb.dev?lang=https://raw.githubusercontent.com/Walkersifolia/SCMDB_zh_
 ## 更新流程（每次游戏补丁后）
 
 1. 从 [SCMDB_LANG](https://github.com/KrovaxCode/SCMDB_LANG) 拉取新的 `build_lang_template.py` 与 `lang-template-*.json`
-2. 使用 PTU 客户端的中文 `global.ini`：
+2. 使用对应客户端的中文 `global.ini`（注意文件需为无 BOM 的 UTF-8）：
 
 ```bash
+# LIVE 版本（SCMDB 网站当前数据）
+python build_lang_template.py -p live --translate "StarCitizen\LIVE\data\Localization\chinese_(simplified)\global.ini"
+
+# PTU 版本（PTU 数据上线后）
 python build_lang_template.py --translate "StarCitizen\PTU\data\Localization\chinese_(simplified)\global.ini"
 ```
 
@@ -47,7 +49,8 @@ python build_lang_template.py --translate "StarCitizen\PTU\data\Localization\chi
 
 ## 文件说明
 
-- `lang-zh_CN-4.10.0-ptu.12399239.json` — 中文翻译文件（浏览器实际加载的产物）
+- `lang-zh_CN_live-4.9.0-live.12344265.json` — LIVE 版中文翻译（当前生效，SCMDB 网站加载此文件）
+- `lang-zh_CN-4.10.0-ptu.12399239.json` — PTU 版中文翻译（PTU 数据上线后使用）
 - `build_lang_template.py` / `lang-template-*.json` — 上游 [SCMDB_LANG](https://github.com/KrovaxCode/SCMDB_LANG) 的工具与模板
 
 游戏数据版权归 Cloud Imperium Games 所有。
