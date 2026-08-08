@@ -2,8 +2,6 @@
 
 [SCMDB](https://scmdb.net)（星际公民任务数据浏览器）社区中文（简体）翻译文件。
 
-由 [SCMDB Community Language Support Kit](https://github.com/KrovaxCode/SCMDB_LANG) 从 Star Citizen 官方中文 `global.ini` 自动生成，随游戏补丁更新。
-
 ## 使用方法
 
 在任意 SCMDB 页面 URL 后附加 `lang` 参数（只需设置一次，偏好保存在浏览器）：
@@ -16,7 +14,7 @@ https://scmdb.net?lang=https://raw.githubusercontent.com/Walkersifolia/SCMDB_zh_
 
 清除翻译：访问 `https://scmdb.net?lang=clear`，或从 Settings 中移除 URL。
 
-> 提示：翻译文件版本必须与 SCMDB 网站数据版本一致，否则页面会提示 `version mismatch` 且翻译不会生效。SCMDB 网站跟随 LIVE 数据，请加载 LIVE 版本翻译。
+> 提示：翻译文件版本必须与 SCMDB 网站数据版本一致，否则页面会提示 `version mismatch` 且翻译只会生效部分，还可能出现错位问题。SCMDB 网站跟随 LIVE 数据，请加载 LIVE 版本翻译。
 
 ## 当前状态
 
