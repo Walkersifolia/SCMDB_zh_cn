@@ -2,10 +2,10 @@
   "version": "4.10.0-ptu.12399239",
   "sourceLanguage": "en",
   "targetLanguage": "zh",
-  "keyCount": 4173,
+  "keyCount": 4286,
   "stats": {
-    "total": 4173,
-    "translated": 4045,
+    "total": 4286,
+    "translated": 4158,
     "missing": 0,
     "noLocKey": 60,
     "placeholderFallback": 68,
@@ -11195,6 +11195,10 @@
       "en": "Marlin",
       "tr": "枪鱼"
     },
+    "Arbor MH1 Mining Laser": {
+      "en": "Arbor MH1 Mining Laser",
+      "tr": "刀轴 MH1 型采矿激光器"
+    },
     "Hofstede-S1 Mining Laser": {
       "en": "Hofstede-S1 Mining Laser",
       "tr": "S1 型采矿激光器"
@@ -11210,6 +11214,18 @@
     "Impact I Mining Laser": {
       "en": "Impact I Mining Laser",
       "tr": "冲击 I 型采矿激光器"
+    },
+    "CF-117 Bulldog \"Hazard-Zone\" Repeater": {
+      "en": "CF-117 Bulldog \"Hazard-Zone\" Repeater",
+      "tr": "117 恶犬 “危险地带” 激光速射炮"
+    },
+    "CF-227 Badger \"Hazard-Zone\" Repeater": {
+      "en": "CF-227 Badger \"Hazard-Zone\" Repeater",
+      "tr": "227 獾 “危险地带” 激光速射炮"
+    },
+    "CF-337 Panther \"Hazard-Zone\" Repeater": {
+      "en": "CF-337 Panther \"Hazard-Zone\" Repeater",
+      "tr": "337 黑豹 “危险地带” 激光速射炮"
     },
     "Pitman Mining Laser": {
       "en": "Pitman Mining Laser",
@@ -11283,6 +11299,10 @@
       "en": "Inquisitor Legs Grey",
       "tr": "审讯官 腿甲 灰色"
     },
+    "Lumin V SMG Battery (45 cap)": {
+      "en": "Lumin V SMG Battery (45 cap)",
+      "tr": "卢敏 V 冲锋枪电池 (45 发"
+    },
     "R97 \"Kismet\" Shotgun": {
       "en": "R97 \"Kismet\" Shotgun",
       "tr": "R97 “机缘巧合” 霰弹枪"
@@ -11331,6 +11351,10 @@
       "en": "Custodian SMG",
       "tr": "监管者 冲锋枪"
     },
+    "Custodian \"Midnight\" SMG": {
+      "en": "Custodian \"Midnight\" SMG",
+      "tr": "监管者 “暗夜迷彩” 冲锋枪"
+    },
     "Custodian \"Scorched\" SMG": {
       "en": "Custodian \"Scorched\" SMG",
       "tr": "监管者 “焦炎” 冲锋枪"
@@ -11350,6 +11374,10 @@
     "Arden-SL Helmet": {
       "en": "Arden-SL Helmet",
       "tr": "SL 头盔"
+    },
+    "Custodian SMG Magazine (60 cap)": {
+      "en": "Custodian SMG Magazine (60 cap)",
+      "tr": "监管者 冲锋枪弹匣 (60 发"
     },
     "Arrowhead Sniper Rifle": {
       "en": "Arrowhead Sniper Rifle",
@@ -11386,6 +11414,10 @@
     "Aves Shrike Helmet": {
       "en": "Aves Shrike Helmet",
       "tr": "伯劳鸟 头盔"
+    },
+    "Arrowhead Sniper Rifle Battery (16 cap)": {
+      "en": "Arrowhead Sniper Rifle Battery (16 cap)",
+      "tr": "箭头能量狙击枪电池 (16发"
     },
     "P8-SC SMG": {
       "en": "P8-SC SMG",
@@ -11430,6 +11462,10 @@
     "G-2 Helmet Woodland": {
       "en": "G-2 Helmet Woodland",
       "tr": "2 头盔 林地版"
+    },
+    "P8-SC SMG Magazine (45 cap)": {
+      "en": "P8-SC SMG Magazine (45 cap)",
+      "tr": "SC 冲锋枪弹匣 (45 发"
     },
     "C54 SMG Magazine (50 cap)": {
       "en": "C54 SMG Magazine (50 cap)",
@@ -11663,6 +11699,10 @@
       "en": "Antium Helmet",
       "tr": "安腾 头盔"
     },
+    "Parallax Rifle Battery (80 Cap)": {
+      "en": "Parallax Rifle Battery (80 Cap)",
+      "tr": "视差 步枪电池 (80 发"
+    },
     "INK": {
       "en": "INK",
       "tr": "墨水"
@@ -11855,6 +11895,10 @@
       "en": "CF-667 Mammoth Repeater",
       "tr": "667 猛犸 激光速射炮"
     },
+    "Parallax \"Shock Trooper\" Energy Assault Rifle": {
+      "en": "Parallax \"Shock Trooper\" Energy Assault Rifle",
+      "tr": "视差 “震爆步兵” 能量突击步枪"
+    },
     "Antium Arms Storm": {
       "en": "Antium Arms Storm",
       "tr": "安腾 臂甲 风暴"
@@ -11903,6 +11947,10 @@
       "en": "Antium Legs Moss Camo",
       "tr": "安腾 腿甲 苔藓迷彩"
     },
+    "Parallax \"Sanguine\" Energy Assault Rifle": {
+      "en": "Parallax \"Sanguine\" Energy Assault Rifle",
+      "tr": "视差 “血红” 能量突击步枪"
+    },
     "Antium Arms Sand": {
       "en": "Antium Arms Sand",
       "tr": "安腾 臂甲 沙色"
@@ -11918,6 +11966,10 @@
     "Antium Helmet Sand": {
       "en": "Antium Helmet Sand",
       "tr": "安腾 头盔 沙色"
+    },
+    "Parallax \"Sunstone\" Energy Assault Rifle": {
+      "en": "Parallax \"Sunstone\" Energy Assault Rifle",
+      "tr": "视差 “日光石” 能量突击步枪"
     },
     "Antium Arms Jet": {
       "en": "Antium Arms Jet",
@@ -12087,6 +12139,18 @@
       "en": "AD6B Ballistic Gatling",
       "tr": "AD6B 实弹加特林"
     },
+    "Tarantula GT-870 Mark 1 Cannon": {
+      "en": "Tarantula GT-870 Mark 1 Cannon",
+      "tr": "870 Mark 1 实弹加农炮"
+    },
+    "Tarantula GT-870 Mark 2 Cannon": {
+      "en": "Tarantula GT-870 Mark 2 Cannon",
+      "tr": "870 Mark 2 实弹加农炮"
+    },
+    "Tarantula GT-870 Mark 3 Cannon": {
+      "en": "Tarantula GT-870 Mark 3 Cannon",
+      "tr": "870 Mark 3 实弹加农炮"
+    },
     "YellowJacket GT-210 Gatling": {
       "en": "YellowJacket GT-210 Gatling",
       "tr": "210 实弹加特林"
@@ -12103,6 +12167,14 @@
       "en": "Atzkav Sniper Rifle",
       "tr": "阿兹卡夫 狙击步枪"
     },
+    "Atzkav \"Igniter\" Sniper Rifle": {
+      "en": "Atzkav \"Igniter\" Sniper Rifle",
+      "tr": "阿兹卡夫 “点火器” 狙击步枪"
+    },
+    "Atzkav \"Mirage\" Sniper Rifle": {
+      "en": "Atzkav \"Mirage\" Sniper Rifle",
+      "tr": "阿兹卡夫 “幻影迷彩” 狙击步枪"
+    },
     "Calico Arms Tactical": {
       "en": "Calico Arms Tactical",
       "tr": "棉布臂甲 战术"
@@ -12118,6 +12190,10 @@
     "Calico Helmet Tactical": {
       "en": "Calico Helmet Tactical",
       "tr": "棉布头盔 战术"
+    },
+    "Atzkav Sniper Rifle Battery (8 cap)": {
+      "en": "Atzkav Sniper Rifle Battery (8 cap)",
+      "tr": "阿兹卡夫狙击步枪电池 (8发"
     },
     "R97 Shotgun": {
       "en": "R97 Shotgun",
@@ -12195,9 +12271,21 @@
       "en": "Corbel Helmet Mire",
       "tr": "拱石 头盔 泥沼"
     },
+    "Fresnel Energy LMG Battery (165 Cap)": {
+      "en": "Fresnel Energy LMG Battery (165 Cap)",
+      "tr": "菲涅尔 能量轻机枪电池（165 发）"
+    },
     "Novikov Backpack Mire": {
       "en": "Novikov Backpack Mire",
       "tr": "诺维科夫 背包 泥沼"
+    },
+    "Fresnel \"Rockfall\" Energy LMG": {
+      "en": "Fresnel \"Rockfall\" Energy LMG",
+      "tr": "菲涅尔 “岩崩” 能量轻机枪"
+    },
+    "Zenith \"Landslide\" Laser Sniper Rifle": {
+      "en": "Zenith \"Landslide\" Laser Sniper Rifle",
+      "tr": "天顶 “山崩” 激光狙击步枪"
     },
     "Geist Armor Arms": {
       "en": "Geist Armor Arms",
@@ -12234,6 +12322,10 @@
     "Novikov Backpack Patina": {
       "en": "Novikov Backpack Patina",
       "tr": "诺维科夫 背包 铜绿"
+    },
+    "Zenith \"Thunderstrike\" Laser Sniper Rifle": {
+      "en": "Zenith \"Thunderstrike\" Laser Sniper Rifle",
+      "tr": "天顶 “雷袭” 激光狙击步枪"
     },
     "Geist Armor Helmet Desert": {
       "en": "Geist Armor Helmet Desert",
@@ -12283,9 +12375,17 @@
       "en": "Corbel Helmet Halcyon",
       "tr": "拱石 头盔 翠鸟"
     },
+    "Zenith Laser Sniper Rifle Battery (22 Cap)": {
+      "en": "Zenith Laser Sniper Rifle Battery (22 Cap)",
+      "tr": "天顶激光狙击步枪电池 (22发"
+    },
     "Novikov Backpack Halcyon": {
       "en": "Novikov Backpack Halcyon",
       "tr": "诺维科夫 背包 翠鸟"
+    },
+    "Fresnel \"Icebox\" Energy LMG": {
+      "en": "Fresnel \"Icebox\" Energy LMG",
+      "tr": "菲涅尔 “冰牢” 能量轻机枪"
     },
     "Geist Armor Arms Rogue": {
       "en": "Geist Armor Arms Rogue",
@@ -12322,6 +12422,14 @@
     "Novikov Backpack Smolder": {
       "en": "Novikov Backpack Smolder",
       "tr": "诺维科夫 背包 余烬"
+    },
+    "Zenith \"Darkwave\" Laser Sniper Rifle": {
+      "en": "Zenith \"Darkwave\" Laser Sniper Rifle",
+      "tr": "天顶 “暗潮” 激光狙击步枪"
+    },
+    "Fresnel \"Molten\" Energy LMG": {
+      "en": "Fresnel \"Molten\" Energy LMG",
+      "tr": "菲涅尔 “熔火” 能量轻机枪"
     },
     "Geist Armor Arms ASD Edition": {
       "en": "Geist Armor Arms ASD Edition",
@@ -12371,6 +12479,14 @@
       "en": "Testudo Helmet Earthshake",
       "tr": "龟甲 头盔 撼地"
     },
+    "Pulse Laser Pistol Battery (60 Cap)": {
+      "en": "Pulse Laser Pistol Battery (60 Cap)",
+      "tr": "脉冲 激光手枪电池（60 发）"
+    },
+    "Quartz \"Lumen\" Energy SMG": {
+      "en": "Quartz \"Lumen\" Energy SMG",
+      "tr": "石英 “流明” 能量冲锋枪"
+    },
     "Testudo Arms Nightveil": {
       "en": "Testudo Arms Nightveil",
       "tr": "龟甲 臂甲 夜幕"
@@ -12387,6 +12503,10 @@
       "en": "Testudo Helmet Nightveil",
       "tr": "龟甲 头盔 夜幕"
     },
+    "Quartz \"Deadfall\" Energy SMG": {
+      "en": "Quartz \"Deadfall\" Energy SMG",
+      "tr": "石英 “致命陷阱” 能量冲锋枪"
+    },
     "Testudo Arms Turfwar": {
       "en": "Testudo Arms Turfwar",
       "tr": "龟甲 臂甲 扩张"
@@ -12402,6 +12522,10 @@
     "Testudo Helmet Turfwar": {
       "en": "Testudo Helmet Turfwar",
       "tr": "龟甲 头盔 扩张"
+    },
+    "Quartz Energy SMG Battery (45 cap)": {
+      "en": "Quartz Energy SMG Battery (45 cap)",
+      "tr": "石英 能量冲锋枪电池 (45 发"
     },
     "Pulse \"Rouge\" Pistol": {
       "en": "Pulse \"Rouge\" Pistol",
@@ -12474,6 +12598,10 @@
     "Novian Crossbow": {
       "en": "Novian Crossbow",
       "tr": "诺维安 十字弩"
+    },
+    "Novian \"Nighthunter\" Crossbow": {
+      "en": "Novian \"Nighthunter\" Crossbow",
+      "tr": "诺维安 “暗夜猎手” 十字弩"
     },
     "Novian \"Ghostmaker\" Crossbow": {
       "en": "Novian \"Ghostmaker\" Crossbow",
@@ -12659,9 +12787,17 @@
       "en": "Atlas",
       "tr": "巨神合金"
     },
+    "Pulse \"Blacklist\" Pistol": {
+      "en": "Pulse \"Blacklist\" Pistol",
+      "tr": "脉冲 “黑名单” 激光手枪"
+    },
     "Quartz Energy SMG": {
       "en": "Quartz Energy SMG",
       "tr": "石英 能量冲锋枪"
+    },
+    "Quartz \"Black Op\" Energy SMG": {
+      "en": "Quartz \"Black Op\" Energy SMG",
+      "tr": "石英 “黑色行动” 能量冲锋枪"
     },
     "Testudo Arms": {
       "en": "Testudo Arms",
@@ -12787,6 +12923,22 @@
       "en": "Palatino Helmet Moonfall",
       "tr": "帕拉蒂诺 头盔 月陨"
     },
+    "P8-AR Rifle Magazine (15 Cap)": {
+      "en": "P8-AR Rifle Magazine (15 Cap)",
+      "tr": "AR 步枪弹匣 (15 发"
+    },
+    "Prism \"Deep Sea\" Laser Shotgun": {
+      "en": "Prism \"Deep Sea\" Laser Shotgun",
+      "tr": "棱镜 “深海” 激光霰弹枪"
+    },
+    "Prism \"Bonedust\" Laser Shotgun": {
+      "en": "Prism \"Bonedust\" Laser Shotgun",
+      "tr": "棱镜 “骨粉” 激光霰弹枪"
+    },
+    "Prism \"Firesteel\" Laser Shotgun": {
+      "en": "Prism \"Firesteel\" Laser Shotgun",
+      "tr": "棱镜 “炎钢” 激光霰弹枪"
+    },
     "Prism Laser Shotgun": {
       "en": "Prism Laser Shotgun",
       "tr": "棱镜 激光霰弹枪"
@@ -12798,6 +12950,10 @@
     "Siebe Helmet": {
       "en": "Siebe Helmet",
       "tr": "希伯头盔"
+    },
+    "Prism Laser Shotgun Battery (20 cap)": {
+      "en": "Prism Laser Shotgun Battery (20 cap)",
+      "tr": "棱镜 激光霰弹枪电池（20 发）"
     },
     "Arclight \"Midnight\" Pistol": {
       "en": "Arclight \"Midnight\" Pistol",
@@ -12875,9 +13031,21 @@
       "en": "Surveyor",
       "tr": "勘测者"
     },
+    "Lancet MH1 Mining Laser": {
+      "en": "Lancet MH1 Mining Laser",
+      "tr": "柳叶刀 MH1 型采矿激光器"
+    },
     "BroadSpec": {
       "en": "BroadSpec",
       "tr": "泛用规格"
+    },
+    "Arbor MH2 Mining Laser": {
+      "en": "Arbor MH2 Mining Laser",
+      "tr": "刀轴 MH2 型采矿激光器"
+    },
+    "Lancet MH2 Mining Laser": {
+      "en": "Lancet MH2 Mining Laser",
+      "tr": "柳叶刀 MH2 型采矿激光器"
     },
     "Hofstede-S2 Mining Laser": {
       "en": "Hofstede-S2 Mining Laser",
@@ -12898,6 +13066,10 @@
     "FullSpec": {
       "en": "FullSpec",
       "tr": "全装规格"
+    },
+    "Arclight \"Nightstalker\" Pistol": {
+      "en": "Arclight \"Nightstalker\" Pistol",
+      "tr": "弧光 “夜行者迷彩” 手枪"
     },
     "Aril Arms": {
       "en": "Aril Arms",
@@ -12986,6 +13158,10 @@
     "Artimex Helmet Lodestone": {
       "en": "Artimex Helmet Lodestone",
       "tr": "阿蒂麦斯 头盔 磁石"
+    },
+    "Karna Rifle Battery (35 cap)": {
+      "en": "Karna Rifle Battery (35 cap)",
+      "tr": "卡纳 步枪电池 (35 发"
     },
     "Karna \"Fate\" Rifle": {
       "en": "Karna \"Fate\" Rifle",
@@ -13091,6 +13267,10 @@
       "en": "FS-9 Magazine (75 cap)",
       "tr": "9 弹匣 (75 发"
     },
+    "BR-2 Shotgun Magazine (12 cap)": {
+      "en": "BR-2 Shotgun Magazine (12 cap)",
+      "tr": "2 霞弹枪弹匣 (12 发"
+    },
     "Gallant Rifle Battery (45 cap)": {
       "en": "Gallant Rifle Battery (45 cap)",
       "tr": "加伦特步枪电池 (45发"
@@ -13155,6 +13335,14 @@
       "en": "Yubarev Pistol",
       "tr": "尤巴列夫手枪"
     },
+    "Yubarev \"Mirage\" Pistol": {
+      "en": "Yubarev \"Mirage\" Pistol",
+      "tr": "尤巴列夫 “幻影迷彩” 手枪"
+    },
+    "Yubarev \"Igniter\" Pistol": {
+      "en": "Yubarev \"Igniter\" Pistol",
+      "tr": "尤巴列夫 “点火器” 手枪"
+    },
     "DustUp Arms Tactical": {
       "en": "DustUp Arms Tactical",
       "tr": "扬尘臂甲 战术"
@@ -13170,6 +13358,10 @@
     "DustUp Helmet Tactical": {
       "en": "DustUp Helmet Tactical",
       "tr": "扬尘头盔 战术"
+    },
+    "Yubarev Pistol Battery (10 cap)": {
+      "en": "Yubarev Pistol Battery (10 cap)",
+      "tr": "尤巴列夫手枪电池 (10发"
     },
     "Ravager-212 Twin Shotgun": {
       "en": "Ravager-212 Twin Shotgun",
@@ -13195,9 +13387,25 @@
       "en": "Manticore Helmet",
       "tr": "曼提戈尔头盔"
     },
+    "Ravager-212 Twin Shotgun Magazine (16 cap)": {
+      "en": "Ravager-212 Twin Shotgun Magazine (16 cap)",
+      "tr": "212双管霰弹枪弹匣 (16 发"
+    },
+    "Deadrig Shotgun Magazine (8 cap)": {
+      "en": "Deadrig Shotgun Magazine (8 cap)",
+      "tr": "死钻 霰弹枪弹匣 (8 发"
+    },
     "Devastator Shotgun": {
       "en": "Devastator Shotgun",
       "tr": "破坏者 霰弹枪"
+    },
+    "Devastator \"Warhawk\" Shotgun": {
+      "en": "Devastator \"Warhawk\" Shotgun",
+      "tr": "破坏者 “战鹰迷彩” 霰弹枪"
+    },
+    "Devastator \"Midnight\" Shotgun": {
+      "en": "Devastator \"Midnight\" Shotgun",
+      "tr": "破坏者 “暗夜迷彩” 霰弹枪"
     },
     "Morozov-SH Core Thule": {
       "en": "Morozov-SH Core Thule",
@@ -13214,6 +13422,10 @@
     "Morozov-SH Helmet Thule": {
       "en": "Morozov-SH Helmet Thule",
       "tr": "SH 头盔 极北"
+    },
+    "Devastator Shotgun Battery (12 cap)": {
+      "en": "Devastator Shotgun Battery (12 cap)",
+      "tr": "破坏者霰弹枪电池 (12发"
     },
     "Scalpel Sniper Rifle": {
       "en": "Scalpel Sniper Rifle",
@@ -13246,6 +13458,14 @@
     "Morozov-SH Helmet": {
       "en": "Morozov-SH Helmet",
       "tr": "SH 头盔"
+    },
+    "Scalpel Sniper Rifle Magazine (12 cap)": {
+      "en": "Scalpel Sniper Rifle Magazine (12 cap)",
+      "tr": "解剖刀狙击步枪弹匣 (12 发"
+    },
+    "Coda Pistol Magazine (6 cap)": {
+      "en": "Coda Pistol Magazine (6 cap)",
+      "tr": "终曲实弹手枪弹匣 (6 发"
     },
     "9-Series Longsword Cannon": {
       "en": "9-Series Longsword Cannon",
@@ -13347,13 +13567,17 @@
       "en": "Hyperion",
       "tr": "光之神"
     },
+    "VK-00": {
+      "en": "VK-00",
+      "tr": "当面临巨大风险时，未科技先进的"
+    },
+    "V801-12": {
+      "en": "V801-12",
+      "tr": "在野外作业期间，由于新范式集团“"
+    },
     "SNS-R6": {
       "en": "SNS-R6",
       "tr": "增强的功率和性能使"
-    },
-    "Shroud": {
-      "en": "Shroud",
-      "tr": "这款"
     },
     "Torrent": {
       "en": "Torrent",
@@ -13777,7 +14001,7 @@
     },
     "Odyssey": {
       "en": "Odyssey",
-      "tr": "黑"
+      "tr": "奥德赛"
     },
     "Ranger": {
       "en": "Ranger",
@@ -13865,7 +14089,7 @@
     },
     "TCS-4 Undersuit": {
       "en": "TCS-4 Undersuit",
-      "tr": "灰"
+      "tr": "4 基底服"
     },
     "Badami Helmet": {
       "en": "Badami Helmet",
@@ -13898,10 +14122,6 @@
     "Strata Arms Shire": {
       "en": "Strata Arms Shire",
       "tr": "岩层 臂甲 夏尔"
-    },
-    "Aril Backpack": {
-      "en": "Aril Backpack",
-      "tr": "风险"
     },
     "Strata Backpack": {
       "en": "Strata Backpack",
@@ -14310,6 +14530,10 @@
     "H4-PBF Ammo Carrier": {
       "en": "H4-PBF Ammo Carrier",
       "tr": "PBF 弹药携具"
+    },
+    "H4-PBF Ammo Carrier Snow Camo": {
+      "en": "H4-PBF Ammo Carrier Snow Camo",
+      "tr": "PBF 弹药携具 雪地迷彩"
     },
     "BUL-H4 Helmet": {
       "en": "BUL-H4 Helmet",
@@ -15923,6 +16147,10 @@
       "en": "Antium Legs Midnight Sun",
       "tr": "安腾 腿甲 午夜阳光"
     },
+    "Artimex Arms Chairman's Club": {
+      "en": "Artimex Arms Chairman's Club",
+      "tr": "阿蒂麦斯 臂甲 礼宾俱乐部"
+    },
     "Artimex Arms Red Alert": {
       "en": "Artimex Arms Red Alert",
       "tr": "阿蒂麦斯 臂甲 红色警戒"
@@ -15935,9 +16163,17 @@
       "en": "Artimex Arms Elysium",
       "tr": "阿蒂麦斯 臂甲 极乐"
     },
+    "Artimex Arms Hurston Dynamics Executive Security": {
+      "en": "Artimex Arms Hurston Dynamics Executive Security",
+      "tr": "阿蒂麦斯 臂甲 赫斯顿动力精英安保队版"
+    },
     "Arden-CL Backpack": {
       "en": "Arden-CL Backpack",
       "tr": "CL 背包"
+    },
+    "Artimex Core Chairman's Club": {
+      "en": "Artimex Core Chairman's Club",
+      "tr": "阿蒂麦斯 胸甲 礼宾俱乐部"
     },
     "Artimex Core Red Alert": {
       "en": "Artimex Core Red Alert",
@@ -15951,6 +16187,14 @@
       "en": "Artimex Core Elysium",
       "tr": "阿蒂麦斯 胸甲 极乐"
     },
+    "Artimex Core Hurston Dynamics Executive Security": {
+      "en": "Artimex Core Hurston Dynamics Executive Security",
+      "tr": "阿蒂麦斯 胸甲 赫斯顿动力精英安保队版"
+    },
+    "Artimex Helmet Chairman's Club": {
+      "en": "Artimex Helmet Chairman's Club",
+      "tr": "阿蒂麦斯 头盔 礼宾俱乐部"
+    },
     "Artimex Helmet Red Alert": {
       "en": "Artimex Helmet Red Alert",
       "tr": "阿蒂麦斯 头盔 红色警戒"
@@ -15963,6 +16207,14 @@
       "en": "Artimex Helmet Elysium",
       "tr": "阿蒂麦斯 头盔 极乐"
     },
+    "Artimex Helmet Hurston Dynamics Executive Security": {
+      "en": "Artimex Helmet Hurston Dynamics Executive Security",
+      "tr": "阿蒂麦斯 头盔 赫斯顿动力精英安保队版"
+    },
+    "Artimex Legs Chairman's Club": {
+      "en": "Artimex Legs Chairman's Club",
+      "tr": "阿蒂麦斯 腿甲 礼宾俱乐部"
+    },
     "Artimex Legs Red Alert": {
       "en": "Artimex Legs Red Alert",
       "tr": "阿蒂麦斯 腿甲 红色警戒"
@@ -15974,6 +16226,10 @@
     "Artimex Legs Elysium": {
       "en": "Artimex Legs Elysium",
       "tr": "阿蒂麦斯 腿甲 极乐"
+    },
+    "Artimex Legs Hurston Dynamics Executive Security": {
+      "en": "Artimex Legs Hurston Dynamics Executive Security",
+      "tr": "阿蒂麦斯 腿甲 赫斯顿动力精英安保队版"
     },
     "Palatino Arms Necropolis": {
       "en": "Palatino Arms Necropolis",
@@ -16073,7 +16329,7 @@
     },
     "Beacon Undersuit": {
       "en": "Beacon Undersuit",
-      "tr": "白色"
+      "tr": "锈红协会"
     },
     "Venture Helmet White": {
       "en": "Venture Helmet White",
@@ -16082,6 +16338,18 @@
     "Venture Undersuit Base": {
       "en": "Venture Undersuit Base",
       "tr": "探险家 基底服 基础"
+    },
+    "MacFlex \"Rucksack\" Backpack": {
+      "en": "MacFlex \"Rucksack\" Backpack",
+      "tr": "麦克福莱克斯 背包 “行囊”"
+    },
+    "Odyssey II Undersuit Alpha": {
+      "en": "Odyssey II Undersuit Alpha",
+      "tr": "奥德赛 II 基底服 阿尔法"
+    },
+    "Odyssey II Racing Helmet Alpha": {
+      "en": "Odyssey II Racing Helmet Alpha",
+      "tr": "奥德赛 II 竞速头盔 阿尔法"
     },
     "Stirling Exploration Backpack": {
       "en": "Stirling Exploration Backpack",
@@ -16337,215 +16605,219 @@
     },
     "TrueDef-Pro Arms Red/Silver": {
       "en": "TrueDef-Pro Arms Red/Silver",
-      "tr": "银色"
+      "tr": "真实防御Pro 臂甲 红色/银色"
     },
     "TrueDef-Pro Arms Yellow/Black": {
       "en": "TrueDef-Pro Arms Yellow/Black",
-      "tr": "黑色"
+      "tr": "真实防御Pro 臂甲 黄色/黑色"
     },
     "TrueDef-Pro Arms Yellow/Grey": {
       "en": "TrueDef-Pro Arms Yellow/Grey",
-      "tr": "灰色"
+      "tr": "真实防御Pro 臂甲 黄色/灰色"
     },
     "TrueDef-Pro Arms Grey/Green": {
       "en": "TrueDef-Pro Arms Grey/Green",
-      "tr": "绿色"
+      "tr": "真实防御Pro 臂甲 灰色/绿色"
     },
     "TrueDef-Pro Arms Aqua/Black": {
       "en": "TrueDef-Pro Arms Aqua/Black",
-      "tr": "黑色"
+      "tr": "真实防御Pro 臂甲 湖绿色/黑色"
     },
     "TrueDef-Pro Arms Gold/Grey/Black": {
       "en": "TrueDef-Pro Arms Gold/Grey/Black",
-      "tr": "黑色"
+      "tr": "真实防御Pro 臂甲 金色/灰色/黑色"
     },
     "TrueDef-Pro Arms Black/White/Violet": {
       "en": "TrueDef-Pro Arms Black/White/Violet",
-      "tr": "紫罗兰"
+      "tr": "真实防御Pro 臂甲 黑色/白色/紫罗兰"
     },
     "TrueDef-Pro Arms Black/Pink/Purple": {
       "en": "TrueDef-Pro Arms Black/Pink/Purple",
-      "tr": "紫色"
+      "tr": "真实防御Pro 臂甲 黑色/粉色/紫色"
     },
     "TrueDef-Pro Arms White/Silver/Grey": {
       "en": "TrueDef-Pro Arms White/Silver/Grey",
-      "tr": "灰色"
+      "tr": "真实防御Pro 臂甲 白色/银色/灰色"
     },
     "TrueDef-Pro Arms Black/Silver": {
       "en": "TrueDef-Pro Arms Black/Silver",
-      "tr": "银色"
+      "tr": "真实防御Pro 臂甲 黑色/银色"
     },
     "TrueDef-Pro Arms Black/Grey": {
       "en": "TrueDef-Pro Arms Black/Grey",
-      "tr": "灰色"
+      "tr": "真实防御Pro 臂甲 黑色/灰色"
     },
     "TrueDef-Pro Arms Black/Grey/Red": {
       "en": "TrueDef-Pro Arms Black/Grey/Red",
-      "tr": "红色"
+      "tr": "真实防御Pro 臂甲 黑色/灰色/红色"
     },
     "TrueDef-Pro Arms Black/Gold/Silver": {
       "en": "TrueDef-Pro Arms Black/Gold/Silver",
-      "tr": "银色"
+      "tr": "真实防御Pro 臂甲 黑色/金色/银色"
     },
     "TrueDef-Pro Arms Black/Silver/Green": {
       "en": "TrueDef-Pro Arms Black/Silver/Green",
-      "tr": "绿色"
+      "tr": "真实防御Pro 臂甲 黑色/银色/绿色"
     },
     "TrueDef-Pro Arms Black/Aqua/Silver": {
       "en": "TrueDef-Pro Arms Black/Aqua/Silver",
-      "tr": "银色"
+      "tr": "真实防御Pro 臂甲 黑色/湖绿色/银色"
     },
     "TrueDef-Pro Arms Black/Silver/Blue": {
       "en": "TrueDef-Pro Arms Black/Silver/Blue",
-      "tr": "蓝色"
+      "tr": "真实防御Pro 臂甲 黑色/银色/蓝色"
     },
     "TrueDef-Pro Arms Black/Silver/Yellow": {
       "en": "TrueDef-Pro Arms Black/Silver/Yellow",
-      "tr": "黄色"
+      "tr": "真实防御Pro 臂甲 黑色/银色/黄色"
     },
     "TrueDef-Pro Arms Silver/Gold/Grey": {
       "en": "TrueDef-Pro Arms Silver/Gold/Grey",
-      "tr": "灰色"
+      "tr": "真实防御Pro 臂甲 银色/金色/灰色"
+    },
+    "TrueDef-Pro Core Base": {
+      "en": "TrueDef-Pro Core Base",
+      "tr": "真实防御Pro 胸甲 基础"
     },
     "TrueDef-Pro Core Red/Silver": {
       "en": "TrueDef-Pro Core Red/Silver",
-      "tr": "银色"
+      "tr": "真实防御Pro 胸甲 红色/银色"
     },
     "TrueDef-Pro Core Yellow/Black": {
       "en": "TrueDef-Pro Core Yellow/Black",
-      "tr": "黑色"
+      "tr": "真实防御Pro 胸甲 黄色/黑色"
     },
     "TrueDef-Pro Core Yellow/Grey": {
       "en": "TrueDef-Pro Core Yellow/Grey",
-      "tr": "灰色"
+      "tr": "真实防御Pro 胸甲 黄色/灰色"
     },
     "TrueDef-Pro Core Grey/Green": {
       "en": "TrueDef-Pro Core Grey/Green",
-      "tr": "绿色"
+      "tr": "真实防御Pro 胸甲 灰色/绿色"
     },
     "TrueDef-Pro Core Aqua/Black": {
       "en": "TrueDef-Pro Core Aqua/Black",
-      "tr": "黑色"
+      "tr": "真实防御Pro 胸甲 湖绿色/黑色"
     },
     "TrueDef-Pro Core Gold/Grey/Black": {
       "en": "TrueDef-Pro Core Gold/Grey/Black",
-      "tr": "黑色"
+      "tr": "真实防御Pro 胸甲 金色/灰色/黑色"
     },
     "TrueDef-Pro Core Black/White/Violet": {
       "en": "TrueDef-Pro Core Black/White/Violet",
-      "tr": "紫罗兰"
+      "tr": "真实防御Pro 胸甲 黑色/白色/紫罗兰"
     },
     "TrueDef-Pro Core Black/Pink/Purple": {
       "en": "TrueDef-Pro Core Black/Pink/Purple",
-      "tr": "紫色"
+      "tr": "真实防御Pro 胸甲 黑色/粉色/紫色"
     },
     "TrueDef-Pro Core White/Silver/Grey": {
       "en": "TrueDef-Pro Core White/Silver/Grey",
-      "tr": "灰色"
+      "tr": "真实防御Pro 胸甲 白色/银色/灰色"
     },
     "TrueDef-Pro Core Black/Silver": {
       "en": "TrueDef-Pro Core Black/Silver",
-      "tr": "银色"
+      "tr": "真实防御Pro 胸甲 黑色/银色"
     },
     "TrueDef-Pro Core Black/Grey": {
       "en": "TrueDef-Pro Core Black/Grey",
-      "tr": "灰色"
+      "tr": "真实防御Pro 胸甲 黑色/灰色"
     },
     "TrueDef-Pro Core Black/Grey/Red": {
       "en": "TrueDef-Pro Core Black/Grey/Red",
-      "tr": "红色"
+      "tr": "真实防御Pro 胸甲 黑色/灰色/红色"
     },
     "TrueDef-Pro Core Black/Gold/Silver": {
       "en": "TrueDef-Pro Core Black/Gold/Silver",
-      "tr": "银色"
+      "tr": "真实防御Pro 胸甲 黑色/金色/银色"
     },
     "TrueDef-Pro Core Black/Silver/Green": {
       "en": "TrueDef-Pro Core Black/Silver/Green",
-      "tr": "绿色"
+      "tr": "真实防御Pro 胸甲 黑色/银色/绿色"
     },
     "TrueDef-Pro Core Black/Aqua/Silver": {
       "en": "TrueDef-Pro Core Black/Aqua/Silver",
-      "tr": "银色"
+      "tr": "真实防御Pro 胸甲 黑色/湖绿色/银色"
     },
     "TrueDef-Pro Core Black/Silver/Blue": {
       "en": "TrueDef-Pro Core Black/Silver/Blue",
-      "tr": "蓝色"
+      "tr": "真实防御Pro 胸甲 黑色/银色/蓝色"
     },
     "TrueDef-Pro Core Black/Silver/Yellow": {
       "en": "TrueDef-Pro Core Black/Silver/Yellow",
-      "tr": "黄色"
+      "tr": "真实防御Pro 胸甲 黑色/银色/黄色"
     },
     "Argus Helmet Red/Silver": {
       "en": "Argus Helmet Red/Silver",
-      "tr": "银"
+      "tr": "阿古斯 头盔 红/银"
     },
     "Argus Helmet Yellow/Black": {
       "en": "Argus Helmet Yellow/Black",
-      "tr": "黑"
+      "tr": "阿古斯 头盔 黄/黑"
     },
     "Argus Helmet Yellow/Grey": {
       "en": "Argus Helmet Yellow/Grey",
-      "tr": "灰"
+      "tr": "阿古斯 头盔 黄/灰"
     },
     "Argus Helmet Grey/Green": {
       "en": "Argus Helmet Grey/Green",
-      "tr": "绿"
+      "tr": "阿古斯 头盔 灰/绿"
     },
     "Argus Helmet Aqua/Black": {
       "en": "Argus Helmet Aqua/Black",
-      "tr": "黑"
+      "tr": "阿古斯 头盔 浅绿/黑"
     },
     "Argus Helmet Gold/Grey/Black": {
       "en": "Argus Helmet Gold/Grey/Black",
-      "tr": "黑"
+      "tr": "阿古斯 头盔 金/灰/黑"
     },
     "Argus Helmet Black/White/Violet": {
       "en": "Argus Helmet Black/White/Violet",
-      "tr": "紫罗兰"
+      "tr": "阿古斯 头盔 黑/白/紫罗兰"
     },
     "Argus Helmet Black/Pink/Purple": {
       "en": "Argus Helmet Black/Pink/Purple",
-      "tr": "紫"
+      "tr": "阿古斯 头盔 黑/粉/紫"
     },
     "Argus Helmet White/Silver/Grey": {
       "en": "Argus Helmet White/Silver/Grey",
-      "tr": "灰"
+      "tr": "阿古斯 头盔 白/银/灰"
     },
     "Argus Helmet Black/Silver": {
       "en": "Argus Helmet Black/Silver",
-      "tr": "银"
+      "tr": "阿古斯 头盔 黑/银"
     },
     "Argus Helmet Black/Grey": {
       "en": "Argus Helmet Black/Grey",
-      "tr": "灰"
+      "tr": "阿古斯 头盔 黑/灰"
     },
     "Argus Helmet Black/Grey/Red": {
       "en": "Argus Helmet Black/Grey/Red",
-      "tr": "红"
+      "tr": "阿古斯 头盔 黑/灰/红"
     },
     "Argus Helmet Black/Gold/Silver": {
       "en": "Argus Helmet Black/Gold/Silver",
-      "tr": "银"
+      "tr": "阿古斯 头盔 黑/金/银"
     },
     "Argus Helmet Black/Silver/Green": {
       "en": "Argus Helmet Black/Silver/Green",
-      "tr": "绿"
+      "tr": "阿古斯 头盔 黑/银/绿"
     },
     "Argus Helmet Black/Aqua/Silver": {
       "en": "Argus Helmet Black/Aqua/Silver",
-      "tr": "银"
+      "tr": "阿古斯 头盔 黑/浅绿/银"
     },
     "Argus Helmet Black/Silver/Blue": {
       "en": "Argus Helmet Black/Silver/Blue",
-      "tr": "黄"
+      "tr": "阿古斯 头盔 黑/银/黄"
     },
     "Argus Helmet Black/Silver/Yellow": {
       "en": "Argus Helmet Black/Silver/Yellow",
-      "tr": "黄"
+      "tr": "阿古斯 头盔 黑/银/黄"
     },
     "Argus Helmet Silver/Gold/Grey": {
       "en": "Argus Helmet Silver/Gold/Grey",
-      "tr": "灰"
+      "tr": "阿古斯 头盔 银/金/灰"
     },
     "Argus Helmet Scorched": {
       "en": "Argus Helmet Scorched",
@@ -16553,75 +16825,75 @@
     },
     "TrueDef-Pro Legs Red/Silver": {
       "en": "TrueDef-Pro Legs Red/Silver",
-      "tr": "银色"
+      "tr": "真实防御Pro 腿甲 红色/银色"
     },
     "TrueDef-Pro Legs Yellow/Black": {
       "en": "TrueDef-Pro Legs Yellow/Black",
-      "tr": "黑色"
+      "tr": "真实防御Pro 腿甲 黄色/黑色"
     },
     "TrueDef-Pro Legs Yellow/Grey": {
       "en": "TrueDef-Pro Legs Yellow/Grey",
-      "tr": "灰色"
+      "tr": "真实防御Pro 腿甲 黄色/灰色"
     },
     "TrueDef-Pro Legs Grey/Green": {
       "en": "TrueDef-Pro Legs Grey/Green",
-      "tr": "绿色"
+      "tr": "真实防御Pro 腿甲 灰色/绿色"
     },
     "TrueDef-Pro Legs Aqua/Black": {
       "en": "TrueDef-Pro Legs Aqua/Black",
-      "tr": "黑色"
+      "tr": "真实防御Pro 腿甲 湖绿色/黑色"
     },
     "TrueDef-Pro Legs Gold/Grey/Black": {
       "en": "TrueDef-Pro Legs Gold/Grey/Black",
-      "tr": "黑色"
+      "tr": "真实防御Pro 腿甲 金色/灰色/黑色"
     },
     "TrueDef-Pro Legs Black/White/Violet": {
       "en": "TrueDef-Pro Legs Black/White/Violet",
-      "tr": "紫罗兰"
+      "tr": "真实防御Pro 腿甲 黑色/白色/紫罗兰"
     },
     "TrueDef-Pro Legs Black/Pink/Purple": {
       "en": "TrueDef-Pro Legs Black/Pink/Purple",
-      "tr": "紫色"
+      "tr": "真实防御Pro 腿甲 黑色/粉色/紫色"
     },
     "TrueDef-Pro Legs White/Silver/Grey": {
       "en": "TrueDef-Pro Legs White/Silver/Grey",
-      "tr": "灰色"
+      "tr": "真实防御Pro 腿甲 白色/银色/灰色"
     },
     "TrueDef-Pro Legs Black/Silver": {
       "en": "TrueDef-Pro Legs Black/Silver",
-      "tr": "银色"
+      "tr": "真实防御Pro 腿甲 黑色/银色"
     },
     "TrueDef-Pro Legs Black/Grey": {
       "en": "TrueDef-Pro Legs Black/Grey",
-      "tr": "灰色"
+      "tr": "真实防御Pro 腿甲 黑色/灰色"
     },
     "TrueDef-Pro Legs Black/Grey/Red": {
       "en": "TrueDef-Pro Legs Black/Grey/Red",
-      "tr": "红色"
+      "tr": "真实防御Pro 腿甲 黑色/灰色/红色"
     },
     "TrueDef-Pro Legs Black/Gold/Silver": {
       "en": "TrueDef-Pro Legs Black/Gold/Silver",
-      "tr": "银色"
+      "tr": "真实防御Pro 腿甲 黑色/金色/银色"
     },
     "TrueDef-Pro Legs Black/Silver/Green": {
       "en": "TrueDef-Pro Legs Black/Silver/Green",
-      "tr": "绿色"
+      "tr": "真实防御Pro 腿甲 黑色/银色/绿色"
     },
     "TrueDef-Pro Legs Black/Aqua/Silver": {
       "en": "TrueDef-Pro Legs Black/Aqua/Silver",
-      "tr": "银色"
+      "tr": "真实防御Pro 腿甲 黑色/湖绿色/银色"
     },
     "TrueDef-Pro Legs Black/Silver/Blue": {
       "en": "TrueDef-Pro Legs Black/Silver/Blue",
-      "tr": "蓝色"
+      "tr": "真实防御Pro 腿甲 黑色/银色/蓝色"
     },
     "TrueDef-Pro Legs Black/Silver/Yellow": {
       "en": "TrueDef-Pro Legs Black/Silver/Yellow",
-      "tr": "黄色"
+      "tr": "真实防御Pro 腿甲 黑色/银色/黄色"
     },
     "TrueDef-Pro Legs Silver/Gold/Grey": {
       "en": "TrueDef-Pro Legs Silver/Gold/Grey",
-      "tr": "灰色"
+      "tr": "真实防御Pro 腿甲 银色/金色/灰色"
     },
     "Warden Backpack Purgatory Camo": {
       "en": "Warden Backpack Purgatory Camo",
@@ -16649,7 +16921,7 @@
     },
     "ForceFlex Undersuit Black/Gold": {
       "en": "ForceFlex Undersuit Black/Gold",
-      "tr": "金色"
+      "tr": "弹力 基底服 黑色/金色"
     },
     "Chiron Arms": {
       "en": "Chiron Arms",
@@ -16691,6 +16963,10 @@
       "en": "Vendetta HMG",
       "tr": "世仇 重机枪"
     },
+    "Vendetta \"Snow Camo\" HMG": {
+      "en": "Vendetta \"Snow Camo\" HMG",
+      "tr": "世仇 “雪地迷彩” 重机枪"
+    },
     "FS-9 \"Blacklist\" LMG": {
       "en": "FS-9 \"Blacklist\" LMG",
       "tr": "9 “黑名单” 轻机枪"
@@ -16723,6 +16999,10 @@
       "en": "P4-AR Rifle",
       "tr": "AR 步枪"
     },
+    "P4-AR \"Nightstalker\" Rifle": {
+      "en": "P4-AR \"Nightstalker\" Rifle",
+      "tr": "AR “夜行者迷彩” 步枪"
+    },
     "P4-AR \"Warhawk\" Rifle": {
       "en": "P4-AR \"Warhawk\" Rifle",
       "tr": "AR “战鹰迷彩” 步枪"
@@ -16751,9 +17031,29 @@
       "en": "BR-2 \"Purgatory Camo\" Shotgun",
       "tr": "2 “炼狱迷彩” 霰弹枪"
     },
+    "P8-SC \"Desert Shadow\" SMG": {
+      "en": "P8-SC \"Desert Shadow\" SMG",
+      "tr": "SC “沙漠之影” 冲锋枪"
+    },
+    "P8-SC \"Stormfall\" SMG": {
+      "en": "P8-SC \"Stormfall\" SMG",
+      "tr": "SC “风暴迷彩” 冲锋枪"
+    },
+    "P8-SC \"Boneyard\" SMG": {
+      "en": "P8-SC \"Boneyard\" SMG",
+      "tr": "SC “骸骨迷彩” 冲锋枪"
+    },
     "P6-LR \"Rime\" Sniper Rifle": {
       "en": "P6-LR \"Rime\" Sniper Rifle",
       "tr": "LR “白霜” 狙击步枪"
+    },
+    "P6-LR \"Archangel\" Sniper Rifle": {
+      "en": "P6-LR \"Archangel\" Sniper Rifle",
+      "tr": "LR “大天使” 狙击步枪"
+    },
+    "P6-LR \"Blacklist\" Sniper Rifle": {
+      "en": "P6-LR \"Blacklist\" Sniper Rifle",
+      "tr": "LR “黑名单” 狙击步枪"
     },
     "F55 LMG": {
       "en": "F55 LMG",
@@ -16859,53 +17159,205 @@
       "en": "Salvo Frag Pistol",
       "tr": "齐射 碎片手枪"
     },
+    "Salvo Esteban Frag Pistol": {
+      "en": "Salvo Esteban Frag Pistol",
+      "tr": "齐射 “埃斯特班” 碎片手枪"
+    },
     "Demeco LMG": {
       "en": "Demeco LMG",
       "tr": "卡给 RTD"
+    },
+    "Demeco LMG Battery (100 cap)": {
+      "en": "Demeco LMG Battery (100 cap)",
+      "tr": "德美科 轻机枪电池(100发"
+    },
+    "Demeco \"Purgatory Camo\" LMG": {
+      "en": "Demeco \"Purgatory Camo\" LMG",
+      "tr": "德美科 “炼狱迷彩” 轻机枪"
     },
     "Arclight \"Executive Edition\" Pistol": {
       "en": "Arclight \"Executive Edition\" Pistol",
       "tr": "弧光 “行政版” 手枪"
     },
+    "Gallant \"Midnight\" Rifle": {
+      "en": "Gallant \"Midnight\" Rifle",
+      "tr": "加伦特 “暗夜迷彩” 步枪"
+    },
+    "Gallant \"Nightstalker\" Rifle": {
+      "en": "Gallant \"Nightstalker\" Rifle",
+      "tr": "加伦特 “夜行者迷彩” 步枪"
+    },
     "Gallant \"Executive Edition\" Rifle": {
       "en": "Gallant \"Executive Edition\" Rifle",
       "tr": "加伦特 “行政版” 步枪"
+    },
+    "Gallant \"Warhawk\" Rifle": {
+      "en": "Gallant \"Warhawk\" Rifle",
+      "tr": "加伦特 “战鹰迷彩” 步枪"
+    },
+    "Gallant \"Desert Shadow\" Rifle": {
+      "en": "Gallant \"Desert Shadow\" Rifle",
+      "tr": "加伦特 “沙漠之影” 步枪"
+    },
+    "Gallant \"Stormfall\" Rifle": {
+      "en": "Gallant \"Stormfall\" Rifle",
+      "tr": "加伦特 “风暴迷彩” 步枪"
+    },
+    "Gallant \"Boneyard\" Rifle": {
+      "en": "Gallant \"Boneyard\" Rifle",
+      "tr": "加伦特 “骸骨迷彩” 步枪"
+    },
+    "Lumin V \"Valor\" SMG": {
+      "en": "Lumin V \"Valor\" SMG",
+      "tr": "卢敏 V “英勇” 冲锋枪"
+    },
+    "Lumin V \"SecondWind\" SMG": {
+      "en": "Lumin V \"SecondWind\" SMG",
+      "tr": "卢敏 V “回生之息” 冲锋枪"
+    },
+    "Arrowhead \"Midnight\" Sniper Rifle": {
+      "en": "Arrowhead \"Midnight\" Sniper Rifle",
+      "tr": "箭头 “暗夜迷彩” 能量狙击枪"
+    },
+    "Arrowhead \"Nightstalker\" Sniper Rifle": {
+      "en": "Arrowhead \"Nightstalker\" Sniper Rifle",
+      "tr": "箭头 “夜行者迷彩” 能量狙击枪"
+    },
+    "Arrowhead \"Executive\" Sniper Rifle": {
+      "en": "Arrowhead \"Executive\" Sniper Rifle",
+      "tr": "箭头 “行政版” 能量狙击枪"
+    },
+    "Arrowhead \"Warhawk\" Sniper Rifle": {
+      "en": "Arrowhead \"Warhawk\" Sniper Rifle",
+      "tr": "箭头 “战鹰迷彩” 能量狙击枪"
+    },
+    "Arrowhead \"Desert Shadow\" Sniper Rifle": {
+      "en": "Arrowhead \"Desert Shadow\" Sniper Rifle",
+      "tr": "箭头 “沙漠之影” 能量狙击枪"
+    },
+    "Arrowhead \"Stormfall\" Sniper Rifle": {
+      "en": "Arrowhead \"Stormfall\" Sniper Rifle",
+      "tr": "箭头 “风暴迷彩” 能量狙击枪"
+    },
+    "Arrowhead \"Boneyard\" Sniper Rifle": {
+      "en": "Arrowhead \"Boneyard\" Sniper Rifle",
+      "tr": "箭头 “骸骨迷彩” 能量狙击枪"
     },
     "Coda \"Ultraviolet\" Pistol": {
       "en": "Coda \"Ultraviolet\" Pistol",
       "tr": "终曲 “紫外线” 手枪"
     },
+    "Karna \"Alpine Sunset\" Rifle": {
+      "en": "Karna \"Alpine Sunset\" Rifle",
+      "tr": "卡纳 “日落阿尔卑斯” 步枪"
+    },
+    "Ravager-212 \"Outcast\" Twin Shotgun": {
+      "en": "Ravager-212 \"Outcast\" Twin Shotgun",
+      "tr": "212 “逐亡者” 双管霰弹枪"
+    },
+    "Devastator \"Nightstalker\" Shotgun": {
+      "en": "Devastator \"Nightstalker\" Shotgun",
+      "tr": "破坏者 “夜行者迷彩” 霰弹枪"
+    },
+    "Devastator \"Rager\" Shotgun": {
+      "en": "Devastator \"Rager\" Shotgun",
+      "tr": "破坏者 “狂怒者” 霰弹枪"
+    },
+    "Devastator \"Voyager\" Shotgun": {
+      "en": "Devastator \"Voyager\" Shotgun",
+      "tr": "破坏者 “旅行者” 霰弹枪"
+    },
+    "Devastator \"Executive Edition\" Shotgun": {
+      "en": "Devastator \"Executive Edition\" Shotgun",
+      "tr": "破坏者 “行政版” 霰弹枪"
+    },
+    "Devastator \"Pathfinder\" Shotgun": {
+      "en": "Devastator \"Pathfinder\" Shotgun",
+      "tr": "破坏者 “寻路者” 霰弹枪"
+    },
     "Devastator \"Brimstone\" Shotgun": {
       "en": "Devastator \"Brimstone\" Shotgun",
       "tr": "破坏者 “悍妇” 霰弹枪"
+    },
+    "Devastator \"Desert Shadow\" Shotgun": {
+      "en": "Devastator \"Desert Shadow\" Shotgun",
+      "tr": "破坏者 “沙漠之影” 霰弹枪"
+    },
+    "Custodian \"Nightstalker\" SMG": {
+      "en": "Custodian \"Nightstalker\" SMG",
+      "tr": "监管者 “夜行者迷彩” 冲锋枪"
     },
     "Custodian \"Big Boss\" SMG": {
       "en": "Custodian \"Big Boss\" SMG",
       "tr": "监管者 “巨贾” 冲锋枪"
     },
+    "Custodian \"Executive Edition\" SMG": {
+      "en": "Custodian \"Executive Edition\" SMG",
+      "tr": "监管者 “行政版” 冲锋枪"
+    },
+    "Custodian \"Warhawk\" SMG": {
+      "en": "Custodian \"Warhawk\" SMG",
+      "tr": "监管者 “战鹰迷彩” 冲锋枪"
+    },
     "Custodian \"Brimstone\" SMG": {
       "en": "Custodian \"Brimstone\" SMG",
       "tr": "监管者 “悍妇” 冲锋枪"
+    },
+    "Custodian \"Desert Shadow\" SMG": {
+      "en": "Custodian \"Desert Shadow\" SMG",
+      "tr": "监管者 “沙漠之影” 冲锋枪"
+    },
+    "Custodian \"Boneyard\" SMG": {
+      "en": "Custodian \"Boneyard\" SMG",
+      "tr": "监管者 “骸骨迷彩” 冲锋枪"
+    },
+    "Scalpel \"Permafrost\" Sniper Rifle": {
+      "en": "Scalpel \"Permafrost\" Sniper Rifle",
+      "tr": "解剖刀 “冻土” 狙击步枪"
     },
     "Yubarev \"Venom\" Pistol": {
       "en": "Yubarev \"Venom\" Pistol",
       "tr": "尤巴列夫 “猛毒” 手枪"
     },
+    "Atzkav \"Venom\" Sniper Rifle": {
+      "en": "Atzkav \"Venom\" Sniper Rifle",
+      "tr": "阿兹卡夫 “猛毒” 狙击步枪"
+    },
+    "Atzkav \"Deadeye\" Sniper Rifle": {
+      "en": "Atzkav \"Deadeye\" Sniper Rifle",
+      "tr": "阿兹卡夫 “亡者之眼” 狙击步枪"
+    },
     "Pulverizer LMG": {
       "en": "Pulverizer LMG",
       "tr": "粉碎者 轻机枪"
+    },
+    "Pulverizer LMG Magazine (120 Cap)": {
+      "en": "Pulverizer LMG Magazine (120 Cap)",
+      "tr": "粉碎者 轻机枪弹匣 (120 发"
     },
     "Tripledown Pistol": {
       "en": "Tripledown Pistol",
       "tr": "三重击 手枪"
     },
+    "Tripledown Pistol Magazine (12 Cap)": {
+      "en": "Tripledown Pistol Magazine (12 Cap)",
+      "tr": "三重击 手枪弹匣 (12 发"
+    },
     "Killshot Rifle": {
       "en": "Killshot Rifle",
       "tr": "绝杀 步枪"
     },
+    "Killshot Rifle Magazine (45 Cap)": {
+      "en": "Killshot Rifle Magazine (45 Cap)",
+      "tr": "绝杀 步枪弹匣 (45 发"
+    },
     "Deadrig Shotgun": {
       "en": "Deadrig Shotgun",
       "tr": "死钻 霰弹枪"
+    },
+    "Zenith \"Snow Camo\" Laser Sniper Rifle": {
+      "en": "Zenith \"Snow Camo\" Laser Sniper Rifle",
+      "tr": "天顶 “雪地迷彩” 激光狙击步枪"
     },
     "Khaos": {
       "en": "Khaos",
