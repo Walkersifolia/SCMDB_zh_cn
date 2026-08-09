@@ -1,3 +1,4 @@
 # 本机工具产物（不随翻译文件上传）
 .codegraph/
 .omo/
+.playwright-mcp/
