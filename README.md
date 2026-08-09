@@ -1,5 +1,7 @@
 # SCMDB 中文翻译 (SCMDB_zh_cn)
 
+> **[English README →](README_EN.md)** — English version of this document（本说明的英文版，供原作者及英文读者阅读）
+
 [SCMDB](https://scmdb.net)（星际公民任务数据浏览器）社区中文（简体）翻译文件。
 
 ## 使用方法
