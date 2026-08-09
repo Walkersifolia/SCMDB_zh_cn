@@ -9,7 +9,7 @@
 在任意 SCMDB 页面 URL 后附加 `lang` 参数（只需设置一次，偏好保存在浏览器）：
 
 ```
-https://scmdb.net?lang=https://raw.githubusercontent.com/Walkersifolia/SCMDB_zh_cn/main/lang-zh_CN_live-4.9.0-live.12344265.json
+https://scmdb.net?lang=https://raw.githubusercontent.com/Walkersifolia/SCMDB_zh_cn/main/lang-zh_CN-live.json
 ```
 
 有 SCMDB 账号的用户也可以在 Settings 中粘贴上述 URL，设置会跨设备同步。
@@ -49,8 +49,10 @@ python build_lang_template.py --translate "StarCitizen\PTU\data\Localization\chi
 
 ## 文件说明
 
-- `lang-zh_CN_live-4.9.0-live.12344265.json` — LIVE 版中文翻译（当前生效，SCMDB 网站加载此文件）
-- `lang-zh_CN-4.10.0-ptu.12399239.json` — PTU 版中文翻译（PTU 数据上线后使用）
+- `lang-zh_CN-live.json` — LIVE 版中文翻译（当前生效，SCMDB 网站加载此文件；文件名固定无版本号，每次更新直接覆盖，链接永久有效）
+- `lang-zh_CN-ptu.json` — PTU 版中文翻译（PTU 数据上线后使用）
 - `build_lang_template.py` / `lang-template-*.json` — 上游 [SCMDB_LANG](https://github.com/KrovaxCode/SCMDB_LANG) 的工具与模板
+
+> 版本信息见文件内 `version` 字段；重新生成后请重命名为 `lang-zh_CN-live.json` / `lang-zh_CN-ptu.json` 再推送。
 
 游戏数据版权归 Cloud Imperium Games 所有。

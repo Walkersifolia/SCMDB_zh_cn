@@ -9,7 +9,7 @@ Generated from Star Citizen's official Chinese `global.ini` using the [SCMDB Com
 Append the `lang` parameter to any SCMDB page URL (set once, the preference is saved in your browser):
 
 ```
-https://scmdb.net?lang=https://raw.githubusercontent.com/Walkersifolia/SCMDB_zh_cn/main/lang-zh_CN_live-4.9.0-live.12344265.json
+https://scmdb.net?lang=https://raw.githubusercontent.com/Walkersifolia/SCMDB_zh_cn/main/lang-zh_CN-live.json
 ```
 
 Users with an SCMDB account can also paste the URL in **Settings** — the setting syncs across devices.
@@ -49,8 +49,10 @@ python build_lang_template.py --translate "StarCitizen\PTU\data\Localization\chi
 
 ## Files
 
-- `lang-zh_CN_live-4.9.0-live.12344265.json` — LIVE Chinese translation (currently active; loaded by the SCMDB site)
-- `lang-zh_CN-4.10.0-ptu.12399239.json` — PTU Chinese translation (for when PTU data goes live)
+- `lang-zh_CN-live.json` — LIVE Chinese translation (currently active; loaded by the SCMDB site; fixed filename without version, overwritten on each update so the link stays valid)
+- `lang-zh_CN-ptu.json` — PTU Chinese translation (for when PTU data goes live)
 - `build_lang_template.py` / `lang-template-*.json` — tooling & templates from upstream [SCMDB_LANG](https://github.com/KrovaxCode/SCMDB_LANG)
+
+> Version info lives in the `version` field inside the JSON. After regenerating, rename the output to `lang-zh_CN-live.json` / `lang-zh_CN-ptu.json` before pushing.
 
 Star Citizen game data belongs to Cloud Imperium Games.
