@@ -22,8 +22,8 @@ To remove the translation: visit `https://scmdb.net?lang=clear`, or remove the U
 
 | Version | Total keys | Translated | Missing | No loc key | Placeholder fallback |
 |---|---|---|---|---|---|
-| **4.9.0-live.12344265** (currently active) | 2722 | 2594 | 0 | 60 | 68 |
-| 4.10.0-ptu.12399239 (PTU backup) | 2736 | 2608 | 0 | 60 | 68 |
+| **4.9.0-live.12344265** (currently active) | 4277 | 4149 | 0 | 60 | 68 |
+| 4.10.0-ptu.12399239 (PTU backup) | 4299 | 4171 | 0 | 60 | 68 |
 
 Notes:
 - Translation covers **in-game data only** (missions, locations, ships, items, factions, etc.); the SCMDB site UI itself is intentionally not localized.
