@@ -2,10 +2,10 @@
   "version": "4.9.0-live.12344265",
   "sourceLanguage": "en",
   "targetLanguage": "zh",
-  "keyCount": 4264,
+  "keyCount": 4277,
   "stats": {
-    "total": 4264,
-    "translated": 4136,
+    "total": 4277,
+    "translated": 4149,
     "missing": 0,
     "noLocKey": 60,
     "placeholderFallback": 68,
@@ -11145,11 +11145,11 @@
     },
     "Hofstede-S1 Mining Laser": {
       "en": "Hofstede-S1 Mining Laser",
-      "tr": "S1 型采矿激光器"
+      "tr": "霍夫斯泰德-S1 型采矿激光器"
     },
     "Klein-S1 Mining Laser": {
       "en": "Klein-S1 Mining Laser",
-      "tr": "S1 型采矿激光器"
+      "tr": "克莱恩-S1 型采矿激光器"
     },
     "Helix I Mining Laser": {
       "en": "Helix I Mining Laser",
@@ -11161,15 +11161,15 @@
     },
     "CF-117 Bulldog \"Hazard-Zone\" Repeater": {
       "en": "CF-117 Bulldog \"Hazard-Zone\" Repeater",
-      "tr": "117 恶犬 “危险地带” 激光速射炮"
+      "tr": "CF-117 恶犬 “危险地带” 激光速射炮"
     },
     "CF-227 Badger \"Hazard-Zone\" Repeater": {
       "en": "CF-227 Badger \"Hazard-Zone\" Repeater",
-      "tr": "227 獾 “危险地带” 激光速射炮"
+      "tr": "CF-227 獾 “危险地带” 激光速射炮"
     },
     "CF-337 Panther \"Hazard-Zone\" Repeater": {
       "en": "CF-337 Panther \"Hazard-Zone\" Repeater",
-      "tr": "337 黑豹 “危险地带” 激光速射炮"
+      "tr": "CF-337 黑豹 “危险地带” 激光速射炮"
     },
     "Pitman Mining Laser": {
       "en": "Pitman Mining Laser",
@@ -11305,19 +11305,19 @@
     },
     "Arden-SL Arms": {
       "en": "Arden-SL Arms",
-      "tr": "SL 臂甲"
+      "tr": "阿尔登-SL 臂甲"
     },
     "Arden-SL Core": {
       "en": "Arden-SL Core",
-      "tr": "SL 胸甲"
+      "tr": "阿尔登-SL 胸甲"
     },
     "Arden-SL Legs": {
       "en": "Arden-SL Legs",
-      "tr": "SL 腿甲"
+      "tr": "阿尔登-SL 腿甲"
     },
     "Arden-SL Helmet": {
       "en": "Arden-SL Helmet",
-      "tr": "SL 头盔"
+      "tr": "阿尔登-SL 头盔"
     },
     "Custodian SMG Magazine (60 cap)": {
       "en": "Custodian SMG Magazine (60 cap)",
@@ -11365,7 +11365,7 @@
     },
     "P8-SC SMG": {
       "en": "P8-SC SMG",
-      "tr": "SC 冲锋枪"
+      "tr": "P8-SC 冲锋枪"
     },
     "C54 SMG": {
       "en": "C54 SMG",
@@ -11377,39 +11377,39 @@
     },
     "ORC-mkX Arms Woodland": {
       "en": "ORC-mkX Arms Woodland",
-      "tr": "mkX 臂甲 林地版"
+      "tr": "ORC-mkX 臂甲 林地版"
     },
     "ORC-mkX Legs Woodland": {
       "en": "ORC-mkX Legs Woodland",
-      "tr": "mkX 腿甲 林地版"
+      "tr": "ORC-mkX 腿甲 林地版"
     },
     "ORC-mkX Core Woodland": {
       "en": "ORC-mkX Core Woodland",
-      "tr": "mkX 胸甲 林地版"
+      "tr": "ORC-mkX 胸甲 林地版"
     },
     "ORC-mkX Helmet Woodland": {
       "en": "ORC-mkX Helmet Woodland",
-      "tr": "mkX 头盔 林地版"
+      "tr": "ORC-mkX 头盔 林地版"
     },
     "ORC-mkV Arms": {
       "en": "ORC-mkV Arms",
-      "tr": "mkV 臂甲"
+      "tr": "ORC-mkV 臂甲"
     },
     "ORC-mkV Legs": {
       "en": "ORC-mkV Legs",
-      "tr": "mkV 腿甲"
+      "tr": "ORC-mkV 腿甲"
     },
     "ORC-mkV Core": {
       "en": "ORC-mkV Core",
-      "tr": "mkV 胸甲"
+      "tr": "ORC-mkV 胸甲"
     },
     "G-2 Helmet Woodland": {
       "en": "G-2 Helmet Woodland",
-      "tr": "2 头盔 林地版"
+      "tr": "G-2 头盔 林地版"
     },
     "P8-SC SMG Magazine (45 cap)": {
       "en": "P8-SC SMG Magazine (45 cap)",
-      "tr": "SC 冲锋枪弹匣 (45 发"
+      "tr": "P8-SC 冲锋枪弹匣 (45 发"
     },
     "C54 SMG Magazine (50 cap)": {
       "en": "C54 SMG Magazine (50 cap)",
@@ -11421,51 +11421,51 @@
     },
     "Siren": {
       "en": "Siren",
-      "tr": "警笛"
+      "tr": "警笛 [量子 S1 军用 B]"
     },
     "Yeager": {
       "en": "Yeager",
-      "tr": "猎人"
+      "tr": "猎人 [量子 S2 军用 B]"
     },
     "Balandin": {
       "en": "Balandin",
-      "tr": "巴兰丁"
+      "tr": "巴兰丁 [量子 S3 军用 B]"
     },
     "Palisade": {
       "en": "Palisade",
-      "tr": "栅栏"
+      "tr": "栅栏 [护盾 S1 工业 A]"
     },
     "Rampart": {
       "en": "Rampart",
-      "tr": "城墙"
+      "tr": "城墙 [护盾 S2 工业 A]"
     },
     "Parapet": {
       "en": "Parapet",
-      "tr": "护墙"
+      "tr": "护墙 [护盾 S3 工业 A]"
     },
     "Nova": {
       "en": "Nova",
-      "tr": "新星"
+      "tr": "新星 [量子 S2 隐形 C]"
     },
     "Fierell Cascade": {
       "en": "Fierell Cascade",
-      "tr": "菲耶尔级联"
+      "tr": "菲耶尔级联 [发电 S1 军用 B]"
     },
     "UltraFlux": {
       "en": "UltraFlux",
-      "tr": "终极流量"
+      "tr": "终极流量 [发电 S2 军用 B]"
     },
     "MegaFlux": {
       "en": "MegaFlux",
-      "tr": "巨大流量"
+      "tr": "巨大流量 [发电 S3 军用 B]"
     },
     "C-788 Cannon": {
       "en": "C-788 Cannon",
-      "tr": "788 实弹加农炮"
+      "tr": "C-788 实弹加农炮"
     },
     "Tigerstrike T-19P": {
       "en": "Tigerstrike T-19P",
-      "tr": "19P 实弹加特林"
+      "tr": "虎击 T-19P 实弹加特林"
     },
     "Revenant Gatling": {
       "en": "Revenant Gatling",
@@ -11477,11 +11477,11 @@
     },
     "Shimmer": {
       "en": "Shimmer",
-      "tr": "微光"
+      "tr": "微光 [护盾 S1 隐形 C]"
     },
     "Obscura": {
       "en": "Obscura",
-      "tr": "暗黑"
+      "tr": "暗黑 [护盾 S2 隐形 C]"
     },
     "M3A Cannon": {
       "en": "M3A Cannon",
@@ -11509,11 +11509,11 @@
     },
     "Mirage": {
       "en": "Mirage",
-      "tr": "蜃景"
+      "tr": "蜃景 [护盾 S1 隐形 A]"
     },
     "Umbra": {
       "en": "Umbra",
-      "tr": "本影"
+      "tr": "本影 [护盾 S2 隐形 A]"
     },
     "Quarreler Cannon": {
       "en": "Quarreler Cannon",
@@ -11521,11 +11521,11 @@
     },
     "Veil": {
       "en": "Veil",
-      "tr": "面纱"
+      "tr": "面纱 [护盾 S1 隐形 B]"
     },
     "Sheut": {
       "en": "Sheut",
-      "tr": "心景"
+      "tr": "心景 [护盾 S2 隐形 B]"
     },
     "Suckerpunch Cannon": {
       "en": "Suckerpunch Cannon",
@@ -11533,19 +11533,19 @@
     },
     "Suckerpunch-L Cannon": {
       "en": "Suckerpunch-L Cannon",
-      "tr": "L 畸变加农炮"
+      "tr": "偷袭-L 畸变加农炮"
     },
     "Suckerpunch-XL Cannon": {
       "en": "Suckerpunch-XL Cannon",
-      "tr": "XL 畸变加农炮"
+      "tr": "偷袭-XL 畸变加农炮"
     },
     "SonicLite": {
       "en": "SonicLite",
-      "tr": "轻音"
+      "tr": "轻音 [发电 S1 隐形 C]"
     },
     "Cirrus": {
       "en": "Cirrus",
-      "tr": "卷云"
+      "tr": "卷云 [发电 S2 隐形 C]"
     },
     "Lightstrike I Cannon": {
       "en": "Lightstrike I Cannon",
@@ -11561,31 +11561,31 @@
     },
     "DeltaMax": {
       "en": "DeltaMax",
-      "tr": "德尔塔Max"
+      "tr": "德尔塔Max [发电 S1 隐形 B]"
     },
     "GammaMax": {
       "en": "GammaMax",
-      "tr": "伽马Max"
+      "tr": "伽马Max [发电 S2 隐形 B]"
     },
     "FL-11 Cannon": {
       "en": "FL-11 Cannon",
-      "tr": "11 能量加农炮"
+      "tr": "FL-11 能量加农炮"
     },
     "FL-22 Cannon": {
       "en": "FL-22 Cannon",
-      "tr": "22 能量加农炮"
+      "tr": "FL-22 能量加农炮"
     },
     "FL-33 Cannon": {
       "en": "FL-33 Cannon",
-      "tr": "33 能量加农炮"
+      "tr": "FL-33 能量加农炮"
     },
     "Slipstream": {
       "en": "Slipstream",
-      "tr": "尾流"
+      "tr": "尾流 [发电 S1 隐形 A]"
     },
     "Eclipse": {
       "en": "Eclipse",
-      "tr": "日蚀"
+      "tr": "日蚀 [发电 S2 隐形 A]"
     },
     "Lightstrike IV Cannon": {
       "en": "Lightstrike IV Cannon",
@@ -11601,27 +11601,27 @@
     },
     "Drifter": {
       "en": "Drifter",
-      "tr": "漂流者"
+      "tr": "漂流者 [量子 S3 民用 D]"
     },
     "Colossus": {
       "en": "Colossus",
-      "tr": "巨像"
+      "tr": "巨像 [量子 S1 工业 B]"
     },
     "Huracan": {
       "en": "Huracan",
-      "tr": "乌拉坎"
+      "tr": "乌拉坎 [量子 S2 工业 B]"
     },
     "Agni": {
       "en": "Agni",
-      "tr": "阿格尼"
+      "tr": "阿格尼 [量子 S3 工业 B]"
     },
     "Defiant": {
       "en": "Defiant",
-      "tr": "挑战"
+      "tr": "挑战 [发电 S0 工业 B]"
     },
     "Sedulity": {
       "en": "Sedulity",
-      "tr": "奋勉"
+      "tr": "奋勉 [发电 S2 工业 B]"
     },
     "Parallax Energy Assault Rifle": {
       "en": "Parallax Energy Assault Rifle",
@@ -11649,195 +11649,195 @@
     },
     "INK": {
       "en": "INK",
-      "tr": "墨水"
+      "tr": "墨水 [护盾 S1 民用 D]"
     },
     "RPEL": {
       "en": "RPEL",
-      "tr": "击退"
+      "tr": "击退 [护盾 S2 民用 D]"
     },
     "HAVEN": {
       "en": "HAVEN",
-      "tr": "港湾"
+      "tr": "港湾 [护盾 S3 民用 D]"
     },
     "IonWave": {
       "en": "IonWave",
-      "tr": "离子波"
+      "tr": "离子波 [发电 S0 民用 B]"
     },
     "Radix": {
       "en": "Radix",
-      "tr": "基数"
+      "tr": "基数 [发电 S0 民用 C]"
     },
     "IonBurst": {
       "en": "IonBurst",
-      "tr": "离子爆裂"
+      "tr": "离子爆裂 [发电 S1 民用 B]"
     },
     "PowerBolt": {
       "en": "PowerBolt",
-      "tr": "电力栓"
+      "tr": "电力栓 [发电 S1 民用 C]"
     },
     "LightBlossom": {
       "en": "LightBlossom",
-      "tr": "光绽"
+      "tr": "光绽 [发电 S1 民用 C]"
     },
     "MagnaBloom": {
       "en": "MagnaBloom",
-      "tr": "大盛"
+      "tr": "大盛 [发电 S1 民用 B]"
     },
     "FullForce": {
       "en": "FullForce",
-      "tr": "全力"
+      "tr": "全力 [发电 S2 民用 C]"
     },
     "IonSurge": {
       "en": "IonSurge",
-      "tr": "离子奔涌"
+      "tr": "离子奔涌 [发电 S2 民用 B]"
     },
     "Radiance": {
       "en": "Radiance",
-      "tr": "光辉"
+      "tr": "光辉 [发电 S2 民用 B]"
     },
     "FullForce Pro": {
       "en": "FullForce Pro",
-      "tr": "全力 Pro"
+      "tr": "全力 Pro [发电 S3 民用 C]"
     },
     "Celestial": {
       "en": "Celestial",
-      "tr": "天体"
+      "tr": "天体 [发电 S3 民用 B]"
     },
     "NewDawn": {
       "en": "NewDawn",
-      "tr": "曙光"
+      "tr": "曙光 [发电 S3 民用 C]"
     },
     "Frost-Star SL": {
       "en": "Frost-Star SL",
-      "tr": "寒霜之星SL"
+      "tr": "寒霜之星SL [冷却 S0 民用 C]"
     },
     "Fridan": {
       "en": "Fridan",
-      "tr": "弗里达"
+      "tr": "弗里达 [冷却 S0 民用 C]"
     },
     "Tepilo": {
       "en": "Tepilo",
-      "tr": "微温"
+      "tr": "微温 [冷却 S0 民用 A]"
     },
     "Frost-Star": {
       "en": "Frost-Star",
-      "tr": "寒霜之星"
+      "tr": "寒霜之星 [冷却 S1 民用 C]"
     },
     "ArcticStorm": {
       "en": "ArcticStorm",
-      "tr": "北境暴风"
+      "tr": "北境暴风 [冷却 S1 民用 C]"
     },
     "Berian": {
       "en": "Berian",
-      "tr": "布内恩"
+      "tr": "布内恩 [冷却 S1 民用 C]"
     },
     "Gelid": {
       "en": "Gelid",
-      "tr": "极寒"
+      "tr": "极寒 [冷却 S1 民用 A]"
     },
     "Frost-Star EX": {
       "en": "Frost-Star EX",
-      "tr": "寒霜之星EX"
+      "tr": "寒霜之星EX [冷却 S2 民用 C]"
     },
     "ColdSnap": {
       "en": "ColdSnap",
-      "tr": "寒流"
+      "tr": "寒流 [冷却 S2 民用 C]"
     },
     "Aufeis": {
       "en": "Aufeis",
-      "tr": "积冰"
+      "tr": "积冰 [冷却 S2 民用 A]"
     },
     "Graupel": {
       "en": "Graupel",
-      "tr": "霰"
+      "tr": "霰 [冷却 S2 民用 C]"
     },
     "Frost-Star XL": {
       "en": "Frost-Star XL",
-      "tr": "寒霜之星XL"
+      "tr": "寒霜之星XL [冷却 S3 民用 C]"
     },
     "FrostBurn": {
       "en": "FrostBurn",
-      "tr": "霜蚀"
+      "tr": "霜蚀 [冷却 S3 民用 C]"
     },
     "Draug": {
       "en": "Draug",
-      "tr": "尸鬼"
+      "tr": "德劳格 [冷却 S3 民用 A]"
     },
     "Elsen": {
       "en": "Elsen",
-      "tr": "埃尔森"
+      "tr": "埃尔森 [冷却 S3 民用 A]"
     },
     "Kragen": {
       "en": "Kragen",
-      "tr": "克拉根"
+      "tr": "克拉根 [冷却 S3 民用 A]"
     },
     "Attrition-4 Repeater": {
       "en": "Attrition-4 Repeater",
-      "tr": "4 激光速射炮"
+      "tr": "磨损-4 激光速射炮"
     },
     "Attrition-5 Repeater": {
       "en": "Attrition-5 Repeater",
-      "tr": "5 激光速射炮"
+      "tr": "磨损-5 激光速射炮"
     },
     "Attrition-6 Repeater": {
       "en": "Attrition-6 Repeater",
-      "tr": "6 激光速射炮"
+      "tr": "磨损-6 激光速射炮"
     },
     "Sens": {
       "en": "Sens",
-      "tr": "感知"
+      "tr": "感知 [雷达 S0 军用 B]"
     },
     "Tige": {
       "en": "Tige",
-      "tr": "遏制"
+      "tr": "遏制 [雷达 S1 军用 B]"
     },
     "Glacier": {
       "en": "Glacier",
-      "tr": "冰川"
+      "tr": "冰川 [冷却 S1 军用 A]"
     },
     "Avalanche": {
       "en": "Avalanche",
-      "tr": "雪崩"
+      "tr": "雪崩 [冷却 S2 军用 A]"
     },
     "Blizzard": {
       "en": "Blizzard",
-      "tr": "暴雪"
+      "tr": "暴雪 [冷却 S3 军用 A]"
     },
     "DR Model-XJ1 Repeater": {
       "en": "DR Model-XJ1 Repeater",
-      "tr": "XJ1 畸变速射炮"
+      "tr": "DR Model-XJ1 畸变速射炮"
     },
     "DR Model-XJ2 Repeater": {
       "en": "DR Model-XJ2 Repeater",
-      "tr": "XJ2 畸变速射炮"
+      "tr": "DR Model-XJ2 畸变速射炮"
     },
     "DR Model-XJ3 Repeater": {
       "en": "DR Model-XJ3 Repeater",
-      "tr": "XJ3 畸变速射炮"
+      "tr": "DR Model-XJ3 畸变速射炮"
     },
     "CF-117 Bulldog Repeater": {
       "en": "CF-117 Bulldog Repeater",
-      "tr": "117 恶犬 激光速射炮"
+      "tr": "CF-117 恶犬 激光速射炮"
     },
     "CF-227 Badger Repeater": {
       "en": "CF-227 Badger Repeater",
-      "tr": "227 獾 激光速射炮"
+      "tr": "CF-227 獾 激光速射炮"
     },
     "CF-337 Panther Repeater": {
       "en": "CF-337 Panther Repeater",
-      "tr": "337 黑豹 激光速射炮"
+      "tr": "CF-337 黑豹 激光速射炮"
     },
     "CF-447 Rhino Repeater": {
       "en": "CF-447 Rhino Repeater",
-      "tr": "447 犀牛 激光速射炮"
+      "tr": "CF-447 犀牛 激光速射炮"
     },
     "CF-557 Galdereen Repeater": {
       "en": "CF-557 Galdereen Repeater",
-      "tr": "557 吼兽 激光速射炮"
+      "tr": "CF-557 吼兽 激光速射炮"
     },
     "CF-667 Mammoth Repeater": {
       "en": "CF-667 Mammoth Repeater",
-      "tr": "667 猛犸 激光速射炮"
+      "tr": "CF-667 猛犸 激光速射炮"
     },
     "Parallax \"Shock Trooper\" Energy Assault Rifle": {
       "en": "Parallax \"Shock Trooper\" Energy Assault Rifle",
@@ -11941,111 +11941,111 @@
     },
     "PIN": {
       "en": "PIN",
-      "tr": "别针"
+      "tr": "别针 [护盾 S0 民用 C]"
     },
     "HEX": {
       "en": "HEX",
-      "tr": "六角"
+      "tr": "六角 [护盾 S1 民用 B]"
     },
     "WEB": {
       "en": "WEB",
-      "tr": "蛛网"
+      "tr": "蛛网 [护盾 S1 民用 C]"
     },
     "BLOC": {
       "en": "BLOC",
-      "tr": "集团"
+      "tr": "集团 [护盾 S2 民用 B]"
     },
     "STOP": {
       "en": "STOP",
-      "tr": "停滞"
+      "tr": "停滞 [护盾 S2 民用 C]"
     },
     "GUARD": {
       "en": "GUARD",
-      "tr": "守卫"
+      "tr": "守卫 [护盾 S3 民用 C]"
     },
     "DuraJet": {
       "en": "DuraJet",
-      "tr": "杜拉汞"
+      "tr": "杜拉汞 [发电 S0 民用 D]"
     },
     "ZapJet": {
       "en": "ZapJet",
-      "tr": "活力飞机"
+      "tr": "活力飞机 [发电 S1 民用 D]"
     },
     "SparkJet": {
       "en": "SparkJet",
-      "tr": "火花机"
+      "tr": "火花机 [发电 S2 民用 D]"
     },
     "Lotus": {
       "en": "Lotus",
-      "tr": "莲花"
+      "tr": "莲花 [发电 S2 民用 A]"
     },
     "SparkJet Pro": {
       "en": "SparkJet Pro",
-      "tr": "火花机Pro"
+      "tr": "火花机Pro [发电 S3 民用 D]"
     },
     "TigerLilly": {
       "en": "TigerLilly",
-      "tr": "卷丹"
+      "tr": "卷丹 [发电 S3 民用 A]"
     },
     "Winter-Star SL": {
       "en": "Winter-Star SL",
-      "tr": "寒冬之心SL"
+      "tr": "寒冬之心SL [冷却 S0 民用 D]"
     },
     "Kelvid": {
       "en": "Kelvid",
-      "tr": "凯尔维德"
+      "tr": "凯尔维德 [冷却 S0 民用 B]"
     },
     "Cryo-Star": {
       "en": "Cryo-Star",
-      "tr": "冷冻之心"
+      "tr": "冷冻之心 [冷却 S1 民用 B]"
     },
     "Winter-Star": {
       "en": "Winter-Star",
-      "tr": "寒冬之心"
+      "tr": "寒冬之心 [冷却 S1 民用 D]"
     },
     "BlastChill": {
       "en": "BlastChill",
-      "tr": "爆寒"
+      "tr": "爆寒 [冷却 S1 民用 D]"
     },
     "FlashFreeze": {
       "en": "FlashFreeze",
-      "tr": "急冻"
+      "tr": "急冻 [冷却 S1 民用 B]"
     },
     "Endo": {
       "en": "Endo",
-      "tr": "内冷"
+      "tr": "内冷 [冷却 S1 民用 B]"
     },
     "Cryo-Star EX": {
       "en": "Cryo-Star EX",
-      "tr": "冷冻之心EX"
+      "tr": "冷冻之心EX [冷却 S2 民用 B]"
     },
     "Winter-Star EX": {
       "en": "Winter-Star EX",
-      "tr": "寒冬之心EX"
+      "tr": "寒冬之心EX [冷却 S2 民用 D]"
     },
     "FullFrost": {
       "en": "FullFrost",
-      "tr": "寒霜"
+      "tr": "寒霜 [冷却 S2 民用 B]"
     },
     "WhiteOut": {
       "en": "WhiteOut",
-      "tr": "白苍"
+      "tr": "白苍 [冷却 S2 民用 D]"
     },
     "Taiga": {
       "en": "Taiga",
-      "tr": "寒林"
+      "tr": "寒林 [冷却 S2 民用 B]"
     },
     "Winter-Star XL": {
       "en": "Winter-Star XL",
-      "tr": "寒冬之心XL"
+      "tr": "寒冬之心XL [冷却 S3 民用 D]"
     },
     "ColdSurge": {
       "en": "ColdSurge",
-      "tr": "寒潮"
+      "tr": "寒潮 [冷却 S3 民用 C]"
     },
     "FrostBite": {
       "en": "FrostBite",
-      "tr": "冻伤"
+      "tr": "冻伤 [冷却 S3 民用 B]"
     },
     "SW16BR1 “Buzzsaw” Repeater": {
       "en": "SW16BR1 “Buzzsaw” Repeater",
@@ -12061,11 +12061,11 @@
     },
     "Vigilance": {
       "en": "Vigilance",
-      "tr": "警惕"
+      "tr": "警惕 [雷达 S2 军用 B]"
     },
     "Devoue": {
       "en": "Devoue",
-      "tr": "奉献"
+      "tr": "奉献 [雷达 S3 军用 B]"
     },
     "AD4B Ballistic Gatling": {
       "en": "AD4B Ballistic Gatling",
@@ -12081,27 +12081,27 @@
     },
     "Tarantula GT-870 Mark 1 Cannon": {
       "en": "Tarantula GT-870 Mark 1 Cannon",
-      "tr": "870 Mark 1 实弹加农炮"
+      "tr": "狼蛛GT-870 Mark 1 实弹加农炮"
     },
     "Tarantula GT-870 Mark 2 Cannon": {
       "en": "Tarantula GT-870 Mark 2 Cannon",
-      "tr": "870 Mark 2 实弹加农炮"
+      "tr": "狼蛛GT-870 Mark 2 实弹加农炮"
     },
     "Tarantula GT-870 Mark 3 Cannon": {
       "en": "Tarantula GT-870 Mark 3 Cannon",
-      "tr": "870 Mark 3 实弹加农炮"
+      "tr": "狼蛛GT-870 Mark 3 实弹加农炮"
     },
     "YellowJacket GT-210 Gatling": {
       "en": "YellowJacket GT-210 Gatling",
-      "tr": "210 实弹加特林"
+      "tr": "黄蜂GT-210 实弹加特林"
     },
     "Scorpion GT-215 Gatling": {
       "en": "Scorpion GT-215 Gatling",
-      "tr": "215 实弹加特林"
+      "tr": "蝎子GT-215 实弹加特林"
     },
     "Mantis GT-220 Gatling": {
       "en": "Mantis GT-220 Gatling",
-      "tr": "220 实弹加特林"
+      "tr": "螳螂GT-220 实弹加特林"
     },
     "Atzkav Sniper Rifle": {
       "en": "Atzkav Sniper Rifle",
@@ -12389,15 +12389,15 @@
     },
     "DynaFlux": {
       "en": "DynaFlux",
-      "tr": "动力流"
+      "tr": "动力流 [发电 S1 军用 B]"
     },
     "Bolide": {
       "en": "Bolide",
-      "tr": "火流星"
+      "tr": "火流星 [发电 S2 军用 B]"
     },
     "Fulgur": {
       "en": "Fulgur",
-      "tr": "灿烂"
+      "tr": "灿烂 [发电 S3 军用 B]"
     },
     "Pulse Laser Pistol": {
       "en": "Pulse Laser Pistol",
@@ -12501,15 +12501,15 @@
     },
     "ForceWall": {
       "en": "ForceWall",
-      "tr": "防御之墙"
+      "tr": "防御之墙 [护盾 S1 军用 B]"
     },
     "CoverAll": {
       "en": "CoverAll",
-      "tr": "全面覆盖"
+      "tr": "全面覆盖 [护盾 S2 军用 B]"
     },
     "FullBlock": {
       "en": "FullBlock",
-      "tr": "完全格挡"
+      "tr": "完全格挡 [护盾 S3 军用 B]"
     },
     "Deadbolt IV Cannon": {
       "en": "Deadbolt IV Cannon",
@@ -12525,15 +12525,15 @@
     },
     "Polar": {
       "en": "Polar",
-      "tr": "极地"
+      "tr": "极地 [冷却 S1 军用 B]"
     },
     "Permafrost": {
       "en": "Permafrost",
-      "tr": "永冻"
+      "tr": "永冻 [冷却 S2 军用 B]"
     },
     "Tempest": {
       "en": "Tempest",
-      "tr": "暴风雨"
+      "tr": "暴风雨 [冷却 S3 军用 B]"
     },
     "Novian Crossbow": {
       "en": "Novian Crossbow",
@@ -12593,11 +12593,11 @@
     },
     "QuadraCell MX": {
       "en": "QuadraCell MX",
-      "tr": "四相电池MX"
+      "tr": "四相电池MX [发电 S3 军用 A]"
     },
     "Guardian": {
       "en": "Guardian",
-      "tr": "守卫"
+      "tr": "守卫 [护盾 S1 工业 B]"
     },
     "Agricium": {
       "en": "Agricium",
@@ -12649,7 +12649,7 @@
     },
     "Gold": {
       "en": "Gold",
-      "tr": "金"
+      "tr": "秋麒麟 [维生 S1 民用 B]"
     },
     "Hadanite": {
       "en": "Hadanite",
@@ -12725,7 +12725,7 @@
     },
     "Atlas": {
       "en": "Atlas",
-      "tr": "巨神合金"
+      "tr": "擎天之神 [量子 S1 民用 A]"
     },
     "Pulse \"Blacklist\" Pistol": {
       "en": "Pulse \"Blacklist\" Pistol",
@@ -12773,27 +12773,27 @@
     },
     "Spectre": {
       "en": "Spectre",
-      "tr": "幽魂"
+      "tr": "幽魂 [量子 S1 隐形 A]"
     },
     "Zephyr": {
       "en": "Zephyr",
-      "tr": "和风"
+      "tr": "和风 [量子 S1 隐形 B]"
     },
     "Bolt": {
       "en": "Bolt",
-      "tr": "雷电"
+      "tr": "雷电 [量子 S2 隐形 B]"
     },
     "Spicule": {
       "en": "Spicule",
-      "tr": "刺针"
+      "tr": "刺针 [量子 S2 隐形 A]"
     },
     "Citadel": {
       "en": "Citadel",
-      "tr": "要塞"
+      "tr": "要塞 [护盾 S2 工业 B]"
     },
     "Barbican": {
       "en": "Barbican",
-      "tr": "外堡"
+      "tr": "外堡 [护盾 S3 工业 B]"
     },
     "Bendix": {
       "en": "Bendix",
@@ -12825,11 +12825,11 @@
     },
     "Prophet": {
       "en": "Prophet",
-      "tr": "神使峰"
+      "tr": "预言家 [雷达 S1 隐形 A]"
     },
     "P8-AR Rifle": {
       "en": "P8-AR Rifle",
-      "tr": "AR 步枪"
+      "tr": "P8-AR 步枪"
     },
     "Palatino Arms": {
       "en": "Palatino Arms",
@@ -12865,7 +12865,7 @@
     },
     "P8-AR Rifle Magazine (15 Cap)": {
       "en": "P8-AR Rifle Magazine (15 Cap)",
-      "tr": "AR 步枪弹匣 (15 发"
+      "tr": "P8-AR 步枪弹匣 (15 发"
     },
     "Prism \"Deep Sea\" Laser Shotgun": {
       "en": "Prism \"Deep Sea\" Laser Shotgun",
@@ -12961,23 +12961,43 @@
     },
     "Horizon Helmet": {
       "en": "Horizon Helmet",
-      "tr": "锈红协会"
+      "tr": "地平线 头盔"
     },
     "Arbor MHV Mining Laser": {
       "en": "Arbor MHV Mining Laser",
       "tr": "刀轴 MHV 采矿激光器"
     },
+    "Surveyor-Go": {
+      "en": "Surveyor-Go",
+      "tr": "勘测者-Go [雷达 S0 工业 C]"
+    },
+    "Surveyor-Lite": {
+      "en": "Surveyor-Lite",
+      "tr": "勘测者-Lite [雷达 S1 工业 C]"
+    },
     "Surveyor": {
       "en": "Surveyor",
-      "tr": "勘测者"
+      "tr": "勘测者 [雷达 S2 工业 C]"
+    },
+    "Surveyor-Max": {
+      "en": "Surveyor-Max",
+      "tr": "勘测者-Max [雷达 S3 工业 C]"
     },
     "Lancet MH1 Mining Laser": {
       "en": "Lancet MH1 Mining Laser",
       "tr": "柳叶刀 MH1 型采矿激光器"
     },
+    "BroadSpec-Go": {
+      "en": "BroadSpec-Go",
+      "tr": "泛用规格-Go [雷达 S0 工业 B]"
+    },
     "BroadSpec": {
       "en": "BroadSpec",
-      "tr": "泛用规格"
+      "tr": "泛用规格 [雷达 S2 工业 B]"
+    },
+    "BroadSpec-Max": {
+      "en": "BroadSpec-Max",
+      "tr": "泛用规格-Max [雷达 S4 工业 B]"
     },
     "Arbor MH2 Mining Laser": {
       "en": "Arbor MH2 Mining Laser",
@@ -12989,11 +13009,11 @@
     },
     "Hofstede-S2 Mining Laser": {
       "en": "Hofstede-S2 Mining Laser",
-      "tr": "S2 型采矿激光器"
+      "tr": "霍夫斯泰德-S2 型采矿激光器"
     },
     "Klein-S2 Mining Laser": {
       "en": "Klein-S2 Mining Laser",
-      "tr": "S2 型采矿激光器"
+      "tr": "克莱恩-S2 型采矿激光器"
     },
     "Helix II Mining Laser": {
       "en": "Helix II Mining Laser",
@@ -13003,9 +13023,17 @@
       "en": "Impact II Mining Laser",
       "tr": "冲击 II 型采矿激光器"
     },
+    "FullSpec-Go": {
+      "en": "FullSpec-Go",
+      "tr": "全装规格-Go [雷达 S0 工业 A]"
+    },
     "FullSpec": {
       "en": "FullSpec",
-      "tr": "全装规格"
+      "tr": "全装规格 [雷达 S2 工业 A]"
+    },
+    "FullSpec-Max": {
+      "en": "FullSpec-Max",
+      "tr": "全装规格-Max [雷达 S3 工业 A]"
     },
     "Arclight \"Nightstalker\" Pistol": {
       "en": "Arclight \"Nightstalker\" Pistol",
@@ -13033,7 +13061,7 @@
     },
     "Echo": {
       "en": "Echo",
-      "tr": "回声"
+      "tr": "回声 [量子 S3 民用 D]"
     },
     "Killshot \"Dominion Camo\" Rifle": {
       "en": "Killshot \"Dominion Camo\" Rifle",
@@ -13117,7 +13145,7 @@
     },
     "P6-LR Sniper Rifle": {
       "en": "P6-LR Sniper Rifle",
-      "tr": "LR 狙击步枪"
+      "tr": "P6-LR 狙击步枪"
     },
     "A03 Sniper Rifle": {
       "en": "A03 Sniper Rifle",
@@ -13125,19 +13153,19 @@
     },
     "CBH-3 Helmet Base": {
       "en": "CBH-3 Helmet Base",
-      "tr": "3 头盔 基础"
+      "tr": "CBH-3 头盔 基础"
     },
     "PAB-1 Arms": {
       "en": "PAB-1 Arms",
-      "tr": "1 臂甲"
+      "tr": "PAB-1 臂甲"
     },
     "PAB-1 Core": {
       "en": "PAB-1 Core",
-      "tr": "1 胸甲"
+      "tr": "PAB-1 胸甲"
     },
     "PAB-1 Legs": {
       "en": "PAB-1 Legs",
-      "tr": "1 腿甲"
+      "tr": "PAB-1 腿甲"
     },
     "TrueDef-Pro Arms": {
       "en": "TrueDef-Pro Arms",
@@ -13157,15 +13185,15 @@
     },
     "P6-LR Magazine (8 cap)": {
       "en": "P6-LR Magazine (8 cap)",
-      "tr": "LR 弹匣 (8 发"
+      "tr": "P6-LR 弹匣 (8 发"
     },
     "FS-9 LMG": {
       "en": "FS-9 LMG",
-      "tr": "9 轻机枪"
+      "tr": "FS-9 轻机枪"
     },
     "BR-2 Shotgun": {
       "en": "BR-2 Shotgun",
-      "tr": "2 霰弹枪"
+      "tr": "BR-2 霰弹枪"
     },
     "Gallant Rifle": {
       "en": "Gallant Rifle",
@@ -13189,27 +13217,27 @@
     },
     "ADP-mk4 Arms Woodland": {
       "en": "ADP-mk4 Arms Woodland",
-      "tr": "mk4 臂甲 林地版"
+      "tr": "ADP-mk4 臂甲 林地版"
     },
     "ADP-mk4 Legs Woodland": {
       "en": "ADP-mk4 Legs Woodland",
-      "tr": "mk4 腿甲 林地版"
+      "tr": "ADP-mk4 腿甲 林地版"
     },
     "ADP-mk4 Core Woodland": {
       "en": "ADP-mk4 Core Woodland",
-      "tr": "mk4 胸甲 林地版"
+      "tr": "ADP-mk4 胸甲 林地版"
     },
     "ADP-mk4 Helmet Woodland": {
       "en": "ADP-mk4 Helmet Woodland",
-      "tr": "mk4 头盔 林地版"
+      "tr": "ADP-mk4 头盔 林地版"
     },
     "FS-9 Magazine (75 cap)": {
       "en": "FS-9 Magazine (75 cap)",
-      "tr": "9 弹匣 (75 发"
+      "tr": "FS-9 弹匣 (75 发"
     },
     "BR-2 Shotgun Magazine (12 cap)": {
       "en": "BR-2 Shotgun Magazine (12 cap)",
-      "tr": "2 霞弹枪弹匣 (12 发"
+      "tr": "BR-2 霞弹枪弹匣 (12 发"
     },
     "Gallant Rifle Battery (45 cap)": {
       "en": "Gallant Rifle Battery (45 cap)",
@@ -13305,7 +13333,7 @@
     },
     "Ravager-212 Twin Shotgun": {
       "en": "Ravager-212 Twin Shotgun",
-      "tr": "212双管霰弹枪"
+      "tr": "劫掠者-212双管霰弹枪"
     },
     "Ripper \"Sunblock\" SMG": {
       "en": "Ripper \"Sunblock\" SMG",
@@ -13329,7 +13357,7 @@
     },
     "Ravager-212 Twin Shotgun Magazine (16 cap)": {
       "en": "Ravager-212 Twin Shotgun Magazine (16 cap)",
-      "tr": "212双管霰弹枪弹匣 (16 发"
+      "tr": "劫掠者-212双管霰弹枪弹匣 (16 发"
     },
     "Deadrig Shotgun Magazine (8 cap)": {
       "en": "Deadrig Shotgun Magazine (8 cap)",
@@ -13349,19 +13377,19 @@
     },
     "Morozov-SH Core Thule": {
       "en": "Morozov-SH Core Thule",
-      "tr": "SH 胸甲 极北"
+      "tr": "莫罗佐夫-SH 胸甲 极北"
     },
     "Morozov-SH Arms Thule": {
       "en": "Morozov-SH Arms Thule",
-      "tr": "SH 臂甲 极北"
+      "tr": "莫罗佐夫-SH 臂甲 极北"
     },
     "Morozov-SH Legs Thule": {
       "en": "Morozov-SH Legs Thule",
-      "tr": "SH 腿甲 极北"
+      "tr": "莫罗佐夫-SH 腿甲 极北"
     },
     "Morozov-SH Helmet Thule": {
       "en": "Morozov-SH Helmet Thule",
-      "tr": "SH 头盔 极北"
+      "tr": "莫罗佐夫-SH 头盔 极北"
     },
     "Devastator Shotgun Battery (12 cap)": {
       "en": "Devastator Shotgun Battery (12 cap)",
@@ -13385,19 +13413,19 @@
     },
     "Morozov-SH Arms": {
       "en": "Morozov-SH Arms",
-      "tr": "SH 臂甲"
+      "tr": "莫罗佐夫-SH 臂甲"
     },
     "Morozov-SH Core": {
       "en": "Morozov-SH Core",
-      "tr": "SH 胸甲"
+      "tr": "莫罗佐夫-SH 胸甲"
     },
     "Morozov-SH Legs": {
       "en": "Morozov-SH Legs",
-      "tr": "SH 腿甲"
+      "tr": "莫罗佐夫-SH 腿甲"
     },
     "Morozov-SH Helmet": {
       "en": "Morozov-SH Helmet",
-      "tr": "SH 头盔"
+      "tr": "莫罗佐夫-SH 头盔"
     },
     "Scalpel Sniper Rifle Magazine (12 cap)": {
       "en": "Scalpel Sniper Rifle Magazine (12 cap)",
@@ -13437,39 +13465,39 @@
     },
     "HeatSafe": {
       "en": "HeatSafe",
-      "tr": "安全热控"
+      "tr": "安全热控 [冷却 S1 隐形 C]"
     },
     "Dominance-1 Scattergun": {
       "en": "Dominance-1 Scattergun",
-      "tr": "1 能量霰弹炮"
+      "tr": "统治-1 能量霰弹炮"
     },
     "Dominance-2 Scattergun": {
       "en": "Dominance-2 Scattergun",
-      "tr": "2 能量霰弹炮"
+      "tr": "统治-2 能量霰弹炮"
     },
     "Dominance-3 Scattergun": {
       "en": "Dominance-3 Scattergun",
-      "tr": "3 能量霰弹炮"
+      "tr": "统治-3 能量霰弹炮"
     },
     "VaporBlock": {
       "en": "VaporBlock",
-      "tr": "蒸汽遏制"
+      "tr": "蒸汽遏制 [冷却 S1 隐形 B]"
     },
     "NN-13 Cannon": {
       "en": "NN-13 Cannon",
-      "tr": "13 中子加农炮"
+      "tr": "NN-13 中子加农炮"
     },
     "NN-14 Cannon": {
       "en": "NN-14 Cannon",
-      "tr": "14 中子加农炮"
+      "tr": "NN-14 中子加农炮"
     },
     "NN-15 Cannon": {
       "en": "NN-15 Cannon",
-      "tr": "15 中子加农炮"
+      "tr": "NN-15 中子加农炮"
     },
     "SnowBlind": {
       "en": "SnowBlind",
-      "tr": "雪盲"
+      "tr": "雪盲 [冷却 S1 隐形 A]"
     },
     "M6A Cannon": {
       "en": "M6A Cannon",
@@ -13497,7 +13525,7 @@
     },
     "Flash": {
       "en": "Flash",
-      "tr": "闪电"
+      "tr": "闪电 [量子 S2 民用 B]"
     },
     "TS-2": {
       "en": "TS-2",
@@ -13505,7 +13533,7 @@
     },
     "Hyperion": {
       "en": "Hyperion",
-      "tr": "光之神"
+      "tr": "光之神 [量子 S1 民用 B]"
     },
     "VK-00": {
       "en": "VK-00",
@@ -13519,9 +13547,13 @@
       "en": "SNS-R6",
       "tr": "增强的功率和性能使"
     },
+    "Shroud": {
+      "en": "Shroud",
+      "tr": "护罩 [护盾 S2 隐形 D]"
+    },
     "Torrent": {
       "en": "Torrent",
-      "tr": "激流"
+      "tr": "激流 [量子 S2 民用 C]"
     },
     "PyroBurst Scattergun": {
       "en": "PyroBurst Scattergun",
@@ -13529,11 +13561,11 @@
     },
     "Burst": {
       "en": "Burst",
-      "tr": "爆发"
+      "tr": "爆发 [量子 S1 民用 B]"
     },
     "Predator": {
       "en": "Predator",
-      "tr": "捕食者"
+      "tr": "掠食者 [雷达 S2 隐形 B]"
     },
     "BRVS Repeater": {
       "en": "BRVS Repeater",
@@ -13557,123 +13589,123 @@
     },
     "IcePlunge": {
       "en": "IcePlunge",
-      "tr": "寒冰下陷"
+      "tr": "寒冰下陷 [冷却 S1 竞速 C]"
     },
     "AbsoluteZero": {
       "en": "AbsoluteZero",
-      "tr": "绝对零度"
+      "tr": "绝对零度 [冷却 S2 竞速 B]"
     },
     "IceDive": {
       "en": "IceDive",
-      "tr": "冰潜"
+      "tr": "冰潜 [冷却 S2 竞速 C]"
     },
     "RapidCool": {
       "en": "RapidCool",
-      "tr": "迅冷"
+      "tr": "迅冷 [冷却 S2 竞速 D]"
     },
     "Bracer": {
       "en": "Bracer",
-      "tr": "寒索"
+      "tr": "寒索 [冷却 S1 军用 C]"
     },
     "Tundra": {
       "en": "Tundra",
-      "tr": "冻原"
+      "tr": "冻原 [冷却 S1 军用 D]"
     },
     "Arctic": {
       "en": "Arctic",
-      "tr": "北极"
+      "tr": "北极 [冷却 S2 军用 C]"
     },
     "Boreal": {
       "en": "Boreal",
-      "tr": "北风"
+      "tr": "北风 [冷却 S2 军用 D]"
     },
     "Galinstan": {
       "en": "Galinstan",
-      "tr": "液态合金"
+      "tr": "液态合金 [冷却 S3 军用 D]"
     },
     "Mercury": {
       "en": "Mercury",
-      "tr": "汞"
+      "tr": "水银 [冷却 S3 军用 C]"
     },
     "Exotherm": {
       "en": "Exotherm",
-      "tr": "热释"
+      "tr": "热释 [冷却 S4 定制 A]"
     },
     "Algid": {
       "en": "Algid",
-      "tr": "风寒"
+      "tr": "风寒 [冷却 S4 工业 定制]"
     },
     "Eco-Flow": {
       "en": "Eco-Flow",
-      "tr": "生态流"
+      "tr": "生态流 [冷却 S1 工业 B]"
     },
     "Hydrocel": {
       "en": "Hydrocel",
-      "tr": "水凝"
+      "tr": "水凝 [冷却 S1 工业 D]"
     },
     "Thermax": {
       "en": "Thermax",
-      "tr": "温度美"
+      "tr": "温度美 [冷却 S1 工业 C]"
     },
     "CoolCore": {
       "en": "CoolCore",
-      "tr": "冷却核心"
+      "tr": "冷却核心 [冷却 S2 工业 C]"
     },
     "HydroJet": {
       "en": "HydroJet",
-      "tr": "喷射"
+      "tr": "喷射 [冷却 S2 工业 D]"
     },
     "Snowfall": {
       "en": "Snowfall",
-      "tr": "降雪"
+      "tr": "降雪 [冷却 S2 工业 B]"
     },
     "Snowpack": {
       "en": "Snowpack",
-      "tr": "雪堆"
+      "tr": "雪堆 [冷却 S2 工业 A]"
     },
     "Chill-Max": {
       "en": "Chill-Max",
-      "tr": "寒意满满"
+      "tr": "寒意满满 [冷却 S3 工业 A]"
     },
     "Hydropulse": {
       "en": "Hydropulse",
-      "tr": "水冷脉冲"
+      "tr": "水冷脉冲 [冷却 S3 工业 D]"
     },
     "ThermalCore": {
       "en": "ThermalCore",
-      "tr": "热量核心"
+      "tr": "热量核心 [冷却 S3 工业 C]"
     },
     "Serac": {
       "en": "Serac",
-      "tr": "冰塔"
+      "tr": "冰塔 [冷却 S4 民用 A]"
     },
     "HeatSink": {
       "en": "HeatSink",
-      "tr": "散热装置"
+      "tr": "散热装置 [冷却 S2 隐形 C]"
     },
     "IceBox": {
       "en": "IceBox",
-      "tr": "冰块"
+      "tr": "冰块 [冷却 S2 隐形 B]"
     },
     "NightFall": {
       "en": "NightFall",
-      "tr": "夜幕降临"
+      "tr": "夜幕降临 [冷却 S2 隐形 A]"
     },
     "TH-01 Propulsor": {
       "en": "TH-01 Propulsor",
-      "tr": "01 推进器"
+      "tr": "TH-01 推进器"
     },
     "Centurion": {
       "en": "Centurion",
-      "tr": "百夫长"
+      "tr": "百夫长 [发电 S3 军用 C]"
     },
     "Vesta": {
       "en": "Vesta",
-      "tr": "纯净水"
+      "tr": "维斯塔 [量子 S3 工业 D]"
     },
     "Flood": {
       "en": "Flood",
-      "tr": "溢流"
+      "tr": "溢流 [量子 S1 民用 D]"
     },
     "S71 \"Justified\" Rifle": {
       "en": "S71 \"Justified\" Rifle",
@@ -13689,11 +13721,11 @@
     },
     "SureGrip HV-S1 Tractor Beam": {
       "en": "SureGrip HV-S1 Tractor Beam",
-      "tr": "S1 牵引光束"
+      "tr": "绝对牵引 HV-S1 牵引光束"
     },
     "SureGrip PR-S1 Tractor Beam": {
       "en": "SureGrip PR-S1 Tractor Beam",
-      "tr": "S1 牵引光束"
+      "tr": "绝对牵引 PR-S1 牵引光束"
     },
     "SureGrip S2 Tractor Beam": {
       "en": "SureGrip S2 Tractor Beam",
@@ -13701,11 +13733,11 @@
     },
     "SureGrip HV-S2 Tractor Beam": {
       "en": "SureGrip HV-S2 Tractor Beam",
-      "tr": "S2 牵引光束"
+      "tr": "绝对牵引 HV-S2 牵引光束"
     },
     "SureGrip PR-S2 Tractor Beam": {
       "en": "SureGrip PR-S2 Tractor Beam",
-      "tr": "S2 牵引光束"
+      "tr": "绝对牵引 PR-S2 牵引光束"
     },
     "SureGrip S3 Tractor Beam": {
       "en": "SureGrip S3 Tractor Beam",
@@ -13713,11 +13745,11 @@
     },
     "SureGrip HV-S3 Tractor Beam": {
       "en": "SureGrip HV-S3 Tractor Beam",
-      "tr": "S3 牵引光束"
+      "tr": "绝对牵引 HV-S3 牵引光束"
     },
     "SureGrip PR-S3 Tractor Beam": {
       "en": "SureGrip PR-S3 Tractor Beam",
-      "tr": "S3 牵引光束"
+      "tr": "绝对牵引 PR-S3 牵引光束"
     },
     "ViseLock S1 Tractor Beam": {
       "en": "ViseLock S1 Tractor Beam",
@@ -13733,19 +13765,19 @@
     },
     "Attrition-1 Repeater": {
       "en": "Attrition-1 Repeater",
-      "tr": "1 激光速射炮"
+      "tr": "磨损-1 激光速射炮"
     },
     "Attrition-2 Repeater": {
       "en": "Attrition-2 Repeater",
-      "tr": "2 激光速射炮"
+      "tr": "磨损-2 激光速射炮"
     },
     "Attrition-3 Repeater": {
       "en": "Attrition-3 Repeater",
-      "tr": "3 激光速射炮"
+      "tr": "磨损-3 激光速射炮"
     },
     "Reign-3 Repeater": {
       "en": "Reign-3 Repeater",
-      "tr": "3 激光速射炮"
+      "tr": "支配-3 激光速射炮"
     },
     "Coda Pistol (Modified)": {
       "en": "Coda Pistol (Modified)",
@@ -13757,271 +13789,271 @@
     },
     "NDB-26 Repeater": {
       "en": "NDB-26 Repeater",
-      "tr": "26 中子速射炮"
+      "tr": "NDB-26 中子速射炮"
     },
     "NDB-28 Repeater": {
       "en": "NDB-28 Repeater",
-      "tr": "28 中子速射炮"
+      "tr": "NDB-28 中子速射炮"
     },
     "NDB-30 Repeater": {
       "en": "NDB-30 Repeater",
-      "tr": "30 中子速射炮"
+      "tr": "NDB-30 中子速射炮"
     },
     "StarHeart": {
       "en": "StarHeart",
-      "tr": "星心"
+      "tr": "星心 [发电 S1 竞速 B]"
     },
     "SunFlare": {
       "en": "SunFlare",
-      "tr": "耀斑"
+      "tr": "耀斑 [发电 S1 竞速 C]"
     },
     "LuxCore": {
       "en": "LuxCore",
-      "tr": "照度核心"
+      "tr": "照度核心 [发电 S2 竞速 A]"
     },
     "StarBurn": {
       "en": "StarBurn",
-      "tr": "星火"
+      "tr": "星火 [发电 S2 竞速 B]"
     },
     "Charger": {
       "en": "Charger",
-      "tr": "战马"
+      "tr": "战马 [发电 S1 军用 D]"
     },
     "Regulus": {
       "en": "Regulus",
-      "tr": "雷古勒斯"
+      "tr": "雷古勒斯 [发电 S1 军用 C]"
     },
     "Maelstrom": {
       "en": "Maelstrom",
-      "tr": "大漩涡"
+      "tr": "大漩涡 [发电 S2 军用 C]"
     },
     "QuadraCell MT": {
       "en": "QuadraCell MT",
-      "tr": "四相电池MT"
+      "tr": "四相电池MT [发电 S2 军用 A]"
     },
     "Vortex": {
       "en": "Vortex",
-      "tr": "涡流"
+      "tr": "涡流 [发电 S2 军用 D]"
     },
     "Drassik": {
       "en": "Drassik",
-      "tr": "德拉西克"
+      "tr": "德拉西克 [发电 S3 军用 D]"
     },
     "HyperGen": {
       "en": "HyperGen",
-      "tr": "极生"
+      "tr": "极生 [发电 S1 军用 D]"
     },
     "OverDrive": {
       "en": "OverDrive",
-      "tr": "过载驱动"
+      "tr": "过载驱动 [发电 S1 军用 C]"
     },
     "ExoGen": {
       "en": "ExoGen",
-      "tr": "外生"
+      "tr": "外生 [发电 S2 军用 D]"
     },
     "SuperDrive": {
       "en": "SuperDrive",
-      "tr": "超级驱动"
+      "tr": "超级驱动 [发电 S3 军用 C]"
     },
     "Jennet": {
       "en": "Jennet",
-      "tr": "詹妮特"
+      "tr": "詹妮特 [发电 S0 工业 D]"
     },
     "Steadfast": {
       "en": "Steadfast",
-      "tr": "坚定"
+      "tr": "坚定 [发电 S0 工业 C]"
     },
     "Endurance": {
       "en": "Endurance",
-      "tr": "耐力"
+      "tr": "耐力 [发电 S1 工业 B]"
     },
     "Fortitude": {
       "en": "Fortitude",
-      "tr": "刚毅"
+      "tr": "刚毅 [发电 S1 工业 C]"
     },
     "Roughneck": {
       "en": "Roughneck",
-      "tr": "莽夫"
+      "tr": "莽夫 [发电 S1 工业 D]"
     },
     "Genoa": {
       "en": "Genoa",
-      "tr": "热那亚"
+      "tr": "热那亚 [发电 S2 工业 A]"
     },
     "Trommel": {
       "en": "Trommel",
-      "tr": "滚筒筛"
+      "tr": "滚筒筛 [发电 S2 工业 D]"
     },
     "Ginzel": {
       "en": "Ginzel",
-      "tr": "金杰尔"
+      "tr": "金杰尔 [发电 S3 工业 C]"
     },
     "Stellate": {
       "en": "Stellate",
-      "tr": "星状"
+      "tr": "星状 [发电 S4 民用 A]"
     },
     "WhiteRose": {
       "en": "WhiteRose",
-      "tr": "白瑰"
+      "tr": "白瑰 [发电 S1 民用 A]"
     },
     "DayBreak": {
       "en": "DayBreak",
-      "tr": "破晓"
+      "tr": "破晓 [发电 S2 民用 C]"
     },
     "SparkFire": {
       "en": "SparkFire",
-      "tr": "火花"
+      "tr": "火花 [量子 S2 竞速 C]"
     },
     "SunFire": {
       "en": "SunFire",
-      "tr": "阳炎"
+      "tr": "阳炎 [量子 S2 竞速 B]"
     },
     "Rush": {
       "en": "Rush",
-      "tr": "突进"
+      "tr": "突进 [量子 S1 民用 C]"
     },
     "Cascade": {
       "en": "Cascade",
-      "tr": "喷流"
+      "tr": "喷流 [量子 S2 民用 D]"
     },
     "Fissure": {
       "en": "Fissure",
-      "tr": "裂缝"
+      "tr": "裂缝 [量子 S3 民用 C]"
     },
     "Impulse": {
       "en": "Impulse",
-      "tr": "脉冲"
+      "tr": "脉冲 [量子 S3 民用 B]"
     },
     "Goliath": {
       "en": "Goliath",
-      "tr": "哥利亚"
+      "tr": "哥利亚 [量子 S1 工业 C]"
     },
     "Vulcan": {
       "en": "Vulcan",
-      "tr": "伏尔甘"
+      "tr": "伏尔甘 [量子 S1 工业 D]"
     },
     "Bolon": {
       "en": "Bolon",
-      "tr": "伯龙"
+      "tr": "伯龙 [量子 S2 工业 C]"
     },
     "Kama": {
       "en": "Kama",
-      "tr": "卡玛"
+      "tr": "卡玛 [量子 S3 工业 C]"
     },
     "Allegro": {
       "en": "Allegro",
-      "tr": "极速"
+      "tr": "极速 [量子 S4 民用 A]"
     },
     "Drift": {
       "en": "Drift",
-      "tr": "漂泊"
+      "tr": "漂泊 [量子 S1 隐形 C]"
     },
     "Eos": {
       "en": "Eos",
-      "tr": "黎明女神"
+      "tr": "黎明女神 [量子 S1 民用 C]"
     },
     "Aither": {
       "en": "Aither",
-      "tr": "以太"
+      "tr": "以太 [量子 S2 民用 B]"
     },
     "Erebos": {
       "en": "Erebos",
-      "tr": "黑暗之神"
+      "tr": "黑暗之神 [量子 S3 民用 A]"
     },
     "Metis": {
       "en": "Metis",
-      "tr": "智谋女神"
+      "tr": "智谋女神 [量子 S3 民用 C]"
     },
     "Tyche": {
       "en": "Tyche",
-      "tr": "命运女神"
+      "tr": "命运女神 [量子 S3 民用 B]"
     },
     "Expedition": {
       "en": "Expedition",
-      "tr": "远征"
+      "tr": "远征 [量子 S1 民用 C]"
     },
     "Odyssey": {
       "en": "Odyssey",
-      "tr": "奥德赛"
+      "tr": "奥德赛 [量子 S2 民用 C]"
     },
     "Ranger": {
       "en": "Ranger",
-      "tr": "游骑兵"
+      "tr": "游骑兵 [量子 S3 民用 B]"
     },
     "Wanderer": {
       "en": "Wanderer",
-      "tr": "漫游者"
+      "tr": "漫游者 [量子 S3 民用 C]"
     },
     "Beacon": {
       "en": "Beacon",
-      "tr": "信标"
+      "tr": "信标 [量子 S1 军用 C]"
     },
     "Crossfield": {
       "en": "Crossfield",
-      "tr": "克罗斯菲尔德"
+      "tr": "克罗斯菲尔德 [量子 S2 军用 C]"
     },
     "Pontes": {
       "en": "Pontes",
-      "tr": "庞特斯"
+      "tr": "庞特斯 [量子 S3 军用 C]"
     },
     "Frontline": {
       "en": "Frontline",
-      "tr": "前线"
+      "tr": "前线 [量子 S4 定制]"
     },
     "RS-Barrier": {
       "en": "RS-Barrier",
-      "tr": "屏障"
+      "tr": "RS-屏障 [护盾 S4 工业 定制]"
     },
     "Cloak": {
       "en": "Cloak",
-      "tr": "斗篷"
+      "tr": "斗篷 [护盾 S1 隐形 D]"
     },
     "Castra": {
       "en": "Castra",
-      "tr": "营地"
+      "tr": "营地 [护盾 S0 工业 C]"
     },
     "Bulwark": {
       "en": "Bulwark",
-      "tr": "堡垒"
+      "tr": "堡垒 [护盾 S1 工业 C]"
     },
     "Steward": {
       "en": "Steward",
-      "tr": "管家"
+      "tr": "管家 [护盾 S1 工业 D]"
     },
     "Aspis": {
       "en": "Aspis",
-      "tr": "重盾"
+      "tr": "重盾 [护盾 S2 工业 C]"
     },
     "Stronghold": {
       "en": "Stronghold",
-      "tr": "据点"
+      "tr": "据点 [护盾 S3 工业 C]"
     },
     "AllStop": {
       "en": "AllStop",
-      "tr": "全面停滞"
+      "tr": "全面停滞 [护盾 S1 军用 C]"
     },
     "SecureHyde": {
       "en": "SecureHyde",
-      "tr": "安全屏蔽"
+      "tr": "安全屏蔽 [护盾 S1 军用 D]"
     },
     "FullStop": {
       "en": "FullStop",
-      "tr": "完全停滞"
+      "tr": "完全停滞 [护盾 S2 军用 C]"
     },
     "Holdstrong": {
       "en": "Holdstrong",
-      "tr": "坚盾"
+      "tr": "坚盾 [护盾 S4 定制]"
     },
     "Glacis": {
       "en": "Glacis",
-      "tr": "斜堤"
+      "tr": "斜堤 [护盾 S4 工业 A]"
     },
     "Targa": {
       "en": "Targa",
-      "tr": "塔尔加"
+      "tr": "塔尔加 [护盾 S1 竞速 C]"
     },
     "Falco": {
       "en": "Falco",
-      "tr": "法尔科"
+      "tr": "法尔科 [护盾 S1 竞速 D]"
     },
     "Thlilye Laser Gatling": {
       "en": "Thlilye Laser Gatling",
@@ -14029,7 +14061,7 @@
     },
     "TCS-4 Undersuit": {
       "en": "TCS-4 Undersuit",
-      "tr": "4 基底服"
+      "tr": "TCS-4 基底服"
     },
     "Badami Helmet": {
       "en": "Badami Helmet",
@@ -14037,15 +14069,15 @@
     },
     "ZeroRush": {
       "en": "ZeroRush",
-      "tr": "零冲"
+      "tr": "零冲 [冷却 S1 竞速 B]"
     },
     "Ultra-Flow": {
       "en": "Ultra-Flow",
-      "tr": "终极对流"
+      "tr": "终极对流 [冷却 S1 工业 A]"
     },
     "Ice-Flush": {
       "en": "Ice-Flush",
-      "tr": "冰流"
+      "tr": "冰流 [冷却 S3 工业 B]"
     },
     "Strata Arms Amber": {
       "en": "Strata Arms Amber",
@@ -14062,6 +14094,10 @@
     "Strata Arms Shire": {
       "en": "Strata Arms Shire",
       "tr": "岩层 臂甲 夏尔"
+    },
+    "Aril Backpack": {
+      "en": "Aril Backpack",
+      "tr": "伪壳 背包"
     },
     "Strata Backpack": {
       "en": "Strata Backpack",
@@ -14105,207 +14141,219 @@
     },
     "LumaCore": {
       "en": "LumaCore",
-      "tr": "亮度核心"
+      "tr": "亮度核心 [发电 S1 竞速 A]"
     },
     "SolarFlare": {
       "en": "SolarFlare",
-      "tr": "太阳耀斑"
+      "tr": "太阳耀斑 [发电 S2 竞速 C]"
     },
     "QuadraCell": {
       "en": "QuadraCell",
-      "tr": "四相电池"
+      "tr": "四相电池 [发电 S1 军用 A]"
     },
     "TurboDrive": {
       "en": "TurboDrive",
-      "tr": "涡轮驱动"
+      "tr": "涡轮驱动 [发电 S2 军用 C]"
     },
     "SmartGen": {
       "en": "SmartGen",
-      "tr": "智能驱动"
+      "tr": "智能驱动 [发电 S3 军用 D]"
     },
     "Breton": {
       "en": "Breton",
-      "tr": "布列塔尼"
+      "tr": "布列塔尼 [发电 S1 工业 A]"
     },
     "Diligence": {
       "en": "Diligence",
-      "tr": "勤奋"
+      "tr": "勤奋 [发电 S2 工业 C]"
     },
     "Durango": {
       "en": "Durango",
-      "tr": "杜兰戈"
+      "tr": "杜兰戈 [发电 S3 工业 A]"
     },
     "Reliance": {
       "en": "Reliance",
-      "tr": "信任"
+      "tr": "信任 [发电 S3 工业 B]"
     },
     "Yaluk": {
       "en": "Yaluk",
-      "tr": "亚鲁克"
+      "tr": "亚鲁克 [量子 S2 工业 D]"
     },
     "Hemera": {
       "en": "Hemera",
-      "tr": "白昼女神"
+      "tr": "白昼女神 [量子 S2 民用 A]"
     },
     "Voyage": {
       "en": "Voyage",
-      "tr": "航程"
+      "tr": "航程 [量子 S1 民用 B]"
     },
     "Sojourn": {
       "en": "Sojourn",
-      "tr": "旅居"
+      "tr": "旅居 [量子 S2 民用 B]"
     },
     "LightFire": {
       "en": "LightFire",
-      "tr": "光火"
+      "tr": "光火 [量子 S1 竞速 C]"
     },
     "Hunter": {
       "en": "Hunter",
-      "tr": "猎手"
+      "tr": "猎手 [雷达 S1 隐形 B]"
     },
     "Pelerous": {
       "en": "Pelerous",
-      "tr": "方位盘"
+      "tr": "方位盘 [雷达 S1 隐形 C]"
     },
     "Cassandra": {
       "en": "Cassandra",
-      "tr": "卡珊德拉"
+      "tr": "卡珊德拉 [雷达 S2 隐形 A]"
     },
     "Spyglass": {
       "en": "Spyglass",
-      "tr": "窥镜"
+      "tr": "窥镜 [雷达 S2 隐形 C]"
+    },
+    "Observer-Go": {
+      "en": "Observer-Go",
+      "tr": "观察者-Go [雷达 S1 工业 D]"
+    },
+    "Observer-Lite": {
+      "en": "Observer-Lite",
+      "tr": "观察者-Lite [雷达 S1 工业 D]"
     },
     "Observer": {
       "en": "Observer",
-      "tr": "观察者"
+      "tr": "观察者 [雷达 S2 工业 D]"
+    },
+    "Observer-Max": {
+      "en": "Observer-Max",
+      "tr": "观察者-Max [雷达 S3 工业 D]"
     },
     "Agure": {
       "en": "Agure",
-      "tr": "阿古雷"
+      "tr": "阿古雷 [雷达 S0 军用 D]"
     },
     "Prevenir": {
       "en": "Prevenir",
-      "tr": "戒备"
+      "tr": "戒备 [雷达 S0 军用 C]"
     },
     "Ecouter": {
       "en": "Ecouter",
-      "tr": "聆听"
+      "tr": "聆听 [雷达 S1 军用 C]"
     },
     "Voir": {
       "en": "Voir",
-      "tr": "真相"
+      "tr": "真相 [雷达 S1 军用 D]"
     },
     "Epier": {
       "en": "Epier",
-      "tr": "显现"
+      "tr": "显现 [雷达 S2 军用 C]"
     },
     "Savoir": {
       "en": "Savoir",
-      "tr": "洞察"
+      "tr": "洞察 [雷达 S2 军用 D]"
     },
     "Fidele": {
       "en": "Fidele",
-      "tr": "忠信"
+      "tr": "忠信 [雷达 S3 军用 D]"
     },
     "Resolu": {
       "en": "Resolu",
-      "tr": "决断"
+      "tr": "决断 [雷达 S3 军用 C]"
     },
     "Denning": {
       "en": "Denning",
-      "tr": "丹宁"
+      "tr": "丹宁 [雷达 S0 民用 C]"
     },
     "Fabian": {
       "en": "Fabian",
-      "tr": "法比安"
+      "tr": "法比安 [雷达 S0 民用 A]"
     },
     "Vogel": {
       "en": "Vogel",
-      "tr": "沃格尔"
+      "tr": "沃格尔 [雷达 S0 民用 B]"
     },
     "Abetti": {
       "en": "Abetti",
-      "tr": "阿贝提"
+      "tr": "阿贝提 [雷达 S1 民用 A]"
     },
     "Backlund": {
       "en": "Backlund",
-      "tr": "巴克伦"
+      "tr": "巴克伦 [雷达 S1 民用 B]"
     },
     "Capston": {
       "en": "Capston",
-      "tr": "卡普斯顿"
+      "tr": "卡普斯顿 [雷达 S1 民用 C]"
     },
     "Fleming": {
       "en": "Fleming",
-      "tr": "弗莱明"
+      "tr": "弗莱明 [雷达 S1 民用 D]"
     },
     "Agrippa": {
       "en": "Agrippa",
-      "tr": "阿格里帕"
+      "tr": "阿格里帕 [雷达 S2 民用 A]"
     },
     "Battani": {
       "en": "Battani",
-      "tr": "巴塔尼"
+      "tr": "巴塔尼 [雷达 S2 民用 B]"
     },
     "Chernykh": {
       "en": "Chernykh",
-      "tr": "切尔尼克"
+      "tr": "切尔尼克 [雷达 S2 民用 C]"
     },
     "Fawad": {
       "en": "Fawad",
-      "tr": "法瓦德"
+      "tr": "法瓦德 [雷达 S2 民用 D]"
     },
     "Anysta": {
       "en": "Anysta",
-      "tr": "安内斯塔"
+      "tr": "安内斯塔 [雷达 S3 民用 A]"
     },
     "Capsulo": {
       "en": "Capsulo",
-      "tr": "卡普苏洛"
+      "tr": "卡普苏洛 [雷达 S3 民用 B]"
     },
     "Socoria": {
       "en": "Socoria",
-      "tr": "索科利亚"
+      "tr": "索科利亚 [雷达 S3 民用 D]"
     },
     "Armada": {
       "en": "Armada",
-      "tr": "舰队"
+      "tr": "舰队 [护盾 S2 工业 D ]"
     },
     "Ward": {
       "en": "Ward",
-      "tr": "城壁"
+      "tr": "城壁 [护盾 S3 工业 D]"
     },
     "SecureShield": {
       "en": "SecureShield",
-      "tr": "安全护盾"
+      "tr": "安全护盾 [护盾 S2 军用 D]"
     },
     "SecureScreen": {
       "en": "SecureScreen",
-      "tr": "安全屏障"
+      "tr": "安全屏障 [护盾 S3 军用 D]"
     },
     "SureStop": {
       "en": "SureStop",
-      "tr": "必然停滞"
+      "tr": "必然停滞 [护盾 S3 军用 C]"
     },
     "ARMOR": {
       "en": "ARMOR",
-      "tr": "盔甲"
+      "tr": "盔甲 [护盾 S3 民用 B]"
     },
     "Jaghte": {
       "en": "Jaghte",
-      "tr": "贾格特"
+      "tr": "贾格特 [护盾 S1 竞速 B]"
     },
     "Bamoty": {
       "en": "Bamoty",
-      "tr": "巴莫蒂"
+      "tr": "巴莫蒂 [护盾 S2 竞速 D]"
     },
     "Haltur": {
       "en": "Haltur",
-      "tr": "哈尔图"
+      "tr": "哈尔图 [护盾 S2 竞速 B]"
     },
     "Trenta": {
       "en": "Trenta",
-      "tr": "特伦塔"
+      "tr": "特伦塔 [护盾 S2 竞速 C]"
     },
     "Piecemeal Armor Arms": {
       "en": "Piecemeal Armor Arms",
@@ -14337,139 +14385,139 @@
     },
     "ORC-mkX Arms Arctic": {
       "en": "ORC-mkX Arms Arctic",
-      "tr": "mkX 臂甲 极地版"
+      "tr": "ORC-mkX 臂甲 极地版"
     },
     "ORC-mkX Arms Desert": {
       "en": "ORC-mkX Arms Desert",
-      "tr": "mkX 臂甲 沙漠版"
+      "tr": "ORC-mkX 臂甲 沙漠版"
     },
     "ORC-mkX Arms Twilight": {
       "en": "ORC-mkX Arms Twilight",
-      "tr": "mkX 臂甲 暮光色"
+      "tr": "ORC-mkX 臂甲 暮光色"
     },
     "ORC-mkX Arms Autumn": {
       "en": "ORC-mkX Arms Autumn",
-      "tr": "mkX 臂甲 秋季版"
+      "tr": "ORC-mkX 臂甲 秋季版"
     },
     "ORC-mkX Arms (Modified)": {
       "en": "ORC-mkX Arms (Modified)",
-      "tr": "mkX 臂甲（改）"
+      "tr": "ORC-mkX 臂甲（改）"
     },
     "ORC-mkX Core Arctic": {
       "en": "ORC-mkX Core Arctic",
-      "tr": "mkX 胸甲 极地版"
+      "tr": "ORC-mkX 胸甲 极地版"
     },
     "ORC-mkX Core Desert": {
       "en": "ORC-mkX Core Desert",
-      "tr": "mkX 胸甲 沙漠版"
+      "tr": "ORC-mkX 胸甲 沙漠版"
     },
     "ORC-mkX Core Twilight": {
       "en": "ORC-mkX Core Twilight",
-      "tr": "mkX 胸甲 暮光色"
+      "tr": "ORC-mkX 胸甲 暮光色"
     },
     "ORC-mkX Core Autumn": {
       "en": "ORC-mkX Core Autumn",
-      "tr": "mkX 胸甲 秋季版"
+      "tr": "ORC-mkX 胸甲 秋季版"
     },
     "ORC-mkX Helmet Arctic": {
       "en": "ORC-mkX Helmet Arctic",
-      "tr": "mkX 头盔 极地版"
+      "tr": "ORC-mkX 头盔 极地版"
     },
     "ORC-mkX Helmet Desert": {
       "en": "ORC-mkX Helmet Desert",
-      "tr": "mkX 头盔 沙漠版"
+      "tr": "ORC-mkX 头盔 沙漠版"
     },
     "ORC-mkX Helmet Twilight": {
       "en": "ORC-mkX Helmet Twilight",
-      "tr": "mkX 头盔 暮光色"
+      "tr": "ORC-mkX 头盔 暮光色"
     },
     "ORC-mkX Helmet Autumn": {
       "en": "ORC-mkX Helmet Autumn",
-      "tr": "mkX 头盔 秋季版"
+      "tr": "ORC-mkX 头盔 秋季版"
     },
     "ORC-mkX Legs Arctic": {
       "en": "ORC-mkX Legs Arctic",
-      "tr": "mkX 腿甲 极地版"
+      "tr": "ORC-mkX 腿甲 极地版"
     },
     "ORC-mkX Legs Desert": {
       "en": "ORC-mkX Legs Desert",
-      "tr": "mkX 腿甲 沙漠版"
+      "tr": "ORC-mkX 腿甲 沙漠版"
     },
     "ORC-mkX Legs Twilight": {
       "en": "ORC-mkX Legs Twilight",
-      "tr": "mkX 腿甲 暮光色"
+      "tr": "ORC-mkX 腿甲 暮光色"
     },
     "ORC-mkX Legs Autumn": {
       "en": "ORC-mkX Legs Autumn",
-      "tr": "mkX 腿甲 秋季版"
+      "tr": "ORC-mkX 腿甲 秋季版"
     },
     "ADP-mk4 Arms SecondWind": {
       "en": "ADP-mk4 Arms SecondWind",
-      "tr": "mk4 臂甲 回生之息"
+      "tr": "ADP-mk4 臂甲 回生之息"
     },
     "CSP-68H Backpack": {
       "en": "CSP-68H Backpack",
-      "tr": "68H 背包"
+      "tr": "CSP-68H 背包"
     },
     "ADP-mk4 Core SecondWind": {
       "en": "ADP-mk4 Core SecondWind",
-      "tr": "mk4 胸甲 回生之息"
+      "tr": "ADP-mk4 胸甲 回生之息"
     },
     "ADP-mk4 Legs SecondWind": {
       "en": "ADP-mk4 Legs SecondWind",
-      "tr": "mk4 腿甲 回生之息"
+      "tr": "ADP-mk4 腿甲 回生之息"
     },
     "FBL-8a Arms SecondWind": {
       "en": "FBL-8a Arms SecondWind",
-      "tr": "8a 臂甲 回生之息"
+      "tr": "FBL-8a 臂甲 回生之息"
     },
     "CSP-68L Backpack": {
       "en": "CSP-68L Backpack",
-      "tr": "68L 背包"
+      "tr": "CSP-68L 背包"
     },
     "FBL-8a Core SecondWind": {
       "en": "FBL-8a Core SecondWind",
-      "tr": "8a 胸甲 回生之息"
+      "tr": "FBL-8a 胸甲 回生之息"
     },
     "FBL-8a Helmet SecondWind": {
       "en": "FBL-8a Helmet SecondWind",
-      "tr": "8a 头盔 回生之息"
+      "tr": "FBL-8a 头盔 回生之息"
     },
     "FBL-8a Legs SecondWind": {
       "en": "FBL-8a Legs SecondWind",
-      "tr": "8a 腿甲 回生之息"
+      "tr": "FBL-8a 腿甲 回生之息"
     },
     "ORC-mkX Arms SecondWind": {
       "en": "ORC-mkX Arms SecondWind",
-      "tr": "mkX 臂甲 回生之息"
+      "tr": "ORC-mkX 臂甲 回生之息"
     },
     "CSP-68M Backpack": {
       "en": "CSP-68M Backpack",
-      "tr": "68M 背包"
+      "tr": "CSP-68M 背包"
     },
     "ORC-mkX Core SecondWind": {
       "en": "ORC-mkX Core SecondWind",
-      "tr": "mkX 胸甲 回生之息"
+      "tr": "ORC-mkX 胸甲 回生之息"
     },
     "ORC-mkX Helmet SecondWind": {
       "en": "ORC-mkX Helmet SecondWind",
-      "tr": "mkX 头盔 回生之息"
+      "tr": "ORC-mkX 头盔 回生之息"
     },
     "ORC-mkX Legs SecondWind": {
       "en": "ORC-mkX Legs SecondWind",
-      "tr": "mkX 回生之息"
+      "tr": "ORC-mkX 回生之息"
     },
     "BUL-H4 Armor": {
       "en": "BUL-H4 Armor",
-      "tr": "H4 护甲"
+      "tr": "BUL-H4 护甲"
     },
     "H4-PBF Ammo Carrier": {
       "en": "H4-PBF Ammo Carrier",
-      "tr": "PBF 弹药携具"
+      "tr": "H4-PBF 弹药携具"
     },
     "BUL-H4 Helmet": {
       "en": "BUL-H4 Helmet",
-      "tr": "H4 头盔"
+      "tr": "BUL-H4 头盔"
     },
     "ADP Arms Red": {
       "en": "ADP Arms Red",
@@ -14817,699 +14865,699 @@
     },
     "PAB-1 Arms Red": {
       "en": "PAB-1 Arms Red",
-      "tr": "1 臂甲 红色"
+      "tr": "PAB-1 臂甲 红色"
     },
     "PAB-1 Arms Orange": {
       "en": "PAB-1 Arms Orange",
-      "tr": "1 臂甲 橙色"
+      "tr": "PAB-1 臂甲 橙色"
     },
     "PAB-1 Arms Yellow": {
       "en": "PAB-1 Arms Yellow",
-      "tr": "1 臂甲 黄色"
+      "tr": "PAB-1 臂甲 黄色"
     },
     "PAB-1 Arms Green": {
       "en": "PAB-1 Arms Green",
-      "tr": "1 臂甲 绿色"
+      "tr": "PAB-1 臂甲 绿色"
     },
     "PAB-1 Arms Seagreen": {
       "en": "PAB-1 Arms Seagreen",
-      "tr": "1 臂甲 海绿色"
+      "tr": "PAB-1 臂甲 海绿色"
     },
     "PAB-1 Arms Blue": {
       "en": "PAB-1 Arms Blue",
-      "tr": "1 臂甲 蓝色"
+      "tr": "PAB-1 臂甲 蓝色"
     },
     "PAB-1 Arms Purple": {
       "en": "PAB-1 Arms Purple",
-      "tr": "1 臂甲 紫色"
+      "tr": "PAB-1 臂甲 紫色"
     },
     "PAB-1 Arms Violet": {
       "en": "PAB-1 Arms Violet",
-      "tr": "1 臂甲 紫罗兰"
+      "tr": "PAB-1 臂甲 紫罗兰"
     },
     "PAB-1 Arms White": {
       "en": "PAB-1 Arms White",
-      "tr": "1 臂甲 白色"
+      "tr": "PAB-1 臂甲 白色"
     },
     "PAB-1 Arms Grey": {
       "en": "PAB-1 Arms Grey",
-      "tr": "1 臂甲 灰色"
+      "tr": "PAB-1 臂甲 灰色"
     },
     "PAB-1 Arms Black": {
       "en": "PAB-1 Arms Black",
-      "tr": "1 臂甲 黑色"
+      "tr": "PAB-1 臂甲 黑色"
     },
     "PAB-1 Arms Dark Red": {
       "en": "PAB-1 Arms Dark Red",
-      "tr": "1 臂甲 暗红色"
+      "tr": "PAB-1 臂甲 暗红色"
     },
     "PAB-1 Arms Sienna": {
       "en": "PAB-1 Arms Sienna",
-      "tr": "1 臂甲 褐色"
+      "tr": "PAB-1 臂甲 褐色"
     },
     "PAB-1 Arms Tan": {
       "en": "PAB-1 Arms Tan",
-      "tr": "1 臂甲 黄褐色"
+      "tr": "PAB-1 臂甲 黄褐色"
     },
     "PAB-1 Arms Dark Green": {
       "en": "PAB-1 Arms Dark Green",
-      "tr": "1 臂甲 深绿色"
+      "tr": "PAB-1 臂甲 深绿色"
     },
     "PAB-1 Arms Aqua": {
       "en": "PAB-1 Arms Aqua",
-      "tr": "1 臂甲 湖绿色"
+      "tr": "PAB-1 臂甲 湖绿色"
     },
     "PAB-1 Arms Twilight": {
       "en": "PAB-1 Arms Twilight",
-      "tr": "1 臂甲 暮光色"
+      "tr": "PAB-1 臂甲 暮光色"
     },
     "PAB-1 Arms Imperial": {
       "en": "PAB-1 Arms Imperial",
-      "tr": "1 臂甲 帝国版"
+      "tr": "PAB-1 臂甲 帝国版"
     },
     "PAB-1 Arms Desert": {
       "en": "PAB-1 Arms Desert",
-      "tr": "1 臂甲 沙漠版"
+      "tr": "PAB-1 臂甲 沙漠版"
     },
     "PAB-1 Core Red": {
       "en": "PAB-1 Core Red",
-      "tr": "1 胸甲 红色"
+      "tr": "PAB-1 胸甲 红色"
     },
     "PAB-1 Core Orange": {
       "en": "PAB-1 Core Orange",
-      "tr": "1 胸甲 橙色"
+      "tr": "PAB-1 胸甲 橙色"
     },
     "PAB-1 Core Yellow": {
       "en": "PAB-1 Core Yellow",
-      "tr": "1 胸甲 黄色"
+      "tr": "PAB-1 胸甲 黄色"
     },
     "PAB-1 Core Green": {
       "en": "PAB-1 Core Green",
-      "tr": "1 胸甲 绿色"
+      "tr": "PAB-1 胸甲 绿色"
     },
     "PAB-1 Core Seagreen": {
       "en": "PAB-1 Core Seagreen",
-      "tr": "1 胸甲 海绿色"
+      "tr": "PAB-1 胸甲 海绿色"
     },
     "PAB-1 Core Blue": {
       "en": "PAB-1 Core Blue",
-      "tr": "1 胸甲 蓝色"
+      "tr": "PAB-1 胸甲 蓝色"
     },
     "PAB-1 Core Purple": {
       "en": "PAB-1 Core Purple",
-      "tr": "1 胸甲 紫色"
+      "tr": "PAB-1 胸甲 紫色"
     },
     "PAB-1 Core Violet": {
       "en": "PAB-1 Core Violet",
-      "tr": "1 胸甲 紫罗兰"
+      "tr": "PAB-1 胸甲 紫罗兰"
     },
     "PAB-1 Core White": {
       "en": "PAB-1 Core White",
-      "tr": "1 胸甲 白色"
+      "tr": "PAB-1 胸甲 白色"
     },
     "PAB-1 Core Grey": {
       "en": "PAB-1 Core Grey",
-      "tr": "1 胸甲 灰色"
+      "tr": "PAB-1 胸甲 灰色"
     },
     "PAB-1 Core Black": {
       "en": "PAB-1 Core Black",
-      "tr": "1 胸甲 黑色"
+      "tr": "PAB-1 胸甲 黑色"
     },
     "PAB-1 Core Dark Red": {
       "en": "PAB-1 Core Dark Red",
-      "tr": "1 胸甲 暗红色"
+      "tr": "PAB-1 胸甲 暗红色"
     },
     "PAB-1 Core Sienna": {
       "en": "PAB-1 Core Sienna",
-      "tr": "1 胸甲 褐色"
+      "tr": "PAB-1 胸甲 褐色"
     },
     "PAB-1 Core Tan": {
       "en": "PAB-1 Core Tan",
-      "tr": "1 胸甲 黄褐色"
+      "tr": "PAB-1 胸甲 黄褐色"
     },
     "PAB-1 Core Dark Green": {
       "en": "PAB-1 Core Dark Green",
-      "tr": "1 胸甲 深绿色"
+      "tr": "PAB-1 胸甲 深绿色"
     },
     "PAB-1 Core Aqua": {
       "en": "PAB-1 Core Aqua",
-      "tr": "1 胸甲 湖绿色"
+      "tr": "PAB-1 胸甲 湖绿色"
     },
     "PAB-1 Core Twilight": {
       "en": "PAB-1 Core Twilight",
-      "tr": "1 胸甲 暮光色"
+      "tr": "PAB-1 胸甲 暮光色"
     },
     "PAB-1 Core Imperial": {
       "en": "PAB-1 Core Imperial",
-      "tr": "1 胸甲 帝国版"
+      "tr": "PAB-1 胸甲 帝国版"
     },
     "PAB-1 Core Desert": {
       "en": "PAB-1 Core Desert",
-      "tr": "1 胸甲 沙漠版"
+      "tr": "PAB-1 胸甲 沙漠版"
     },
     "CBH-3 Helmet Red": {
       "en": "CBH-3 Helmet Red",
-      "tr": "3 头盔 红色"
+      "tr": "CBH-3 头盔 红色"
     },
     "CBH-3 Helmet Orange": {
       "en": "CBH-3 Helmet Orange",
-      "tr": "3 头盔 橙色"
+      "tr": "CBH-3 头盔 橙色"
     },
     "CBH-3 Helmet Yellow": {
       "en": "CBH-3 Helmet Yellow",
-      "tr": "3 头盔 黄色"
+      "tr": "CBH-3 头盔 黄色"
     },
     "CBH-3 Helmet Green": {
       "en": "CBH-3 Helmet Green",
-      "tr": "3 头盔 绿色"
+      "tr": "CBH-3 头盔 绿色"
     },
     "CBH-3 Helmet Seagreen": {
       "en": "CBH-3 Helmet Seagreen",
-      "tr": "3 头盔 海绿色"
+      "tr": "CBH-3 头盔 海绿色"
     },
     "CBH-3 Helmet Blue": {
       "en": "CBH-3 Helmet Blue",
-      "tr": "3 头盔 蓝色"
+      "tr": "CBH-3 头盔 蓝色"
     },
     "CBH-3 Helmet Purple": {
       "en": "CBH-3 Helmet Purple",
-      "tr": "3 头盔 紫色"
+      "tr": "CBH-3 头盔 紫色"
     },
     "CBH-3 Helmet Violet": {
       "en": "CBH-3 Helmet Violet",
-      "tr": "3 头盔 紫罗兰"
+      "tr": "CBH-3 头盔 紫罗兰"
     },
     "CBH-3 Helmet White": {
       "en": "CBH-3 Helmet White",
-      "tr": "3 头盔 白色"
+      "tr": "CBH-3 头盔 白色"
     },
     "CBH-3 Helmet Grey": {
       "en": "CBH-3 Helmet Grey",
-      "tr": "3 头盔 灰色"
+      "tr": "CBH-3 头盔 灰色"
     },
     "CBH-3 Helmet Black": {
       "en": "CBH-3 Helmet Black",
-      "tr": "3 头盔 黑色"
+      "tr": "CBH-3 头盔 黑色"
     },
     "CBH-3 Helmet Dark Red": {
       "en": "CBH-3 Helmet Dark Red",
-      "tr": "3 头盔 暗红色"
+      "tr": "CBH-3 头盔 暗红色"
     },
     "CBH-3 Helmet Sienna": {
       "en": "CBH-3 Helmet Sienna",
-      "tr": "3 头盔 褐色"
+      "tr": "CBH-3 头盔 褐色"
     },
     "CBH-3 Helmet Tan": {
       "en": "CBH-3 Helmet Tan",
-      "tr": "3 头盔 黄褐色"
+      "tr": "CBH-3 头盔 黄褐色"
     },
     "CBH-3 Helmet Dark Green": {
       "en": "CBH-3 Helmet Dark Green",
-      "tr": "3 头盔 深绿色"
+      "tr": "CBH-3 头盔 深绿色"
     },
     "CBH-3 Helmet Aqua": {
       "en": "CBH-3 Helmet Aqua",
-      "tr": "3 头盔 湖绿色"
+      "tr": "CBH-3 头盔 湖绿色"
     },
     "CBH-3 Helmet Twilight": {
       "en": "CBH-3 Helmet Twilight",
-      "tr": "3 头盔 暮光色"
+      "tr": "CBH-3 头盔 暮光色"
     },
     "CBH-3 Helmet Imperial": {
       "en": "CBH-3 Helmet Imperial",
-      "tr": "3 头盔 帝国版"
+      "tr": "CBH-3 头盔 帝国版"
     },
     "CBH-3 Helmet Olive": {
       "en": "CBH-3 Helmet Olive",
-      "tr": "3 头盔 橄榄色"
+      "tr": "CBH-3 头盔 橄榄色"
     },
     "PAB-1 Legs Red": {
       "en": "PAB-1 Legs Red",
-      "tr": "1 腿甲 红色"
+      "tr": "PAB-1 腿甲 红色"
     },
     "PAB-1 Legs Orange": {
       "en": "PAB-1 Legs Orange",
-      "tr": "1 腿甲 橙色"
+      "tr": "PAB-1 腿甲 橙色"
     },
     "PAB-1 Legs Yellow": {
       "en": "PAB-1 Legs Yellow",
-      "tr": "1 腿甲 黄色"
+      "tr": "PAB-1 腿甲 黄色"
     },
     "PAB-1 Legs Green": {
       "en": "PAB-1 Legs Green",
-      "tr": "1 腿甲 绿色"
+      "tr": "PAB-1 腿甲 绿色"
     },
     "PAB-1 Legs Seagreen": {
       "en": "PAB-1 Legs Seagreen",
-      "tr": "1 腿甲 海绿色"
+      "tr": "PAB-1 腿甲 海绿色"
     },
     "PAB-1 Legs Blue": {
       "en": "PAB-1 Legs Blue",
-      "tr": "1 腿甲 蓝色"
+      "tr": "PAB-1 腿甲 蓝色"
     },
     "PAB-1 Legs Purple": {
       "en": "PAB-1 Legs Purple",
-      "tr": "1 腿甲 紫色"
+      "tr": "PAB-1 腿甲 紫色"
     },
     "PAB-1 Legs Violet": {
       "en": "PAB-1 Legs Violet",
-      "tr": "1 腿甲 紫罗兰"
+      "tr": "PAB-1 腿甲 紫罗兰"
     },
     "PAB-1 Legs White": {
       "en": "PAB-1 Legs White",
-      "tr": "1 腿甲 白色"
+      "tr": "PAB-1 腿甲 白色"
     },
     "PAB-1 Legs Grey": {
       "en": "PAB-1 Legs Grey",
-      "tr": "1 腿甲 灰色"
+      "tr": "PAB-1 腿甲 灰色"
     },
     "PAB-1 Legs Black": {
       "en": "PAB-1 Legs Black",
-      "tr": "1 腿甲 黑色"
+      "tr": "PAB-1 腿甲 黑色"
     },
     "PAB-1 Legs Dark Red": {
       "en": "PAB-1 Legs Dark Red",
-      "tr": "1 腿甲 暗红色"
+      "tr": "PAB-1 腿甲 暗红色"
     },
     "PAB-1 Legs Sienna": {
       "en": "PAB-1 Legs Sienna",
-      "tr": "1 腿甲 褐色"
+      "tr": "PAB-1 腿甲 褐色"
     },
     "PAB-1 Legs Tan": {
       "en": "PAB-1 Legs Tan",
-      "tr": "1 腿甲 黄褐色"
+      "tr": "PAB-1 腿甲 黄褐色"
     },
     "PAB-1 Legs Dark Green": {
       "en": "PAB-1 Legs Dark Green",
-      "tr": "1 腿甲 深绿色"
+      "tr": "PAB-1 腿甲 深绿色"
     },
     "PAB-1 Legs Aqua": {
       "en": "PAB-1 Legs Aqua",
-      "tr": "1 腿甲 湖绿色"
+      "tr": "PAB-1 腿甲 湖绿色"
     },
     "PAB-1 Legs Twilight": {
       "en": "PAB-1 Legs Twilight",
-      "tr": "1 腿甲 暮光色"
+      "tr": "PAB-1 腿甲 暮光色"
     },
     "PAB-1 Legs Imperial": {
       "en": "PAB-1 Legs Imperial",
-      "tr": "1 腿甲 帝国版"
+      "tr": "PAB-1 腿甲 帝国版"
     },
     "PAB-1 Legs Desert": {
       "en": "PAB-1 Legs Desert",
-      "tr": "1 腿甲 沙漠版"
+      "tr": "PAB-1 腿甲 沙漠版"
     },
     "ORC-mkV Arms Red": {
       "en": "ORC-mkV Arms Red",
-      "tr": "mkV 臂甲 红色"
+      "tr": "ORC-mkV 臂甲 红色"
     },
     "ORC-mkV Arms Orange": {
       "en": "ORC-mkV Arms Orange",
-      "tr": "mkV 臂甲 橙色"
+      "tr": "ORC-mkV 臂甲 橙色"
     },
     "ORC-mkV Arms Yellow": {
       "en": "ORC-mkV Arms Yellow",
-      "tr": "mkV 臂甲 黄色"
+      "tr": "ORC-mkV 臂甲 黄色"
     },
     "ORC-mkV Arms Green": {
       "en": "ORC-mkV Arms Green",
-      "tr": "mkV 臂甲 绿色"
+      "tr": "ORC-mkV 臂甲 绿色"
     },
     "ORC-mkV Arms Seagreen": {
       "en": "ORC-mkV Arms Seagreen",
-      "tr": "mkV 臂甲 海绿色"
+      "tr": "ORC-mkV 臂甲 海绿色"
     },
     "ORC-mkV Arms Blue": {
       "en": "ORC-mkV Arms Blue",
-      "tr": "mkV 臂甲 蓝色"
+      "tr": "ORC-mkV 臂甲 蓝色"
     },
     "ORC-mkV Arms Purple": {
       "en": "ORC-mkV Arms Purple",
-      "tr": "mkV 臂甲 紫色"
+      "tr": "ORC-mkV 臂甲 紫色"
     },
     "ORC-mkV Arms Violet": {
       "en": "ORC-mkV Arms Violet",
-      "tr": "mkV 臂甲 紫罗兰"
+      "tr": "ORC-mkV 臂甲 紫罗兰"
     },
     "ORC-mkV Arms White": {
       "en": "ORC-mkV Arms White",
-      "tr": "mkV 臂甲 白色"
+      "tr": "ORC-mkV 臂甲 白色"
     },
     "ORC-mkV Arms Grey": {
       "en": "ORC-mkV Arms Grey",
-      "tr": "mkV 臂甲 灰色"
+      "tr": "ORC-mkV 臂甲 灰色"
     },
     "ORC-mkV Arms Black": {
       "en": "ORC-mkV Arms Black",
-      "tr": "mkV 臂甲 黑色"
+      "tr": "ORC-mkV 臂甲 黑色"
     },
     "ORC-mkV Arms Dark Red": {
       "en": "ORC-mkV Arms Dark Red",
-      "tr": "mkV 臂甲 暗红色"
+      "tr": "ORC-mkV 臂甲 暗红色"
     },
     "ORC-mkV Arms Sienna": {
       "en": "ORC-mkV Arms Sienna",
-      "tr": "mkV 臂甲 褐色"
+      "tr": "ORC-mkV 臂甲 褐色"
     },
     "ORC-mkV Arms Tan": {
       "en": "ORC-mkV Arms Tan",
-      "tr": "mkV 臂甲 黄褐色"
+      "tr": "ORC-mkV 臂甲 黄褐色"
     },
     "ORC-mkV Arms Dark Green": {
       "en": "ORC-mkV Arms Dark Green",
-      "tr": "mkV 臂甲 深绿色"
+      "tr": "ORC-mkV 臂甲 深绿色"
     },
     "ORC-mkV Arms Aqua": {
       "en": "ORC-mkV Arms Aqua",
-      "tr": "mkV 臂甲 湖绿色"
+      "tr": "ORC-mkV 臂甲 湖绿色"
     },
     "ORC-mkV Arms Twilight": {
       "en": "ORC-mkV Arms Twilight",
-      "tr": "mkV 臂甲 暮光色"
+      "tr": "ORC-mkV 臂甲 暮光色"
     },
     "ORC-mkV Arms Imperial": {
       "en": "ORC-mkV Arms Imperial",
-      "tr": "mkV 臂甲 帝国版"
+      "tr": "ORC-mkV 臂甲 帝国版"
     },
     "ORC-mkV Arms Desert": {
       "en": "ORC-mkV Arms Desert",
-      "tr": "mkV 臂甲 沙漠版"
+      "tr": "ORC-mkV 臂甲 沙漠版"
     },
     "ORC-mkV Arms Scorched": {
       "en": "ORC-mkV Arms Scorched",
-      "tr": "mkV 臂甲 焦炎版"
+      "tr": "ORC-mkV 臂甲 焦炎版"
     },
     "ORC-mkV Arms Covalex Edition": {
       "en": "ORC-mkV Arms Covalex Edition",
-      "tr": "mkV 臂甲 科瓦莱什版"
+      "tr": "ORC-mkV 臂甲 科瓦莱什版"
     },
     "ORC-mkV Arms Cry-Astro Edition": {
       "en": "ORC-mkV Arms Cry-Astro Edition",
-      "tr": "mkV 臂甲 寒宇版"
+      "tr": "ORC-mkV 臂甲 寒宇版"
     },
     "ORC-mkV Arms Greycat Edition": {
       "en": "ORC-mkV Arms Greycat Edition",
-      "tr": "mkV 臂甲 灰猫版"
+      "tr": "ORC-mkV 臂甲 灰猫版"
     },
     "ORC-mkV Arms Crusader Edition": {
       "en": "ORC-mkV Arms Crusader Edition",
-      "tr": "mkV 臂甲 十字军版"
+      "tr": "ORC-mkV 臂甲 十字军版"
     },
     "ORC-mkV Core Red": {
       "en": "ORC-mkV Core Red",
-      "tr": "mkV 胸甲 红色"
+      "tr": "ORC-mkV 胸甲 红色"
     },
     "ORC-mkV Core Orange": {
       "en": "ORC-mkV Core Orange",
-      "tr": "mkV 胸甲 橙色"
+      "tr": "ORC-mkV 胸甲 橙色"
     },
     "ORC-mkV Core Yellow": {
       "en": "ORC-mkV Core Yellow",
-      "tr": "mkV 胸甲 黄色"
+      "tr": "ORC-mkV 胸甲 黄色"
     },
     "ORC-mkV Core Green": {
       "en": "ORC-mkV Core Green",
-      "tr": "mkV 胸甲 绿色"
+      "tr": "ORC-mkV 胸甲 绿色"
     },
     "ORC-mkV Core Seagreen": {
       "en": "ORC-mkV Core Seagreen",
-      "tr": "mkV 胸甲 海绿色"
+      "tr": "ORC-mkV 胸甲 海绿色"
     },
     "ORC-mkV Core Blue": {
       "en": "ORC-mkV Core Blue",
-      "tr": "mkV 胸甲 蓝色"
+      "tr": "ORC-mkV 胸甲 蓝色"
     },
     "ORC-mkV Core Purple": {
       "en": "ORC-mkV Core Purple",
-      "tr": "mkV 胸甲 紫色"
+      "tr": "ORC-mkV 胸甲 紫色"
     },
     "ORC-mkV Core Violet": {
       "en": "ORC-mkV Core Violet",
-      "tr": "mkV 胸甲 紫罗兰"
+      "tr": "ORC-mkV 胸甲 紫罗兰"
     },
     "ORC-mkV Core White": {
       "en": "ORC-mkV Core White",
-      "tr": "mkV 胸甲 白色"
+      "tr": "ORC-mkV 胸甲 白色"
     },
     "ORC-mkV Core Grey": {
       "en": "ORC-mkV Core Grey",
-      "tr": "mkV 胸甲 灰色"
+      "tr": "ORC-mkV 胸甲 灰色"
     },
     "ORC-mkV Core Black": {
       "en": "ORC-mkV Core Black",
-      "tr": "mkV 胸甲 黑色"
+      "tr": "ORC-mkV 胸甲 黑色"
     },
     "ORC-mkV Core Dark Red": {
       "en": "ORC-mkV Core Dark Red",
-      "tr": "mkV 胸甲 暗红色"
+      "tr": "ORC-mkV 胸甲 暗红色"
     },
     "ORC-mkV Core Sienna": {
       "en": "ORC-mkV Core Sienna",
-      "tr": "mkV 胸甲 褐色"
+      "tr": "ORC-mkV 胸甲 褐色"
     },
     "ORC-mkV Core Tan": {
       "en": "ORC-mkV Core Tan",
-      "tr": "mkV 胸甲 黄褐色"
+      "tr": "ORC-mkV 胸甲 黄褐色"
     },
     "ORC-mkV Core Dark Green": {
       "en": "ORC-mkV Core Dark Green",
-      "tr": "mkV 胸甲 深绿色"
+      "tr": "ORC-mkV 胸甲 深绿色"
     },
     "ORC-mkV Core Aqua": {
       "en": "ORC-mkV Core Aqua",
-      "tr": "mkV 胸甲 湖绿色"
+      "tr": "ORC-mkV 胸甲 湖绿色"
     },
     "ORC-mkV Core Twilight": {
       "en": "ORC-mkV Core Twilight",
-      "tr": "mkV 胸甲 暮光色"
+      "tr": "ORC-mkV 胸甲 暮光色"
     },
     "ORC-mkV Core Imperial": {
       "en": "ORC-mkV Core Imperial",
-      "tr": "mkV 胸甲 帝王紫"
+      "tr": "ORC-mkV 胸甲 帝王紫"
     },
     "ORC-mkV Core Desert": {
       "en": "ORC-mkV Core Desert",
-      "tr": "mkV 胸甲 沙漠色"
+      "tr": "ORC-mkV 胸甲 沙漠色"
     },
     "ORC-mkV Core Scorched": {
       "en": "ORC-mkV Core Scorched",
-      "tr": "mkV 胸甲 焦炎"
+      "tr": "ORC-mkV 胸甲 焦炎"
     },
     "ORC-mkV Core (Modified)": {
       "en": "ORC-mkV Core (Modified)",
-      "tr": "mkV 胸甲（改）"
+      "tr": "ORC-mkV 胸甲（改）"
     },
     "ORC-mkV Core Covalex Edition": {
       "en": "ORC-mkV Core Covalex Edition",
-      "tr": "mkV 胸甲 科瓦莱什版"
+      "tr": "ORC-mkV 胸甲 科瓦莱什版"
     },
     "ORC-mkV Core Cry-Astro Edition": {
       "en": "ORC-mkV Core Cry-Astro Edition",
-      "tr": "mkV 胸甲 寒宇版"
+      "tr": "ORC-mkV 胸甲 寒宇版"
     },
     "ORC-mkV Core Greycat Edition": {
       "en": "ORC-mkV Core Greycat Edition",
-      "tr": "mkV 胸甲 灰猫版"
+      "tr": "ORC-mkV 胸甲 灰猫版"
     },
     "ORC-mkV Core microTech Edition": {
       "en": "ORC-mkV Core microTech Edition",
-      "tr": "mkV 胸甲 微科版"
+      "tr": "ORC-mkV 胸甲 微科版"
     },
     "ORC-mkV Core Crusader Edition": {
       "en": "ORC-mkV Core Crusader Edition",
-      "tr": "mkV 胸甲 十字军版"
+      "tr": "ORC-mkV 胸甲 十字军版"
     },
     "G-2 Helmet Red": {
       "en": "G-2 Helmet Red",
-      "tr": "2 头盔 红色"
+      "tr": "G-2 头盔 红色"
     },
     "G-2 Helmet Orange": {
       "en": "G-2 Helmet Orange",
-      "tr": "2 头盔 橙色"
+      "tr": "G-2 头盔 橙色"
     },
     "G-2 Helmet Yellow": {
       "en": "G-2 Helmet Yellow",
-      "tr": "2 头盔 黄色"
+      "tr": "G-2 头盔 黄色"
     },
     "G-2 Helmet Green": {
       "en": "G-2 Helmet Green",
-      "tr": "2 头盔 绿色"
+      "tr": "G-2 头盔 绿色"
     },
     "G-2 Helmet Seagreen": {
       "en": "G-2 Helmet Seagreen",
-      "tr": "2 头盔 海绿色"
+      "tr": "G-2 头盔 海绿色"
     },
     "G-2 Helmet Blue": {
       "en": "G-2 Helmet Blue",
-      "tr": "2 头盔 蓝色"
+      "tr": "G-2 头盔 蓝色"
     },
     "G-2 Helmet Purple": {
       "en": "G-2 Helmet Purple",
-      "tr": "2 头盔 紫色"
+      "tr": "G-2 头盔 紫色"
     },
     "G-2 Helmet Violet": {
       "en": "G-2 Helmet Violet",
-      "tr": "2 头盔 紫罗兰"
+      "tr": "G-2 头盔 紫罗兰"
     },
     "G-2 Helmet White": {
       "en": "G-2 Helmet White",
-      "tr": "2 头盔 白色"
+      "tr": "G-2 头盔 白色"
     },
     "G-2 Helmet Grey": {
       "en": "G-2 Helmet Grey",
-      "tr": "2 头盔 灰色"
+      "tr": "G-2 头盔 灰色"
     },
     "G-2 Helmet Black": {
       "en": "G-2 Helmet Black",
-      "tr": "2 头盔 黑色"
+      "tr": "G-2 头盔 黑色"
     },
     "G-2 Helmet Dark Red": {
       "en": "G-2 Helmet Dark Red",
-      "tr": "2 头盔 暗红色"
+      "tr": "G-2 头盔 暗红色"
     },
     "G-2 Helmet Sienna": {
       "en": "G-2 Helmet Sienna",
-      "tr": "2 头盔 褐色"
+      "tr": "G-2 头盔 褐色"
     },
     "G-2 Helmet Tan": {
       "en": "G-2 Helmet Tan",
-      "tr": "2 头盔 黄褐色"
+      "tr": "G-2 头盔 黄褐色"
     },
     "G-2 Helmet Dark Green": {
       "en": "G-2 Helmet Dark Green",
-      "tr": "2 头盔 深绿色"
+      "tr": "G-2 头盔 深绿色"
     },
     "G-2 Helmet Aqua": {
       "en": "G-2 Helmet Aqua",
-      "tr": "2 头盔 湖绿色"
+      "tr": "G-2 头盔 湖绿色"
     },
     "G-2 Helmet Twilight": {
       "en": "G-2 Helmet Twilight",
-      "tr": "2 头盔 暮光色"
+      "tr": "G-2 头盔 暮光色"
     },
     "G-2 Helmet Imperial": {
       "en": "G-2 Helmet Imperial",
-      "tr": "2 头盔 帝王紫"
+      "tr": "G-2 头盔 帝王紫"
     },
     "G-2 Helmet Desert": {
       "en": "G-2 Helmet Desert",
-      "tr": "2 头盔 沙漠版"
+      "tr": "G-2 头盔 沙漠版"
     },
     "G-2 Helmet Covalex Edition": {
       "en": "G-2 Helmet Covalex Edition",
-      "tr": "2 头盔 科瓦莱什版"
+      "tr": "G-2 头盔 科瓦莱什版"
     },
     "G-2 Helmet Cry-Astro Edition": {
       "en": "G-2 Helmet Cry-Astro Edition",
-      "tr": "2 头盔 寒宇版"
+      "tr": "G-2 头盔 寒宇版"
     },
     "G-2 Helmet Greycat Edition": {
       "en": "G-2 Helmet Greycat Edition",
-      "tr": "2 头盔 灰猫版"
+      "tr": "G-2 头盔 灰猫版"
     },
     "G-2 Helmet Crusader Edition": {
       "en": "G-2 Helmet Crusader Edition",
-      "tr": "2 头盔 十字军版"
+      "tr": "G-2 头盔 十字军版"
     },
     "ORC-mkV Legs Red": {
       "en": "ORC-mkV Legs Red",
-      "tr": "mkV 腿甲 红色"
+      "tr": "ORC-mkV 腿甲 红色"
     },
     "ORC-mkV Legs Orange": {
       "en": "ORC-mkV Legs Orange",
-      "tr": "mkV 腿甲 橙色"
+      "tr": "ORC-mkV 腿甲 橙色"
     },
     "ORC-mkV Legs Yellow": {
       "en": "ORC-mkV Legs Yellow",
-      "tr": "mkV 腿甲 黄色"
+      "tr": "ORC-mkV 腿甲 黄色"
     },
     "ORC-mkV Legs Green": {
       "en": "ORC-mkV Legs Green",
-      "tr": "mkV 腿甲 绿色"
+      "tr": "ORC-mkV 腿甲 绿色"
     },
     "ORC-mkV Legs Seagreen": {
       "en": "ORC-mkV Legs Seagreen",
-      "tr": "mkV 腿甲 海绿色"
+      "tr": "ORC-mkV 腿甲 海绿色"
     },
     "ORC-mkV Legs Blue": {
       "en": "ORC-mkV Legs Blue",
-      "tr": "mkV 腿甲 蓝色"
+      "tr": "ORC-mkV 腿甲 蓝色"
     },
     "ORC-mkV Legs Purple": {
       "en": "ORC-mkV Legs Purple",
-      "tr": "mkV 腿甲 紫色"
+      "tr": "ORC-mkV 腿甲 紫色"
     },
     "ORC-mkV Legs Violet": {
       "en": "ORC-mkV Legs Violet",
-      "tr": "mkV 腿甲 紫罗兰"
+      "tr": "ORC-mkV 腿甲 紫罗兰"
     },
     "ORC-mkV Legs White": {
       "en": "ORC-mkV Legs White",
-      "tr": "mkV 腿甲 白色"
+      "tr": "ORC-mkV 腿甲 白色"
     },
     "ORC-mkV Legs Grey": {
       "en": "ORC-mkV Legs Grey",
-      "tr": "mkV 腿甲 灰色"
+      "tr": "ORC-mkV 腿甲 灰色"
     },
     "ORC-mkV Legs Black": {
       "en": "ORC-mkV Legs Black",
-      "tr": "mkV 腿甲 黑色"
+      "tr": "ORC-mkV 腿甲 黑色"
     },
     "ORC-mkV Legs Dark Red": {
       "en": "ORC-mkV Legs Dark Red",
-      "tr": "mkV 腿甲 暗红"
+      "tr": "ORC-mkV 腿甲 暗红"
     },
     "ORC-mkV Legs Sienna": {
       "en": "ORC-mkV Legs Sienna",
-      "tr": "mkV 腿甲 褐色"
+      "tr": "ORC-mkV 腿甲 褐色"
     },
     "ORC-mkV Legs Tan": {
       "en": "ORC-mkV Legs Tan",
-      "tr": "mkV 腿甲 黄褐色"
+      "tr": "ORC-mkV 腿甲 黄褐色"
     },
     "ORC-mkV Legs Dark Green": {
       "en": "ORC-mkV Legs Dark Green",
-      "tr": "mkV 腿甲 深绿色"
+      "tr": "ORC-mkV 腿甲 深绿色"
     },
     "ORC-mkV Legs Aqua": {
       "en": "ORC-mkV Legs Aqua",
-      "tr": "mkV 腿甲 湖绿色"
+      "tr": "ORC-mkV 腿甲 湖绿色"
     },
     "ORC-mkV Legs Twilight": {
       "en": "ORC-mkV Legs Twilight",
-      "tr": "mkV 腿甲 暮光色"
+      "tr": "ORC-mkV 腿甲 暮光色"
     },
     "ORC-mkV Legs Imperial": {
       "en": "ORC-mkV Legs Imperial",
-      "tr": "mkV 腿甲 帝王紫"
+      "tr": "ORC-mkV 腿甲 帝王紫"
     },
     "ORC-mkV Legs Desert": {
       "en": "ORC-mkV Legs Desert",
-      "tr": "mkV 腿甲 沙漠版"
+      "tr": "ORC-mkV 腿甲 沙漠版"
     },
     "ORC-mkV Legs Scorched": {
       "en": "ORC-mkV Legs Scorched",
-      "tr": "mkV 腿甲 焦炎"
+      "tr": "ORC-mkV 腿甲 焦炎"
     },
     "ORC-mkV Legs (Modified)": {
       "en": "ORC-mkV Legs (Modified)",
-      "tr": "mkV 腿甲（改）"
+      "tr": "ORC-mkV 腿甲（改）"
     },
     "ORC-mkV Legs Covalex Edition": {
       "en": "ORC-mkV Legs Covalex Edition",
-      "tr": "mkV 腿甲 科瓦莱什版"
+      "tr": "ORC-mkV 腿甲 科瓦莱什版"
     },
     "ORC-mkV Legs Cry-Astro Edition": {
       "en": "ORC-mkV Legs Cry-Astro Edition",
-      "tr": "mkV 腿甲 寒宇版"
+      "tr": "ORC-mkV 腿甲 寒宇版"
     },
     "ORC-mkV Legs Greycat Edition": {
       "en": "ORC-mkV Legs Greycat Edition",
-      "tr": "mkV 腿甲 灰猫版"
+      "tr": "ORC-mkV 腿甲 灰猫版"
     },
     "ORC-mkV Legs Crusader Edition": {
       "en": "ORC-mkV Legs Crusader Edition",
-      "tr": "mkV 腿甲 十字军版"
+      "tr": "ORC-mkV 腿甲 十字军版"
     },
     "Field Recon Suit Arms": {
       "en": "Field Recon Suit Arms",
@@ -16089,7 +16137,7 @@
     },
     "Arden-CL Backpack": {
       "en": "Arden-CL Backpack",
-      "tr": "CL 背包"
+      "tr": "阿尔登-CL 背包"
     },
     "Artimex Core Chairman's Club": {
       "en": "Artimex Core Chairman's Club",
@@ -16165,91 +16213,95 @@
     },
     "Morozov-CH Backpack": {
       "en": "Morozov-CH Backpack",
-      "tr": "CH 背包"
+      "tr": "莫罗佐夫-CH 背包"
     },
     "Morozov-SH Arms Terracotta": {
       "en": "Morozov-SH Arms Terracotta",
-      "tr": "SH 臂甲 赤陶"
+      "tr": "莫罗佐夫-SH 臂甲 赤陶"
     },
     "Morozov-SH Arms Aftershock": {
       "en": "Morozov-SH Arms Aftershock",
-      "tr": "SH 臂甲 余震"
+      "tr": "莫罗佐夫-SH 臂甲 余震"
     },
     "Morozov-SH Arms (Modified)": {
       "en": "Morozov-SH Arms (Modified)",
-      "tr": "SH 臂甲（改）"
+      "tr": "莫罗佐夫-SH 臂甲（改）"
     },
     "Morozov-SH Arms Snowdrift": {
       "en": "Morozov-SH Arms Snowdrift",
-      "tr": "SH 臂甲 雪地"
+      "tr": "莫罗佐夫-SH 臂甲 雪地"
     },
     "Morozov-SH Core Terracotta": {
       "en": "Morozov-SH Core Terracotta",
-      "tr": "SH 胸甲 赤陶"
+      "tr": "莫罗佐夫-SH 胸甲 赤陶"
     },
     "Morozov-SH Core Aftershock": {
       "en": "Morozov-SH Core Aftershock",
-      "tr": "SH 胸甲 余震"
+      "tr": "莫罗佐夫-SH 胸甲 余震"
     },
     "Morozov-SH Core (Modified)": {
       "en": "Morozov-SH Core (Modified)",
-      "tr": "SH 胸甲（改）"
+      "tr": "莫罗佐夫-SH 胸甲（改）"
     },
     "Morozov-SH Core Snowdrift": {
       "en": "Morozov-SH Core Snowdrift",
-      "tr": "SH 胸甲 雪地"
+      "tr": "莫罗佐夫-SH 胸甲 雪地"
     },
     "Morozov-SH Helmet Terracotta": {
       "en": "Morozov-SH Helmet Terracotta",
-      "tr": "SH 头盔 赤陶"
+      "tr": "莫罗佐夫-SH 头盔 赤陶"
     },
     "Morozov-SH Helmet Aftershock": {
       "en": "Morozov-SH Helmet Aftershock",
-      "tr": "SH 头盔 余震"
+      "tr": "莫罗佐夫-SH 头盔 余震"
     },
     "Morozov-SH Helmet Snowdrift": {
       "en": "Morozov-SH Helmet Snowdrift",
-      "tr": "SH 头盔 雪地"
+      "tr": "莫罗佐夫-SH 头盔 雪地"
     },
     "Morozov-SH Helmet Iceflow": {
       "en": "Morozov-SH Helmet Iceflow",
-      "tr": "SH 头盔 冰涌"
+      "tr": "莫罗佐夫-SH 头盔 冰涌"
+    },
+    "Morozov-SH Helmet Scorched-X": {
+      "en": "Morozov-SH Helmet Scorched-X",
+      "tr": "莫罗佐夫-SH 头盔 焦炎-X"
     },
     "Morozov-SH Legs Terracotta": {
       "en": "Morozov-SH Legs Terracotta",
-      "tr": "SH 腿甲 赤陶"
+      "tr": "莫罗佐夫-SH 腿甲 赤陶"
     },
     "Morozov-SH Legs Aftershock": {
       "en": "Morozov-SH Legs Aftershock",
-      "tr": "SH 腿甲 余震"
+      "tr": "莫罗佐夫-SH 腿甲 余震"
     },
     "Morozov-SH Legs (Modified)": {
       "en": "Morozov-SH Legs (Modified)",
-      "tr": "SH 腿甲（改）"
+      "tr": "莫罗佐夫-SH 腿甲（改）"
     },
     "Morozov-SH Legs Scorched": {
       "en": "Morozov-SH Legs Scorched",
-      "tr": "SH 腿甲 焦炎"
+      "tr": "莫罗佐夫-SH 腿甲 焦炎"
     },
     "Morozov-SH Legs Snowdrift": {
       "en": "Morozov-SH Legs Snowdrift",
-      "tr": "SH 腿甲 雪地"
+      "tr": "莫罗佐夫-SH 腿甲 雪地"
     },
     "MacFlex Arms": {
       "en": "MacFlex Arms",
-      "tr": "锈红协会"
+      "tr": "麦克福莱克斯 臂甲"
     },
     "MacFlex Core": {
       "en": "MacFlex Core",
-      "tr": "锈红协会"
+      "tr": "麦克福莱克斯 胸甲"
     },
     "MacFlex Legs": {
       "en": "MacFlex Legs",
-      "tr": "锈红协会"
+      "tr": "麦克福莱克斯 腿甲"
     },
     "Beacon Undersuit": {
       "en": "Beacon Undersuit",
-      "tr": "锈红协会"
+      "tr": "信标 基底服"
     },
     "Venture Helmet White": {
       "en": "Venture Helmet White",
@@ -16881,91 +16933,91 @@
     },
     "FS-9 \"Blacklist\" LMG": {
       "en": "FS-9 \"Blacklist\" LMG",
-      "tr": "9 “黑名单” 轻机枪"
+      "tr": "FS-9 “黑名单” 轻机枪"
     },
     "FS-9 \"Stoneface\" LMG": {
       "en": "FS-9 \"Stoneface\" LMG",
-      "tr": "9 “石面” 轻机枪"
+      "tr": "FS-9 “石面” 轻机枪"
     },
     "FS-9 \"Finish Line\" LMG": {
       "en": "FS-9 \"Finish Line\" LMG",
-      "tr": "9 “终点线” 轻机枪"
+      "tr": "FS-9 “终点线” 轻机枪"
     },
     "S-38 Pistol": {
       "en": "S-38 Pistol",
-      "tr": "38 手枪"
+      "tr": "S-38 手枪"
     },
     "S-38 \"Scorched\" Pistol": {
       "en": "S-38 \"Scorched\" Pistol",
-      "tr": "38 “焦炎” 手枪"
+      "tr": "S-38 “焦炎” 手枪"
     },
     "S-38 Magazine (20 cap)": {
       "en": "S-38 Magazine (20 cap)",
-      "tr": "38 弹匣 (20 发"
+      "tr": "S-38 弹匣 (20 发"
     },
     "S-38 \"SecondWind\" Pistol": {
       "en": "S-38 \"SecondWind\" Pistol",
-      "tr": "38 “回生之息” 手枪"
+      "tr": "S-38 “回生之息” 手枪"
     },
     "P4-AR Rifle": {
       "en": "P4-AR Rifle",
-      "tr": "AR 步枪"
+      "tr": "P4-AR 步枪"
     },
     "P4-AR \"Nightstalker\" Rifle": {
       "en": "P4-AR \"Nightstalker\" Rifle",
-      "tr": "AR “夜行者迷彩” 步枪"
+      "tr": "P4-AR “夜行者迷彩” 步枪"
     },
     "P4-AR \"Warhawk\" Rifle": {
       "en": "P4-AR \"Warhawk\" Rifle",
-      "tr": "AR “战鹰迷彩” 步枪"
+      "tr": "P4-AR “战鹰迷彩” 步枪"
     },
     "P4-AR Magazine (40 cap)": {
       "en": "P4-AR Magazine (40 cap)",
-      "tr": "AR 弹匣 (40 发"
+      "tr": "P4-AR 弹匣 (40 发"
     },
     "P4-AR \"SecondWind\" Rifle": {
       "en": "P4-AR \"SecondWind\" Rifle",
-      "tr": "AR “回生之息” 步枪"
+      "tr": "P4-AR “回生之息” 步枪"
     },
     "P4-AR \"Desert Shadow\" Rifle": {
       "en": "P4-AR \"Desert Shadow\" Rifle",
-      "tr": "AR “沙漠之影” 步枪"
+      "tr": "P4-AR “沙漠之影” 步枪"
     },
     "P4-AR \"Blacklist\" Rifle": {
       "en": "P4-AR \"Blacklist\" Rifle",
-      "tr": "AR “黑名单” 步枪"
+      "tr": "P4-AR “黑名单” 步枪"
     },
     "BR-2 \"Permafrost\" Shotgun": {
       "en": "BR-2 \"Permafrost\" Shotgun",
-      "tr": "2 “永久冻土” 霰弹枪"
+      "tr": "BR-2 “永久冻土” 霰弹枪"
     },
     "BR-2 \"Purgatory Camo\" Shotgun": {
       "en": "BR-2 \"Purgatory Camo\" Shotgun",
-      "tr": "2 “炼狱迷彩” 霰弹枪"
+      "tr": "BR-2 “炼狱迷彩” 霰弹枪"
     },
     "P8-SC \"Desert Shadow\" SMG": {
       "en": "P8-SC \"Desert Shadow\" SMG",
-      "tr": "SC “沙漠之影” 冲锋枪"
+      "tr": "P8-SC “沙漠之影” 冲锋枪"
     },
     "P8-SC \"Stormfall\" SMG": {
       "en": "P8-SC \"Stormfall\" SMG",
-      "tr": "SC “风暴迷彩” 冲锋枪"
+      "tr": "P8-SC “风暴迷彩” 冲锋枪"
     },
     "P8-SC \"Boneyard\" SMG": {
       "en": "P8-SC \"Boneyard\" SMG",
-      "tr": "SC “骸骨迷彩” 冲锋枪"
+      "tr": "P8-SC “骸骨迷彩” 冲锋枪"
     },
     "P6-LR \"Rime\" Sniper Rifle": {
       "en": "P6-LR \"Rime\" Sniper Rifle",
-      "tr": "LR “白霜” 狙击步枪"
+      "tr": "P6-LR “白霜” 狙击步枪"
     },
     "P6-LR \"Archangel\" Sniper Rifle": {
       "en": "P6-LR \"Archangel\" Sniper Rifle",
-      "tr": "LR “大天使” 狙击步枪"
+      "tr": "P6-LR “大天使” 狙击步枪"
     },
     "P6-LR \"Blacklist\" Sniper Rifle": {
       "en": "P6-LR \"Blacklist\" Sniper Rifle",
-      "tr": "LR “黑名单” 狙击步枪"
+      "tr": "P6-LR “黑名单” 狙击步枪"
     },
     "F55 LMG": {
       "en": "F55 LMG",
@@ -17165,7 +17217,7 @@
     },
     "Ravager-212 \"Outcast\" Twin Shotgun": {
       "en": "Ravager-212 \"Outcast\" Twin Shotgun",
-      "tr": "212 “逐亡者” 双管霰弹枪"
+      "tr": "劫掠者-212 “逐亡者” 双管霰弹枪"
     },
     "Devastator \"Nightstalker\" Shotgun": {
       "en": "Devastator \"Nightstalker\" Shotgun",
@@ -17273,15 +17325,15 @@
     },
     "Khaos": {
       "en": "Khaos",
-      "tr": "混沌"
+      "tr": "混沌 [量子 S2 民用 C]"
     },
     "Wayfare": {
       "en": "Wayfare",
-      "tr": "旅行"
+      "tr": "旅行 [量子 S1 民用 D]"
     },
     "Quest": {
       "en": "Quest",
-      "tr": "追逐"
+      "tr": "追逐 [量子 S2 民用 D]"
     },
     "Jaclium": {
       "en": "Jaclium",
