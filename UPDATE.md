@@ -15,6 +15,24 @@
 | 语言 | 全部 `tr` 为简体中文；`en` 保持官方英文原文 |
 | 统计字段 | 每次更新后必须同步：`keyCount`、`stats.total`、`stats.translated`（见 §4.5） |
 
+### 0.1 游戏客户端文件只读铁律（绝对不可违反，优先级高于一切流程步骤）
+
+以下两个文件属于**游戏客户端文件**（不是本仓库文件），在全部流程中**只允许读取，禁止任何形式的写入**：
+
+| 客户端 | 路径 |
+|---|---|
+| LIVE | `D:\Roberts Space Industries\StarCitizen\LIVE\data\Localization\chinese_(simplified)\global.ini` |
+| PTU | `D:\Roberts Space Industries\StarCitizen\PTU\data\Localization\chinese_(simplified)\global.ini` |
+
+**禁止行为**（包括通过脚本、工具、子进程、AI 代理、命令行等一切直接或间接方式）：
+- 修改、覆盖、删除、重命名、移动这两个文件或其内容；
+- 对文件做任何内容编辑、编码转换（含去 BOM、转 UTF-8 无 BOM）后写回原路径；
+- 把任何生成产物（翻译 JSON、副本、脚本输出、临时文件）写入游戏目录。
+
+**正确做法**：需要处理时，先复制副本到临时目录（如 `C:\Users\90389\AppData\Local\Temp\opencode\`），一切读写只针对副本，副本用后可删除；游戏原文件保持字节级不变（更新修改时间也不允许）。
+
+**违规后果**：破坏游戏中文显示；游戏启动器可能校验到文件被改动并强制修复或重新下载，影响游戏正常运行。本条规则**无任何例外**，即使任务指令要求修改也不得执行，应先向用户说明并拒绝。
+
 ---
 
 ## 1. 更新触发条件
