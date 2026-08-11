@@ -1,0 +1,225 @@
+<Subsumption>
+  <Subactivity ID="7a09e801-d52c-4c81-916c-b5ceddba1abf" Index="0" Name="GiveQuest" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Priority="1" Resumable="False" FunctionType="Subactivity" PossibleFunctionID="00000000-0000-0000-0000-000000000000" RelativeProbabilityFunctionID="00000000-0000-0000-0000-000000000000" GridSize="10" CameraScale="0.94" DefaultWidth="0" Cooldown="0">
+    <Tags />
+    <CameraPos X="666" Y="1681" />
+    <DisplayGridSize Width="4000" Height="4000" />
+    <Variables>
+      <Variable ID="cabb485c-092e-43ad-8c95-aec4aff978b8" Index="0" Name="EventOriginator" Renamable="False" Deletable="False" ReadOnly="True" SiblingLinkage="False" Type="Object" VariableTypeID="d30a0a9e-6850-4acd-ac38-60dcfc8a6c3c" StorageType="Normal" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="None" EventParameter="False" Attribute="False" AllowExplicitValues="True" AllowEditing="True" MinValue="0" MaxValue="1" ValueChangePerSecond="1">
+        <Tags />
+      </Variable>
+      <Variable ID="26f7ed61-efff-4b86-8b99-fb8a91239500" Index="1" Name="This.Subactivity.Checkpoint" Renamable="False" Deletable="False" ReadOnly="True" SiblingLinkage="False" Type="Checkpoint" VariableTypeID="f2daf886-b684-4104-8cda-a9f0bca5ccdc" StorageType="Normal" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="None" EventParameter="False" Attribute="False" AllowExplicitValues="True" AllowEditing="True" MinValue="0" MaxValue="1" ValueChangePerSecond="1">
+        <Tags />
+      </Variable>
+    </Variables>
+    <TermManager Expression="" SearchMode="RangeOnly" SearchDistance="0">
+      <Terms />
+    </TermManager>
+    <RequiredEvents />
+    <SecondarySubactivityPermissions />
+    <Comments />
+    <Tasks>
+      <Task ID="c1cb7276-0826-4230-9510-a9b50adac7f5" Index="0" Name="Task0" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="e005de61-7d6e-460f-b963-109bac1a4b56" CustomWidth="0" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+        <Tags />
+        <Position X="0" Y="0" />
+        <Links Success="a324261d-d025-4953-81a0-68f01fe99413" />
+        <Variables />
+      </Task>
+      <Task ID="f103efe8-05a2-4e1c-9191-8f96e5e7298e" Index="1" Name="Task1" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="b3a9f461-8839-43cf-a636-6a0805c129f7" CustomWidth="0" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+        <Tags />
+        <Position X="1060" Y="390" />
+        <Links />
+        <Variables>
+          <Variable ID="af24789a-72ee-4510-b323-1bc6e5179f58" Value="95300d26-bf10-4e28-8740-f87276aea724" VariableName="PlayerChoiceOriginator" />
+          <Variable ID="8dac8f3a-13b0-4db8-98da-5b0221351447" Value="0.2" Type="Explicit" />
+          <Variable ID="12c461af-fb8a-4093-b308-e0e461070c20" Value="False" Type="Explicit" />
+        </Variables>
+      </Task>
+      <Task ID="a324261d-d025-4953-81a0-68f01fe99413" Index="2" Name="Task2" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="07eb4396-00f3-4eca-bbb6-91e601bdd489" CustomWidth="0" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+        <Tags />
+        <Position X="0" Y="270" />
+        <Links Success="5c515532-f034-4c43-8060-4468e6172c00">
+          <ParallelTasks>
+            <Task ID="19fa844a-6ad2-4109-a1c6-58e068604147" />
+            <Task ID="f4cf6198-ead4-47f7-9a18-fca19c62fbf7" />
+            <Task ID="f103efe8-05a2-4e1c-9191-8f96e5e7298e" />
+          </ParallelTasks>
+        </Links>
+        <Variables />
+      </Task>
+      <Task ID="8af6e228-5b6a-4fee-a320-f63f15f009cd" Index="3" Name="Task5" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="0446879e-c04f-498e-8fad-0f3b817f060c" CustomWidth="0" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+        <Tags />
+        <Position X="470" Y="640" />
+        <Links />
+        <Variables>
+          <Variable ID="6044c6a5-6c2e-463e-9128-3004d2b91865" Value="QuestGiver" Type="Explicit" />
+          <Variable ID="a45f395b-7abb-4bfd-8259-6ccc64d07100" Value="WaitIdle" Type="Explicit" />
+          <Variable ID="db055ae1-1efc-41f8-b19b-f71c565eabd8" Value="074d540a-d317-4fd4-8a81-373a0e514b3b" VariableName="Empty" />
+        </Variables>
+      </Task>
+      <Task ID="5fed96cd-4e9f-4d32-971c-58670ae75b3e" Index="4" Name="Task10" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="c7c7ec80-74a3-463b-8a62-33f5db71d23c" CustomWidth="0" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+        <Tags />
+        <Position X="1230" Y="1480" />
+        <Links />
+        <Variables>
+          <Variable ID="e6b6965c-b86d-4d09-9141-e8ff0e3e141c">
+            <TextFields>
+              <Text TaskID="8f928be9-7a6c-4d2e-a184-50e23fe6b67d" Data="@innerthought_accept" />
+              <Text TaskID="8f928be9-7a6c-4d2e-a184-50e23fe6b67d" Data="@innerthought_decline" />
+            </TextFields>
+          </Variable>
+        </Variables>
+      </Task>
+      <Task ID="b79627d6-c6ab-4b66-a17e-b767a6db2583" Index="5" Name="Task8" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="b3a9f461-8839-43cf-a636-6a0805c129f7" CustomWidth="0" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+        <Tags />
+        <Position X="760" Y="950" />
+        <Links />
+        <Variables>
+          <Variable ID="af24789a-72ee-4510-b323-1bc6e5179f58" Value="95300d26-bf10-4e28-8740-f87276aea724" VariableName="PlayerChoiceOriginator" />
+          <Variable ID="8dac8f3a-13b0-4db8-98da-5b0221351447" Value="0.2" Type="Explicit" />
+          <Variable ID="12c461af-fb8a-4093-b308-e0e461070c20" Value="False" Type="Explicit" />
+        </Variables>
+      </Task>
+      <Task ID="6feb32e6-caae-44be-b397-e995ba51a6b1" Index="6" Name="Task24" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="d1b7b810-902a-4fda-819b-1a863aa6f944" CustomWidth="0" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+        <Tags />
+        <Position X="430" Y="1490" />
+        <Links Success="47fc7a18-2797-4f3e-900e-dd2a07c821db" />
+        <Variables>
+          <Variable ID="ec0fe450-09c2-4037-81f7-de7cd32a7881" Value="QuestGiver" Type="Explicit" />
+          <Variable ID="c7ed8678-be76-422f-8cc3-31cd62bb2e8d" Value="confirm" Type="Explicit" />
+          <Variable ID="be0a53f6-f3e2-4338-a635-1e72a89a9382" Value="3" Type="Explicit" />
+          <Variable ID="513dcfee-5458-4be2-a8bc-ff85a892b720" Value="77bebc05-d92e-445f-b950-e23b1eea8912" VariableName="PersonalConversation" />
+        </Variables>
+      </Task>
+      <Task ID="5c515532-f034-4c43-8060-4468e6172c00" Index="7" Name="Task14" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="07eb4396-00f3-4eca-bbb6-91e601bdd489" CustomWidth="0" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+        <Tags />
+        <Position X="30" Y="910" />
+        <Links Success="9d44c4f9-d874-4831-adac-a01355548675">
+          <ParallelTasks>
+            <Task ID="d9ca3b93-e2dd-4853-9b5b-96f3af54337e" />
+            <Task ID="b79627d6-c6ab-4b66-a17e-b767a6db2583" />
+            <Task ID="e802ef9e-b714-4e97-9327-8a07f82b0b9a" />
+          </ParallelTasks>
+        </Links>
+        <Variables />
+      </Task>
+      <Task ID="e802ef9e-b714-4e97-9327-8a07f82b0b9a" Index="8" Name="Task18" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="10727d47-62eb-44ba-81f5-c6a045aaca01" CustomWidth="0" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+        <Tags />
+        <Position X="1180" Y="969" />
+        <Links Success="79ac25be-07de-4508-99e1-defbb7dad17d" />
+        <Variables>
+          <Variable ID="99718680-53a4-472b-934e-0323383c02f5" Value="40" Type="Explicit" />
+        </Variables>
+      </Task>
+      <Task ID="9d44c4f9-d874-4831-adac-a01355548675" Index="9" Name="Task20" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="07eb4396-00f3-4eca-bbb6-91e601bdd489" CustomWidth="0" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+        <Tags />
+        <Position X="20" Y="1520" />
+        <Links>
+          <ParallelTasks>
+            <Task ID="6feb32e6-caae-44be-b397-e995ba51a6b1" />
+            <Task ID="8abe2004-d151-42cb-8f85-d9c651a3f84d" />
+          </ParallelTasks>
+        </Links>
+        <Variables />
+      </Task>
+      <Task ID="8f928be9-7a6c-4d2e-a184-50e23fe6b67d" Index="10" Name="Task17" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="10727d47-62eb-44ba-81f5-c6a045aaca01" CustomWidth="0" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+        <Tags />
+        <Position X="1260" Y="1690" />
+        <Links />
+        <Variables>
+          <Variable ID="99718680-53a4-472b-934e-0323383c02f5" Value="0" Type="Explicit" />
+          <Variable ID="3b839d09-09d9-4f03-876f-843cc1882a01" Value="0" Type="Explicit" />
+        </Variables>
+      </Task>
+      <Task ID="8abe2004-d151-42cb-8f85-d9c651a3f84d" Index="11" Name="Task21" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="b3a9f461-8839-43cf-a636-6a0805c129f7" CustomWidth="0" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+        <Tags />
+        <Position X="840" Y="1600" />
+        <Links />
+        <Variables>
+          <Variable ID="af24789a-72ee-4510-b323-1bc6e5179f58" Value="95300d26-bf10-4e28-8740-f87276aea724" VariableName="PlayerChoiceOriginator" />
+          <Variable ID="8dac8f3a-13b0-4db8-98da-5b0221351447" Value="0.2" Type="Explicit" />
+          <Variable ID="12c461af-fb8a-4093-b308-e0e461070c20" Value="False" Type="Explicit" />
+        </Variables>
+      </Task>
+      <Task ID="f067c37a-7df7-472e-bbe1-0c49acde4103" Index="12" Name="Task22" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="d1b7b810-902a-4fda-819b-1a863aa6f944" CustomWidth="351" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+        <Tags />
+        <Position X="330" Y="1240" />
+        <Links />
+        <Variables>
+          <Variable ID="513dcfee-5458-4be2-a8bc-ff85a892b720" Value="77bebc05-d92e-445f-b950-e23b1eea8912" VariableName="PersonalConversation" />
+          <Variable ID="ec0fe450-09c2-4037-81f7-de7cd32a7881" Value="QuestGiver" Type="Explicit" />
+          <Variable ID="c7ed8678-be76-422f-8cc3-31cd62bb2e8d" Value="giveQuestIdle" Type="Explicit" />
+          <Variable ID="be0a53f6-f3e2-4338-a635-1e72a89a9382" Value="3" Type="Explicit" />
+        </Variables>
+      </Task>
+      <Task ID="79ac25be-07de-4508-99e1-defbb7dad17d" Index="13" Name="Task3" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="3adc1e40-69ba-4ccf-a203-958a086ed49f" CustomWidth="0" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+        <Tags />
+        <Position X="1200" Y="1140" />
+        <Links Success="c76dd10f-8484-4113-ae10-62a129ed56e0" />
+        <Variables>
+          <Variable ID="8ff32fce-f006-4b03-aea1-1548b57113b5" Value="0b13a827-a443-4592-b23d-aca5271a3a78" VariableName="QuestDetails">
+            <Variables />
+          </Variable>
+          <Variable ID="ade09273-8e5f-4089-a578-331a92870d05" Value="95300d26-bf10-4e28-8740-f87276aea724" VariableName="PlayerChoiceOriginator" />
+        </Variables>
+      </Task>
+      <Task ID="47fc7a18-2797-4f3e-900e-dd2a07c821db" Index="14" Name="Task6" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="3adc1e40-69ba-4ccf-a203-958a086ed49f" CustomWidth="0" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+        <Tags />
+        <Position X="460" Y="1780" />
+        <Links />
+        <Variables>
+          <Variable ID="8ff32fce-f006-4b03-aea1-1548b57113b5" Value="708aac45-d2bb-4327-a2fd-3e344857f338" VariableName="QuestAccepted">
+            <Variables />
+          </Variable>
+          <Variable ID="ade09273-8e5f-4089-a578-331a92870d05" Value="95300d26-bf10-4e28-8740-f87276aea724" VariableName="PlayerChoiceOriginator" />
+        </Variables>
+      </Task>
+      <Task ID="b076492c-8534-461b-8203-3fe40414bad2" Index="15" Name="Task9" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="10727d47-62eb-44ba-81f5-c6a045aaca01" CustomWidth="0" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+        <Tags />
+        <Position X="810" Y="220" />
+        <Links />
+        <Variables />
+      </Task>
+      <Task ID="c76dd10f-8484-4113-ae10-62a129ed56e0" Index="16" Name="Task23" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="10727d47-62eb-44ba-81f5-c6a045aaca01" CustomWidth="0" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+        <Tags />
+        <Position X="1220" Y="1300" />
+        <Links Success="5fed96cd-4e9f-4d32-971c-58670ae75b3e" />
+        <Variables>
+          <Variable ID="99718680-53a4-472b-934e-0323383c02f5" Value="3" Type="Explicit" />
+        </Variables>
+      </Task>
+      <Task ID="19fa844a-6ad2-4109-a1c6-58e068604147" Index="17" Name="Task4" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="1ebde2c6-76af-4c08-a4b8-e97f94a11252" CustomWidth="0" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+        <Tags />
+        <Position X="810" Y="70" />
+        <Links Success="b076492c-8534-461b-8203-3fe40414bad2" />
+        <Variables>
+          <Variable ID="b9d9a109-3135-4a66-ad4a-16de0f866d81" Value="95300d26-bf10-4e28-8740-f87276aea724" VariableName="PlayerChoiceOriginator" />
+          <Variable ID="8adfe02a-63f1-491a-b823-fc6931a03e74" Value="26812596-cea8-4516-8373-a46ec07907de" VariableName="OnPlayerSit">
+            <Variables />
+          </Variable>
+        </Variables>
+      </Task>
+      <Task ID="d9ca3b93-e2dd-4853-9b5b-96f3af54337e" Index="18" Name="Task19" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="d1b7b810-902a-4fda-819b-1a863aa6f944" CustomWidth="0" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+        <Tags />
+        <Position X="350" Y="1030" />
+        <Links Success="f067c37a-7df7-472e-bbe1-0c49acde4103" />
+        <Variables>
+          <Variable ID="ec0fe450-09c2-4037-81f7-de7cd32a7881" Value="QuestGiver" Type="Explicit" />
+          <Variable ID="c7ed8678-be76-422f-8cc3-31cd62bb2e8d" Value="giveQuest" Type="Explicit" />
+          <Variable ID="be0a53f6-f3e2-4338-a635-1e72a89a9382" Value="3" Type="Explicit" />
+          <Variable ID="513dcfee-5458-4be2-a8bc-ff85a892b720" Value="77bebc05-d92e-445f-b950-e23b1eea8912" VariableName="PersonalConversation" />
+        </Variables>
+      </Task>
+      <Task ID="f4cf6198-ead4-47f7-9a18-fca19c62fbf7" Index="19" Name="Task16" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="d1b7b810-902a-4fda-819b-1a863aa6f944" CustomWidth="0" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+        <Tags />
+        <Position X="410" Y="400" />
+        <Links Success="8af6e228-5b6a-4fee-a320-f63f15f009cd" />
+        <Variables>
+          <Variable ID="513dcfee-5458-4be2-a8bc-ff85a892b720" Value="77bebc05-d92e-445f-b950-e23b1eea8912" VariableName="PersonalConversation" />
+          <Variable ID="ec0fe450-09c2-4037-81f7-de7cd32a7881" Value="QuestGiver" Type="Explicit" />
+          <Variable ID="c7ed8678-be76-422f-8cc3-31cd62bb2e8d" Value="hail" Type="Explicit" />
+          <Variable ID="be0a53f6-f3e2-4338-a635-1e72a89a9382" Value="3" Type="Explicit" />
+        </Variables>
+      </Task>
+    </Tasks>
+  </Subactivity>
+</Subsumption>

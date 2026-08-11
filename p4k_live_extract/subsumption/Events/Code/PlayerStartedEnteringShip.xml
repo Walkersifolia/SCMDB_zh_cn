@@ -1,0 +1,6 @@
+<Subsumption>
+  <Event ID="81089924-a638-47eb-a24a-52af3f9a4dcc" Index="126" Name="PlayerStartedEnteringShip" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" LastModSaveTime="11/29/2017 7:56:48" PropagationType="Direct" MaxRespondents="0" Volume="0" Range="0" RequiresVisual="False">
+    <Tags />
+    <Variables />
+  </Event>
+</Subsumption>

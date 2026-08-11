@@ -1,0 +1,10 @@
+<Subsumption>
+  <Event ID="77cec77c-5793-4baa-a817-aaa598a7b37f" Index="140" Name="OnMissileHitByMe" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" LastModSaveTime="12/14/2017 18:36:50" PropagationType="Direct" MaxRespondents="0" Volume="0" Range="0" RequiresVisual="False">
+    <Tags />
+    <Variables>
+      <Variable ID="43aba260-326e-435a-9690-84025e0f2b83" Index="0" Name="TargetHit" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" LastModSaveTime="12/14/2017 18:36:50" Type="Object" VariableTypeID="d30a0a9e-6850-4acd-ac38-60dcfc8a6c3c" StorageType="Normal" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="Input" EventParameter="True" Attribute="False" AllowExplicitValues="True" AllowEditing="True" MinValue="0" MaxValue="1" ValueChangePerSecond="0.001">
+        <Tags />
+      </Variable>
+    </Variables>
+  </Event>
+</Subsumption>

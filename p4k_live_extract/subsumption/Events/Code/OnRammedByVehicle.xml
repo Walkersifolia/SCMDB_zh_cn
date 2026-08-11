@@ -1,0 +1,10 @@
+<Subsumption>
+  <Event ID="197b40d6-6463-4668-bc7a-0c280aebcf05" Index="165" Name="OnRammedByVehicle" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" LastModSaveTime="3/14/2018 16:31:37" PropagationType="Direct" MaxRespondents="0" Volume="0" Range="0" RequiresVisual="False">
+    <Tags />
+    <Variables>
+      <Variable ID="92efb674-2963-4241-a92d-6906ff6bcb59" Index="0" Name="ColliderFaction" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" LastModSaveTime="3/14/2018 16:31:37" Type="Integer" VariableTypeID="2ce37f4c-9f6c-4d79-9d33-9a3bb73b6743" StorageType="Normal" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="Input" EventParameter="True" Attribute="False" AllowExplicitValues="True" AllowEditing="True" MinValue="0" MaxValue="1" ValueChangePerSecond="0.001">
+        <Tags />
+      </Variable>
+    </Variables>
+  </Event>
+</Subsumption>

@@ -1,0 +1,10 @@
+<Subsumption>
+  <Event ID="0be995a7-ecd5-40f5-84f6-c625c4adf3e0" Index="166" Name="OnEnteredGreetingRange" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" PropagationType="Direct" MaxRespondents="0" Volume="0" Range="0" RequiresVisual="False">
+    <Tags />
+    <Variables>
+      <Variable ID="c8f6a021-45db-435d-ac75-afc11029e5b6" Index="0" Name="Ship" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Type="Object" VariableTypeID="d30a0a9e-6850-4acd-ac38-60dcfc8a6c3c" StorageType="Normal" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="Input" EventParameter="True" Attribute="False" AllowExplicitValues="True" AllowEditing="True" MinValue="0" MaxValue="1" ValueChangePerSecond="0.001">
+        <Tags />
+      </Variable>
+    </Variables>
+  </Event>
+</Subsumption>

@@ -1,0 +1,6 @@
+<Subsumption>
+  <Event ID="7a6483f0-43c7-485a-b794-522a2fc28b44" Index="78" Name="OnPatrolPointReached" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" LastModSaveTime="11/27/2017 15:14:7" PropagationType="Direct" MaxRespondents="0" Volume="0" Range="0" RequiresVisual="False">
+    <Tags />
+    <Variables />
+  </Event>
+</Subsumption>

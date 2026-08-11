@@ -58,7 +58,49 @@
 
 > 版本号获取：主站当前数据版本见 `https://scmdb.net/data/game-versions.json`，或从现有翻译文件 `version` 字段（LIVE 用 live 版、PTU 用 ptu 版）。
 
-**⚠️ 网络注意**：本机 curl 访问部分站点（scmdb.net、raw.githubusercontent.com）可能因 Windows 证书吊销检查失败（`schannel 0x80092013`），务必加 `--ssl-no-revoke` 参数。
+> 网络注意：本机 curl 访问部分站点（scmdb.net、raw.githubusercontent.com）可能因 Windows 证书吊销检查失败（`schannel 0x80092013`），务必加 `--ssl-no-revoke` 参数。
+
+### 2.1 StarBreaker 工具（p4k / DataCore 解包）
+
+用于从游戏 `Data.p4k` 中解包任务、DataCore 数据等，排查任务定义、奖励、接取条件等游戏内原始数据。
+
+| 项 | 位置 |
+|---|---|
+| StarBreaker GUI（完整版，可浏览/导出模型、音频等） | `D:\StarBreaker\starbreaker-app.exe`（安装目录 `D:\StarBreaker\`，输出默认到 `D:\StarBreaker\Output\`） |
+| StarBreaker CLI（v0.3.2，命令行，与 GUI 共存互不影响） | `D:\StarBreaker\cli\starbreaker.exe` |
+| CLI 下载地址（GitHub releases） | `https://github.com/diogotr7/StarBreaker/releases`（`starbreaker-cli-v0.3.2-windows-x86_64.zip`，解压即用） |
+| 游戏 p4k 文件（LIVE） | `D:\Roberts Space Industries\StarCitizen\LIVE\Data.p4k` |
+| 游戏 p4k 文件（PTU） | `D:\Roberts Space Industries\StarCitizen\PTU\Data.p4k` |
+
+**常用 CLI 命令**（全部只读 p4k，不写游戏目录）：
+
+```powershell
+# 列出 p4k 中匹配路径的文件
+& "D:\StarBreaker\cli\starbreaker.exe" p4k list --p4k "D:\Roberts Space Industries\StarCitizen\LIVE\Data.p4k" --filter "Data/Libs/Subsumption/**"
+
+# 解包并转码 CryXML 为可读 XML（-o 输出目录，输出保留 p4k 内部目录结构）
+& "D:\StarBreaker\cli\starbreaker.exe" p4k extract --p4k "D:\Roberts Space Industries\StarCitizen\LIVE\Data.p4k" -o <输出目录> --filter "Data/Libs/Subsumption/Events/**" --convert cryxml
+
+# 查询 DataCore（Game2.dcb）记录，如任务生成器 ContractGenerator
+& "D:\StarBreaker\cli\starbreaker.exe" dcb query --p4k "D:\Roberts Space Industries\StarCitizen\LIVE\Data.p4k" --filter "*Hockrow*" "ContractGenerator"
+
+# 导出 DataCore 记录到文件（--format json/xml）
+& "D:\StarBreaker\cli\starbreaker.exe" dcb extract --p4k "D:\Roberts Space Industries\StarCitizen\LIVE\Data.p4k" -o <输出目录> --format json --filter "*FacilityDelve*"
+```
+
+> 注意：`dcb query` 输出到 stderr 的提示行（如 `N record(s) matched.`）混在 stdout 里，用 Python/Node 解析时需从第一个 `{` 开始找 JSON 块；PowerShell 直接重定向会混入错误行。
+
+### 2.2 本机 p4k 解包数据缓存（随仓库分发）
+
+**项目根目录 `p4k_live_extract/`** 保存 4.9.0-live 的常用解包数据，随仓库分发，供后续分析复用（游戏数据版权归 Cloud Imperium Games 所有）：
+
+| 子目录 | 内容 | 来源 |
+|---|---|---|
+| `subsumption/` | `Data\Libs\Subsumption\` 全部 4143 个 XML（已转码 CryXML）：Events/Activities/Missions/Platforms/Roles | `starbreaker p4k extract --convert cryxml` |
+| `datacore/` | DataCore 导出 JSON：`ContractGenerator.HockrowAgency_FacilityDelve.json`（任务链全部合同定义）、`ContractTemplate.Phase3-MainMission.json`（Phase3 模板）、`TagDatabase.json`（tag GUID→名称映射） | `starbreaker dcb query --format json` |
+| `scmdb/` | SCMDB 主站数据快照 `merged-<版本>.json`（contracts/locationPools/blueprintPools 等，与网站同步） | `https://scmdb.net/data/merged-<版本>.json` |
+
+> 定位任务定义的方法（踩坑记录）：任务模板不在文件名含 `Mission` 的 XML 里，而是在 **DataCore（Game2.dcb）的 `ContractGenerator` 记录**中（如 `ContractGenerator.HockrowAgency_FacilityDelve`），通过 `starbreaker dcb query` 查询；任务行为逻辑在 `Data\Libs\Subsumption\` 的 XML 中。任务 loc key（如 `@Hockrow_FacilityDelve_P3M1_title`）由合同模板 `ContractTemplate.*` 的 `contractDisplayInfo.displayString` 引用。
 
 ---
 

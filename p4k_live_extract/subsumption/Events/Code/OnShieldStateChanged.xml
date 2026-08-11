@@ -1,0 +1,16 @@
+<Subsumption>
+  <Event ID="052fa109-de9c-4f10-b063-a91cc7d6d9cd" Index="94" Name="OnShieldStateChanged" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" LastModSaveTime="12/15/2017 16:10:22" PropagationType="Direct" MaxRespondents="0" Volume="0" Range="0" RequiresVisual="False">
+    <Tags />
+    <Variables>
+      <Variable ID="4c669871-03fe-4a3c-89a4-7cb2f3c143e7" Index="0" Name="ShieldFaceId" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" LastModSaveTime="12/14/2017 14:33:31" Type="Integer" VariableTypeID="2ce37f4c-9f6c-4d79-9d33-9a3bb73b6743" StorageType="Normal" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="Input" EventParameter="True" Attribute="False" AllowExplicitValues="True" AllowEditing="True" MinValue="0" MaxValue="1" ValueChangePerSecond="0.001">
+        <Tags />
+      </Variable>
+      <Variable ID="5007995b-3bd1-440c-978a-65f435c7f53d" Index="1" Name="ShieldOldState" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" LastModSaveTime="12/15/2017 16:10:22" Type="Integer" VariableTypeID="2ce37f4c-9f6c-4d79-9d33-9a3bb73b6743" StorageType="Normal" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="Input" EventParameter="True" Attribute="False" AllowExplicitValues="True" AllowEditing="True" MinValue="0" MaxValue="1" ValueChangePerSecond="0.001">
+        <Tags />
+      </Variable>
+      <Variable ID="bdc50fa4-01b5-4949-9a3b-d7ee364dfc72" Index="2" Name="ShieldNewState" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" LastModSaveTime="12/15/2017 16:10:22" Type="Integer" VariableTypeID="2ce37f4c-9f6c-4d79-9d33-9a3bb73b6743" StorageType="Normal" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="Input" EventParameter="True" Attribute="False" AllowExplicitValues="True" AllowEditing="True" MinValue="0" MaxValue="1" ValueChangePerSecond="0.001">
+        <Tags />
+      </Variable>
+    </Variables>
+  </Event>
+</Subsumption>

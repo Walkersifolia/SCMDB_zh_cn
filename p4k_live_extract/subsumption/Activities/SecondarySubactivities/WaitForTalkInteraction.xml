@@ -1,0 +1,38 @@
+<Subsumption>
+  <Subactivity ID="e580fc5f-cdfc-47cc-9f40-e32864370202" Index="20" Name="WaitForTalkInteraction" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Priority="0" Resumable="False" FunctionType="SecondarySubactivity" PossibleFunctionID="00000000-0000-0000-0000-000000000000" RelativeProbabilityFunctionID="00000000-0000-0000-0000-000000000000" GridSize="35" CameraScale="1" DefaultWidth="0" Cooldown="5">
+    <Tags />
+    <CameraPos X="772" Y="325" />
+    <DisplayGridSize Width="4000" Height="4000" />
+    <Variables>
+      <Variable ID="7fe5f261-ee18-4a57-ad7b-b562f19c06e1" Index="0" Name="EventOriginator" Renamable="False" Deletable="False" ReadOnly="True" SiblingLinkage="False" Type="Object" VariableTypeID="d30a0a9e-6850-4acd-ac38-60dcfc8a6c3c" StorageType="Normal" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="None" EventParameter="False" Attribute="False" AllowExplicitValues="True" AllowEditing="True" MinValue="0" MaxValue="1" ValueChangePerSecond="0.001">
+        <Tags />
+      </Variable>
+      <Variable ID="ffc90945-adf8-437c-b564-7350057b19da" Index="1" Name="Interactor" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Type="Object" VariableTypeID="d30a0a9e-6850-4acd-ac38-60dcfc8a6c3c" StorageType="Normal" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="None" EventParameter="False" Attribute="False" AllowExplicitValues="True" AllowEditing="True" MinValue="0" MaxValue="1" ValueChangePerSecond="0.001">
+        <Tags />
+      </Variable>
+    </Variables>
+    <TermManager Expression="" SearchMode="RangeOnly" SearchDistance="40">
+      <Terms />
+    </TermManager>
+    <RequiredEvents />
+    <SecondarySubactivityPermissions />
+    <Comments />
+    <Tasks>
+      <Task ID="65465ebd-e338-4c53-8a77-f5d7349e7f44" Index="0" Name="Task_000" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="e005de61-7d6e-460f-b963-109bac1a4b56" CustomWidth="315" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+        <Tags />
+        <Position X="0" Y="0" />
+        <Links Success="6112bd59-3b44-44e6-ac33-df7cf12de4d2" />
+        <Variables />
+      </Task>
+      <Task ID="6112bd59-3b44-44e6-ac33-df7cf12de4d2" Index="1" Name="Task_001" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="d0ddcc32-6758-4718-afab-d3e6d1b5520c" CustomWidth="315" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+        <Tags />
+        <Position X="70" Y="105" />
+        <Links />
+        <Variables>
+          <Variable ID="b057fae6-569d-4106-96ef-d7eb59026ab8" Value="Talk" Type="Explicit" />
+          <Variable ID="4f10798e-509a-4510-ae7c-b49734f08b61" Value="ffc90945-adf8-437c-b564-7350057b19da" VariableName="Interactor" />
+        </Variables>
+      </Task>
+    </Tasks>
+  </Subactivity>
+</Subsumption>

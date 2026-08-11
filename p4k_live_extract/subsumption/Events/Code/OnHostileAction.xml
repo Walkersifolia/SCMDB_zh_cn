@@ -1,0 +1,16 @@
+<Subsumption>
+  <Event ID="59098f4e-cf33-420c-91ba-c657b74346a5" Index="61" Name="OnHostileAction" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" PropagationType="Direct" MaxRespondents="0" Volume="0" Range="0" RequiresVisual="False">
+    <Tags />
+    <Variables>
+      <Variable ID="abfd08f0-f14f-4936-89df-fada05954fb4" Index="0" Name="Attacker" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Type="Object" VariableTypeID="d30a0a9e-6850-4acd-ac38-60dcfc8a6c3c" StorageType="Normal" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="Input" EventParameter="True" Attribute="False" AllowExplicitValues="True" AllowEditing="True" MinValue="0" MaxValue="1" ValueChangePerSecond="0.001">
+        <Tags />
+      </Variable>
+      <Variable ID="b9a37189-1cef-4daa-a3d3-c8b533880d11" Index="1" Name="AttackerFaction" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Type="Integer" VariableTypeID="2ce37f4c-9f6c-4d79-9d33-9a3bb73b6743" StorageType="Normal" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="Input" EventParameter="True" Attribute="False" AllowExplicitValues="True" AllowEditing="True" MinValue="0" MaxValue="1" ValueChangePerSecond="0.001">
+        <Tags />
+      </Variable>
+      <Variable ID="d05b5c71-28e9-4e44-81f6-0e29ba0ae35c" Index="2" Name="DamageDone" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Type="Float" VariableTypeID="4598643f-5bd9-474a-b279-85ad37a6a548" StorageType="Normal" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="Input" EventParameter="True" Attribute="False" AllowExplicitValues="True" AllowEditing="True" MinValue="0" MaxValue="1" ValueChangePerSecond="0.001">
+        <Tags />
+      </Variable>
+    </Variables>
+  </Event>
+</Subsumption>

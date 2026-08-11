@@ -1,0 +1,10 @@
+<Subsumption>
+  <Event ID="2da03b51-ac24-4bf9-9049-a08ae537d9b3" Index="126" Name="AssignmentFaceTowardsPosition" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" LastModSaveTime="11/28/2017 12:32:25" PropagationType="Direct" MaxRespondents="0" Volume="0" Range="0" RequiresVisual="False">
+    <Tags />
+    <Variables>
+      <Variable ID="c8751eaa-3456-482a-8d43-d97c731454aa" Index="0" Name="FaceTowardsPosition" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" LastModSaveTime="11/28/2017 12:32:25" Type="Position" VariableTypeID="e0687d78-2d22-4770-8185-d6ee7c09b503" StorageType="Normal" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="Input" Attribute="False" AllowExplicitValues="True" AllowEditing="True" MinValue="0" MaxValue="1" ValueChangePerSecond="0.001">
+        <Tags />
+      </Variable>
+    </Variables>
+  </Event>
+</Subsumption>

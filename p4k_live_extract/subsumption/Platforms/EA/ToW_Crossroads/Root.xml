@@ -1,0 +1,49 @@
+<Subsumption>
+  <Layer ID="5daeb405-5eaf-4b3d-ba1d-52dfced253b7" Name="Root" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False">
+    <Tags />
+    <NPCs>
+      <NPC ID="9d0b4725-383c-4644-b818-1abcdfe24572" Index="0" Name="Advocacy_StuntMember1" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" CharacterArchetype="Actors.PU_Pilots.Human.CrusaderSecurity.PU_Pilots_Human_Advocacy_Pilot_Light_EA" CharacterArchetypeID="74d957f5-6666-44bd-bbee-29eef4f2dab5" RoleID="8a0d99d4-5d0c-4f40-83f6-fd924f1ffe58">
+        <Tags />
+        <ScheduleNodes>
+          <Node ID="7a907e02-6dd2-4434-86d1-b66c08884f6c" Index="0" Name="Schedule001" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" ActivityID="bdcbc5b3-788b-4dcd-a0a9-80f41c4ddb62" ZoneID="46c3ecdd-de3e-09b7-ca2c-ab6dc9344195" SubRoleID="00000000-0000-0000-0000-000000000000" Seated="False" SpawnUseChannelID="00000000-0000-0000-0000-000000000000">
+            <Tags />
+            <OwnerTags />
+            <SpawnTags>
+              <Tag ID="ff919f17-d301-4981-9e62-3f01080f0bdb" State="Checked" />
+              <Tag ID="275db83d-5b41-4ebc-bcd7-d325220af86a" State="Checked" />
+            </SpawnTags>
+            <Time Hour="0" Minute="0" Second="0" />
+          </Node>
+        </ScheduleNodes>
+      </NPC>
+      <NPC ID="9f97ace4-e2be-43fe-b2df-e91b267a03b3" Index="1" Name="Advocacy_StuntMember2" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" CharacterArchetype="Actors.PU_Pilots.Human.CrusaderSecurity.PU_Pilots_Human_Advocacy_Pilot_Light_EA" CharacterArchetypeID="74d957f5-6666-44bd-bbee-29eef4f2dab5" RoleID="8a0d99d4-5d0c-4f40-83f6-fd924f1ffe58">
+        <Tags />
+        <ScheduleNodes>
+          <Node ID="7a907e02-6dd2-4434-86d1-b66c08884f6c" Index="0" Name="Schedule001" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" ActivityID="bdcbc5b3-788b-4dcd-a0a9-80f41c4ddb62" ZoneID="46c3ecdd-de3e-09b7-ca2c-ab6dc9344195" SubRoleID="00000000-0000-0000-0000-000000000000" Seated="False" SpawnUseChannelID="00000000-0000-0000-0000-000000000000">
+            <Tags />
+            <OwnerTags />
+            <SpawnTags>
+              <Tag ID="ff919f17-d301-4981-9e62-3f01080f0bdb" State="Checked" />
+              <Tag ID="275db83d-5b41-4ebc-bcd7-d325220af86a" State="Checked" />
+            </SpawnTags>
+            <Time Hour="0" Minute="0" Second="0" />
+          </Node>
+        </ScheduleNodes>
+      </NPC>
+      <NPC ID="e135fb54-b1a6-4d7b-a2c5-ab34a429bf05" Index="2" Name="Advocacy_StuntLeader" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" CharacterArchetype="Actors.PU_Pilots.Human.CrusaderSecurity.PU_Pilots_Human_Advocacy_Pilot_Light_EA" CharacterArchetypeID="74d957f5-6666-44bd-bbee-29eef4f2dab5" RoleID="8a0d99d4-5d0c-4f40-83f6-fd924f1ffe58">
+        <Tags />
+        <ScheduleNodes>
+          <Node ID="7a907e02-6dd2-4434-86d1-b66c08884f6c" Index="0" Name="Schedule001" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" ActivityID="bdcbc5b3-788b-4dcd-a0a9-80f41c4ddb62" ZoneID="46c3ecdd-de3e-09b7-ca2c-ab6dc9344195" SubRoleID="00000000-0000-0000-0000-000000000000" Seated="False" SpawnUseChannelID="00000000-0000-0000-0000-000000000000">
+            <Tags />
+            <OwnerTags />
+            <SpawnTags>
+              <Tag ID="ff919f17-d301-4981-9e62-3f01080f0bdb" State="Checked" />
+              <Tag ID="275db83d-5b41-4ebc-bcd7-d325220af86a" State="Checked" />
+            </SpawnTags>
+            <Time Hour="0" Minute="0" Second="0" />
+          </Node>
+        </ScheduleNodes>
+      </NPC>
+    </NPCs>
+  </Layer>
+</Subsumption>

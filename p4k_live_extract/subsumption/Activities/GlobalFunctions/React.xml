@@ -1,0 +1,60 @@
+<Subsumption>
+  <Subactivity ID="bb0347dd-3083-4456-8578-cd732ca14d72" Index="16" Name="React" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Priority="0" Resumable="False" FunctionType="Function" PossibleFunctionID="00000000-0000-0000-0000-000000000000" RelativeProbabilityFunctionID="00000000-0000-0000-0000-000000000000" GridSize="10" CameraScale="1" DefaultWidth="0" Cooldown="0">
+    <Tags />
+    <CameraPos X="684" Y="639" />
+    <DisplayGridSize Width="4000" Height="4000" />
+    <Variables>
+      <Variable ID="13dd84ea-b3fc-4be1-8246-980c2c8ebb09" Index="0" Name="FragmentID" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Type="String" VariableTypeID="95ea100a-7f93-4bb9-aa15-9799f720be63" StorageType="Normal" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="Input" EventParameter="False" Attribute="False" AllowExplicitValues="True" AllowEditing="True" MinValue="0" MaxValue="1" ValueChangePerSecond="0.001">
+        <Tags />
+      </Variable>
+      <Variable ID="3fa46121-9720-47c0-b08d-10960fa290c7" Index="1" Name="FragmentTags" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Type="String" VariableTypeID="95ea100a-7f93-4bb9-aa15-9799f720be63" StorageType="Normal" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="Input" EventParameter="False" Attribute="False" AllowExplicitValues="True" AllowEditing="True" MinValue="0" MaxValue="1" ValueChangePerSecond="0.001">
+        <Tags />
+      </Variable>
+    </Variables>
+    <TermManager Expression="" SearchMode="RangeOnly" SearchDistance="40">
+      <Terms />
+    </TermManager>
+    <RequiredEvents />
+    <SecondarySubactivityPermissions />
+    <Comments />
+    <Tasks>
+      <Task ID="890782a0-a0f0-4673-a228-480aba72d8d4" Index="0" Name="Task_000" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="e005de61-7d6e-460f-b963-109bac1a4b56" CustomWidth="0" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+        <Tags />
+        <Position X="170" Y="180" />
+        <Links Success="b845dacc-b388-4011-978a-9e0ba8d7c2c3" />
+        <Variables />
+      </Task>
+      <Task ID="f55600f2-b003-4e25-830f-b23d85477dbb" Index="1" Name="Task_001" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="8ffa4d8a-9033-4227-a1fa-469d0e3b6dcc" CustomWidth="0" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+        <Tags />
+        <Position X="470" Y="460" />
+        <Links />
+        <Variables>
+          <Variable ID="ed338705-2192-46c0-814e-7c45cf5ffa73" Value="False" Type="Explicit" />
+        </Variables>
+      </Task>
+      <Task ID="b845dacc-b388-4011-978a-9e0ba8d7c2c3" Index="2" Name="Task_002" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="07eb4396-00f3-4eca-bbb6-91e601bdd489" CustomWidth="0" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+        <Tags />
+        <Position X="174" Y="290" />
+        <Links>
+          <ParallelTasks>
+            <Task ID="270a7171-d759-414d-a1ef-944ccf37f107" />
+            <Task ID="f55600f2-b003-4e25-830f-b23d85477dbb" />
+          </ParallelTasks>
+        </Links>
+        <Variables>
+          <Variable ID="13727bec-0ac3-4d34-bdad-d25166112415" Value="61f1e35d-f2dd-44d0-ac3e-9039d702b616" SelectionName="Any" />
+          <Variable ID="7f040c5b-7a08-48f7-bd03-63d6080cceb8" Value="a1785642-c89a-4a07-81e9-5e953cddaebd" SelectionName="Any" />
+        </Variables>
+      </Task>
+      <Task ID="270a7171-d759-414d-a1ef-944ccf37f107" Index="3" Name="Task_003" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="bcc553a7-61e9-4e23-97e7-32a7a3928497" CustomWidth="0" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+        <Tags />
+        <Position X="470" Y="260" />
+        <Links />
+        <Variables>
+          <Variable ID="cf00c6d4-e302-4419-a808-4e5b6928ad4a" Value="3fa46121-9720-47c0-b08d-10960fa290c7" VariableName="FragmentTags" />
+          <Variable ID="8276073d-0c93-45f2-8198-0d1a96be6400" Value="13dd84ea-b3fc-4be1-8246-980c2c8ebb09" VariableName="FragmentID" />
+        </Variables>
+      </Task>
+    </Tasks>
+  </Subactivity>
+</Subsumption>

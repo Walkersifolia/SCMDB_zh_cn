@@ -1,0 +1,18 @@
+<Subsumption>
+  <Mastergraph Name="FeatureTestMastergraph" ID="c65bd557-00bd-43db-b9c4-640c18e4d408">
+    <States>
+      <State Name="Dummy" StateId="81957fdc-f004-49db-960b-869aa3322789" Default="true">
+        <Activity ActivityId="36260dfe-855c-4223-9097-79a171453af4" />
+        <Transitions>
+          <Transition ToState="347ec78d-4619-46fb-899a-c0f8d13a4f06" OnEvent="99e0c2cc-50b3-4ddb-9de0-c8b982776468" />
+        </Transitions>
+      </State>
+      <State Name="AssignmentCustomLogic" StateId="347ec78d-4619-46fb-899a-c0f8d13a4f06">
+        <Activity ActivityId="7377e666-b94d-4f98-89fa-e26fd0560acc" />
+        <Transitions>
+          <Transition ToState="81957fdc-f004-49db-960b-869aa3322789" OnEvent="c19d0721-173a-4dd7-91ef-2406417686eb" />
+        </Transitions>
+      </State>
+    </States>
+  </Mastergraph>
+</Subsumption>

@@ -1,0 +1,373 @@
+<Subsumption>
+  <Subactivity ID="09877627-b801-40c0-96c5-fd91379260ba" Index="0" Name="AdmitPatientConversation" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Priority="0" Resumable="False" FunctionType="Conversation" PossibleFunctionID="00000000-0000-0000-0000-000000000000" RelativeProbabilityFunctionID="00000000-0000-0000-0000-000000000000" GridSize="10" CameraScale="1" DefaultWidth="0" Cooldown="0">
+    <Tags />
+    <CameraPos X="709" Y="1297" />
+    <DisplayGridSize Width="4000" Height="4000" />
+    <Variables>
+      <Variable ID="d83640ae-0a9e-4ad2-a28d-b1d8873453f2" Index="0" Name="Doctor" Renamable="True" Deletable="True" ReadOnly="True" SiblingLinkage="False" Type="NPC" VariableTypeID="21b2be94-333c-4234-afa3-9d8723b5b73c" StorageType="Normal" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="Input" EventParameter="False" Attribute="False" AllowExplicitValues="True" AllowEditing="True" MinValue="0" MaxValue="1" ValueChangePerSecond="1">
+        <Tags />
+        <Variables>
+          <Variable ID="d83640ae-0a9e-4ad2-a28d-b1d8873453f2,523262d0-a1b5-4da0-9f4c-1625b3ede15b" Index="0" Name="Reputation" Renamable="False" Deletable="False" ReadOnly="False" SiblingLinkage="False" Type="Reputation" VariableTypeID="7638eb68-5fc5-4443-93d9-7c90b2d7ecfa" StorageType="Persistent" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="None" EventParameter="False" Attribute="True" AllowExplicitValues="True" AllowEditing="True" MinValue="0" MaxValue="1" ValueChangePerSecond="1">
+            <Tags />
+          </Variable>
+          <Variable ID="d83640ae-0a9e-4ad2-a28d-b1d8873453f2,037f73d6-dba5-4f2e-9f5a-bfeee5c79690" Index="1" Name="Virtue" Renamable="False" Deletable="False" ReadOnly="False" SiblingLinkage="False" Type="Reputation" VariableTypeID="7638eb68-5fc5-4443-93d9-7c90b2d7ecfa" StorageType="Persistent" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="None" EventParameter="False" Attribute="True" AllowExplicitValues="True" AllowEditing="True" MinValue="0" MaxValue="1" ValueChangePerSecond="1">
+            <Tags />
+          </Variable>
+          <Variable ID="d83640ae-0a9e-4ad2-a28d-b1d8873453f2,eb25aa3b-eaa0-4ee2-a7db-69128d82af3e" Index="2" Name="Sustenance" Renamable="False" Deletable="False" ReadOnly="False" SiblingLinkage="False" Type="Reputation" VariableTypeID="7638eb68-5fc5-4443-93d9-7c90b2d7ecfa" StorageType="Persistent" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="None" EventParameter="False" Attribute="True" AllowExplicitValues="True" AllowEditing="True" MinValue="0" MaxValue="1" ValueChangePerSecond="1">
+            <Tags />
+          </Variable>
+          <Variable ID="d83640ae-0a9e-4ad2-a28d-b1d8873453f2,601a655d-6ec4-44e0-8633-1db123866baa" Index="3" Name="WantedLevel" Renamable="False" Deletable="False" ReadOnly="False" SiblingLinkage="False" Type="Reputation" VariableTypeID="7638eb68-5fc5-4443-93d9-7c90b2d7ecfa" StorageType="Persistent" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="None" EventParameter="False" Attribute="True" AllowExplicitValues="True" AllowEditing="True" MinValue="0" MaxValue="1" ValueChangePerSecond="0.001">
+            <Tags />
+          </Variable>
+          <Variable ID="d83640ae-0a9e-4ad2-a28d-b1d8873453f2,bbd64e75-a17c-4408-bb1e-55c7b84654c7" Index="4" Name="ScheduleTags" Renamable="False" Deletable="False" ReadOnly="True" SiblingLinkage="False" Type="TagSelector" VariableTypeID="ae412363-8082-4063-a573-fd6fa42c8745" StorageType="Normal" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="None" EventParameter="False" Attribute="True" AllowExplicitValues="True" AllowEditing="True" MinValue="0" MaxValue="1" ValueChangePerSecond="0.001">
+            <Tags />
+          </Variable>
+          <Variable ID="d83640ae-0a9e-4ad2-a28d-b1d8873453f2,d2e62e1d-a8d7-4a2d-a130-2b2753d78939" Index="5" Name="ScheduleLoadoutTags" Renamable="False" Deletable="False" ReadOnly="False" SiblingLinkage="False" Type="TagSelector" VariableTypeID="ae412363-8082-4063-a573-fd6fa42c8745" StorageType="Normal" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="None" EventParameter="False" Attribute="True" AllowExplicitValues="True" AllowEditing="True" MinValue="0" MaxValue="1" ValueChangePerSecond="0.001">
+            <Tags />
+          </Variable>
+          <Variable ID="d83640ae-0a9e-4ad2-a28d-b1d8873453f2,ca0bda59-09a7-4912-972e-1c064f878b27" Index="6" Name="Reliability" Renamable="False" Deletable="False" ReadOnly="False" SiblingLinkage="False" Type="Reputation" VariableTypeID="7638eb68-5fc5-4443-93d9-7c90b2d7ecfa" StorageType="Persistent" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="None" EventParameter="False" Attribute="True" AllowExplicitValues="True" AllowEditing="True" MinValue="0" MaxValue="1" ValueChangePerSecond="0.001">
+            <Tags />
+          </Variable>
+          <Variable ID="d83640ae-0a9e-4ad2-a28d-b1d8873453f2,179041fa-8580-4549-9e6b-3a59f5dd46c2" Index="7" Name="Fatigue" Renamable="False" Deletable="False" ReadOnly="False" SiblingLinkage="False" Type="Reputation" VariableTypeID="7638eb68-5fc5-4443-93d9-7c90b2d7ecfa" StorageType="Persistent" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="None" EventParameter="False" Attribute="True" AllowExplicitValues="True" AllowEditing="True" MinValue="0" MaxValue="1" ValueChangePerSecond="0.001">
+            <Tags />
+          </Variable>
+          <Variable ID="d83640ae-0a9e-4ad2-a28d-b1d8873453f2,8f1f5db2-217f-47bf-8ccd-98db056136ed" Index="8" Name="Morale" Renamable="False" Deletable="False" ReadOnly="False" SiblingLinkage="False" Type="Reputation" VariableTypeID="7638eb68-5fc5-4443-93d9-7c90b2d7ecfa" StorageType="Persistent" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="None" EventParameter="False" Attribute="True" AllowExplicitValues="True" AllowEditing="True" MinValue="0" MaxValue="1" ValueChangePerSecond="0.001">
+            <Tags />
+          </Variable>
+          <Variable ID="d83640ae-0a9e-4ad2-a28d-b1d8873453f2,5c8aacce-6214-4bd6-b481-a0303b1cb849" Index="9" Name="Hygiene" Renamable="False" Deletable="False" ReadOnly="False" SiblingLinkage="False" Type="Reputation" VariableTypeID="7638eb68-5fc5-4443-93d9-7c90b2d7ecfa" StorageType="Persistent" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="None" EventParameter="False" Attribute="True" AllowExplicitValues="True" AllowEditing="True" MinValue="0" MaxValue="1" ValueChangePerSecond="0.001">
+            <Tags />
+          </Variable>
+          <Variable ID="d83640ae-0a9e-4ad2-a28d-b1d8873453f2,6716fe6d-cba1-4fb1-b7c6-4dc385220d44" Index="10" Name="InterPersonalStanding" Renamable="False" Deletable="False" ReadOnly="False" SiblingLinkage="False" Type="Reputation" VariableTypeID="7638eb68-5fc5-4443-93d9-7c90b2d7ecfa" StorageType="Persistent" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="None" EventParameter="False" Attribute="True" AllowExplicitValues="True" AllowEditing="True" MinValue="0" MaxValue="1" ValueChangePerSecond="0.001">
+            <Tags />
+          </Variable>
+          <Variable ID="d83640ae-0a9e-4ad2-a28d-b1d8873453f2,8f89fd3e-b65a-4500-8bf6-d5d4a1dfe3b0" Index="11" Name="HasMet_Eckhart" Renamable="False" Deletable="False" ReadOnly="False" SiblingLinkage="False" Type="Boolean" VariableTypeID="ce01233f-41d3-4448-89c4-8977bcc93968" StorageType="Normal" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="None" EventParameter="False" Attribute="True" AllowExplicitValues="True" AllowEditing="True" MinValue="0" MaxValue="1" ValueChangePerSecond="0.001">
+            <Tags />
+          </Variable>
+          <Variable ID="d83640ae-0a9e-4ad2-a28d-b1d8873453f2,902e44d8-56bd-4cb9-ae4e-c3f9df2a7b7d" Index="12" Name="HasMet_Ruto" Renamable="False" Deletable="False" ReadOnly="False" SiblingLinkage="False" Type="Boolean" VariableTypeID="ce01233f-41d3-4448-89c4-8977bcc93968" StorageType="Normal" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="None" EventParameter="False" Attribute="True" AllowExplicitValues="True" AllowEditing="True" MinValue="0" MaxValue="1" ValueChangePerSecond="0.001">
+            <Tags />
+          </Variable>
+          <Variable ID="d83640ae-0a9e-4ad2-a28d-b1d8873453f2,a0d819ac-7106-4f9e-866e-c21a6f250aa1" Index="13" Name="AssignedAttackTarget" Renamable="False" Deletable="False" ReadOnly="False" SiblingLinkage="False" Type="Object" VariableTypeID="d30a0a9e-6850-4acd-ac38-60dcfc8a6c3c" StorageType="Normal" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="None" EventParameter="False" Attribute="True" AllowExplicitValues="True" AllowEditing="True" MinValue="0" MaxValue="1" ValueChangePerSecond="0.001">
+            <Tags />
+          </Variable>
+          <Variable ID="d83640ae-0a9e-4ad2-a28d-b1d8873453f2,c679a68e-132b-4d8b-9ff1-10c8bf8fb75a" Index="14" Name="AssignedDefendArea" Renamable="False" Deletable="False" ReadOnly="False" SiblingLinkage="False" Type="Object" VariableTypeID="d30a0a9e-6850-4acd-ac38-60dcfc8a6c3c" StorageType="Normal" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="None" EventParameter="False" Attribute="True" AllowExplicitValues="True" AllowEditing="True" MinValue="0" MaxValue="1" ValueChangePerSecond="0.001">
+            <Tags />
+          </Variable>
+          <Variable ID="d83640ae-0a9e-4ad2-a28d-b1d8873453f2,f859c6fc-bc17-4a07-a615-85fc3b51902d" Index="15" Name="AssignedDefendTarget" Renamable="False" Deletable="False" ReadOnly="False" SiblingLinkage="False" Type="Object" VariableTypeID="d30a0a9e-6850-4acd-ac38-60dcfc8a6c3c" StorageType="Normal" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="None" EventParameter="False" Attribute="True" AllowExplicitValues="True" AllowEditing="True" MinValue="0" MaxValue="1" ValueChangePerSecond="0.001">
+            <Tags />
+          </Variable>
+          <Variable ID="d83640ae-0a9e-4ad2-a28d-b1d8873453f2,5bf2da95-5a32-475e-ada8-63992f130384" Index="16" Name="EnemiesForCommunication" Renamable="False" Deletable="False" ReadOnly="False" SiblingLinkage="False" Type="Object" VariableTypeID="d30a0a9e-6850-4acd-ac38-60dcfc8a6c3c" StorageType="Normal" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="None" EventParameter="False" Attribute="True" AllowExplicitValues="True" AllowEditing="True" MinValue="0" MaxValue="1" ValueChangePerSecond="0.001">
+            <Tags />
+          </Variable>
+          <Variable ID="d83640ae-0a9e-4ad2-a28d-b1d8873453f2,98c5306c-2d56-4289-ad61-c12f247c878d" Index="17" Name="FriendliesForCommunication" Renamable="False" Deletable="False" ReadOnly="False" SiblingLinkage="False" Type="Object" VariableTypeID="d30a0a9e-6850-4acd-ac38-60dcfc8a6c3c" StorageType="Normal" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="None" EventParameter="False" Attribute="True" AllowExplicitValues="True" AllowEditing="True" MinValue="0" MaxValue="1" ValueChangePerSecond="0.001">
+            <Tags />
+          </Variable>
+        </Variables>
+      </Variable>
+      <Variable ID="95b49139-0849-4fcc-a0eb-2d2ad5ee814e" Index="1" Name="Patient" Renamable="True" Deletable="True" ReadOnly="True" SiblingLinkage="False" Type="NPC" VariableTypeID="21b2be94-333c-4234-afa3-9d8723b5b73c" StorageType="Normal" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="Input" EventParameter="False" Attribute="False" AllowExplicitValues="True" AllowEditing="True" MinValue="0" MaxValue="1" ValueChangePerSecond="1">
+        <Tags />
+        <Variables>
+          <Variable ID="95b49139-0849-4fcc-a0eb-2d2ad5ee814e,523262d0-a1b5-4da0-9f4c-1625b3ede15b" Index="0" Name="Reputation" Renamable="False" Deletable="False" ReadOnly="False" SiblingLinkage="False" Type="Reputation" VariableTypeID="7638eb68-5fc5-4443-93d9-7c90b2d7ecfa" StorageType="Persistent" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="None" EventParameter="False" Attribute="True" AllowExplicitValues="True" AllowEditing="True" MinValue="0" MaxValue="1" ValueChangePerSecond="1">
+            <Tags />
+          </Variable>
+          <Variable ID="95b49139-0849-4fcc-a0eb-2d2ad5ee814e,037f73d6-dba5-4f2e-9f5a-bfeee5c79690" Index="1" Name="Virtue" Renamable="False" Deletable="False" ReadOnly="False" SiblingLinkage="False" Type="Reputation" VariableTypeID="7638eb68-5fc5-4443-93d9-7c90b2d7ecfa" StorageType="Persistent" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="None" EventParameter="False" Attribute="True" AllowExplicitValues="True" AllowEditing="True" MinValue="0" MaxValue="1" ValueChangePerSecond="1">
+            <Tags />
+          </Variable>
+          <Variable ID="95b49139-0849-4fcc-a0eb-2d2ad5ee814e,eb25aa3b-eaa0-4ee2-a7db-69128d82af3e" Index="2" Name="Sustenance" Renamable="False" Deletable="False" ReadOnly="False" SiblingLinkage="False" Type="Reputation" VariableTypeID="7638eb68-5fc5-4443-93d9-7c90b2d7ecfa" StorageType="Persistent" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="None" EventParameter="False" Attribute="True" AllowExplicitValues="True" AllowEditing="True" MinValue="0" MaxValue="1" ValueChangePerSecond="1">
+            <Tags />
+          </Variable>
+          <Variable ID="95b49139-0849-4fcc-a0eb-2d2ad5ee814e,601a655d-6ec4-44e0-8633-1db123866baa" Index="3" Name="WantedLevel" Renamable="False" Deletable="False" ReadOnly="False" SiblingLinkage="False" Type="Reputation" VariableTypeID="7638eb68-5fc5-4443-93d9-7c90b2d7ecfa" StorageType="Persistent" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="None" EventParameter="False" Attribute="True" AllowExplicitValues="True" AllowEditing="True" MinValue="0" MaxValue="1" ValueChangePerSecond="0.001">
+            <Tags />
+          </Variable>
+          <Variable ID="95b49139-0849-4fcc-a0eb-2d2ad5ee814e,bbd64e75-a17c-4408-bb1e-55c7b84654c7" Index="4" Name="ScheduleTags" Renamable="False" Deletable="False" ReadOnly="True" SiblingLinkage="False" Type="TagSelector" VariableTypeID="ae412363-8082-4063-a573-fd6fa42c8745" StorageType="Normal" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="None" EventParameter="False" Attribute="True" AllowExplicitValues="True" AllowEditing="True" MinValue="0" MaxValue="1" ValueChangePerSecond="0.001">
+            <Tags />
+          </Variable>
+          <Variable ID="95b49139-0849-4fcc-a0eb-2d2ad5ee814e,d2e62e1d-a8d7-4a2d-a130-2b2753d78939" Index="5" Name="ScheduleLoadoutTags" Renamable="False" Deletable="False" ReadOnly="False" SiblingLinkage="False" Type="TagSelector" VariableTypeID="ae412363-8082-4063-a573-fd6fa42c8745" StorageType="Normal" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="None" EventParameter="False" Attribute="True" AllowExplicitValues="True" AllowEditing="True" MinValue="0" MaxValue="1" ValueChangePerSecond="0.001">
+            <Tags />
+          </Variable>
+          <Variable ID="95b49139-0849-4fcc-a0eb-2d2ad5ee814e,ca0bda59-09a7-4912-972e-1c064f878b27" Index="6" Name="Reliability" Renamable="False" Deletable="False" ReadOnly="False" SiblingLinkage="False" Type="Reputation" VariableTypeID="7638eb68-5fc5-4443-93d9-7c90b2d7ecfa" StorageType="Persistent" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="None" EventParameter="False" Attribute="True" AllowExplicitValues="True" AllowEditing="True" MinValue="0" MaxValue="1" ValueChangePerSecond="0.001">
+            <Tags />
+          </Variable>
+          <Variable ID="95b49139-0849-4fcc-a0eb-2d2ad5ee814e,179041fa-8580-4549-9e6b-3a59f5dd46c2" Index="7" Name="Fatigue" Renamable="False" Deletable="False" ReadOnly="False" SiblingLinkage="False" Type="Reputation" VariableTypeID="7638eb68-5fc5-4443-93d9-7c90b2d7ecfa" StorageType="Persistent" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="None" EventParameter="False" Attribute="True" AllowExplicitValues="True" AllowEditing="True" MinValue="0" MaxValue="1" ValueChangePerSecond="0.001">
+            <Tags />
+          </Variable>
+          <Variable ID="95b49139-0849-4fcc-a0eb-2d2ad5ee814e,8f1f5db2-217f-47bf-8ccd-98db056136ed" Index="8" Name="Morale" Renamable="False" Deletable="False" ReadOnly="False" SiblingLinkage="False" Type="Reputation" VariableTypeID="7638eb68-5fc5-4443-93d9-7c90b2d7ecfa" StorageType="Persistent" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="None" EventParameter="False" Attribute="True" AllowExplicitValues="True" AllowEditing="True" MinValue="0" MaxValue="1" ValueChangePerSecond="0.001">
+            <Tags />
+          </Variable>
+          <Variable ID="95b49139-0849-4fcc-a0eb-2d2ad5ee814e,5c8aacce-6214-4bd6-b481-a0303b1cb849" Index="9" Name="Hygiene" Renamable="False" Deletable="False" ReadOnly="False" SiblingLinkage="False" Type="Reputation" VariableTypeID="7638eb68-5fc5-4443-93d9-7c90b2d7ecfa" StorageType="Persistent" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="None" EventParameter="False" Attribute="True" AllowExplicitValues="True" AllowEditing="True" MinValue="0" MaxValue="1" ValueChangePerSecond="0.001">
+            <Tags />
+          </Variable>
+          <Variable ID="95b49139-0849-4fcc-a0eb-2d2ad5ee814e,6716fe6d-cba1-4fb1-b7c6-4dc385220d44" Index="10" Name="InterPersonalStanding" Renamable="False" Deletable="False" ReadOnly="False" SiblingLinkage="False" Type="Reputation" VariableTypeID="7638eb68-5fc5-4443-93d9-7c90b2d7ecfa" StorageType="Persistent" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="None" EventParameter="False" Attribute="True" AllowExplicitValues="True" AllowEditing="True" MinValue="0" MaxValue="1" ValueChangePerSecond="0.001">
+            <Tags />
+          </Variable>
+          <Variable ID="95b49139-0849-4fcc-a0eb-2d2ad5ee814e,8f89fd3e-b65a-4500-8bf6-d5d4a1dfe3b0" Index="11" Name="HasMet_Eckhart" Renamable="False" Deletable="False" ReadOnly="False" SiblingLinkage="False" Type="Boolean" VariableTypeID="ce01233f-41d3-4448-89c4-8977bcc93968" StorageType="Normal" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="None" EventParameter="False" Attribute="True" AllowExplicitValues="True" AllowEditing="True" MinValue="0" MaxValue="1" ValueChangePerSecond="0.001">
+            <Tags />
+          </Variable>
+          <Variable ID="95b49139-0849-4fcc-a0eb-2d2ad5ee814e,902e44d8-56bd-4cb9-ae4e-c3f9df2a7b7d" Index="12" Name="HasMet_Ruto" Renamable="False" Deletable="False" ReadOnly="False" SiblingLinkage="False" Type="Boolean" VariableTypeID="ce01233f-41d3-4448-89c4-8977bcc93968" StorageType="Normal" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="None" EventParameter="False" Attribute="True" AllowExplicitValues="True" AllowEditing="True" MinValue="0" MaxValue="1" ValueChangePerSecond="0.001">
+            <Tags />
+          </Variable>
+          <Variable ID="95b49139-0849-4fcc-a0eb-2d2ad5ee814e,a0d819ac-7106-4f9e-866e-c21a6f250aa1" Index="13" Name="AssignedAttackTarget" Renamable="False" Deletable="False" ReadOnly="False" SiblingLinkage="False" Type="Object" VariableTypeID="d30a0a9e-6850-4acd-ac38-60dcfc8a6c3c" StorageType="Normal" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="None" EventParameter="False" Attribute="True" AllowExplicitValues="True" AllowEditing="True" MinValue="0" MaxValue="1" ValueChangePerSecond="0.001">
+            <Tags />
+          </Variable>
+          <Variable ID="95b49139-0849-4fcc-a0eb-2d2ad5ee814e,c679a68e-132b-4d8b-9ff1-10c8bf8fb75a" Index="14" Name="AssignedDefendArea" Renamable="False" Deletable="False" ReadOnly="False" SiblingLinkage="False" Type="Object" VariableTypeID="d30a0a9e-6850-4acd-ac38-60dcfc8a6c3c" StorageType="Normal" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="None" EventParameter="False" Attribute="True" AllowExplicitValues="True" AllowEditing="True" MinValue="0" MaxValue="1" ValueChangePerSecond="0.001">
+            <Tags />
+          </Variable>
+          <Variable ID="95b49139-0849-4fcc-a0eb-2d2ad5ee814e,f859c6fc-bc17-4a07-a615-85fc3b51902d" Index="15" Name="AssignedDefendTarget" Renamable="False" Deletable="False" ReadOnly="False" SiblingLinkage="False" Type="Object" VariableTypeID="d30a0a9e-6850-4acd-ac38-60dcfc8a6c3c" StorageType="Normal" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="None" EventParameter="False" Attribute="True" AllowExplicitValues="True" AllowEditing="True" MinValue="0" MaxValue="1" ValueChangePerSecond="0.001">
+            <Tags />
+          </Variable>
+          <Variable ID="95b49139-0849-4fcc-a0eb-2d2ad5ee814e,5bf2da95-5a32-475e-ada8-63992f130384" Index="16" Name="EnemiesForCommunication" Renamable="False" Deletable="False" ReadOnly="False" SiblingLinkage="False" Type="Object" VariableTypeID="d30a0a9e-6850-4acd-ac38-60dcfc8a6c3c" StorageType="Normal" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="None" EventParameter="False" Attribute="True" AllowExplicitValues="True" AllowEditing="True" MinValue="0" MaxValue="1" ValueChangePerSecond="0.001">
+            <Tags />
+          </Variable>
+          <Variable ID="95b49139-0849-4fcc-a0eb-2d2ad5ee814e,98c5306c-2d56-4289-ad61-c12f247c878d" Index="17" Name="FriendliesForCommunication" Renamable="False" Deletable="False" ReadOnly="False" SiblingLinkage="False" Type="Object" VariableTypeID="d30a0a9e-6850-4acd-ac38-60dcfc8a6c3c" StorageType="Normal" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="None" EventParameter="False" Attribute="True" AllowExplicitValues="True" AllowEditing="True" MinValue="0" MaxValue="1" ValueChangePerSecond="0.001">
+            <Tags />
+          </Variable>
+        </Variables>
+      </Variable>
+      <Variable ID="64cc0b56-2174-481c-87d8-0da77da44dd0" Index="2" Name="Conversation" Renamable="False" Deletable="False" ReadOnly="False" SiblingLinkage="False" Type="Conversation" VariableTypeID="fe62b5de-a512-4799-8d57-004f852a8a53" StorageType="Normal" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="Output" EventParameter="False" Attribute="False" AllowExplicitValues="True" AllowEditing="True" MinValue="0" MaxValue="1" ValueChangePerSecond="1">
+        <Tags />
+      </Variable>
+      <Variable ID="431eef6a-b630-4811-84b4-da683bdff358" Index="3" Name="Bed" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Type="Object" VariableTypeID="d30a0a9e-6850-4acd-ac38-60dcfc8a6c3c" StorageType="Normal" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="None" EventParameter="False" Attribute="False" AllowExplicitValues="True" AllowEditing="True" MinValue="0" MaxValue="1" ValueChangePerSecond="1">
+        <Tags />
+      </Variable>
+      <Variable ID="44fd5937-6e18-435d-bb0b-b399e5211952" Index="4" Name="Medbay" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Type="ActionArea" VariableTypeID="3cd1016d-80f5-4dd8-8588-a666771c1ae0" StorageType="Normal" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="None" EventParameter="False" Attribute="False" AllowExplicitValues="True" AllowEditing="True" MinValue="0" MaxValue="1" ValueChangePerSecond="1">
+        <Tags />
+      </Variable>
+      <Variable ID="a07836a1-3730-4dd8-a51c-da873ed14475" Index="5" Name="PatientObject" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Type="Object" VariableTypeID="d30a0a9e-6850-4acd-ac38-60dcfc8a6c3c" StorageType="Normal" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="None" EventParameter="False" Attribute="False" AllowExplicitValues="True" AllowEditing="True" MinValue="0" MaxValue="1" ValueChangePerSecond="1">
+        <Tags />
+      </Variable>
+    </Variables>
+    <TermManager Expression="" SearchMode="RangeOnly" SearchDistance="40">
+      <Terms />
+    </TermManager>
+    <RequiredEvents />
+    <SecondarySubactivityPermissions />
+    <Comments />
+    <WaitOnThreads>
+      <WaitOnThread ID="8a376b9a-3664-40f6-8999-6f3f2cbacd41">
+        <NPC ID="d83640ae-0a9e-4ad2-a28d-b1d8873453f2" />
+        <NPC ID="95b49139-0849-4fcc-a0eb-2d2ad5ee814e" />
+      </WaitOnThread>
+      <WaitOnThread ID="235e7553-3c8b-4574-9425-3f2806723bf2">
+        <NPC ID="95b49139-0849-4fcc-a0eb-2d2ad5ee814e" />
+        <NPC ID="d83640ae-0a9e-4ad2-a28d-b1d8873453f2" />
+      </WaitOnThread>
+    </WaitOnThreads>
+    <Threads>
+      <Thread ID="d83640ae-0a9e-4ad2-a28d-b1d8873453f2">
+        <Tasks>
+          <Task ID="4ad51c26-33f1-475d-8a06-335652b60930" Index="0" Name="Task0" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="39415b76-11bc-4521-9bbb-08a7e88b6ef1" CustomWidth="0" ThreadParentVariable="d83640ae-0a9e-4ad2-a28d-b1d8873453f2">
+            <Tags />
+            <Position X="0" Y="0" />
+            <Links Success="8a376b9a-3664-40f6-8999-6f3f2cbacd41" />
+            <Variables>
+              <Variable ID="b209ca66-3605-4789-a7de-7746899192da" Value="d83640ae-0a9e-4ad2-a28d-b1d8873453f2" VariableName="Doctor" />
+            </Variables>
+          </Task>
+          <Task ID="8a376b9a-3664-40f6-8999-6f3f2cbacd41" Index="4" Name="Task4" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="3f6432e6-0d53-4145-9282-1c853ac4fe4e" CustomWidth="0" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+            <Tags />
+            <Position X="430" Y="540" />
+            <Links>
+              <Link ID="d83640ae-0a9e-4ad2-a28d-b1d8873453f2" TaskID="49376ffe-9cfa-4d87-9baa-84c580e6d04d" />
+              <Link ID="95b49139-0849-4fcc-a0eb-2d2ad5ee814e" TaskID="528d6775-8b2f-4939-8a64-895c25ec8909" />
+            </Links>
+          </Task>
+          <Task ID="49376ffe-9cfa-4d87-9baa-84c580e6d04d" Index="5" Name="Task6" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="637f33c7-16f9-4b5c-85ae-088eed2abcea" CustomWidth="0" ThreadParentVariable="d83640ae-0a9e-4ad2-a28d-b1d8873453f2">
+            <Tags />
+            <Position X="300" Y="706" />
+            <Links Success="13d84ff6-a7d1-460e-9962-bcfcd1a97bee" />
+            <Variables>
+              <Variable ID="acc640da-df56-43fd-9c3b-586b81b9e922" Value="a07836a1-3730-4dd8-a51c-da873ed14475" VariableName="PatientObject" />
+              <Variable ID="fc3a2b20-5106-4ae9-8fa3-45d795e5f3d6" Value="547bbc31-0bed-4264-92cc-25fe5bad5624,528e14fb-b7e6-42d0-b6d3-5963143644fe" />
+            </Variables>
+          </Task>
+          <Task ID="235e7553-3c8b-4574-9425-3f2806723bf2" Index="6" Name="Task7" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="3f6432e6-0d53-4145-9282-1c853ac4fe4e" CustomWidth="0" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+            <Tags />
+            <Position X="520" Y="1330" />
+            <Links>
+              <Link ID="d83640ae-0a9e-4ad2-a28d-b1d8873453f2" TaskID="00000000-0000-0000-0000-000000000000" />
+              <Link ID="95b49139-0849-4fcc-a0eb-2d2ad5ee814e" TaskID="00000000-0000-0000-0000-000000000000" />
+            </Links>
+          </Task>
+          <Task ID="13d84ff6-a7d1-460e-9962-bcfcd1a97bee" Index="8" Name="Task9" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="548d3915-d888-4e9f-a525-acf91290b76a" CustomWidth="0" ThreadParentVariable="d83640ae-0a9e-4ad2-a28d-b1d8873453f2">
+            <Tags />
+            <Position X="260" Y="920" />
+            <Links Success="b81447d3-9167-4447-8d65-5194e937d24b" />
+            <Variables>
+              <Variable ID="53f744a9-60ed-48e1-a6c8-5e7bc3d03c1d" Value="Hello, thank you for waiting. Please move to a bed" Type="Explicit" />
+              <Variable ID="29877f4f-d097-4364-a1e3-7130e1758594" Value="4" Type="Explicit" />
+            </Variables>
+          </Task>
+          <Task ID="b81447d3-9167-4447-8d65-5194e937d24b" Index="9" Name="Task10" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="10727d47-62eb-44ba-81f5-c6a045aaca01" CustomWidth="0" ThreadParentVariable="d83640ae-0a9e-4ad2-a28d-b1d8873453f2">
+            <Tags />
+            <Position X="260" Y="1120" />
+            <Links Success="235e7553-3c8b-4574-9425-3f2806723bf2" />
+            <Variables>
+              <Variable ID="99718680-53a4-472b-934e-0323383c02f5" Value="4" Type="Explicit" />
+            </Variables>
+          </Task>
+        </Tasks>
+      </Thread>
+      <Thread ID="95b49139-0849-4fcc-a0eb-2d2ad5ee814e">
+        <Tasks>
+          <Task ID="384a2025-f2cf-4425-a831-cf60a8fcb274" Index="1" Name="Task1" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="39415b76-11bc-4521-9bbb-08a7e88b6ef1" CustomWidth="0" ThreadParentVariable="95b49139-0849-4fcc-a0eb-2d2ad5ee814e">
+            <Tags />
+            <Position X="790" Y="0" />
+            <Links Success="07a522e5-76ff-4029-9e17-c15a8da10b8c" />
+            <Variables>
+              <Variable ID="b209ca66-3605-4789-a7de-7746899192da" Value="95b49139-0849-4fcc-a0eb-2d2ad5ee814e" VariableName="Patient" />
+            </Variables>
+          </Task>
+          <Task ID="8192b91d-fa03-491b-9aeb-9468839573f4" Index="2" Name="Task2" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="053ce435-5b43-4de1-b729-9adab3e61a92" CustomWidth="0" ThreadParentVariable="95b49139-0849-4fcc-a0eb-2d2ad5ee814e">
+            <Tags />
+            <Position X="730" Y="380" />
+            <Links Success="8a376b9a-3664-40f6-8999-6f3f2cbacd41" />
+            <Variables>
+              <Variable ID="5aa50d3e-c8f5-43a9-b50a-545afb96aa42" Value="431eef6a-b630-4811-84b4-da683bdff358" VariableName="Bed" />
+              <Variable ID="06e36269-610e-4563-9b58-7490c5d17ef7" Value="-1" Type="Explicit" />
+            </Variables>
+          </Task>
+          <Task ID="07a522e5-76ff-4029-9e17-c15a8da10b8c" Index="3" Name="Task3" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="c494f986-a1b8-46e9-b682-7f56f1fa3048" CustomWidth="0" ThreadParentVariable="95b49139-0849-4fcc-a0eb-2d2ad5ee814e">
+            <Tags />
+            <Position X="750" Y="150" />
+            <Links Success="8192b91d-fa03-491b-9aeb-9468839573f4" />
+            <Variables>
+              <Variable ID="72b2342b-6299-4568-a486-3d365e3feb3b" Value="44fd5937-6e18-435d-bb0b-b399e5211952" VariableName="Medbay" />
+              <Variable ID="0d11a8f6-4033-48e5-9495-64d42675a93b" Value="Bed" Type="Explicit">
+                <TermManager Expression="Term1" SearchMode="RangeOnly" SearchDistance="40">
+                  <Terms>
+                    <Term Name="Term1" MinCount="1" MaxCount="1" UseChannel="">
+                      <Tags>
+                        <Tag ID="34515a01-7410-4022-9970-5176b6346565" State="Checked" />
+                      </Tags>
+                    </Term>
+                  </Terms>
+                </TermManager>
+              </Variable>
+              <Variable ID="122749b9-e8f6-4747-8176-36d74e16421d" Value="431eef6a-b630-4811-84b4-da683bdff358" VariableName="Bed" />
+            </Variables>
+          </Task>
+          <Task ID="8a376b9a-3664-40f6-8999-6f3f2cbacd41" Index="4" Name="Task4" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="3f6432e6-0d53-4145-9282-1c853ac4fe4e" CustomWidth="0" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+            <Tags />
+            <Position X="430" Y="540" />
+            <Links>
+              <Link ID="d83640ae-0a9e-4ad2-a28d-b1d8873453f2" TaskID="49376ffe-9cfa-4d87-9baa-84c580e6d04d" />
+              <Link ID="95b49139-0849-4fcc-a0eb-2d2ad5ee814e" TaskID="528d6775-8b2f-4939-8a64-895c25ec8909" />
+            </Links>
+          </Task>
+          <Task ID="235e7553-3c8b-4574-9425-3f2806723bf2" Index="6" Name="Task7" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="3f6432e6-0d53-4145-9282-1c853ac4fe4e" CustomWidth="0" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+            <Tags />
+            <Position X="520" Y="1330" />
+            <Links>
+              <Link ID="d83640ae-0a9e-4ad2-a28d-b1d8873453f2" TaskID="00000000-0000-0000-0000-000000000000" />
+              <Link ID="95b49139-0849-4fcc-a0eb-2d2ad5ee814e" TaskID="00000000-0000-0000-0000-000000000000" />
+            </Links>
+          </Task>
+          <Task ID="528d6775-8b2f-4939-8a64-895c25ec8909" Index="7" Name="Task8" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="10727d47-62eb-44ba-81f5-c6a045aaca01" CustomWidth="0" ThreadParentVariable="95b49139-0849-4fcc-a0eb-2d2ad5ee814e">
+            <Tags />
+            <Position X="738" Y="742" />
+            <Links Success="235e7553-3c8b-4574-9425-3f2806723bf2" />
+            <Variables>
+              <Variable ID="99718680-53a4-472b-934e-0323383c02f5" Value="2" Type="Explicit" />
+            </Variables>
+          </Task>
+        </Tasks>
+      </Thread>
+    </Threads>
+    <Tasks>
+      <Task ID="4ad51c26-33f1-475d-8a06-335652b60930" Index="0" Name="Task0" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="39415b76-11bc-4521-9bbb-08a7e88b6ef1" CustomWidth="0" ThreadParentVariable="d83640ae-0a9e-4ad2-a28d-b1d8873453f2">
+        <Tags />
+        <Position X="0" Y="0" />
+        <Links Success="8a376b9a-3664-40f6-8999-6f3f2cbacd41" />
+        <Variables>
+          <Variable ID="b209ca66-3605-4789-a7de-7746899192da" Value="d83640ae-0a9e-4ad2-a28d-b1d8873453f2" VariableName="Doctor" />
+        </Variables>
+      </Task>
+      <Task ID="384a2025-f2cf-4425-a831-cf60a8fcb274" Index="1" Name="Task1" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="39415b76-11bc-4521-9bbb-08a7e88b6ef1" CustomWidth="0" ThreadParentVariable="95b49139-0849-4fcc-a0eb-2d2ad5ee814e">
+        <Tags />
+        <Position X="790" Y="0" />
+        <Links Success="07a522e5-76ff-4029-9e17-c15a8da10b8c" />
+        <Variables>
+          <Variable ID="b209ca66-3605-4789-a7de-7746899192da" Value="95b49139-0849-4fcc-a0eb-2d2ad5ee814e" VariableName="Patient" />
+        </Variables>
+      </Task>
+      <Task ID="8192b91d-fa03-491b-9aeb-9468839573f4" Index="2" Name="Task2" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="053ce435-5b43-4de1-b729-9adab3e61a92" CustomWidth="0" ThreadParentVariable="95b49139-0849-4fcc-a0eb-2d2ad5ee814e">
+        <Tags />
+        <Position X="730" Y="380" />
+        <Links Success="8a376b9a-3664-40f6-8999-6f3f2cbacd41" />
+        <Variables>
+          <Variable ID="5aa50d3e-c8f5-43a9-b50a-545afb96aa42" Value="431eef6a-b630-4811-84b4-da683bdff358" VariableName="Bed" />
+          <Variable ID="06e36269-610e-4563-9b58-7490c5d17ef7" Value="-1" Type="Explicit" />
+        </Variables>
+      </Task>
+      <Task ID="07a522e5-76ff-4029-9e17-c15a8da10b8c" Index="3" Name="Task3" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="c494f986-a1b8-46e9-b682-7f56f1fa3048" CustomWidth="0" ThreadParentVariable="95b49139-0849-4fcc-a0eb-2d2ad5ee814e">
+        <Tags />
+        <Position X="750" Y="150" />
+        <Links Success="8192b91d-fa03-491b-9aeb-9468839573f4" />
+        <Variables>
+          <Variable ID="72b2342b-6299-4568-a486-3d365e3feb3b" Value="44fd5937-6e18-435d-bb0b-b399e5211952" VariableName="Medbay" />
+          <Variable ID="0d11a8f6-4033-48e5-9495-64d42675a93b" Value="Bed" Type="Explicit">
+            <TermManager Expression="Term1" SearchMode="RangeOnly" SearchDistance="40">
+              <Terms>
+                <Term Name="Term1" MinCount="1" MaxCount="1" UseChannel="">
+                  <Tags>
+                    <Tag ID="34515a01-7410-4022-9970-5176b6346565" State="Checked" />
+                  </Tags>
+                </Term>
+              </Terms>
+            </TermManager>
+          </Variable>
+          <Variable ID="122749b9-e8f6-4747-8176-36d74e16421d" Value="431eef6a-b630-4811-84b4-da683bdff358" VariableName="Bed" />
+        </Variables>
+      </Task>
+      <Task ID="8a376b9a-3664-40f6-8999-6f3f2cbacd41" Index="4" Name="Task4" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="3f6432e6-0d53-4145-9282-1c853ac4fe4e" CustomWidth="0" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+        <Tags />
+        <Position X="430" Y="540" />
+        <Links>
+          <Link ID="d83640ae-0a9e-4ad2-a28d-b1d8873453f2" TaskID="49376ffe-9cfa-4d87-9baa-84c580e6d04d" />
+          <Link ID="95b49139-0849-4fcc-a0eb-2d2ad5ee814e" TaskID="528d6775-8b2f-4939-8a64-895c25ec8909" />
+        </Links>
+      </Task>
+      <Task ID="49376ffe-9cfa-4d87-9baa-84c580e6d04d" Index="5" Name="Task6" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="637f33c7-16f9-4b5c-85ae-088eed2abcea" CustomWidth="0" ThreadParentVariable="d83640ae-0a9e-4ad2-a28d-b1d8873453f2">
+        <Tags />
+        <Position X="300" Y="706" />
+        <Links Success="13d84ff6-a7d1-460e-9962-bcfcd1a97bee" />
+        <Variables>
+          <Variable ID="acc640da-df56-43fd-9c3b-586b81b9e922" Value="a07836a1-3730-4dd8-a51c-da873ed14475" VariableName="PatientObject" />
+          <Variable ID="fc3a2b20-5106-4ae9-8fa3-45d795e5f3d6" Value="547bbc31-0bed-4264-92cc-25fe5bad5624,528e14fb-b7e6-42d0-b6d3-5963143644fe" />
+        </Variables>
+      </Task>
+      <Task ID="235e7553-3c8b-4574-9425-3f2806723bf2" Index="6" Name="Task7" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="3f6432e6-0d53-4145-9282-1c853ac4fe4e" CustomWidth="0" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+        <Tags />
+        <Position X="520" Y="1330" />
+        <Links>
+          <Link ID="d83640ae-0a9e-4ad2-a28d-b1d8873453f2" TaskID="00000000-0000-0000-0000-000000000000" />
+          <Link ID="95b49139-0849-4fcc-a0eb-2d2ad5ee814e" TaskID="00000000-0000-0000-0000-000000000000" />
+        </Links>
+      </Task>
+      <Task ID="528d6775-8b2f-4939-8a64-895c25ec8909" Index="7" Name="Task8" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="10727d47-62eb-44ba-81f5-c6a045aaca01" CustomWidth="0" ThreadParentVariable="95b49139-0849-4fcc-a0eb-2d2ad5ee814e">
+        <Tags />
+        <Position X="738" Y="742" />
+        <Links Success="235e7553-3c8b-4574-9425-3f2806723bf2" />
+        <Variables>
+          <Variable ID="99718680-53a4-472b-934e-0323383c02f5" Value="2" Type="Explicit" />
+        </Variables>
+      </Task>
+      <Task ID="13d84ff6-a7d1-460e-9962-bcfcd1a97bee" Index="8" Name="Task9" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="548d3915-d888-4e9f-a525-acf91290b76a" CustomWidth="0" ThreadParentVariable="d83640ae-0a9e-4ad2-a28d-b1d8873453f2">
+        <Tags />
+        <Position X="260" Y="920" />
+        <Links Success="b81447d3-9167-4447-8d65-5194e937d24b" />
+        <Variables>
+          <Variable ID="53f744a9-60ed-48e1-a6c8-5e7bc3d03c1d" Value="Hello, thank you for waiting. Please move to a bed" Type="Explicit" />
+          <Variable ID="29877f4f-d097-4364-a1e3-7130e1758594" Value="4" Type="Explicit" />
+        </Variables>
+      </Task>
+      <Task ID="b81447d3-9167-4447-8d65-5194e937d24b" Index="9" Name="Task10" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="10727d47-62eb-44ba-81f5-c6a045aaca01" CustomWidth="0" ThreadParentVariable="d83640ae-0a9e-4ad2-a28d-b1d8873453f2">
+        <Tags />
+        <Position X="260" Y="1120" />
+        <Links Success="235e7553-3c8b-4574-9425-3f2806723bf2" />
+        <Variables>
+          <Variable ID="99718680-53a4-472b-934e-0323383c02f5" Value="4" Type="Explicit" />
+        </Variables>
+      </Task>
+    </Tasks>
+  </Subactivity>
+</Subsumption>

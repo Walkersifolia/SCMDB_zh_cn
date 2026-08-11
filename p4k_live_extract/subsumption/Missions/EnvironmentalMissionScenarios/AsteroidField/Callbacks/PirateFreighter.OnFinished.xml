@@ -1,0 +1,36 @@
+<Subsumption>
+  <Subactivity ID="e3519380-3b93-4974-ac81-34a7637554b8" Index="2" Name="PirateFreighter.OnFinished" Renamable="False" Deletable="True" ReadOnly="False" SiblingLinkage="False" Priority="0" Resumable="False" FunctionType="Callback" PossibleFunctionID="00000000-0000-0000-0000-000000000000" RelativeProbabilityFunctionID="00000000-0000-0000-0000-000000000000" GridSize="10" CameraScale="1" DefaultWidth="0" Cooldown="0">
+    <Tags />
+    <CallbackFunction VariableType="MissionInstance" CallbackFunctionID="65fca1bb-8620-4a64-871b-b19016ae500c" VariableID="abd88694-8449-4d45-9dcd-610b0e6f8a1f" />
+    <CameraPos X="483" Y="278" />
+    <DisplayGridSize Width="4000" Height="4000" />
+    <Variables>
+      <Variable ID="e86aa9c4-70dd-44c6-a3d7-a1441fb729f9" Index="0" Name="Enabled" Renamable="False" Deletable="False" ReadOnly="False" SiblingLinkage="False" Type="Boolean" VariableTypeID="ce01233f-41d3-4448-89c4-8977bcc93968" StorageType="Normal" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="None" EventParameter="False" Attribute="False" AllowExplicitValues="True" AllowEditing="True" DefaultValue="True" MinValue="0" MaxValue="1" ValueChangePerSecond="0.001">
+        <Tags />
+      </Variable>
+      <Variable ID="d73ae5fb-bb6f-4c8c-b740-ea046c82f741" Index="1" Name="EventOriginator" Renamable="False" Deletable="False" ReadOnly="True" SiblingLinkage="False" Type="Object" VariableTypeID="d30a0a9e-6850-4acd-ac38-60dcfc8a6c3c" StorageType="Normal" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="None" EventParameter="False" Attribute="False" AllowExplicitValues="True" AllowEditing="True" MinValue="0" MaxValue="1" ValueChangePerSecond="0.001">
+        <Tags />
+      </Variable>
+    </Variables>
+    <TermManager Expression="" SearchMode="RangeOnly" SearchDistance="40">
+      <Terms />
+    </TermManager>
+    <RequiredEvents />
+    <SecondarySubactivityPermissions />
+    <Comments />
+    <Tasks>
+      <Task ID="9eca16c7-61be-4922-ad97-c32819cb88a2" Index="0" Name="Task_000" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="e005de61-7d6e-460f-b963-109bac1a4b56" CustomWidth="0" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+        <Tags />
+        <Position X="20" Y="20" />
+        <Links Success="b20a21ec-edab-46fd-8557-232c0def42a9" />
+        <Variables />
+      </Task>
+      <Task ID="b20a21ec-edab-46fd-8557-232c0def42a9" Index="1" Name="Task_001" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="95e448a7-c7c8-45a9-b50e-6942f786a236" CustomWidth="0" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+        <Tags />
+        <Position X="20" Y="170" />
+        <Links />
+        <Variables />
+      </Task>
+    </Tasks>
+  </Subactivity>
+</Subsumption>

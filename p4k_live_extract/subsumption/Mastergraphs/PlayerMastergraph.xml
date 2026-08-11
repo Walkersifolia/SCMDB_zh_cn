@@ -1,0 +1,10 @@
+<Subsumption>
+  <Mastergraph Name="PlayerMastergraph" ID="192fef4d-768a-47e7-b347-87ef9c5871a0">
+    <States>
+      <State Name="PlayerMainState" StateId="32b80f42-6eb4-43d8-ae4e-acf9dc7994f2" Default="true">
+        <Activity />
+        <Transitions />
+      </State>
+    </States>
+  </Mastergraph>
+</Subsumption>

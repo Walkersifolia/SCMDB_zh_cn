@@ -1,0 +1,18 @@
+<Subsumption>
+  <Mastergraph Name="AIModuleMastergraph" ID="be10f730-d0ae-47f0-a2de-62a95558934e">
+    <States>
+      <State Name="Main" StateId="a1d091ad-38dc-457f-807b-8078c47a7acc" Default="true">
+        <Activity />
+        <Transitions>
+          <Transition ToState="84a94e50-c044-438b-a4df-ba9b60c1fdef" OnEvent="99e0c2cc-50b3-4ddb-9de0-c8b982776468" />
+        </Transitions>
+      </State>
+      <State Name="AssignmentCustomLogic" StateId="84a94e50-c044-438b-a4df-ba9b60c1fdef">
+        <Activity ActivityId="7377e666-b94d-4f98-89fa-e26fd0560acc" />
+        <Transitions>
+          <Transition ToState="a1d091ad-38dc-457f-807b-8078c47a7acc" OnEvent="c19d0721-173a-4dd7-91ef-2406417686eb" />
+        </Transitions>
+      </State>
+    </States>
+  </Mastergraph>
+</Subsumption>

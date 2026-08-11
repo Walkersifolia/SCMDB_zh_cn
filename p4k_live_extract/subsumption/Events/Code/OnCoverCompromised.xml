@@ -1,0 +1,6 @@
+<Subsumption>
+  <Event ID="7ea9d14c-f935-409d-a1c4-240fc55e7c21" Index="44" Name="OnCoverCompromised" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" LastModSaveTime="3/1/2018 17:3:51" PropagationType="Direct" MaxRespondents="0" Volume="0" Range="0" RequiresVisual="False">
+    <Tags />
+    <Variables />
+  </Event>
+</Subsumption>

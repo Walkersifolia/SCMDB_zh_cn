@@ -1,0 +1,43 @@
+<Subsumption>
+  <Subactivity ID="71998726-8dce-4464-976a-ea587e8cb3fc" Index="6" Name="p_Launch" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Priority="0" Resumable="False" FunctionType="Possible" PossibleFunctionID="00000000-0000-0000-0000-000000000000" RelativeProbabilityFunctionID="00000000-0000-0000-0000-000000000000" GridSize="35" CameraScale="1" DefaultWidth="0" Cooldown="0">
+    <Tags />
+    <CameraPos X="562" Y="428" />
+    <DisplayGridSize Width="4000" Height="4000" />
+    <Variables>
+      <Variable ID="64375513-1555-4293-9e67-26d1a2b28578" Index="0" Name="IsPossible" Renamable="False" Deletable="False" ReadOnly="False" SiblingLinkage="False" Type="Boolean" VariableTypeID="ce01233f-41d3-4448-89c4-8977bcc93968" StorageType="Normal" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="Output" EventParameter="False" Attribute="False" AllowExplicitValues="True" AllowEditing="True" DefaultValue="False" MinValue="0" MaxValue="1" ValueChangePerSecond="0.001">
+        <Tags />
+      </Variable>
+    </Variables>
+    <TermManager Expression="" SearchMode="RangeOnly" SearchDistance="40">
+      <Terms />
+    </TermManager>
+    <RequiredEvents />
+    <SecondarySubactivityPermissions />
+    <Comments />
+    <Tasks>
+      <Task ID="377b7adb-6ba8-42b1-97c1-3fcd66e6127a" Index="0" Name="Task_000" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="e005de61-7d6e-460f-b963-109bac1a4b56" CustomWidth="315" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+        <Tags />
+        <Position X="0" Y="0" />
+        <Links Success="1ef3fb2b-b2a1-410c-818d-cb1c93546870" />
+        <Variables />
+      </Task>
+      <Task ID="1ea8f299-8b8d-4fb6-af60-eb0859f28d87" Index="1" Name="Task_001" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="a3dc68d2-c874-4d68-8557-856bf0c1d69b" CustomWidth="315" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+        <Tags />
+        <Position X="70" Y="280" />
+        <Links />
+        <Variables>
+          <Variable ID="ab2ebe9a-5b03-490d-91c2-9f623a72d88a" Value="64375513-1555-4293-9e67-26d1a2b28578" VariableName="IsPossible" />
+          <Variable ID="fe5aab29-c4e0-4628-a608-291aba3d3089" Value="7c4370ab-0601-46ae-9e4c-1a8f324c8788" VariableName="B_CanLaunch" />
+        </Variables>
+      </Task>
+      <Task ID="1ef3fb2b-b2a1-410c-818d-cb1c93546870" Index="2" Name="Task_002" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="fcbc5c0d-3360-44d4-9526-36d79059a345" CustomWidth="315" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+        <Tags />
+        <Position X="70" Y="105" />
+        <Links Success="1ea8f299-8b8d-4fb6-af60-eb0859f28d87" />
+        <Variables>
+          <Variable ID="d380b087-2407-425a-96fd-ba6665430526" Value="be578a52-d6f7-4d42-9c45-45712ab063d6" VariableName="B_Pending_TakeOff" />
+        </Variables>
+      </Task>
+    </Tasks>
+  </Subactivity>
+</Subsumption>

@@ -1,0 +1,16 @@
+<Subsumption>
+  <Event ID="9ca8ec9e-28ca-417d-81cf-f3df01e889b7" Index="100" Name="OnVehicleDestroyed" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" LastModSaveTime="12/17/2017 15:49:48" PropagationType="Direct" MaxRespondents="0" Volume="0" Range="0" RequiresVisual="False">
+    <Tags />
+    <Variables>
+      <Variable ID="9ebb6d40-fd4c-45f4-b5c3-a2f4a8e7108e" Index="0" Name="VehicleDestroyed" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" LastModSaveTime="12/14/2017 14:32:55" Type="Object" VariableTypeID="d30a0a9e-6850-4acd-ac38-60dcfc8a6c3c" StorageType="Normal" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="Input" EventParameter="True" Attribute="False" AllowExplicitValues="True" AllowEditing="True" MinValue="0" MaxValue="1" ValueChangePerSecond="0.001">
+        <Tags />
+      </Variable>
+      <Variable ID="0d9248d4-c08c-47a4-9c97-e80ea368dc7b" Index="1" Name="VehicleKiller" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" LastModSaveTime="12/17/2017 15:46:50" Type="Object" VariableTypeID="d30a0a9e-6850-4acd-ac38-60dcfc8a6c3c" StorageType="Normal" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="Input" EventParameter="True" Attribute="False" AllowExplicitValues="True" AllowEditing="True" MinValue="0" MaxValue="1" ValueChangePerSecond="0.001">
+        <Tags />
+      </Variable>
+      <Variable ID="219e7d61-cb54-4bed-8168-627061c4b2b1" Index="2" Name="VehicleDestroyedFaction" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" LastModSaveTime="12/17/2017 15:49:46" Type="Integer" VariableTypeID="2ce37f4c-9f6c-4d79-9d33-9a3bb73b6743" StorageType="Normal" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="Input" EventParameter="True" Attribute="False" AllowExplicitValues="True" AllowEditing="True" MinValue="0" MaxValue="1" ValueChangePerSecond="0.001">
+        <Tags />
+      </Variable>
+    </Variables>
+  </Event>
+</Subsumption>

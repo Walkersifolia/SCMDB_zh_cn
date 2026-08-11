@@ -1,0 +1,106 @@
+<Subsumption>
+  <Subactivity ID="3f4c33c9-ea8d-48ab-a399-d12de42f48ac" Index="15" Name="PlayerSeenDistCheck" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Priority="0" Resumable="False" FunctionType="Function" PossibleFunctionID="00000000-0000-0000-0000-000000000000" RelativeProbabilityFunctionID="00000000-0000-0000-0000-000000000000" GridSize="35" CameraScale="85" DefaultWidth="0" Cooldown="0">
+    <Tags />
+    <CameraPos X="548" Y="851" />
+    <DisplayGridSize Width="4000" Height="4000" />
+    <Variables>
+      <Variable ID="4321931e-894b-4127-8abc-0c43dce360e1" Index="0" Name="CheckTime" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Type="Integer" VariableTypeID="2ce37f4c-9f6c-4d79-9d33-9a3bb73b6743" StorageType="Normal" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="Input" EventParameter="False" Attribute="False" AllowExplicitValues="True" AllowEditing="True" DefaultValue="10" MinValue="0" MaxValue="1" ValueChangePerSecond="1">
+        <Tags />
+      </Variable>
+      <Variable ID="7901095c-61b9-4352-b751-322f5038e438" Index="1" Name="Distance" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Type="Float" VariableTypeID="4598643f-5bd9-474a-b279-85ad37a6a548" StorageType="Normal" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="Input" EventParameter="False" Attribute="False" AllowExplicitValues="True" AllowEditing="True" DefaultValue="5" MinValue="0" MaxValue="1" ValueChangePerSecond="1">
+        <Tags />
+      </Variable>
+      <Variable ID="ff405c30-3892-4926-b51e-a1bbed6857fe" Index="2" Name="Player" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Type="Object" VariableTypeID="d30a0a9e-6850-4acd-ac38-60dcfc8a6c3c" StorageType="Normal" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="None" EventParameter="False" Attribute="False" AllowExplicitValues="True" AllowEditing="True" MinValue="0" MaxValue="1" ValueChangePerSecond="1">
+        <Tags />
+      </Variable>
+      <Variable ID="6276fcbd-dc4b-47a4-b441-27c994724e98" Index="3" Name="PlayerInDistance" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Type="Float" VariableTypeID="4598643f-5bd9-474a-b279-85ad37a6a548" StorageType="Normal" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="None" EventParameter="False" Attribute="False" AllowExplicitValues="True" AllowEditing="True" DefaultValue="0" MinValue="0" MaxValue="1" ValueChangePerSecond="1">
+        <Tags />
+      </Variable>
+    </Variables>
+    <TermManager Expression="" SearchMode="RangeOnly" SearchDistance="40">
+      <Terms />
+    </TermManager>
+    <RequiredEvents />
+    <SecondarySubactivityPermissions />
+    <Comments />
+    <Tasks>
+      <Task ID="37cdfb41-b131-4731-8c9a-242c7ed21aca" Index="0" Name="Task0" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="e005de61-7d6e-460f-b963-109bac1a4b56" CustomWidth="246" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+        <Tags />
+        <Position X="0" Y="0" />
+        <Links Success="c9b7dd84-c423-4f5a-8cf4-a40a532cd514" />
+        <Variables />
+      </Task>
+      <Task ID="f02e8363-8433-480d-a639-5696922cc229" Index="1" Name="Task1" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="9788ab80-8d51-423c-a6c2-3846d2b6a946" CustomWidth="247" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+        <Tags />
+        <Position X="350" Y="350" />
+        <Links>
+          <ParallelTasks>
+            <Task ID="8d190f37-c383-4fb9-b3e2-1a038139b96d" />
+          </ParallelTasks>
+        </Links>
+        <Variables>
+          <Variable ID="9bc81679-fa24-4b14-a850-4728b5d2b348" Value="4321931e-894b-4127-8abc-0c43dce360e1" VariableName="CheckTime" />
+        </Variables>
+      </Task>
+      <Task ID="6aef7959-5a98-424d-9828-fcd55f664b67" Index="2" Name="Task2" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="10727d47-62eb-44ba-81f5-c6a045aaca01" CustomWidth="247" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+        <Tags />
+        <Position X="770" Y="595" />
+        <Links />
+        <Variables />
+      </Task>
+      <Task ID="c9b7dd84-c423-4f5a-8cf4-a40a532cd514" Index="3" Name="Task3" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="5b08d83f-290a-4595-9596-03fa4fea6155" CustomWidth="245" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+        <Tags />
+        <Position X="70" Y="105" />
+        <Links Success="85b900db-d35a-4655-a663-c3cb4f682902" />
+        <Variables>
+          <Variable ID="698bbbea-b6e7-4ed9-9313-27f5357c90e8" Value="78dc11b9-dc00-4121-8d78-93e1e458ae29" VariableName="OnFriendlyPlayerSeen">
+            <Variables />
+          </Variable>
+          <Variable ID="6ede4ffb-d4fe-4c15-a6ef-754d67b1351a" Value="ff405c30-3892-4926-b51e-a1bbed6857fe" VariableName="Player" />
+        </Variables>
+      </Task>
+      <Task ID="8d190f37-c383-4fb9-b3e2-1a038139b96d" Index="4" Name="Task4" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="3eb95cc3-57db-49bd-908b-ab54bccb86d8" CustomWidth="246" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+        <Tags />
+        <Position X="630" Y="420" />
+        <Links Success="159d8983-34e7-4558-951d-28c69fee2f92" Failure="6aef7959-5a98-424d-9828-fcd55f664b67" />
+        <Variables>
+          <Variable ID="f6679a3e-60fb-41d3-9497-1c7dc65a4191" Value="ff405c30-3892-4926-b51e-a1bbed6857fe" VariableName="Player" />
+          <Variable ID="e7838f7e-226f-4dc3-bd29-450f1702ac89" Value="7901095c-61b9-4352-b751-322f5038e438" VariableName="Distance" />
+        </Variables>
+      </Task>
+      <Task ID="85b900db-d35a-4655-a663-c3cb4f682902" Index="5" Name="Task6" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="7ef0f24b-bc64-486d-97a0-fa0d15fa0ff2" CustomWidth="245" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+        <Tags />
+        <Position X="70" Y="280" />
+        <Links Success="2cf85ca2-e8f8-425c-8ce5-8ba262e09a67">
+          <ParallelTasks>
+            <Task ID="f02e8363-8433-480d-a639-5696922cc229" />
+          </ParallelTasks>
+        </Links>
+        <Variables />
+      </Task>
+      <Task ID="b1d99842-83c4-4e10-9b5d-706823afd621" Index="6" Name="Task7" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="b9a24a0e-c284-48de-9ba0-52e24b3f2169" CustomWidth="246" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+        <Tags />
+        <Position X="490" Y="770" />
+        <Links />
+        <Variables />
+      </Task>
+      <Task ID="2cf85ca2-e8f8-425c-8ce5-8ba262e09a67" Index="7" Name="Task8" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="49d15178-04d5-42e2-8efa-6f963a312648" CustomWidth="246" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+        <Tags />
+        <Position X="70" Y="420" />
+        <Links />
+        <Variables>
+          <Variable ID="f1d1fcf3-d4e7-46bf-aaf5-d56db018941d" Value="PlayerInDistance" Type="Explicit" />
+        </Variables>
+      </Task>
+      <Task ID="159d8983-34e7-4558-951d-28c69fee2f92" Index="8" Name="Task9" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="b5342cdd-215b-40a5-9ba1-898b2315e58c" CustomWidth="245" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+        <Tags />
+        <Position X="490" Y="595" />
+        <Links Success="b1d99842-83c4-4e10-9b5d-706823afd621" />
+        <Variables>
+          <Variable ID="7a8f8ac6-d59f-460f-8df3-703623ee47f3" Value="1" Type="Explicit" />
+          <Variable ID="48712151-fedd-48dc-8872-b5c818bbe974" Value="6276fcbd-dc4b-47a4-b441-27c994724e98" VariableName="PlayerInDistance" />
+        </Variables>
+      </Task>
+    </Tasks>
+  </Subactivity>
+</Subsumption>

@@ -1,0 +1,13 @@
+<Subsumption>
+  <Event ID="bc210a28-1a6f-432f-9f29-dc03c56b2fe6" Index="101" Name="OnVehicleDestroyedByMe" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" LastModSaveTime="12/17/2017 18:19:12" PropagationType="Direct" MaxRespondents="0" Volume="0" Range="0" RequiresVisual="False">
+    <Tags />
+    <Variables>
+      <Variable ID="d7fc67e1-a7d6-43e4-a4ec-8eed05333a5c" Index="0" Name="VehicleDestroyed" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" LastModSaveTime="12/14/2017 14:32:55" Type="Object" VariableTypeID="d30a0a9e-6850-4acd-ac38-60dcfc8a6c3c" StorageType="Normal" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="Input" EventParameter="True" Attribute="False" AllowExplicitValues="True" AllowEditing="True" MinValue="0" MaxValue="1" ValueChangePerSecond="0.001">
+        <Tags />
+      </Variable>
+      <Variable ID="b0fcd8c8-1214-46d2-85e9-83884dcff831" Index="1" Name="VehicleDestroyedFaction" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" LastModSaveTime="12/17/2017 18:19:12" Type="Integer" VariableTypeID="2ce37f4c-9f6c-4d79-9d33-9a3bb73b6743" StorageType="Normal" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="Input" EventParameter="True" Attribute="False" AllowExplicitValues="True" AllowEditing="True" MinValue="0" MaxValue="1" ValueChangePerSecond="0.001">
+        <Tags />
+      </Variable>
+    </Variables>
+  </Event>
+</Subsumption>

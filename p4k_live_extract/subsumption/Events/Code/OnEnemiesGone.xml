@@ -1,0 +1,6 @@
+<Subsumption>
+  <Event ID="23d90c16-49f9-43c1-bb7a-3573a6c240ea" Index="167" Name="OnEnemiesGone" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" PropagationType="Direct" MaxRespondents="0" Volume="0" Range="0" RequiresVisual="False">
+    <Tags />
+    <Variables />
+  </Event>
+</Subsumption>

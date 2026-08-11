@@ -1,0 +1,6 @@
+<Subsumption>
+  <Event ID="f3e3cbb6-beac-4a66-a710-ff2b971384a9" Index="168" Name="OnNoMoreTargetsAvailable" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" PropagationType="Direct" MaxRespondents="0" Volume="0" Range="0" RequiresVisual="False">
+    <Tags />
+    <Variables />
+  </Event>
+</Subsumption>

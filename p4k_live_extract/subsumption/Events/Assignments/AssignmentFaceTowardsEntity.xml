@@ -1,0 +1,10 @@
+<Subsumption>
+  <Event ID="559cb26f-ff2f-41e3-b6c5-237d062924e8" Index="127" Name="AssignmentFaceTowardsEntity" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" LastModSaveTime="11/28/2017 12:32:25" PropagationType="Direct" MaxRespondents="0" Volume="0" Range="0" RequiresVisual="False">
+    <Tags />
+    <Variables>
+      <Variable ID="cfd6d117-50a3-4564-95ce-cf259e408d5e" Index="0" Name="FaceTowardsEntity" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" LastModSaveTime="11/28/2017 12:32:25" Type="Object" VariableTypeID="d30a0a9e-6850-4acd-ac38-60dcfc8a6c3c" StorageType="Normal" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="Input" Attribute="False" AllowExplicitValues="True" AllowEditing="True" MinValue="0" MaxValue="1" ValueChangePerSecond="0.001">
+        <Tags />
+      </Variable>
+    </Variables>
+  </Event>
+</Subsumption>

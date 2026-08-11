@@ -1,0 +1,6 @@
+<Subsumption>
+  <Event ID="dec5ccf3-dfa8-4c6a-b6b0-41071e5e971c" Index="117" Name="OnLandingGearRetract" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" LastModSaveTime="11/27/2017 10:2:45" PropagationType="Direct" MaxRespondents="0" Volume="0" Range="0" RequiresVisual="False">
+    <Tags />
+    <Variables />
+  </Event>
+</Subsumption>

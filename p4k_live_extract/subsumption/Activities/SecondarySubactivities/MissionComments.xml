@@ -1,0 +1,91 @@
+<Subsumption>
+  <Subactivity ID="c7eb23fa-f4d1-434f-9c12-22e73b925e59" Index="16" Name="MissionComments" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Priority="120" Resumable="False" FunctionType="SecondarySubactivity" PossibleFunctionID="00000000-0000-0000-0000-000000000000" RelativeProbabilityFunctionID="00000000-0000-0000-0000-000000000000" GridSize="35" CameraScale="1" DefaultWidth="0" Cooldown="60">
+    <Tags />
+    <CameraPos X="1132" Y="841" />
+    <DisplayGridSize Width="4000" Height="4000" />
+    <Variables>
+      <Variable ID="30185762-32f8-4449-b1ae-b37cabe83a33" Index="0" Name="EventOriginator" Renamable="False" Deletable="False" ReadOnly="True" SiblingLinkage="False" Type="Object" VariableTypeID="d30a0a9e-6850-4acd-ac38-60dcfc8a6c3c" StorageType="Normal" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="None" EventParameter="False" Attribute="False" AllowExplicitValues="True" AllowEditing="True" MinValue="0" MaxValue="1" ValueChangePerSecond="0.001">
+        <Tags />
+      </Variable>
+    </Variables>
+    <TermManager Expression="" SearchMode="RangeOnly" SearchDistance="40">
+      <Terms />
+    </TermManager>
+    <RequiredEvents>
+      <Event />
+    </RequiredEvents>
+    <SecondarySubactivityPermissions />
+    <Comments />
+    <Tasks>
+      <Task ID="3e458de9-cfdd-44a7-ac7f-47a2162d12b1" Index="0" Name="Task_000" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="e005de61-7d6e-460f-b963-109bac1a4b56" CustomWidth="0" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+        <Tags />
+        <Position X="665" Y="420" />
+        <Links Success="dca53bf9-e0d7-48f4-8788-d814c606860d" />
+        <Variables />
+      </Task>
+      <Task ID="0aab69fa-4118-46e0-b18f-188169d70332" Index="1" Name="Task_002" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="3eb95cc3-57db-49bd-908b-ab54bccb86d8" CustomWidth="0" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+        <Tags />
+        <Position X="665" Y="735" />
+        <Links Success="b7650a0e-4505-4fb9-b1d0-2931f8231493" />
+        <Variables>
+          <Variable ID="f6679a3e-60fb-41d3-9497-1c7dc65a4191" Value="30185762-32f8-4449-b1ae-b37cabe83a33" VariableName="EventOriginator" />
+          <Variable ID="e7838f7e-226f-4dc3-bd29-450f1702ac89" Value="3.75" Type="Explicit" />
+        </Variables>
+      </Task>
+      <Task ID="b7650a0e-4505-4fb9-b1d0-2931f8231493" Index="2" Name="Task_003" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" FunctionArchetype="ac55bcff-dcb6-484c-afe1-a2eabfca9ad4" CustomWidth="382" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+        <Tags />
+        <Position X="665" Y="910" />
+        <Links />
+        <Variables>
+          <Variable ID="8f670630-3203-4056-be4f-599a09285bd2" Value="fa95aa90-929e-4f3e-bf8e-bb0c7388650a" VariableName="MissionComments" />
+          <Variable ID="6c8946c7-d704-4801-b662-926e49efc094" Value="eb119c3b-d3a7-4a13-a23e-ddb2170f7902" VariableName="PersonalWildline" />
+          <Variable ID="bace07c2-7d18-4b79-8fed-3805890ec762" Value="5" Type="Explicit" />
+          <Variable ID="152e4497-bb4b-41c0-b36f-73cae359dd7c" Value="30185762-32f8-4449-b1ae-b37cabe83a33" VariableName="EventOriginator" />
+        </Variables>
+      </Task>
+      <Task ID="dca53bf9-e0d7-48f4-8788-d814c606860d" Index="3" Name="Task_004" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="07eb4396-00f3-4eca-bbb6-91e601bdd489" CustomWidth="0" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+        <Tags />
+        <Position X="665" Y="560" />
+        <Links Success="0aab69fa-4118-46e0-b18f-188169d70332">
+          <ParallelTasks>
+            <Task ID="474517cd-b8aa-4940-ba1d-95053ad4449b" />
+            <Task ID="62bd3704-343e-42df-a564-cd640cf290e3" />
+            <Task ID="53c8eccd-90be-4e40-96b4-104c365c579f" />
+          </ParallelTasks>
+        </Links>
+        <Variables>
+          <Variable ID="13727bec-0ac3-4d34-bdad-d25166112415" Value="61f1e35d-f2dd-44d0-ac3e-9039d702b616" SelectionName="Any" />
+          <Variable ID="7f040c5b-7a08-48f7-bd03-63d6080cceb8" Value="a1785642-c89a-4a07-81e9-5e953cddaebd" SelectionName="Any" />
+        </Variables>
+      </Task>
+      <Task ID="62bd3704-343e-42df-a564-cd640cf290e3" Index="4" Name="Task_006" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="10727d47-62eb-44ba-81f5-c6a045aaca01" CustomWidth="0" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+        <Tags />
+        <Position X="1260" Y="560" />
+        <Links />
+        <Variables>
+          <Variable ID="99718680-53a4-472b-934e-0323383c02f5" Value="0.5" Type="Explicit" />
+          <Variable ID="3b839d09-09d9-4f03-876f-843cc1882a01" Value="0.5" Type="Explicit" />
+        </Variables>
+      </Task>
+      <Task ID="53c8eccd-90be-4e40-96b4-104c365c579f" Index="5" Name="Task_007" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" FunctionArchetype="8d578fc6-e51f-4e7b-ba6d-3c2b49f2dbba" CustomWidth="0" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+        <Tags />
+        <Position X="1540" Y="560" />
+        <Links />
+        <Variables>
+          <Variable ID="81c30d1f-2270-42bf-97ea-0d3ab0c33f38" Value="30185762-32f8-4449-b1ae-b37cabe83a33" VariableName="EventOriginator" />
+        </Variables>
+      </Task>
+      <Task ID="474517cd-b8aa-4940-ba1d-95053ad4449b" Index="6" Name="Task_008" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="1ebde2c6-76af-4c08-a4b8-e97f94a11252" CustomWidth="0" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+        <Tags />
+        <Position X="980" Y="560" />
+        <Links />
+        <Variables>
+          <Variable ID="8adfe02a-63f1-491a-b823-fc6931a03e74" Value="0ef94a1c-242c-42a8-8da2-5f9d7088d9e4" VariableName="OnStaredAt">
+            <Variables />
+          </Variable>
+          <Variable ID="b9d9a109-3135-4a66-ad4a-16de0f866d81" Value="30185762-32f8-4449-b1ae-b37cabe83a33" VariableName="EventOriginator" />
+        </Variables>
+      </Task>
+    </Tasks>
+  </Subactivity>
+</Subsumption>

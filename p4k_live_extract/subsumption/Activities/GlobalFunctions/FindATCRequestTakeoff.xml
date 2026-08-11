@@ -1,0 +1,83 @@
+<Subsumption>
+  <Subactivity ID="41eab9a4-51e8-4ca4-aec8-2b64b837b45f" Index="6" Name="FindATCRequestTakeoff" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Priority="0" Resumable="False" FunctionType="Function" PossibleFunctionID="00000000-0000-0000-0000-000000000000" RelativeProbabilityFunctionID="00000000-0000-0000-0000-000000000000" GridSize="35" CameraScale="1" DefaultWidth="0" Cooldown="0">
+    <Tags />
+    <CameraPos X="387" Y="1034" />
+    <DisplayGridSize Width="4000" Height="4000" />
+    <Variables>
+      <Variable ID="453e0195-bc30-4ea2-8eee-4fc4f1e2e668" Index="0" Name="LandingAreaFilter" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Type="String" VariableTypeID="95ea100a-7f93-4bb9-aa15-9799f720be63" StorageType="Normal" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="Input" EventParameter="False" Attribute="False" AllowExplicitValues="True" AllowEditing="True" MinValue="0" MaxValue="1" ValueChangePerSecond="0.001">
+        <Tags />
+      </Variable>
+      <Variable ID="54ee62cd-fd9d-4669-8051-53c118b00099" Index="1" Name="O_ATCConsole" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Type="Object" VariableTypeID="d30a0a9e-6850-4acd-ac38-60dcfc8a6c3c" StorageType="Normal" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="None" EventParameter="False" Attribute="False" AllowExplicitValues="True" AllowEditing="True" MinValue="0" MaxValue="1" ValueChangePerSecond="0.001">
+        <Tags />
+      </Variable>
+    </Variables>
+    <TermManager Expression="" SearchMode="RangeOnly" SearchDistance="40">
+      <Terms />
+    </TermManager>
+    <RequiredEvents />
+    <SecondarySubactivityPermissions />
+    <Comments />
+    <Tasks>
+      <Task ID="b7929c66-3591-409e-9820-92a50e95b704" Index="0" Name="Task_000" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="e005de61-7d6e-460f-b963-109bac1a4b56" CustomWidth="315" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+        <Tags />
+        <Position X="0" Y="0" />
+        <Links Success="75601f26-72f3-4d68-95fd-a787a237fda1" />
+        <Variables />
+      </Task>
+      <Task ID="75601f26-72f3-4d68-95fd-a787a237fda1" Index="1" Name="Task_001" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="cc6b4420-f898-47b1-9569-bbd9c283473b" CustomWidth="315" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+        <Tags />
+        <Position X="70" Y="105" />
+        <Links Success="c0c344d1-0c32-41d5-836b-2b7906d28ad6" Failure="4a2eb88f-8a32-4ad3-ab8e-0a2f97f845fe" />
+        <Variables>
+          <Variable ID="d6fd66f8-4e10-4231-bbe0-1bbdb12686ef" Value="54ee62cd-fd9d-4669-8051-53c118b00099" VariableName="O_ATCConsole" />
+          <Variable ID="0e32a612-b5b8-49ed-8c79-fead70a56737" Value="SCAirTrafficControllerDataManager" Type="Explicit">
+            <TermManager Expression="Term1" SearchMode="RangeOnly" SearchDistance="300">
+              <Terms>
+                <Term Name="Term1" MinCount="1" MaxCount="1" UseChannel="">
+                  <Tags>
+                    <Tag ID="112703d7-24a9-4fac-9530-3f5f96112302" State="Checked" />
+                  </Tags>
+                </Term>
+              </Terms>
+            </TermManager>
+          </Variable>
+        </Variables>
+      </Task>
+      <Task ID="c0c344d1-0c32-41d5-836b-2b7906d28ad6" Index="2" Name="Task_002" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="c2a2e0c1-87b0-49ee-a284-705fa98b1291" CustomWidth="315" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+        <Tags />
+        <Position X="70" Y="595" />
+        <Links Success="2c7f0b17-71bb-4b8b-9efa-5550ad165905" />
+        <Variables>
+          <Variable ID="2b308b92-505e-4f59-9c68-b2e538c102ed" Value="453e0195-bc30-4ea2-8eee-4fc4f1e2e668" VariableName="LandingAreaFilter" />
+          <Variable ID="f9dd98c8-6250-45d0-bfeb-350708b36c52" Value="54ee62cd-fd9d-4669-8051-53c118b00099" VariableName="O_ATCConsole" />
+        </Variables>
+      </Task>
+      <Task ID="4a2eb88f-8a32-4ad3-ab8e-0a2f97f845fe" Index="3" Name="Task_003" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="548d3915-d888-4e9f-a525-acf91290b76a" CustomWidth="315" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+        <Tags />
+        <Position X="245" Y="280" />
+        <Links Success="3bbd81be-8a0a-4325-b3e9-0cfb190e76c1" />
+        <Variables>
+          <Variable ID="afa3376b-ef2d-4dea-af4e-e84ab1cb7ac8" Value="True" Type="Explicit" />
+          <Variable ID="29877f4f-d097-4364-a1e3-7130e1758594" Value="1" Type="Explicit" />
+          <Variable ID="53f744a9-60ed-48e1-a6c8-5e7bc3d03c1d" Value="Cannot find any valid ATC!" Type="Explicit" />
+        </Variables>
+      </Task>
+      <Task ID="3bbd81be-8a0a-4325-b3e9-0cfb190e76c1" Index="4" Name="Task_004" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="b9a24a0e-c284-48de-9ba0-52e24b3f2169" CustomWidth="315" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+        <Tags />
+        <Position X="247" Y="489" />
+        <Links />
+        <Variables />
+      </Task>
+      <Task ID="2c7f0b17-71bb-4b8b-9efa-5550ad165905" Index="5" Name="Task_005" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="548d3915-d888-4e9f-a525-acf91290b76a" CustomWidth="315" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+        <Tags />
+        <Position X="70" Y="805" />
+        <Links />
+        <Variables>
+          <Variable ID="53f744a9-60ed-48e1-a6c8-5e7bc3d03c1d" Value="Requested Takeoff" Type="Explicit" />
+          <Variable ID="29877f4f-d097-4364-a1e3-7130e1758594" Value="1" Type="Explicit" />
+          <Variable ID="afa3376b-ef2d-4dea-af4e-e84ab1cb7ac8" Value="True" Type="Explicit" />
+        </Variables>
+      </Task>
+    </Tasks>
+  </Subactivity>
+</Subsumption>

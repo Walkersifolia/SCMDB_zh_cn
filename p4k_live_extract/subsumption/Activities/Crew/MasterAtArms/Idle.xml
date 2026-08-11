@@ -1,0 +1,46 @@
+<Subsumption>
+  <Subactivity ID="7acfb040-226d-4654-9d5b-cedfa8cbad27" Index="0" Name="Idle" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Priority="0" Resumable="False" FunctionType="Subactivity" PossibleFunctionID="00000000-0000-0000-0000-000000000000" RelativeProbabilityFunctionID="00000000-0000-0000-0000-000000000000" GridSize="35" CameraScale="1" DefaultWidth="0" Cooldown="0">
+    <Tags />
+    <CameraPos X="279" Y="264" />
+    <DisplayGridSize Width="4000" Height="4000" />
+    <Variables>
+      <Variable ID="ba64c5bc-342d-4673-bbbb-107190cd47bb" Index="0" Name="EventOriginator" Renamable="False" Deletable="False" ReadOnly="True" SiblingLinkage="False" Type="Object" VariableTypeID="d30a0a9e-6850-4acd-ac38-60dcfc8a6c3c" StorageType="Normal" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="None" EventParameter="False" Attribute="False" AllowExplicitValues="True" AllowEditing="True" MinValue="0" MaxValue="1" ValueChangePerSecond="0.001">
+        <Tags />
+      </Variable>
+      <Variable ID="f6423d6b-7ab4-453b-ad16-d21fdf971833" Index="1" Name="Checkpoint" Renamable="False" Deletable="False" ReadOnly="True" SiblingLinkage="False" Type="Checkpoint" VariableTypeID="f2daf886-b684-4104-8cda-a9f0bca5ccdc" StorageType="Normal" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="None" EventParameter="False" Attribute="False" AllowExplicitValues="True" AllowEditing="True" MinValue="0" MaxValue="1" ValueChangePerSecond="0.001">
+        <Tags />
+      </Variable>
+      <Variable ID="a8a1ffd6-a348-4650-ae2e-a89c8591c339" Index="2" Name="RequiredObjectSearchResult" Renamable="False" Deletable="False" ReadOnly="False" SiblingLinkage="False" Type="Object" VariableTypeID="d30a0a9e-6850-4acd-ac38-60dcfc8a6c3c" StorageType="Normal" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="None" EventParameter="False" Attribute="False" AllowExplicitValues="True" AllowEditing="True" MinValue="0" MaxValue="1" ValueChangePerSecond="0.001">
+        <Tags />
+      </Variable>
+    </Variables>
+    <TermManager Expression="" SearchMode="RangeOnly" SearchDistance="40">
+      <Terms />
+    </TermManager>
+    <RequiredEvents />
+    <SecondarySubactivityPermissions />
+    <Comments />
+    <Tasks>
+      <Task ID="2ebb9e6d-16d0-4dcb-9023-6a6d2c3ec14c" Index="0" Name="Task0" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="e005de61-7d6e-460f-b963-109bac1a4b56" CustomWidth="316" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+        <Tags />
+        <Position X="0" Y="0" />
+        <Links Success="ebafb97d-6a89-49f2-b7f1-4b7e7397e6e5" />
+        <Variables />
+      </Task>
+      <Task ID="db6ee524-4917-411a-80ef-ba9862a148c4" Index="1" Name="Task1" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="ae5cd158-8c0e-454a-a1e0-e4fe66950b71" CustomWidth="316" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+        <Tags />
+        <Position X="70" Y="245" />
+        <Links />
+        <Variables />
+      </Task>
+      <Task ID="ebafb97d-6a89-49f2-b7f1-4b7e7397e6e5" Index="2" Name="Task2" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="8cd0fac8-4640-4de0-85af-273a5f021a2c" CustomWidth="315" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+        <Tags />
+        <Position X="70" Y="105" />
+        <Links Success="db6ee524-4917-411a-80ef-ba9862a148c4" />
+        <Variables>
+          <Variable ID="b1abe79c-8fa8-47ef-a58d-abac60731681" Value="This activity needs creating..." Type="Explicit" />
+        </Variables>
+      </Task>
+    </Tasks>
+  </Subactivity>
+</Subsumption>

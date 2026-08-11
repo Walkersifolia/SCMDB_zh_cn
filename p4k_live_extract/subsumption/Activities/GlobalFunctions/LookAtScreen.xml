@@ -1,0 +1,119 @@
+<Subsumption>
+  <Subactivity ID="56e13d8f-5848-427e-ac42-e0a37472715e" Index="14" Name="LookAtScreen" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Priority="0" Resumable="False" FunctionType="Function" PossibleFunctionID="00000000-0000-0000-0000-000000000000" RelativeProbabilityFunctionID="00000000-0000-0000-0000-000000000000" GridSize="35" CameraScale="1" DefaultWidth="0" Cooldown="0">
+    <Tags />
+    <CameraPos X="1189" Y="726" />
+    <DisplayGridSize Width="4000" Height="4000" />
+    <Variables>
+      <Variable ID="2200be5e-7f0e-476a-9221-f7d6d7712cba" Index="0" Name="Duration" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Type="Float" VariableTypeID="4598643f-5bd9-474a-b279-85ad37a6a548" StorageType="Normal" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="Input" EventParameter="False" Attribute="False" AllowExplicitValues="True" AllowEditing="True" MinValue="0" MaxValue="1" ValueChangePerSecond="0.001">
+        <Tags />
+      </Variable>
+      <Variable ID="061e1b8c-7db8-4d8e-a28d-43ed727fee94" Index="1" Name="FoundScreen" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Type="Object" VariableTypeID="d30a0a9e-6850-4acd-ac38-60dcfc8a6c3c" StorageType="Normal" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="None" EventParameter="False" Attribute="False" AllowExplicitValues="True" AllowEditing="True" MinValue="0" MaxValue="1" ValueChangePerSecond="0.001">
+        <Tags />
+      </Variable>
+    </Variables>
+    <TermManager Expression="" SearchMode="RangeOnly" SearchDistance="40">
+      <Terms />
+    </TermManager>
+    <RequiredEvents />
+    <SecondarySubactivityPermissions />
+    <Comments />
+    <Tasks>
+      <Task ID="fdf7277a-8530-4de7-8549-0f753cc30491" Index="0" Name="Task_000" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="e005de61-7d6e-460f-b963-109bac1a4b56" CustomWidth="0" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+        <Tags />
+        <Position X="455" Y="140" />
+        <Links Success="93b9ebf4-42f0-4205-98be-0be785e1addc" />
+        <Variables />
+      </Task>
+      <Task ID="93b9ebf4-42f0-4205-98be-0be785e1addc" Index="1" Name="Task_001" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="cc6b4420-f898-47b1-9569-bbd9c283473b" CustomWidth="0" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+        <Tags />
+        <Position X="455" Y="245" />
+        <Links Success="b1c0a6a8-1b31-4f42-8e0d-3bc5284eb27c" />
+        <Variables>
+          <Variable ID="0e32a612-b5b8-49ed-8c79-fead70a56737" Value="Screen" Type="Explicit">
+            <TermManager Expression="Term1" SearchMode="RangeOnly" SearchDistance="5">
+              <Terms>
+                <Term Name="Term1" MinCount="1" MaxCount="1" UseChannel="">
+                  <Tags>
+                    <Tag ID="61578811-32c5-47ce-aee8-df1a79e0cff0" State="Checked" />
+                  </Tags>
+                </Term>
+              </Terms>
+            </TermManager>
+          </Variable>
+          <Variable ID="d6fd66f8-4e10-4231-bbe0-1bbdb12686ef" Value="061e1b8c-7db8-4d8e-a28d-43ed727fee94" VariableName="FoundScreen" />
+        </Variables>
+      </Task>
+      <Task ID="b1c0a6a8-1b31-4f42-8e0d-3bc5284eb27c" Index="2" Name="Task_002" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="a1f5550f-f620-4cfa-bd72-31a8a347bc06" CustomWidth="0" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+        <Tags />
+        <Position X="455" Y="420" />
+        <Links Success="c60bf86d-4ef6-4884-82d6-6084dd457349" />
+        <Variables>
+          <Variable ID="19cc4967-6aa5-47f9-a1e7-5857c3832977" Value="061e1b8c-7db8-4d8e-a28d-43ed727fee94" VariableName="FoundScreen" />
+          <Variable ID="e50c51fe-c531-4ccc-93c6-22e428615366" Value="cfebaab1-d33c-4c4d-a69c-179ba21a8509" SelectionName="Closest" />
+        </Variables>
+      </Task>
+      <Task ID="c60bf86d-4ef6-4884-82d6-6084dd457349" Index="3" Name="Task_003" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="07eb4396-00f3-4eca-bbb6-91e601bdd489" CustomWidth="0" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+        <Tags />
+        <Position X="455" Y="595" />
+        <Links Success="038794a4-afa4-47ac-ad07-16c5c359b23d">
+          <ParallelTasks>
+            <Task ID="3dd9e55c-9c58-4d25-a64f-c8e88bc39318" />
+            <Task ID="3fe8d3b2-7c7d-42d8-96c0-ad8d507b8312" />
+            <Task ID="4b3f8750-be0a-4eb7-bcb1-c2ac52cf7046" />
+          </ParallelTasks>
+        </Links>
+        <Variables>
+          <Variable ID="7f040c5b-7a08-48f7-bd03-63d6080cceb8" Value="a1785642-c89a-4a07-81e9-5e953cddaebd" SelectionName="Any" />
+          <Variable ID="13727bec-0ac3-4d34-bdad-d25166112415" Value="61f1e35d-f2dd-44d0-ac3e-9039d702b616" SelectionName="Any" />
+        </Variables>
+      </Task>
+      <Task ID="3dd9e55c-9c58-4d25-a64f-c8e88bc39318" Index="4" Name="Task_004" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="b3a9f461-8839-43cf-a636-6a0805c129f7" CustomWidth="0" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+        <Tags />
+        <Position X="735" Y="595" />
+        <Links />
+        <Variables>
+          <Variable ID="af24789a-72ee-4510-b323-1bc6e5179f58" Value="061e1b8c-7db8-4d8e-a28d-43ed727fee94" VariableName="FoundScreen" />
+          <Variable ID="12c461af-fb8a-4093-b308-e0e461070c20" Value="False" Type="Explicit" />
+        </Variables>
+      </Task>
+      <Task ID="3fe8d3b2-7c7d-42d8-96c0-ad8d507b8312" Index="5" Name="Task_005" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="bcc553a7-61e9-4e23-97e7-32a7a3928497" CustomWidth="364" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+        <Tags />
+        <Position X="1015" Y="595" />
+        <Links Success="d4fd3391-f371-466b-baa4-015656ccf6f9" />
+        <Variables>
+          <Variable ID="8276073d-0c93-45f2-8198-0d1a96be6400" Value="LookTemplates" Type="Explicit" />
+          <Variable ID="cf00c6d4-e302-4419-a808-4e5b6928ad4a" Value="constant_look+into_constant" Type="Explicit" />
+          <Variable ID="675aa81a-cf71-4220-ab01-3ab6ec455bfc" Value="True" Type="Explicit" />
+        </Variables>
+      </Task>
+      <Task ID="d4fd3391-f371-466b-baa4-015656ccf6f9" Index="6" Name="Task_006" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="bcc553a7-61e9-4e23-97e7-32a7a3928497" CustomWidth="358" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+        <Tags />
+        <Position X="1015" Y="770" />
+        <Links />
+        <Variables>
+          <Variable ID="8276073d-0c93-45f2-8198-0d1a96be6400" Value="LookTemplates" Type="Explicit" />
+          <Variable ID="cf00c6d4-e302-4419-a808-4e5b6928ad4a" Value="constant_look+infinite_constant" Type="Explicit" />
+          <Variable ID="675aa81a-cf71-4220-ab01-3ab6ec455bfc" Value="True" Type="Explicit" />
+        </Variables>
+      </Task>
+      <Task ID="4b3f8750-be0a-4eb7-bcb1-c2ac52cf7046" Index="7" Name="Task_007" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="10727d47-62eb-44ba-81f5-c6a045aaca01" CustomWidth="0" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+        <Tags />
+        <Position X="1435" Y="595" />
+        <Links />
+        <Variables>
+          <Variable ID="99718680-53a4-472b-934e-0323383c02f5" Value="2200be5e-7f0e-476a-9221-f7d6d7712cba" VariableName="Duration" />
+        </Variables>
+      </Task>
+      <Task ID="038794a4-afa4-47ac-ad07-16c5c359b23d" Index="8" Name="Task_009" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="bcc553a7-61e9-4e23-97e7-32a7a3928497" CustomWidth="358" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+        <Tags />
+        <Position X="385" Y="805" />
+        <Links />
+        <Variables>
+          <Variable ID="8276073d-0c93-45f2-8198-0d1a96be6400" Value="LookTemplates" Type="Explicit" />
+          <Variable ID="cf00c6d4-e302-4419-a808-4e5b6928ad4a" Value="constant_look+outof_constant" Type="Explicit" />
+          <Variable ID="675aa81a-cf71-4220-ab01-3ab6ec455bfc" Value="True" Type="Explicit" />
+        </Variables>
+      </Task>
+    </Tasks>
+  </Subactivity>
+</Subsumption>

@@ -1,0 +1,128 @@
+<Subsumption>
+  <Subactivity ID="fb9b6367-7282-49d5-b79a-966e234d6a30" Index="3" Name="FailOnEverythingHostileHeard" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Priority="0" Resumable="False" FunctionType="Function" PossibleFunctionID="00000000-0000-0000-0000-000000000000" RelativeProbabilityFunctionID="00000000-0000-0000-0000-000000000000" GridSize="10" CameraScale="82" DefaultWidth="0" Cooldown="0">
+    <Tags />
+    <CameraPos X="477" Y="889" />
+    <DisplayGridSize Width="4000" Height="4000" />
+    <Variables>
+      <Variable ID="6a25d029-7c5d-4c0e-9cdf-baae80455b26" Index="0" Name="EventOriginatorReceived" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Type="Object" VariableTypeID="d30a0a9e-6850-4acd-ac38-60dcfc8a6c3c" StorageType="Normal" DataSource="Subsumption" Overloadable="False" Exportable="False" LoadOnce="False" Shared="False" Hint="" UpdateMethod="Manual" ParameterType="None" EventParameter="False" Attribute="False" AllowExplicitValues="True" AllowEditing="True" MinValue="0" MaxValue="1" ValueChangePerSecond="1">
+        <Tags />
+      </Variable>
+    </Variables>
+    <TermManager Expression="" SearchMode="RangeOnly" SearchDistance="40">
+      <Terms />
+    </TermManager>
+    <RequiredEvents />
+    <SecondarySubactivityPermissions />
+    <Comments />
+    <Tasks>
+      <Task ID="c727183d-3c0d-4627-ba5c-4b2f6e23892a" Index="0" Name="Task0" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="e005de61-7d6e-460f-b963-109bac1a4b56" CustomWidth="0" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+        <Tags />
+        <Position X="70" Y="80" />
+        <Links Success="c756092f-f0a6-4a32-85a2-72183e20262c" />
+        <Variables />
+      </Task>
+      <Task ID="c756092f-f0a6-4a32-85a2-72183e20262c" Index="1" Name="Task1" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="07eb4396-00f3-4eca-bbb6-91e601bdd489" CustomWidth="0" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+        <Tags />
+        <Position X="70" Y="180" />
+        <Links>
+          <ParallelTasks>
+            <Task ID="05cacb1c-ec58-44de-9303-0878719498bb" />
+            <Task ID="72394b34-32d9-466b-b382-482066a1e505" />
+            <Task ID="0037eed9-9199-46c0-ad22-df3dda1ff145" />
+            <Task ID="12cf2792-307e-41f9-bf5f-e41b23078f46" />
+            <Task ID="e3be438d-b456-41dc-9861-88d802c2a7cc" />
+          </ParallelTasks>
+        </Links>
+        <Variables>
+          <Variable ID="7f040c5b-7a08-48f7-bd03-63d6080cceb8" Value="a1785642-c89a-4a07-81e9-5e953cddaebd" SelectionName="Any" />
+          <Variable ID="13727bec-0ac3-4d34-bdad-d25166112415" Value="61f1e35d-f2dd-44d0-ac3e-9039d702b616" SelectionName="Any" />
+        </Variables>
+      </Task>
+      <Task ID="05cacb1c-ec58-44de-9303-0878719498bb" Index="2" Name="Task2" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="5b08d83f-290a-4595-9596-03fa4fea6155" CustomWidth="0" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+        <Tags />
+        <Position X="400" Y="180" />
+        <Links Success="4b912a8d-97af-439a-8e92-e8b0ff8290a1" />
+        <Variables>
+          <Variable ID="698bbbea-b6e7-4ed9-9313-27f5357c90e8" Value="1690fbaa-35c5-43d8-9832-852656715a0c" VariableName="OnHostileHeard">
+            <Variables />
+          </Variable>
+          <Variable ID="6ede4ffb-d4fe-4c15-a6ef-754d67b1351a" Value="6a25d029-7c5d-4c0e-9cdf-baae80455b26" VariableName="EventOriginatorReceived" />
+        </Variables>
+      </Task>
+      <Task ID="72394b34-32d9-466b-b382-482066a1e505" Index="3" Name="Task3" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="5b08d83f-290a-4595-9596-03fa4fea6155" CustomWidth="0" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+        <Tags />
+        <Position X="400" Y="330" />
+        <Links Success="4d6c8159-6843-49d6-a23d-99de34351c64" />
+        <Variables>
+          <Variable ID="698bbbea-b6e7-4ed9-9313-27f5357c90e8" Value="bb0279c3-9405-4dbf-9ebc-ecf5818401ee" VariableName="OnHostileMovementHeard">
+            <Variables />
+          </Variable>
+          <Variable ID="6ede4ffb-d4fe-4c15-a6ef-754d67b1351a" Value="6a25d029-7c5d-4c0e-9cdf-baae80455b26" VariableName="EventOriginatorReceived" />
+        </Variables>
+      </Task>
+      <Task ID="0037eed9-9199-46c0-ad22-df3dda1ff145" Index="4" Name="Task4" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="5b08d83f-290a-4595-9596-03fa4fea6155" CustomWidth="0" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+        <Tags />
+        <Position X="400" Y="480" />
+        <Links Success="458afe3a-8185-431b-b891-42eaf905da9b" />
+        <Variables>
+          <Variable ID="698bbbea-b6e7-4ed9-9313-27f5357c90e8" Value="dabc370e-b67e-43e1-82a6-e5f869682cdf" VariableName="OnHostileExplosionHeard">
+            <Variables />
+          </Variable>
+          <Variable ID="6ede4ffb-d4fe-4c15-a6ef-754d67b1351a" Value="6a25d029-7c5d-4c0e-9cdf-baae80455b26" VariableName="EventOriginatorReceived" />
+        </Variables>
+      </Task>
+      <Task ID="12cf2792-307e-41f9-bf5f-e41b23078f46" Index="5" Name="Task5" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="5b08d83f-290a-4595-9596-03fa4fea6155" CustomWidth="0" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+        <Tags />
+        <Position X="400" Y="630" />
+        <Links Success="cbdb7f13-9887-4651-93bc-4c36d408cec7" />
+        <Variables>
+          <Variable ID="698bbbea-b6e7-4ed9-9313-27f5357c90e8" Value="d00b29e9-bd4d-4e75-b3a5-3c703714f47d" VariableName="OnHostileBulletWhizHeard">
+            <Variables />
+          </Variable>
+          <Variable ID="6ede4ffb-d4fe-4c15-a6ef-754d67b1351a" Value="6a25d029-7c5d-4c0e-9cdf-baae80455b26" VariableName="EventOriginatorReceived" />
+        </Variables>
+      </Task>
+      <Task ID="e3be438d-b456-41dc-9861-88d802c2a7cc" Index="6" Name="Task6" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="5b08d83f-290a-4595-9596-03fa4fea6155" CustomWidth="0" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+        <Tags />
+        <Position X="400" Y="780" />
+        <Links Success="ab57b662-8adc-4b8f-adb6-d9deba26702a" />
+        <Variables>
+          <Variable ID="698bbbea-b6e7-4ed9-9313-27f5357c90e8" Value="abb50d77-c4e4-4742-b1a8-e95083ea6298" VariableName="OnHostileBulletHitHeard">
+            <Variables />
+          </Variable>
+          <Variable ID="6ede4ffb-d4fe-4c15-a6ef-754d67b1351a" Value="6a25d029-7c5d-4c0e-9cdf-baae80455b26" VariableName="EventOriginatorReceived" />
+        </Variables>
+      </Task>
+      <Task ID="4b912a8d-97af-439a-8e92-e8b0ff8290a1" Index="7" Name="Task7" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="b9a24a0e-c284-48de-9ba0-52e24b3f2169" CustomWidth="0" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+        <Tags />
+        <Position X="660" Y="180" />
+        <Links />
+        <Variables />
+      </Task>
+      <Task ID="4d6c8159-6843-49d6-a23d-99de34351c64" Index="8" Name="Task8" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="b9a24a0e-c284-48de-9ba0-52e24b3f2169" CustomWidth="0" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+        <Tags />
+        <Position X="660" Y="330" />
+        <Links />
+        <Variables />
+      </Task>
+      <Task ID="458afe3a-8185-431b-b891-42eaf905da9b" Index="9" Name="Task9" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="b9a24a0e-c284-48de-9ba0-52e24b3f2169" CustomWidth="0" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+        <Tags />
+        <Position X="660" Y="480" />
+        <Links />
+        <Variables />
+      </Task>
+      <Task ID="cbdb7f13-9887-4651-93bc-4c36d408cec7" Index="10" Name="Task10" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="b9a24a0e-c284-48de-9ba0-52e24b3f2169" CustomWidth="0" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+        <Tags />
+        <Position X="660" Y="630" />
+        <Links />
+        <Variables />
+      </Task>
+      <Task ID="ab57b662-8adc-4b8f-adb6-d9deba26702a" Index="11" Name="Task11" Renamable="True" Deletable="True" ReadOnly="False" SiblingLinkage="False" Archetype="b9a24a0e-c284-48de-9ba0-52e24b3f2169" CustomWidth="0" ThreadParentVariable="00000000-0000-0000-0000-000000000000">
+        <Tags />
+        <Position X="660" Y="780" />
+        <Links />
+        <Variables />
+      </Task>
+    </Tasks>
+  </Subactivity>
+</Subsumption>
