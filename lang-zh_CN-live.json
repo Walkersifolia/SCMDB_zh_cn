@@ -2,10 +2,10 @@
   "version": "4.10.0-live.12519617",
   "sourceLanguage": "en",
   "targetLanguage": "zh_CN",
-  "keyCount": 6155,
+  "keyCount": 6159,
   "stats": {
-    "total": 6155,
-    "translated": 4366,
+    "total": 6159,
+    "translated": 4370,
     "missing": 0,
     "noLocKey": 1721,
     "placeholderFallback": 68,
@@ -24634,6 +24634,22 @@
     "Yormandi Tongue": {
       "en": "Yormandi Tongue",
       "tr": "约曼迪舌头"
+    },
+    "Government Cartography Agency Medal (Pristine)": {
+      "en": "Government Cartography Agency Medal (Pristine)",
+      "tr": "政府制图局勋章（完好）"
+    },
+    "Large Artifact Fragment (Pristine)": {
+      "en": "Large Artifact Fragment (Pristine)",
+      "tr": "大型遗物碎片（完好）"
+    },
+    "Tevarin War Service Marker (Pristine)": {
+      "en": "Tevarin War Service Marker (Pristine)",
+      "tr": "塔维因战争服役徽记（完好）"
+    },
+    "UEE 6th Platoon Medal (Pristine)": {
+      "en": "UEE 6th Platoon Medal (Pristine)",
+      "tr": "地球联合帝国（UEE）六排勋章（完好）"
     }
   }
 }
