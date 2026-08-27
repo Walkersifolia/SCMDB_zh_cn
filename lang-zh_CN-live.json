@@ -2,10 +2,10 @@
   "version": "4.10.0-live.12519617",
   "sourceLanguage": "en",
   "targetLanguage": "zh_CN",
-  "keyCount": 6189,
+  "keyCount": 6190,
   "stats": {
-    "total": 6189,
-    "translated": 5930,
+    "total": 6190,
+    "translated": 5931,
     "missing": 0,
     "noLocKey": 1721,
     "placeholderFallback": 68,
@@ -24771,6 +24771,10 @@
     "RSI Zeus Mk II ES Wikelo Work Special": {
       "en": "RSI Zeus Mk II ES Wikelo Work Special",
       "tr": "RSI 宙斯 MK II ES 维科洛 工作特别版"
+    },
+    "Anvil F7 Hornet Mk Wikelo": {
+      "en": "Anvil F7 Hornet Mk Wikelo",
+      "tr": "铁砧 F7C-M 超级大黄蜂 Mk II 维科洛 特别版"
     }
   }
 }
