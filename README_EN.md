@@ -22,7 +22,7 @@ To remove the translation: visit `https://scmdb.net?lang=clear`, or remove the U
 
 | Version | Total keys | Translated | Missing | No loc key | Placeholder fallback |
 |---|---|---|---|---|---|
-| **4.10.0-live.12545750** (currently active) | 6249 | 5995 | 0 | 1720 | 68 |
+| **4.10.0-live.12545750** (currently active) | 6318 | 6114 | 0 | 1720 | 68 |
 | 4.10.0-ptu.12409360 (PTU backup) | 4303 | 4175 | 0 | 60 | 68 |
 
 Notes:

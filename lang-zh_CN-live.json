@@ -2,16 +2,16 @@
   "version": "4.10.0-live.12545750",
   "sourceLanguage": "en",
   "targetLanguage": "zh_CN",
-  "keyCount": 6249,
+  "keyCount": 6318,
   "stats": {
-    "total": 6249,
-    "translated": 5995,
+    "total": 6318,
+    "translated": 6114,
     "missing": 0,
     "noLocKey": 1720,
     "placeholderFallback": 68,
     "lengthFallback": 0,
     "mismatch": 222,
-    "unTranslated": 254,
+    "unTranslated": 204,
     "communityUiHits": 59
   },
   "keys": {
@@ -10729,7 +10729,7 @@
     },
     "_noloc_item_CVSA Cannon": {
       "en": "CVSA Cannon",
-      "tr": "CVSA Cannon"
+      "tr": "CVSA 实弹加农炮"
     },
     "_noloc_item_Coda \"Big Boss\" Pistol": {
       "en": "Coda \"Big Boss\" Pistol",
@@ -10837,7 +10837,7 @@
     },
     "_noloc_item_Demeco LMG": {
       "en": "Demeco LMG",
-      "tr": "卡给 RTD"
+      "tr": "德美科 轻机枪"
     },
     "_noloc_item_Devastator \"Brimstone\" Shotgun": {
       "en": "Devastator \"Brimstone\" Shotgun",
@@ -11273,7 +11273,7 @@
     },
     "_noloc_item_P8-SC \"Midnight\" SMG": {
       "en": "P8-SC \"Midnight\" SMG",
-      "tr": "P8-SC “暗夜迷彩” 冲锋枪"
+      "tr": "P8-SC冲锋枪"
     },
     "_noloc_item_P8-SC \"Nightstalker\" SMG": {
       "en": "P8-SC \"Nightstalker\" SMG",
@@ -11281,7 +11281,7 @@
     },
     "_noloc_item_P8-SC \"Warhawk\" SMG": {
       "en": "P8-SC \"Warhawk\" SMG",
-      "tr": "P8-SC “战鹰迷彩” 冲锋枪"
+      "tr": "P8-SC冲锋枪"
     },
     "_noloc_item_Parallax \"Sanguine\" Energy Assault Rifle": {
       "en": "Parallax \"Sanguine\" Energy Assault Rifle",
@@ -12565,7 +12565,7 @@
     },
     "_noloc_item_Calico Arms Tactical": {
       "en": "Calico Arms Tactical",
-      "tr": "棉布臂甲 战术"
+      "tr": "棉布 臂甲 战术"
     },
     "_noloc_item_Calico Core Desert": {
       "en": "Calico Core Desert",
@@ -12573,7 +12573,7 @@
     },
     "_noloc_item_Calico Core Tactical": {
       "en": "Calico Core Tactical",
-      "tr": "棉布胸甲 战术"
+      "tr": "棉布 胸甲 战术"
     },
     "_noloc_item_Calico Helmet Desert": {
       "en": "Calico Helmet Desert",
@@ -12581,7 +12581,7 @@
     },
     "_noloc_item_Calico Helmet Tactical": {
       "en": "Calico Helmet Tactical",
-      "tr": "棉布头盔 战术"
+      "tr": "棉布 头盔 战术"
     },
     "_noloc_item_Calico Legs Desert": {
       "en": "Calico Legs Desert",
@@ -12589,7 +12589,7 @@
     },
     "_noloc_item_Calico Legs Tactical": {
       "en": "Calico Legs Tactical",
-      "tr": "棉布腿甲 战术"
+      "tr": "棉布 腿甲 战术"
     },
     "_noloc_item_Calva Racing Helmet": {
       "en": "Calva Racing Helmet",
@@ -12813,7 +12813,7 @@
     },
     "_noloc_item_Defiance Core Tactical": {
       "en": "Defiance Core Tactical",
-      "tr": "蔑视胸甲 战术"
+      "tr": "蔑视 胸甲 战术"
     },
     "_noloc_item_Defiance Helmet (Modified)": {
       "en": "Defiance Helmet (Modified)",
@@ -12841,7 +12841,7 @@
     },
     "_noloc_item_Defiance Helmet Tactical": {
       "en": "Defiance Helmet Tactical",
-      "tr": "蔑视头盔 战术"
+      "tr": "蔑视 头盔 战术"
     },
     "_noloc_item_Defiance Legs (Modified)": {
       "en": "Defiance Legs (Modified)",
@@ -12869,7 +12869,7 @@
     },
     "_noloc_item_Defiance Legs Tactical": {
       "en": "Defiance Legs Tactical",
-      "tr": "蔑视腿甲 战术"
+      "tr": "蔑视 腿甲 战术"
     },
     "_noloc_item_Dust Devil Armor Arms": {
       "en": "Dust Devil Armor Arms",
@@ -12893,7 +12893,7 @@
     },
     "_noloc_item_DustUp Arms Tactical": {
       "en": "DustUp Arms Tactical",
-      "tr": "扬尘臂甲 战术"
+      "tr": "扬尘 臂甲 战术"
     },
     "_noloc_item_DustUp Core Desert": {
       "en": "DustUp Core Desert",
@@ -12905,7 +12905,7 @@
     },
     "_noloc_item_DustUp Core Tactical": {
       "en": "DustUp Core Tactical",
-      "tr": "扬尘胸甲 战术"
+      "tr": "扬尘 胸甲 战术"
     },
     "_noloc_item_DustUp Helmet Desert": {
       "en": "DustUp Helmet Desert",
@@ -12917,7 +12917,7 @@
     },
     "_noloc_item_DustUp Helmet Tactical": {
       "en": "DustUp Helmet Tactical",
-      "tr": "扬尘头盔 战术"
+      "tr": "扬尘 头盔 战术"
     },
     "_noloc_item_DustUp Legs Desert": {
       "en": "DustUp Legs Desert",
@@ -12925,7 +12925,7 @@
     },
     "_noloc_item_DustUp Legs Tactical": {
       "en": "DustUp Legs Tactical",
-      "tr": "扬尘腿甲 战术"
+      "tr": "扬尘 腿甲 战术"
     },
     "_noloc_item_FBL-8a Arms SecondWind": {
       "en": "FBL-8a Arms SecondWind",
@@ -13285,7 +13285,7 @@
     },
     "_noloc_item_Inquisitor Core Black": {
       "en": "Inquisitor Core Black",
-      "tr": "审讯官 胸甲 黑钢"
+      "tr": "审讯官 胸甲 黑色"
     },
     "_noloc_item_Inquisitor Core Blue": {
       "en": "Inquisitor Core Blue",
@@ -14665,7 +14665,7 @@
     },
     "_noloc_item_Strata Core Levski Edition": {
       "en": "Strata Core Levski Edition",
-      "tr": "岩层 头盔 列夫斯基版"
+      "tr": "岩层 胸甲 列夫斯基版"
     },
     "_noloc_item_Strata Core Lodestar": {
       "en": "Strata Core Lodestar",
@@ -14689,7 +14689,7 @@
     },
     "_noloc_item_Strata Helmet Calico": {
       "en": "Strata Helmet Calico",
-      "tr": "Strata Helmet Calico"
+      "tr": "岩层 头盔 棉布"
     },
     "_noloc_item_Strata Helmet Levski Edition": {
       "en": "Strata Helmet Levski Edition",
@@ -14705,11 +14705,11 @@
     },
     "_noloc_item_Strata Helmet Onyx": {
       "en": "Strata Helmet Onyx",
-      "tr": "Strata Helmet Onyx"
+      "tr": "岩层 头盔 玛瑙"
     },
     "_noloc_item_Strata Helmet Piston": {
       "en": "Strata Helmet Piston",
-      "tr": "Strata Helmet Piston"
+      "tr": "岩层 头盔 活塞"
     },
     "_noloc_item_Strata Helmet Shire": {
       "en": "Strata Helmet Shire",
@@ -14717,7 +14717,7 @@
     },
     "_noloc_item_Strata Helmet Shooting Star": {
       "en": "Strata Helmet Shooting Star",
-      "tr": "Strata Helmet Shooting Star"
+      "tr": "岩层 头盔 陨星"
     },
     "_noloc_item_Strata Legs": {
       "en": "Strata Legs",
@@ -14813,7 +14813,7 @@
     },
     "_noloc_item_Testudo Arms Purgatory Camo": {
       "en": "Testudo Arms Purgatory Camo",
-      "tr": "Testudo Arms Purgatory Camo"
+      "tr": "龟甲 臂甲 炼狱迷彩"
     },
     "_noloc_item_Testudo Arms Turfwar": {
       "en": "Testudo Arms Turfwar",
@@ -14837,7 +14837,7 @@
     },
     "_noloc_item_Testudo Backpack Purgatory Camo": {
       "en": "Testudo Backpack Purgatory Camo",
-      "tr": "Testudo Backpack Purgatory Camo"
+      "tr": "龟甲 背包 炼狱迷彩"
     },
     "_noloc_item_Testudo Backpack Turfwar": {
       "en": "Testudo Backpack Turfwar",
@@ -14865,7 +14865,7 @@
     },
     "_noloc_item_Testudo Core Purgatory Camo": {
       "en": "Testudo Core Purgatory Camo",
-      "tr": "Testudo Core Purgatory Camo"
+      "tr": "龟甲 胸甲 炼狱迷彩"
     },
     "_noloc_item_Testudo Core Turfwar": {
       "en": "Testudo Core Turfwar",
@@ -14893,7 +14893,7 @@
     },
     "_noloc_item_Testudo Helmet Purgatory Camo": {
       "en": "Testudo Helmet Purgatory Camo",
-      "tr": "Testudo Helmet Purgatory Camo"
+      "tr": "龟甲 头盔 炼狱迷彩"
     },
     "_noloc_item_Testudo Helmet Turfwar": {
       "en": "Testudo Helmet Turfwar",
@@ -14921,7 +14921,7 @@
     },
     "_noloc_item_Testudo Legs Purgatory Camo": {
       "en": "Testudo Legs Purgatory Camo",
-      "tr": "Testudo Legs Purgatory Camo"
+      "tr": "龟甲 腿甲 炼狱迷彩"
     },
     "_noloc_item_Testudo Legs Turfwar": {
       "en": "Testudo Legs Turfwar",
@@ -15193,39 +15193,39 @@
     },
     "_noloc_item_5CA 'Akura'": {
       "en": "5CA 'Akura'",
-      "tr": "5CA 'Akura'"
+      "tr": "5CA 阿库拉 [护盾 S3 民用 C]"
     },
     "_noloc_item_5MA 'Chimalli'": {
       "en": "5MA 'Chimalli'",
-      "tr": "5MA 'Chimalli'"
+      "tr": "5MA 系马尔里 [护盾 S2 民用 C]"
     },
     "_noloc_item_5SA 'Rhada'": {
       "en": "5SA 'Rhada'",
-      "tr": "5SA 'Rhada'"
+      "tr": "5SA 拉达 [护盾 S1 民用 C]"
     },
     "_noloc_item_6CA 'Bila'": {
       "en": "6CA 'Bila'",
-      "tr": "6CA 'Bila'"
+      "tr": "6CA “比拉Bila” [护盾 S3 民用 B]"
     },
     "_noloc_item_6MA 'Kozane'": {
       "en": "6MA 'Kozane'",
-      "tr": "6MA 'Kozane'"
+      "tr": "6MA “科赞Kozane” [护盾 S2 民用 B]"
     },
     "_noloc_item_6SA 'Arbiter'": {
       "en": "6SA 'Arbiter'",
-      "tr": "6SA 'Arbiter'"
+      "tr": "6SA “阿比特Arbiter” [护盾 S1 民用 B]"
     },
     "_noloc_item_7CA 'Nargun'": {
       "en": "7CA 'Nargun'",
-      "tr": "7CA 'Nargun'"
+      "tr": "7CA “纳尔贡Nargun” [护盾 S3 民用 A]"
     },
     "_noloc_item_7MA 'Lorica'": {
       "en": "7MA 'Lorica'",
-      "tr": "7MA 'Lorica'"
+      "tr": "7MA “洛丽卡Lorica” [护盾 S2 民用 A]"
     },
     "_noloc_item_7SA 'Concord'": {
       "en": "7SA 'Concord'",
-      "tr": "7SA 'Concord'"
+      "tr": "7SA “康科德Concord” [护盾 S1 民用 A]"
     },
     "_noloc_item_A03 Sniper Rifle Magazine (15 cap)": {
       "en": "A03 Sniper Rifle Magazine (15 cap)",
@@ -15241,7 +15241,7 @@
     },
     "_noloc_item_Abrade Scraper Module": {
       "en": "Abrade Scraper Module",
-      "tr": "研磨刮削模块"
+      "tr": "研磨 刮削模块"
     },
     "_noloc_item_AbsoluteZero": {
       "en": "AbsoluteZero",
@@ -15485,7 +15485,7 @@
     },
     "_noloc_item_Cinch Scraper Module": {
       "en": "Cinch Scraper Module",
-      "tr": "紧固刮削模块"
+      "tr": "紧固 刮削模块"
     },
     "_noloc_item_Cirrus": {
       "en": "Cirrus",
@@ -15497,7 +15497,7 @@
     },
     "_noloc_item_Clearcut Module": {
       "en": "Clearcut Module",
-      "tr": "净采 模组"
+      "tr": "净采 模组 [+15%功率|+30%绿区速度]"
     },
     "_noloc_item_Cloak": {
       "en": "Cloak",
@@ -15545,11 +15545,11 @@
     },
     "_noloc_item_Cryo-Star SL": {
       "en": "Cryo-Star SL",
-      "tr": "Cryo-Star SL"
+      "tr": "低温之星SL [冷却 S0 民用 B]"
     },
     "_noloc_item_Cryo-Star XL": {
       "en": "Cryo-Star XL",
-      "tr": "Cryo-Star XL"
+      "tr": "低温之星XL [冷却 S3 民用 B]"
     },
     "_noloc_item_Custodian SMG Magazine (60 cap)": {
       "en": "Custodian SMG Magazine (60 cap)",
@@ -15573,7 +15573,7 @@
     },
     "_noloc_item_Deluge Module": {
       "en": "Deluge Module",
-      "tr": "洪暴 模组"
+      "tr": "洪暴 模组 [-15.5%抗性|+15%功率|-15%提取功率]"
     },
     "_noloc_item_Demeco LMG Battery (100 cap)": {
       "en": "Demeco LMG Battery (100 cap)",
@@ -15689,15 +15689,15 @@
     },
     "_noloc_item_FR-66": {
       "en": "FR-66",
-      "tr": "FR-66"
+      "tr": "FR-66 [护盾 S1 军用 A]"
     },
     "_noloc_item_FR-76": {
       "en": "FR-76",
-      "tr": "FR-76"
+      "tr": "FR-76 [护盾 S2 军用 A]"
     },
     "_noloc_item_FR-86": {
       "en": "FR-86",
-      "tr": "FR-86"
+      "tr": "FR-86 [护盾 S3 军用 A]"
     },
     "_noloc_item_FS-9 Magazine (75 cap)": {
       "en": "FS-9 Magazine (75 cap)",
@@ -15753,7 +15753,7 @@
     },
     "_noloc_item_FoxFire": {
       "en": "FoxFire",
-      "tr": "FoxFire"
+      "tr": "狐火 [量子 S1 竞速 B]"
     },
     "_noloc_item_Fresnel Energy LMG Battery (165 Cap)": {
       "en": "Fresnel Energy LMG Battery (165 Cap)",
@@ -15909,11 +15909,11 @@
     },
     "_noloc_item_Helix I Mining Laser": {
       "en": "Helix I Mining Laser",
-      "tr": "螺旋 I 型采矿激光器"
+      "tr": "螺旋 I 型采矿激光器 [-30%抗性|-40%绿区|-30%废料]"
     },
     "_noloc_item_Helix II Mining Laser": {
       "en": "Helix II Mining Laser",
-      "tr": "螺旋 II 型采矿激光器"
+      "tr": "螺旋 II 型采矿激光器 [-30%抗性|-40%绿区|-40%废料]"
     },
     "_noloc_item_Hemera": {
       "en": "Hemera",
@@ -16001,7 +16001,7 @@
     },
     "_noloc_item_IonSurge Pro": {
       "en": "IonSurge Pro",
-      "tr": "IonSurge Pro"
+      "tr": "离子奔涌Pro [发电 S3 民用 B]"
     },
     "_noloc_item_IonWave": {
       "en": "IonWave",
@@ -16009,15 +16009,15 @@
     },
     "_noloc_item_JS-300": {
       "en": "JS-300",
-      "tr": "JS-300"
+      "tr": "JS-300 [发电 S1 军用 A]"
     },
     "_noloc_item_JS-400": {
       "en": "JS-400",
-      "tr": "JS-400"
+      "tr": "JS-400 [发电 S2 军用 A]"
     },
     "_noloc_item_JS-500": {
       "en": "JS-500",
-      "tr": "JS-500"
+      "tr": "JS-500 [发电 S3 军用 A]"
     },
     "_noloc_item_Jaghte": {
       "en": "Jaghte",
@@ -16121,7 +16121,7 @@
     },
     "_noloc_item_Main Powerplant": {
       "en": "Main Powerplant",
-      "tr": "Main Powerplant"
+      "tr": "主发电机"
     },
     "_noloc_item_Marlin": {
       "en": "Marlin",
@@ -16137,11 +16137,11 @@
     },
     "_noloc_item_Metamaterial Test #146": {
       "en": "Metamaterial Test #146",
-      "tr": "Metamaterial Test #146"
+      "tr": "超材料测试 #146"
     },
     "_noloc_item_Metamaterial Test #152": {
       "en": "Metamaterial Test #152",
-      "tr": "Metamaterial Test #152"
+      "tr": "超材料测试 #152"
     },
     "_noloc_item_Metis": {
       "en": "Metis",
@@ -16197,7 +16197,7 @@
     },
     "_noloc_item_Overrun Module": {
       "en": "Overrun Module",
-      "tr": "超限 模组"
+      "tr": "超限 模组 [-24.8%抗性|+8%功率|-15%提取功率]"
     },
     "_noloc_item_P4-AR Magazine (40 cap)": {
       "en": "P4-AR Magazine (40 cap)",
@@ -16241,7 +16241,7 @@
     },
     "_noloc_item_Pitman Mining Laser": {
       "en": "Pitman Mining Laser",
-      "tr": "石工采矿激光器"
+      "tr": "石工采矿激光器 [+25%抗性|+35%不稳定|-40%绿区速度|-30%废料]"
     },
     "_noloc_item_Polar": {
       "en": "Polar",
@@ -16269,7 +16269,7 @@
     },
     "_noloc_item_Probe": {
       "en": "Probe",
-      "tr": "Probe"
+      "tr": "探测器"
     },
     "_noloc_item_Prophet": {
       "en": "Prophet",
@@ -16305,7 +16305,7 @@
     },
     "_noloc_item_QuikCool": {
       "en": "QuikCool",
-      "tr": "QuikCool"
+      "tr": "快冷 [冷却 S1 竞速 D]"
     },
     "_noloc_item_R97 Shotgun Magazine (18 cap)": {
       "en": "R97 Shotgun Magazine (18 cap)",
@@ -16313,7 +16313,7 @@
     },
     "_noloc_item_RN-7s": {
       "en": "RN-7s",
-      "tr": "RN-7s"
+      "tr": "RN-7s [流速氢1.65量子0.91 | 血量9000]"
     },
     "_noloc_item_RPEL": {
       "en": "RPEL",
@@ -16373,7 +16373,7 @@
     },
     "_noloc_item_S0 Helix": {
       "en": "S0 Helix",
-      "tr": "S0 螺旋"
+      "tr": "S0 螺旋 [-40%绿区|+20%绿区速率]"
     },
     "_noloc_item_S00 Hofstede": {
       "en": "S00 Hofstede",
@@ -16385,27 +16385,27 @@
     },
     "_noloc_item_SNS-R5x": {
       "en": "SNS-R5x",
-      "tr": "SNS-R5x"
+      "tr": "SNS-R5x [雷达 S2 竞赛 D]"
     },
     "_noloc_item_SNS-R6": {
       "en": "SNS-R6",
-      "tr": "SNS-R6"
+      "tr": "SNS-R6 [雷达 S1 竞赛 C]"
     },
     "_noloc_item_SNS-R6x": {
       "en": "SNS-R6x",
-      "tr": "SNS-R6x"
+      "tr": "SNS-R6x [雷达 S2 竞赛 C]"
     },
     "_noloc_item_SNS-R7x": {
       "en": "SNS-R7x",
-      "tr": "SNS-R7x"
+      "tr": "SNS-R7x [雷达 S2 竞赛 B]"
     },
     "_noloc_item_SNSR5": {
       "en": "SNSR5",
-      "tr": "SNSR5"
+      "tr": "SNSR5 [雷达 S1 竞赛 D]"
     },
     "_noloc_item_SNSR7": {
       "en": "SNSR7",
-      "tr": "SNSR7"
+      "tr": "SNSR7 [雷达 S1 竞赛 B]"
     },
     "_noloc_item_STOP": {
       "en": "STOP",
@@ -16473,7 +16473,7 @@
     },
     "_noloc_item_Snowfall": {
       "en": "Snowfall",
-      "tr": "飘雪 [冷却 S2 工业 B]"
+      "tr": "降雪 [冷却 S2 工业 B]"
     },
     "_noloc_item_Snowpack": {
       "en": "Snowpack",
@@ -16525,7 +16525,7 @@
     },
     "_noloc_item_Stampede Module": {
       "en": "Stampede Module",
-      "tr": "Stampede Module"
+      "tr": "热潮 模组 [-10%不稳定|+35%功率|-10%炸伤|-15%提取功率]"
     },
     "_noloc_item_StarBurn": {
       "en": "StarBurn",
@@ -16625,7 +16625,7 @@
     },
     "_noloc_item_TS-2": {
       "en": "TS-2",
-      "tr": "TS-2"
+      "tr": "TS-2 [量子 S3 军用 A]"
     },
     "_noloc_item_Taiga": {
       "en": "Taiga",
@@ -16665,7 +16665,7 @@
     },
     "_noloc_item_Torrent III Module": {
       "en": "Torrent III Module",
-      "tr": "Torrent III Module"
+      "tr": "洪流 III 模组 [+40%绿区速度|-1%绿区]"
     },
     "_noloc_item_Torrez": {
       "en": "Torrez",
@@ -16673,7 +16673,7 @@
     },
     "_noloc_item_Trawler Scraper Module": {
       "en": "Trawler Scraper Module",
-      "tr": "拖网刮削模块"
+      "tr": "拖网 刮削模块"
     },
     "_noloc_item_Trenta": {
       "en": "Trenta",
@@ -16689,7 +16689,7 @@
     },
     "_noloc_item_Tundra": {
       "en": "Tundra",
-      "tr": "冻原 [冷却 S1 军用 D]"
+      "tr": "苔原 [冷却 S1 军用 D]"
     },
     "_noloc_item_TurboDrive": {
       "en": "TurboDrive",
@@ -16713,23 +16713,23 @@
     },
     "_noloc_item_V60-26": {
       "en": "V60-26",
-      "tr": "V60-26"
+      "tr": "V60-26 [雷达 S0 军用 A]"
     },
     "_noloc_item_V801-11": {
       "en": "V801-11",
-      "tr": "V801-11"
+      "tr": "V801-11 [雷达 S1 军用 A]"
     },
     "_noloc_item_V801-12": {
       "en": "V801-12",
-      "tr": "V801-12"
+      "tr": "V801-12 [雷达 S2 军用 A]"
     },
     "_noloc_item_V880": {
       "en": "V880",
-      "tr": "V880"
+      "tr": "V880 [雷达 S3 军用 A]"
     },
     "_noloc_item_VK-00": {
       "en": "VK-00",
-      "tr": "VK-00"
+      "tr": "VK-00 [量子 S1 军用 A]"
     },
     "_noloc_item_VaporBlock": {
       "en": "VaporBlock",
@@ -16821,7 +16821,7 @@
     },
     "_noloc_item_XL-1": {
       "en": "XL-1",
-      "tr": "XL-1"
+      "tr": "XL-1 [量子 S2 军用 A]"
     },
     "_noloc_item_Yaluk": {
       "en": "Yaluk",
@@ -17927,6 +17927,42 @@
       "en": "11-Series Broadsword Cannon",
       "tr": "11系 阔剑 实弹加农炮"
     },
+    "5CA 'Akura'": {
+      "en": "5CA 'Akura'",
+      "tr": "5CA 阿库拉 [护盾 S3 民用 C]"
+    },
+    "5MA 'Chimalli'": {
+      "en": "5MA 'Chimalli'",
+      "tr": "5MA 系马尔里 [护盾 S2 民用 C]"
+    },
+    "5SA 'Rhada'": {
+      "en": "5SA 'Rhada'",
+      "tr": "5SA 拉达 [护盾 S1 民用 C]"
+    },
+    "6CA 'Bila'": {
+      "en": "6CA 'Bila'",
+      "tr": "6CA “比拉Bila” [护盾 S3 民用 B]"
+    },
+    "6MA 'Kozane'": {
+      "en": "6MA 'Kozane'",
+      "tr": "6MA “科赞Kozane” [护盾 S2 民用 B]"
+    },
+    "6SA 'Arbiter'": {
+      "en": "6SA 'Arbiter'",
+      "tr": "6SA “阿比特Arbiter” [护盾 S1 民用 B]"
+    },
+    "7CA 'Nargun'": {
+      "en": "7CA 'Nargun'",
+      "tr": "7CA “纳尔贡Nargun” [护盾 S3 民用 A]"
+    },
+    "7MA 'Lorica'": {
+      "en": "7MA 'Lorica'",
+      "tr": "7MA “洛丽卡Lorica” [护盾 S2 民用 A]"
+    },
+    "7SA 'Concord'": {
+      "en": "7SA 'Concord'",
+      "tr": "7SA “康科德Concord” [护盾 S1 民用 A]"
+    },
     "9-Series Longsword Cannon": {
       "en": "9-Series Longsword Cannon",
       "tr": "9系 长剑 实弹加农炮"
@@ -18301,7 +18337,7 @@
     },
     "Abrade Scraper Module": {
       "en": "Abrade Scraper Module",
-      "tr": "研磨刮削模块"
+      "tr": "研磨 刮削模块"
     },
     "AbsoluteZero": {
       "en": "AbsoluteZero",
@@ -18333,7 +18369,7 @@
     },
     "Agricium (Ore)": {
       "en": "Agricium (Ore)",
-      "tr": "艾格瑞金属"
+      "tr": "艾格瑞矿石"
     },
     "Agricultural Supplies": {
       "en": "Agricultural Supplies",
@@ -18369,7 +18405,7 @@
     },
     "Aluminum (Ore)": {
       "en": "Aluminum (Ore)",
-      "tr": "铝"
+      "tr": "铝矿石"
     },
     "Amioshi Plague": {
       "en": "Amioshi Plague",
@@ -18937,7 +18973,7 @@
     },
     "Aslarite (Raw)": {
       "en": "Aslarite (Raw)",
-      "tr": "阿斯莱晶体"
+      "tr": "阿斯莱晶体原矿"
     },
     "Aspis": {
       "en": "Aspis",
@@ -19297,7 +19333,7 @@
     },
     "Beryl (Raw)": {
       "en": "Beryl (Raw)",
-      "tr": "绿柱石"
+      "tr": "绿柱石原矿"
     },
     "Bexalite": {
       "en": "Bexalite",
@@ -19305,7 +19341,7 @@
     },
     "Bexalite (Raw)": {
       "en": "Bexalite (Raw)",
-      "tr": "贝沙电气石"
+      "tr": "贝沙电气石原矿"
     },
     "BlastChill": {
       "en": "BlastChill",
@@ -19365,7 +19401,7 @@
     },
     "Borase (Ore)": {
       "en": "Borase (Ore)",
-      "tr": "波射石"
+      "tr": "波射矿石"
     },
     "Boreal": {
       "en": "Boreal",
@@ -19559,13 +19595,17 @@
       "en": "CSP-68M Backpack",
       "tr": "CSP-68M 背包"
     },
+    "CVSA Cannon": {
+      "en": "CVSA Cannon",
+      "tr": "CVSA 实弹加农炮"
+    },
     "Calico Arms Desert": {
       "en": "Calico Arms Desert",
       "tr": "棉布 臂甲 沙漠"
     },
     "Calico Arms Tactical": {
       "en": "Calico Arms Tactical",
-      "tr": "棉布臂甲 战术"
+      "tr": "棉布 臂甲 战术"
     },
     "Calico Core Desert": {
       "en": "Calico Core Desert",
@@ -19573,7 +19613,7 @@
     },
     "Calico Core Tactical": {
       "en": "Calico Core Tactical",
-      "tr": "棉布胸甲 战术"
+      "tr": "棉布 胸甲 战术"
     },
     "Calico Helmet Desert": {
       "en": "Calico Helmet Desert",
@@ -19581,7 +19621,7 @@
     },
     "Calico Helmet Tactical": {
       "en": "Calico Helmet Tactical",
-      "tr": "棉布头盔 战术"
+      "tr": "棉布 头盔 战术"
     },
     "Calico Legs Desert": {
       "en": "Calico Legs Desert",
@@ -19589,7 +19629,7 @@
     },
     "Calico Legs Tactical": {
       "en": "Calico Legs Tactical",
-      "tr": "棉布腿甲 战术"
+      "tr": "棉布 腿甲 战术"
     },
     "Calva Racing Helmet": {
       "en": "Calva Racing Helmet",
@@ -19697,7 +19737,7 @@
     },
     "Cinch Scraper Module": {
       "en": "Cinch Scraper Module",
-      "tr": "紧固刮削模块"
+      "tr": "紧固 刮削模块"
     },
     "Cirrus": {
       "en": "Cirrus",
@@ -19739,9 +19779,13 @@
       "en": "Citadel Legs Dark Red",
       "tr": "要塞 腿甲 暗红色"
     },
+    "Citrus Beef Burrito": {
+      "en": "Citrus Beef Burrito",
+      "tr": "柑橘牛肉卷饼 NDR:34 口渴"
+    },
     "Clearcut Module": {
       "en": "Clearcut Module",
-      "tr": "净采 模组"
+      "tr": "净采 模组 [+15%功率|+30%绿区速度]"
     },
     "Cloak": {
       "en": "Cloak",
@@ -19819,13 +19863,17 @@
       "en": "CoolCore",
       "tr": "冷却核心 [冷却 S2 工业 C]"
     },
+    "Cooler (S1)": {
+      "en": "Cooler (S1)",
+      "tr": "冷却器 (S1)"
+    },
     "Copper": {
       "en": "Copper",
       "tr": "铜"
     },
     "Copper (Ore)": {
       "en": "Copper (Ore)",
-      "tr": "铜"
+      "tr": "铜矿石"
     },
     "Corbel Arms Crush": {
       "en": "Corbel Arms Crush",
@@ -19913,7 +19961,7 @@
     },
     "Corundum (Raw)": {
       "en": "Corundum (Raw)",
-      "tr": "刚玉"
+      "tr": "刚玉原矿"
     },
     "Council Scrip": {
       "en": "Council Scrip",
@@ -19926,6 +19974,18 @@
     "Crossfield": {
       "en": "Crossfield",
       "tr": "克罗斯菲尔德 [量子 S2 军用 C]"
+    },
+    "Crusader A2 Hercules Starlifter Wikelo War Special": {
+      "en": "Crusader A2 Hercules Starlifter Wikelo War Special",
+      "tr": "十字军 大力神 A2 星际运输船 维科洛 战争特别版"
+    },
+    "Crusader Ares Star Fighter Inferno Wikelo War Special": {
+      "en": "Crusader Ares Star Fighter Inferno Wikelo War Special",
+      "tr": "十字军 战神 星际战斗机 地狱火 维科洛 战争特别版"
+    },
+    "Crusader Ares Star Fighter Ion Wikelo Sneak Special": {
+      "en": "Crusader Ares Star Fighter Ion Wikelo Sneak Special",
+      "tr": "十字军 战神 星际战斗机 离子光 维科洛 鬼祟特别版"
     },
     "Crusader C1 Spirit Wikelo Special": {
       "en": "Crusader C1 Spirit Wikelo Special",
@@ -19942,6 +20002,14 @@
     "Cryo-Star EX": {
       "en": "Cryo-Star EX",
       "tr": "冷冻之心EX [冷却 S2 民用 B]"
+    },
+    "Cryo-Star SL": {
+      "en": "Cryo-Star SL",
+      "tr": "低温之星SL [冷却 S0 民用 B]"
+    },
+    "Cryo-Star XL": {
+      "en": "Cryo-Star XL",
+      "tr": "低温之星XL [冷却 S3 民用 B]"
     },
     "CryoPod": {
       "en": "CryoPod",
@@ -20113,7 +20181,7 @@
     },
     "Defiance Core Tactical": {
       "en": "Defiance Core Tactical",
-      "tr": "蔑视胸甲 战术"
+      "tr": "蔑视 胸甲 战术"
     },
     "Defiance Helmet (Modified)": {
       "en": "Defiance Helmet (Modified)",
@@ -20141,7 +20209,7 @@
     },
     "Defiance Helmet Tactical": {
       "en": "Defiance Helmet Tactical",
-      "tr": "蔑视头盔 战术"
+      "tr": "蔑视 头盔 战术"
     },
     "Defiance Legs (Modified)": {
       "en": "Defiance Legs (Modified)",
@@ -20169,7 +20237,7 @@
     },
     "Defiance Legs Tactical": {
       "en": "Defiance Legs Tactical",
-      "tr": "蔑视腿甲 战术"
+      "tr": "蔑视 腿甲 战术"
     },
     "Defiant": {
       "en": "Defiant",
@@ -20181,7 +20249,7 @@
     },
     "Deluge Module": {
       "en": "Deluge Module",
-      "tr": "洪暴 模组"
+      "tr": "洪暴 模组 [-15.5%抗性|+15%功率|-15%提取功率]"
     },
     "Demeco \"Purgatory Camo\" LMG": {
       "en": "Demeco \"Purgatory Camo\" LMG",
@@ -20193,7 +20261,7 @@
     },
     "Demeco LMG": {
       "en": "Demeco LMG",
-      "tr": "卡给 RTD"
+      "tr": "德美科 轻机枪"
     },
     "Demeco LMG Battery (100 cap)": {
       "en": "Demeco LMG Battery (100 cap)",
@@ -20341,7 +20409,7 @@
     },
     "DustUp Arms Tactical": {
       "en": "DustUp Arms Tactical",
-      "tr": "扬尘臂甲 战术"
+      "tr": "扬尘 臂甲 战术"
     },
     "DustUp Core Desert": {
       "en": "DustUp Core Desert",
@@ -20353,7 +20421,7 @@
     },
     "DustUp Core Tactical": {
       "en": "DustUp Core Tactical",
-      "tr": "扬尘胸甲 战术"
+      "tr": "扬尘 胸甲 战术"
     },
     "DustUp Helmet Desert": {
       "en": "DustUp Helmet Desert",
@@ -20365,7 +20433,7 @@
     },
     "DustUp Helmet Tactical": {
       "en": "DustUp Helmet Tactical",
-      "tr": "扬尘头盔 战术"
+      "tr": "扬尘 头盔 战术"
     },
     "DustUp Legs Desert": {
       "en": "DustUp Legs Desert",
@@ -20373,7 +20441,7 @@
     },
     "DustUp Legs Tactical": {
       "en": "DustUp Legs Tactical",
-      "tr": "扬尘腿甲 战术"
+      "tr": "扬尘 腿甲 战术"
     },
     "DynaFlux": {
       "en": "DynaFlux",
@@ -20503,6 +20571,18 @@
       "en": "FL-33 Cannon",
       "tr": "FL-33 能量加农炮"
     },
+    "FR-66": {
+      "en": "FR-66",
+      "tr": "FR-66 [护盾 S1 军用 A]"
+    },
+    "FR-76": {
+      "en": "FR-76",
+      "tr": "FR-76 [护盾 S2 军用 A]"
+    },
+    "FR-86": {
+      "en": "FR-86",
+      "tr": "FR-86 [护盾 S3 军用 A]"
+    },
     "FS-9 \"Blacklist\" LMG": {
       "en": "FS-9 \"Blacklist\" LMG",
       "tr": "FS-9 “黑名单” 轻机枪"
@@ -20602,6 +20682,10 @@
     "Fortitude": {
       "en": "Fortitude",
       "tr": "刚毅 [发电 S1 工业 C]"
+    },
+    "FoxFire": {
+      "en": "FoxFire",
+      "tr": "狐火 [量子 S1 竞速 B]"
     },
     "Fresh Food": {
       "en": "Fresh Food",
@@ -21005,7 +21089,7 @@
     },
     "Gold (Ore)": {
       "en": "Gold (Ore)",
-      "tr": "金"
+      "tr": "金矿石"
     },
     "Golden Medmon": {
       "en": "Golden Medmon",
@@ -21065,7 +21149,7 @@
     },
     "Heart of the Woods": {
       "en": "Heart of the Woods",
-      "tr": "森林之心"
+      "tr": "“森林之心” NDR:31 毒性"
     },
     "HeatSafe": {
       "en": "HeatSafe",
@@ -21077,11 +21161,11 @@
     },
     "Helix I Mining Laser": {
       "en": "Helix I Mining Laser",
-      "tr": "螺旋 I 型采矿激光器"
+      "tr": "螺旋 I 型采矿激光器 [-30%抗性|-40%绿区|-30%废料]"
     },
     "Helix II Mining Laser": {
       "en": "Helix II Mining Laser",
-      "tr": "螺旋 II 型采矿激光器"
+      "tr": "螺旋 II 型采矿激光器 [-30%抗性|-40%绿区|-40%废料]"
     },
     "Hellion Scattergun": {
       "en": "Hellion Scattergun",
@@ -21337,7 +21421,7 @@
     },
     "Inquisitor Core Black": {
       "en": "Inquisitor Core Black",
-      "tr": "审讯官 胸甲 黑钢"
+      "tr": "审讯官 胸甲 黑色"
     },
     "Inquisitor Core Blue": {
       "en": "Inquisitor Core Blue",
@@ -21503,6 +21587,10 @@
       "en": "IonSurge",
       "tr": "离子奔涌 [发电 S2 民用 B]"
     },
+    "IonSurge Pro": {
+      "en": "IonSurge Pro",
+      "tr": "离子奔涌Pro [发电 S3 民用 B]"
+    },
     "IonWave": {
       "en": "IonWave",
       "tr": "离子波 [发电 S0 民用 B]"
@@ -21513,7 +21601,7 @@
     },
     "Iron (Ore)": {
       "en": "Iron (Ore)",
-      "tr": "铁"
+      "tr": "铁原矿"
     },
     "Irradiated Kopion Horn": {
       "en": "Irradiated Kopion Horn",
@@ -21543,13 +21631,25 @@
       "en": "Irradiated Valakkar Pearl (Grade AAA)",
       "tr": "受辐射的瓦拉卡珍珠（AAA 级）"
     },
+    "JS-300": {
+      "en": "JS-300",
+      "tr": "JS-300 [发电 S1 军用 A]"
+    },
+    "JS-400": {
+      "en": "JS-400",
+      "tr": "JS-400 [发电 S2 军用 A]"
+    },
+    "JS-500": {
+      "en": "JS-500",
+      "tr": "JS-500 [发电 S3 军用 A]"
+    },
     "Jaclium": {
       "en": "Jaclium",
       "tr": "杰金"
     },
     "Jaclium (Ore)": {
       "en": "Jaclium (Ore)",
-      "tr": "杰金"
+      "tr": "杰金矿石"
     },
     "Jaghte": {
       "en": "Jaghte",
@@ -21705,7 +21805,7 @@
     },
     "Laranite (Raw)": {
       "en": "Laranite (Raw)",
-      "tr": "砬兰石"
+      "tr": "砬兰石原矿"
     },
     "Large Artifact Fragment (Pristine)": {
       "en": "Large Artifact Fragment (Pristine)",
@@ -21757,7 +21857,7 @@
     },
     "Lindinium (Ore)": {
       "en": "Lindinium (Ore)",
-      "tr": "林登金"
+      "tr": "林登金矿石"
     },
     "Lindstrom": {
       "en": "Lindstrom",
@@ -21895,6 +21995,10 @@
       "en": "MagnaBloom",
       "tr": "大盛 [发电 S1 民用 B]"
     },
+    "Main Powerplant": {
+      "en": "Main Powerplant",
+      "tr": "主发电机"
+    },
     "Manticore Helmet": {
       "en": "Manticore Helmet",
       "tr": "曼提戈尔头盔"
@@ -21926,6 +22030,14 @@
     "Mercury": {
       "en": "Mercury",
       "tr": "水银 [冷却 S3 军用 C]"
+    },
+    "Metamaterial Test #146": {
+      "en": "Metamaterial Test #146",
+      "tr": "超材料测试 #146"
+    },
+    "Metamaterial Test #152": {
+      "en": "Metamaterial Test #152",
+      "tr": "超材料测试 #152"
     },
     "Metis": {
       "en": "Metis",
@@ -21966,6 +22078,14 @@
     "Mirai Pulse Wikelo Special": {
       "en": "Mirai Pulse Wikelo Special",
       "tr": "未来 脉冲 维科洛 特别版"
+    },
+    "Molina Mold": {
+      "en": "Molina Mold",
+      "tr": "莫利纳霉菌"
+    },
+    "Molina Mold Samples": {
+      "en": "Molina Mold Samples",
+      "tr": "莫利纳霉菌样本"
     },
     "Molina Mold Treatment": {
       "en": "Molina Mold Treatment",
@@ -22829,7 +22949,7 @@
     },
     "Overrun Module": {
       "en": "Overrun Module",
-      "tr": "超限 模组"
+      "tr": "超限 模组 [-24.8%抗性|+8%功率|-15%提取功率]"
     },
     "P4-AR \"Blacklist\" Rifle": {
       "en": "P4-AR \"Blacklist\" Rifle",
@@ -22917,7 +23037,7 @@
     },
     "P8-SC \"Midnight\" SMG": {
       "en": "P8-SC \"Midnight\" SMG",
-      "tr": "P8-SC “暗夜迷彩” 冲锋枪"
+      "tr": "P8-SC冲锋枪"
     },
     "P8-SC \"Nightstalker\" SMG": {
       "en": "P8-SC \"Nightstalker\" SMG",
@@ -22925,7 +23045,7 @@
     },
     "P8-SC \"Warhawk\" SMG": {
       "en": "P8-SC \"Warhawk\" SMG",
-      "tr": "P8-SC “战鹰迷彩” 冲锋枪"
+      "tr": "P8-SC冲锋枪"
     },
     "PAB-1 Arms": {
       "en": "PAB-1 Arms",
@@ -23357,11 +23477,15 @@
     },
     "Pitman Mining Laser": {
       "en": "Pitman Mining Laser",
-      "tr": "石工采矿激光器"
+      "tr": "石工采矿激光器 [+25%抗性|+35%不稳定|-40%绿区速度|-30%废料]"
     },
     "Polar": {
       "en": "Polar",
       "tr": "极地 [冷却 S1 军用 B]"
+    },
+    "Polaris Bit": {
+      "en": "Polaris Bit",
+      "tr": "北极星点数"
     },
     "Pontes": {
       "en": "Pontes",
@@ -23370,6 +23494,10 @@
     "Potassium": {
       "en": "Potassium",
       "tr": "钾"
+    },
+    "Power Plant (S1)": {
+      "en": "Power Plant (S1)",
+      "tr": "发电机 (S1)"
     },
     "PowerBolt": {
       "en": "PowerBolt",
@@ -23414,6 +23542,10 @@
     "Prism Laser Shotgun Battery (20 cap)": {
       "en": "Prism Laser Shotgun Battery (20 cap)",
       "tr": "棱镜 激光霰弹枪电池（20 发）"
+    },
+    "Probe": {
+      "en": "Probe",
+      "tr": "探测器"
     },
     "Processed Food": {
       "en": "Processed Food",
@@ -23473,7 +23605,11 @@
     },
     "Quantainium (Raw)": {
       "en": "Quantainium (Raw)",
-      "tr": "量子矿物"
+      "tr": "量子矿物原矿"
+    },
+    "Quantum Drive (S1)": {
+      "en": "Quantum Drive (S1)",
+      "tr": "量子驱动器 (S1)"
     },
     "Quantum Fuel": {
       "en": "Quantum Fuel",
@@ -23501,7 +23637,7 @@
     },
     "Quartz (Raw)": {
       "en": "Quartz (Raw)",
-      "tr": "石英"
+      "tr": "石英原矿"
     },
     "Quartz Energy SMG": {
       "en": "Quartz Energy SMG",
@@ -23514,6 +23650,10 @@
     "Quest": {
       "en": "Quest",
       "tr": "追逐 [量子 S2 民用 D]"
+    },
+    "QuikCool": {
+      "en": "QuikCool",
+      "tr": "快冷 [冷却 S1 竞速 D]"
     },
     "R97 \"Crimson Camo\" Shotgun": {
       "en": "R97 \"Crimson Camo\" Shotgun",
@@ -23538,6 +23678,10 @@
     "R97 Shotgun Magazine (18 cap)": {
       "en": "R97 Shotgun Magazine (18 cap)",
       "tr": "R97 霰弹枪弹匣 (18 发)"
+    },
+    "RN-7s": {
+      "en": "RN-7s",
+      "tr": "RN-7s [流速氢1.65量子0.91 | 血量9000]"
     },
     "RPEL": {
       "en": "RPEL",
@@ -23649,7 +23793,7 @@
     },
     "Riccite (Ore)": {
       "en": "Riccite (Ore)",
-      "tr": "愈金"
+      "tr": "愈金矿石"
     },
     "Ripper \"Sunblock\" SMG": {
       "en": "Ripper \"Sunblock\" SMG",
@@ -23681,7 +23825,7 @@
     },
     "S0 Helix": {
       "en": "S0 Helix",
-      "tr": "S0 螺旋"
+      "tr": "S0 螺旋 [-40%绿区|+20%绿区速率]"
     },
     "S00 Hofstede": {
       "en": "S00 Hofstede",
@@ -23710,6 +23854,30 @@
     "SLAM": {
       "en": "SLAM",
       "tr": "冠军()"
+    },
+    "SNS-R5x": {
+      "en": "SNS-R5x",
+      "tr": "SNS-R5x [雷达 S2 竞赛 D]"
+    },
+    "SNS-R6": {
+      "en": "SNS-R6",
+      "tr": "SNS-R6 [雷达 S1 竞赛 C]"
+    },
+    "SNS-R6x": {
+      "en": "SNS-R6x",
+      "tr": "SNS-R6x [雷达 S2 竞赛 C]"
+    },
+    "SNS-R7x": {
+      "en": "SNS-R7x",
+      "tr": "SNS-R7x [雷达 S2 竞赛 B]"
+    },
+    "SNSR5": {
+      "en": "SNSR5",
+      "tr": "SNSR5 [雷达 S1 竞赛 D]"
+    },
+    "SNSR7": {
+      "en": "SNSR7",
+      "tr": "SNSR7 [雷达 S1 竞赛 B]"
     },
     "STOP": {
       "en": "STOP",
@@ -23745,7 +23913,7 @@
     },
     "Saldynium (Ore)": {
       "en": "Saldynium (Ore)",
-      "tr": "烁迪银"
+      "tr": "烁迪银矿石"
     },
     "Salvo Esteban Frag Pistol": {
       "en": "Salvo Esteban Frag Pistol",
@@ -23765,7 +23933,7 @@
     },
     "Savrilium (Ore)": {
       "en": "Savrilium (Ore)",
-      "tr": "萨维里金属"
+      "tr": "萨维里矿石"
     },
     "Scaleweave Undersuit": {
       "en": "Scaleweave Undersuit",
@@ -23823,9 +23991,37 @@
       "en": "Sheut",
       "tr": "心景 [护盾 S2 隐形 B]"
     },
+    "Shield Generator (S1)": {
+      "en": "Shield Generator (S1)",
+      "tr": "护盾生成器 (S1)"
+    },
     "Shimmer": {
       "en": "Shimmer",
       "tr": "微光 [护盾 S1 隐形 C]"
+    },
+    "Ship Bomb": {
+      "en": "Ship Bomb",
+      "tr": "飞船炸弹"
+    },
+    "Ship Mining Laser": {
+      "en": "Ship Mining Laser",
+      "tr": "飞船采矿激光"
+    },
+    "Ship Missile": {
+      "en": "Ship Missile",
+      "tr": "飞船导弹"
+    },
+    "Ship Salvage Head": {
+      "en": "Ship Salvage Head",
+      "tr": "飞船打捞头"
+    },
+    "Ship Weapon (S1 or S2)": {
+      "en": "Ship Weapon (S1 or S2)",
+      "tr": "飞船武器 (S1 或 S2)"
+    },
+    "Ship Weapon (S3 or S4)": {
+      "en": "Ship Weapon (S3 or S4)",
+      "tr": "飞船武器 (S3 或 S4)"
     },
     "Shroud": {
       "en": "Shroud",
@@ -23889,7 +24085,7 @@
     },
     "Snowfall": {
       "en": "Snowfall",
-      "tr": "飘雪 [冷却 S2 工业 B]"
+      "tr": "降雪 [冷却 S2 工业 B]"
     },
     "Snowpack": {
       "en": "Snowpack",
@@ -23943,6 +24139,10 @@
       "en": "Spyglass",
       "tr": "窥镜 [雷达 S2 隐形 C]"
     },
+    "Stampede Module": {
+      "en": "Stampede Module",
+      "tr": "热潮 模组 [-10%不稳定|+35%功率|-10%炸伤|-15%提取功率]"
+    },
     "StarBurn": {
       "en": "StarBurn",
       "tr": "星火 [发电 S2 竞速 B]"
@@ -23969,7 +24169,7 @@
     },
     "Stileron (Ore)": {
       "en": "Stileron (Ore)",
-      "tr": "稀钛铁"
+      "tr": "稀钛铁矿"
     },
     "Stims": {
       "en": "Stims",
@@ -24041,7 +24241,7 @@
     },
     "Strata Core Levski Edition": {
       "en": "Strata Core Levski Edition",
-      "tr": "岩层 头盔 列夫斯基版"
+      "tr": "岩层 胸甲 列夫斯基版"
     },
     "Strata Core Lodestar": {
       "en": "Strata Core Lodestar",
@@ -24063,6 +24263,10 @@
       "en": "Strata Helmet Amber",
       "tr": "岩层 头盔 琥珀"
     },
+    "Strata Helmet Calico": {
+      "en": "Strata Helmet Calico",
+      "tr": "岩层 头盔 棉布"
+    },
     "Strata Helmet Heatwave": {
       "en": "Strata Helmet Heatwave",
       "tr": "岩层 头盔 热浪"
@@ -24079,9 +24283,21 @@
       "en": "Strata Helmet Neptune",
       "tr": "岩层 头盔 海王星"
     },
+    "Strata Helmet Onyx": {
+      "en": "Strata Helmet Onyx",
+      "tr": "岩层 头盔 玛瑙"
+    },
+    "Strata Helmet Piston": {
+      "en": "Strata Helmet Piston",
+      "tr": "岩层 头盔 活塞"
+    },
     "Strata Helmet Shire": {
       "en": "Strata Helmet Shire",
       "tr": "岩层 头盔 夏尔"
+    },
+    "Strata Helmet Shooting Star": {
+      "en": "Strata Helmet Shooting Star",
+      "tr": "岩层 头盔 陨星"
     },
     "Strata Legs": {
       "en": "Strata Legs",
@@ -24138,6 +24354,10 @@
     "SunFlare": {
       "en": "SunFlare",
       "tr": "耀斑 [发电 S1 竞速 C]"
+    },
+    "Sunset Berries": {
+      "en": "Sunset Berries",
+      "tr": "日落浆果 HEI:06 NDR:08 毒性"
     },
     "SuperDrive": {
       "en": "SuperDrive",
@@ -24207,6 +24427,10 @@
       "en": "TH-01 Propulsor",
       "tr": "TH-01 推进器"
     },
+    "TS-2": {
+      "en": "TS-2",
+      "tr": "TS-2 [量子 S3 军用 A]"
+    },
     "Taiga": {
       "en": "Taiga",
       "tr": "寒林 [冷却 S2 民用 B]"
@@ -24265,7 +24489,7 @@
     },
     "Taranite (Raw)": {
       "en": "Taranite (Raw)",
-      "tr": "塔兰导电石"
+      "tr": "塔兰导电石原矿"
     },
     "Tarantula GT-870 Mark 1 Cannon": {
       "en": "Tarantula GT-870 Mark 1 Cannon",
@@ -24311,6 +24535,10 @@
       "en": "Testudo Arms Nightveil",
       "tr": "龟甲 臂甲 夜幕"
     },
+    "Testudo Arms Purgatory Camo": {
+      "en": "Testudo Arms Purgatory Camo",
+      "tr": "龟甲 臂甲 炼狱迷彩"
+    },
     "Testudo Arms Turfwar": {
       "en": "Testudo Arms Turfwar",
       "tr": "龟甲 臂甲 扩张"
@@ -24334,6 +24562,10 @@
     "Testudo Backpack Nightveil": {
       "en": "Testudo Backpack Nightveil",
       "tr": "龟甲 背包 夜幕"
+    },
+    "Testudo Backpack Purgatory Camo": {
+      "en": "Testudo Backpack Purgatory Camo",
+      "tr": "龟甲 背包 炼狱迷彩"
     },
     "Testudo Backpack Turfwar": {
       "en": "Testudo Backpack Turfwar",
@@ -24359,6 +24591,10 @@
       "en": "Testudo Core Nightveil",
       "tr": "龟甲 胸甲 夜幕"
     },
+    "Testudo Core Purgatory Camo": {
+      "en": "Testudo Core Purgatory Camo",
+      "tr": "龟甲 胸甲 炼狱迷彩"
+    },
     "Testudo Core Turfwar": {
       "en": "Testudo Core Turfwar",
       "tr": "龟甲 胸甲 扩张"
@@ -24383,6 +24619,10 @@
       "en": "Testudo Helmet Nightveil",
       "tr": "龟甲 头盔 夜幕"
     },
+    "Testudo Helmet Purgatory Camo": {
+      "en": "Testudo Helmet Purgatory Camo",
+      "tr": "龟甲 头盔 炼狱迷彩"
+    },
     "Testudo Helmet Turfwar": {
       "en": "Testudo Helmet Turfwar",
       "tr": "龟甲 头盔 扩张"
@@ -24406,6 +24646,10 @@
     "Testudo Legs Nightveil": {
       "en": "Testudo Legs Nightveil",
       "tr": "龟甲 腿甲 夜幕"
+    },
+    "Testudo Legs Purgatory Camo": {
+      "en": "Testudo Legs Purgatory Camo",
+      "tr": "龟甲 腿甲 炼狱迷彩"
     },
     "Testudo Legs Turfwar": {
       "en": "Testudo Legs Turfwar",
@@ -24453,7 +24697,7 @@
     },
     "Tin (Ore)": {
       "en": "Tin (Ore)",
-      "tr": "锡"
+      "tr": "锡矿石"
     },
     "Titanium": {
       "en": "Titanium",
@@ -24461,7 +24705,7 @@
     },
     "Titanium (Ore)": {
       "en": "Titanium (Ore)",
-      "tr": "钛"
+      "tr": "钛矿石"
     },
     "Torite": {
       "en": "Torite",
@@ -24469,11 +24713,15 @@
     },
     "Torite (Ore)": {
       "en": "Torite (Ore)",
-      "tr": "托瑞特金属"
+      "tr": "托瑞特矿石"
     },
     "Torrent": {
       "en": "Torrent",
       "tr": "激流 [量子 S2 民用 C]"
+    },
+    "Torrent III Module": {
+      "en": "Torrent III Module",
+      "tr": "洪流 III 模组 [+40%绿区速度|-1%绿区]"
     },
     "Torrez": {
       "en": "Torrez",
@@ -24481,7 +24729,7 @@
     },
     "Trawler Scraper Module": {
       "en": "Trawler Scraper Module",
-      "tr": "拖网刮削模块"
+      "tr": "拖网 刮削模块"
     },
     "Trenta": {
       "en": "Trenta",
@@ -24729,7 +24977,7 @@
     },
     "Tundra": {
       "en": "Tundra",
-      "tr": "冻原 [冷却 S1 军用 D]"
+      "tr": "苔原 [冷却 S1 军用 D]"
     },
     "Tundra Kopion Horn": {
       "en": "Tundra Kopion Horn",
@@ -24741,7 +24989,7 @@
     },
     "Tungsten (Ore)": {
       "en": "Tungsten (Ore)",
-      "tr": "钨"
+      "tr": "钨矿石"
     },
     "TurboDrive": {
       "en": "TurboDrive",
@@ -24766,6 +25014,26 @@
     "Umbra": {
       "en": "Umbra",
       "tr": "本影 [护盾 S2 隐形 A]"
+    },
+    "V60-26": {
+      "en": "V60-26",
+      "tr": "V60-26 [雷达 S0 军用 A]"
+    },
+    "V801-11": {
+      "en": "V801-11",
+      "tr": "V801-11 [雷达 S1 军用 A]"
+    },
+    "V801-12": {
+      "en": "V801-12",
+      "tr": "V801-12 [雷达 S2 军用 A]"
+    },
+    "V880": {
+      "en": "V880",
+      "tr": "V880 [雷达 S3 军用 A]"
+    },
+    "VK-00": {
+      "en": "VK-00",
+      "tr": "VK-00 [量子 S1 军用 A]"
     },
     "Valakkar Fang (Juvenile)": {
       "en": "Valakkar Fang (Juvenile)",
@@ -24907,6 +25175,10 @@
       "en": "Why Not? Flight Helmet",
       "tr": "飞行头盔"
     },
+    "WiDoW": {
+      "en": "WiDoW",
+      "tr": "“黑寡妇”"
+    },
     "Wikelo Favor": {
       "en": "Wikelo Favor",
       "tr": "维科洛人情"
@@ -24926,6 +25198,10 @@
     "Winter-Star XL": {
       "en": "Winter-Star XL",
       "tr": "寒冬之心XL [冷却 S3 民用 D]"
+    },
+    "XL-1": {
+      "en": "XL-1",
+      "tr": "XL-1 [量子 S2 军用 A]"
     },
     "Xanthule Flight Helmet": {
       "en": "Xanthule Flight Helmet",
