@@ -5,3 +5,7 @@
 
 # AI 交接文档（本地维护，不上传）
 HANDOFF*.md
+
+# 更新工具本地状态与日志
+update_state.json
+logs/

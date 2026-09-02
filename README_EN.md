@@ -33,8 +33,9 @@ Notes:
 
 ## Update Process (after each game patch)
 
-1. Pull the latest `build_lang_template.py` and `lang-template-*.json` from [SCMDB_LANG](https://github.com/KrovaxCode/SCMDB_LANG)
-2. Run the generator with the matching Chinese `global.ini` (must be UTF-8 **without BOM**):
+1. Use the unified tool in the project root (recommended): `python update_scmdb.py all` (auto-syncs main-site data/template, extracts the English `global.ini` from the game p4k to build the bilingual lookup, rebuilds & verifies, prints a diff report; commit/push manually after review)
+2. Or follow the [UPDATE.md](UPDATE.md) manual flow: pull the latest `build_lang_template.py` and `lang-template-*.json` (**note: the template must be selected explicitly — do not run bare `--translate`; see UPDATE.md §3.2**)
+3. Run the generator with the matching Chinese `global.ini` (must be UTF-8 **without BOM**):
 
 ```bash
 # LIVE version (matches the SCMDB site data)
@@ -44,7 +45,7 @@ python build_lang_template.py -p live --translate "StarCitizen\LIVE\data\Localiz
 python build_lang_template.py --translate "StarCitizen\PTU\data\Localization\chinese_(simplified)\global.ini"
 ```
 
-3. Commit the generated `lang-*.json` files to this repo and update the link above
+4. Rename the generated `lang-*.json` to the fixed names, commit and push to this repo, and update the link above
 
 > **Note:** if `global.ini` has a UTF-8 BOM, the first key fails to match. Convert it to BOM-less UTF-8 first.
 

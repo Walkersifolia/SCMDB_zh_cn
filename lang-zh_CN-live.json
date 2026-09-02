@@ -6,12 +6,12 @@
   "stats": {
     "total": 6318,
     "translated": 6114,
+    "unTranslated": 204,
     "missing": 0,
     "noLocKey": 1720,
     "placeholderFallback": 68,
     "lengthFallback": 0,
     "mismatch": 222,
-    "unTranslated": 204,
     "communityUiHits": 59
   },
   "keys": {
@@ -16689,7 +16689,7 @@
     },
     "_noloc_item_Tundra": {
       "en": "Tundra",
-      "tr": "苔原 [冷却 S1 军用 D]"
+      "tr": "冻原 [冷却 S4 军用 D]"
     },
     "_noloc_item_TurboDrive": {
       "en": "TurboDrive",
@@ -24977,7 +24977,7 @@
     },
     "Tundra": {
       "en": "Tundra",
-      "tr": "苔原 [冷却 S1 军用 D]"
+      "tr": "冻原 [冷却 S4 军用 D]"
     },
     "Tundra Kopion Horn": {
       "en": "Tundra Kopion Horn",

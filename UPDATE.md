@@ -11,9 +11,11 @@
 | 仓库 | `Walkersifolia/SCMDB_zh_cn`（公开，main 分支） |
 | LIVE 翻译文件 | **`lang-zh_CN-live.json`**（当前生效，SCMDB 网站加载） |
 | PTU 翻译文件 | **`lang-zh_CN-ptu.json`**（PTU 数据上线后使用） |
+| **统一更新工具** | **`update_scmdb.py`**（项目根目录，见 §3.0——所有版本更新优先用它） |
+| **UI 翻译 sidecar** | **`scmdb_ui_zh-CN.json`**（任务 tag/徽章、制造页标签等 59 条，上游 `scmdb_ui_*` 机制的中文源） |
 | **文件命名铁律** | **不带任何版本号**（无 `4.9.0`、无 `12344265` 长数字）。每次更新直接**覆盖同名文件**，保证 `https://raw.githubusercontent.com/Walkersifolia/SCMDB_zh_cn/main/lang-zh_CN-live.json` 链接永久有效。版本信息只存在 JSON 内部 `version` 字段 |
 | 语言 | 全部 `tr` 为简体中文；`en` 保持官方英文原文 |
-| 统计字段 | 每次更新后必须同步：`keyCount`、`stats.total`、`stats.translated`（见 §4.5） |
+| 统计字段 | 每次更新后必须同步：`keyCount`、`stats.total`、`stats.translated`（口径 `tr != en`，见 §4.5） |
 
 ### 0.1 游戏客户端文件只读铁律（绝对不可违反，优先级高于一切流程步骤）
 
@@ -90,21 +92,29 @@
 
 > 注意：`dcb query` 输出到 stderr 的提示行（如 `N record(s) matched.`）混在 stdout 里，用 Python/Node 解析时需从第一个 `{` 开始找 JSON 块；PowerShell 直接重定向会混入错误行。
 
-### 2.2 本机 p4k 解包数据缓存（随仓库分发）
-
-**项目根目录 `p4k_live_extract/`** 保存 4.9.0-live 的常用解包数据，随仓库分发，供后续分析复用（游戏数据版权归 Cloud Imperium Games 所有）：
-
-| 子目录 | 内容 | 来源 |
-|---|---|---|
-| `subsumption/` | `Data\Libs\Subsumption\` 全部 4143 个 XML（已转码 CryXML）：Events/Activities/Missions/Platforms/Roles | `starbreaker p4k extract --convert cryxml` |
-| `datacore/` | DataCore 导出 JSON：`ContractGenerator.HockrowAgency_FacilityDelve.json`（任务链全部合同定义）、`ContractTemplate.Phase3-MainMission.json`（Phase3 模板）、`TagDatabase.json`（tag GUID→名称映射） | `starbreaker dcb query --format json` |
-| `scmdb/` | SCMDB 主站数据快照 `merged-<版本>.json`（contracts/locationPools/blueprintPools 等，与网站同步） | `https://scmdb.net/data/merged-<版本>.json` |
-
-> 定位任务定义的方法（踩坑记录）：任务模板不在文件名含 `Mission` 的 XML 里，而是在 **DataCore（Game2.dcb）的 `ContractGenerator` 记录**中（如 `ContractGenerator.HockrowAgency_FacilityDelve`），通过 `starbreaker dcb query` 查询；任务行为逻辑在 `Data\Libs\Subsumption\` 的 XML 中。任务 loc key（如 `@Hockrow_FacilityDelve_P3M1_title`）由合同模板 `ContractTemplate.*` 的 `contractDisplayInfo.displayString` 引用。
+> 定位任务定义的方法（踩坑记录）：任务模板不在文件名含 `Mission` 的 XML 里，而是在 **DataCore（Game2.dcb）的 `ContractGenerator` 记录**中（如 `ContractGenerator.HockrowAgency_FacilityDelve`），通过 `starbreaker dcb query` 查询；任务行为逻辑在 `Data\Libs\Subsumption\` 的 XML 中。任务 loc key（如 `@Hockrow_FacilityDelve_P3M1_title`）由合同模板 `ContractTemplate.*` 的 `contractDisplayInfo.displayString` 引用。需要时用 StarBreaker 实时解包，**不再随仓库分发解包缓存**（此前 `p4k_live_extract/` 为 4.9 过时快照，已移除）。
 
 ---
 
 ## 3. 完整更新流程（按顺序执行）
+
+### 3.0 统一更新工具（推荐，日常唯一入口）
+
+项目根目录 `update_scmdb.py` 封装了 §3.1–§3.6 的全部流程与规则（含双语桥接表反查管线 §4.4b），一次命令完成"同步数据 → 重建 → 验证 → 差异报告"：
+
+```powershell
+python update_scmdb.py fetch      # 同步主站版本/模板/数据；从 p4k 提取英文 global.ini（缓存）
+python update_scmdb.py build      # 重建翻译（桥接表 + 反查 + 合并 + 清理 + 统计）→ 临时产物
+python update_scmdb.py verify     # §5 验证清单（全项 PASS 才算过）
+python update_scmdb.py diff       # 与上次推送版本对比（新增/变化/需核查分类）
+python update_scmdb.py all        # fetch→build→verify→diff（日常推荐）
+python update_scmdb.py status     # 当前状态（版本/统计/上次构建时间）
+```
+
+- 产物输出到临时目录（`%TEMP%\opencode\lang-zh_CN-live.build.json`），**不直接覆盖仓库文件**；确认 `diff` 无「需核查」项后：`Copy-Item` 覆盖 `lang-zh_CN-live.json` → 同步 README/README_EN 统计数字 → 手动 `git add`（只暂存目标文件）→ 中文 commit → push
+- 工具**不自动 commit/push**（人工把关）；状态记录在 `update_state.json`（gitignore，本机维护），日志写 `logs/`
+- 依赖：Python 3.11、curl、StarBreaker CLI（仅 fetch 需要，且游戏 p4k 只读提取）
+- **遇到工具行为与预期不符时**，按下述手动流程逐节排查（§3.1–§3.6 即工具的内部实现拆分与踩坑说明）
 
 ### 3.1 准备 global.ini 去 BOM 副本（重要）
 
@@ -234,27 +244,33 @@ for val in values:                      # values = global.ini 全部唯一值
 
 global.ini 中舰船组件条目的值格式：`护墙Parapet\n[护盾 S3 工业 A]`——**方括号信息在英文名之后**，含 `类别（护盾）、尺寸（S3）、类型（工业）、等级（A）`。必须完整提取拼接进 `tr`（如 `护墙 [护盾 S3 工业 A]`）。识别特征：方括号内含 `S+数字`（`\[[^\]]*S\d[^\]]*\]`），不会误匹配任务占位符（`[SHIP]`/`[MAX_SCU]` 不含此模式）。
 
-### 4.4b 反查规则增强（4.10 实测积累，全部为必要项）
+### 4.4b 反查管线（桥接表版，4.10.1 实测最终版——零人工映射）
 
-本节规则是 4.10 更新中实测踩坑后验证的**最终行为**，新版本更新必须沿用：
+**核心：双向 key 桥接表 + 词边界 + fuzzy，取代人工映射表（MANUAL_MAP 已删除）。**
 
-**1. 名字数据源（4 类 + 扩展）**：待反查英文名集合 = `crafting_items.items[].name` ∪ `mining_data.mineableElements[].name/.materialName` ∪ `merged.contracts[].itemRewards[].groups[].items[].name` ∪ `merged.resourcePools[].name`（注意 itemRewards 可能**没有 groups 层**，直接 `items[]`，需兼容两种结构）。**维科洛船名等遗漏案例**：`itemRewards` 无 groups 而直接含 `items[].name` 的名字此前被漏掉（如 `RSI Scorpius Wikelo Sneak Special` 等 30 艘），通用解法是**递归遍历 merged 所有 `name` 字段**（`name` 为字符串且词数 ≤ 10 且含 `Wikelo`、或以 `Special/Sneak/Work/Mod` 结尾）。`名称为 `PLACEHOLDER`/`<=>` 的占位符排除。
+**1. 双语桥接表（主通道，命中率 >98%）**：从游戏 `Data.p4k` 提取官方**英文 global.ini**（`starbreaker p4k extract --filter "Data/Localization/english/global.ini"`，10.4MB，一次性、缓存于临时目录）→ 与中文 global.ini **按 loc key 合并**（去 `@` 前缀）→ 得到 `英文名 → 官方中文值` 全量权威表（约 7.3 万条）。反查 SCMDB 数据名时：
+   - 值含英文名（标准双语格式 `中文\n英文` / `中文English`）→ 提取中文段；
+   - 纯中文值（如勋章 `塔维因战争服役徽记（完好）`）→ 整值清洗后使用；
+   - 覆盖此前人工映射的全部案例（PRISTINE/截断名），且自动获得新中文（涂装、组件、Probe 等）。
+   - **整值清洗 `clean_whole`**（关键规则）：剥尾部英文段/英文括号段（`5CA 阿库拉Akura`→`5CA 阿库拉 [护盾 S3 民用 C]`、`纯净科力晶Carinite (Pure)`→`纯净科力晶`）；**保留**：`(S1)` 尺寸括号、`SL/XL/Pro/MKx` 白名单型号后缀（紧贴中文时）、全角括号与全角标点（`（完好）`）；纯英文整值不建条目（RCMBNT 系列）。
 
-**2. NBSP（`\xa0`）归一化（必须！）**：crafting/mining 数据的名称中空格可能为**不换行空格**（如 `Lynx\xa0Legs`、`Arrowhead\xa0"Pathfinder" Sniper Rifle`、`P8-SC\xa0"Warhawk" SMG`），而 global.ini 中使用**普通空格**（反之亦然）。反查前对**名称和值的两侧**都做 `replace("\xa0", " ")`，否则这些物品永远反查失败（8 个 NBSP 物品曾全部漏翻）。
+**2. 词边界反查**：值内匹配正则统一加 `(?<![A-Za-z0-9])` 前缀（防子串：`Gold` 不再匹配 `Goldenrod`，`Gold→金` 算法根治）。
 
-**3. 后缀剥离 fallback（`(Ore)`/`(Raw)`）**：mining 元素名 `Agricium (Ore)` 完整名在 global.ini 中不存在（官方文本为 `艾格瑞金属Agricium` 无后缀）。完整名反查失败时，剥离 `(Raw|Ore)` 后缀、**把基础名加入匹配集**（注意：基础名可能不在 names 集合，直接放 pattern 匹配不到——必须显式 `extra=(base,)` 构建 pattern），且 **fallback 只接受无 bracket 候选**（防止 `Gold (Ore)` 被组件条目 `秋麒麟Goldenrod` 污染成 `秋麒麟 [维生 S1 民用 B]`；正确结果 `金`）。
+**3. strip (Ore)/(Raw) 后缀 fallback**：完整名/桥接无果时剥离后缀，**基础名显式加入匹配集**（`extra=(base,)`），只接受无 bracket 候选（防 `Gold (Ore)` 污染成组件名）。
 
-**4. 型号前缀 token 匹配（DCHS 类）**：官方文本为「前置英文型号 + 后置中文」（如 `DCHS-05 轨道定位 计算板`），名字为 `DCHS-05 Orbital Positioning Comp-Board` 时完整名永不匹配。fallback：提取名字首 token（`^([A-Za-z0-9]+-[A-Za-z0-9]+)`），在值中找 `token + 空格 + 中文段`；**严格条件**：token 后必须紧跟空格/换行（`FR-66是目前...` 直接衔接中文的拒绝）、中文段 ≤ 25 且无句末标点、**不含 `S\d` 与 `[]`**（组件信息特征，防止 `V801-11 [雷达 S1 军用 A]` 误构）、无碎片黑名单。仅当完整名反查失败时触发。结果 `tr = token + " " + 中文`。
+**4. 型号前缀 token 匹配（DCHS 类）**：`DCHS-05 Orbital Positioning Comp-Board` 在官方值 `DCHS-05 轨道定位 计算板`（前置型号+后置中文）中匹配。严格条件：token 后必须紧跟空格/换行；中文段 ≤25、无句末标点、不含 `S\d` 与 `[]`、无碎片黑名单；仅完整名反查失败后触发。
 
-**5. 人工映射表（global.ini 纯中文值条目）**：存在官方条目只有中文、无英文名（如 `item_NameMedal_1_pristine_c=塔维因战争服役徽记（完好）` 对应英文名 `Tevarin War Service Marker (Pristine)` 仅存在于 SCMDB 数据），反查结构性失败。少量条目用**人工核准映射表**（en 名 → 官方中文），由用户提供/核对。类似案例：SCMDB 上游数据**截断名**（`Anvil F7 Hornet Mk Wikelo` ← 官方全名 `Anvil F7C-M Super Hornet Mk II Wikelo Special`，用 global.ini 搜索"超级大黄蜂"定位）。
+**5. fuzzy token 交集（截断名兜底）**：SCMDB 上游数据截断名（如 `Anvil F7 Hornet Mk Wikelo` ← 官方 `Anvil F7C-M Super Hornet Mk II Wikelo Special`）token 归一化后与桥接表 en 做交集，覆盖率 ≥75% 且唯一最高分命中。自动适配官方全名（`铁砧 F7C-M 超级大黄蜂 Mk II 维科洛 特别版`）。
 
-**6. 半角括号保护**：官方中文值含 `(30发)`、`(成年期)` 等半角括号，`strip()` 字符集**不得包含半角 `()`**（历史版本含括会导致 `)` 被删、显示不完整）；合并后额外执行**括号闭合修复**（`tr` 中 `(` 数量 > `)` 数量时在末尾补全 `)`，仅限 `en==key` 名称条目，防止误伤描述文本）。
+**6. 名字数据源（4 类 + 扩展）**：`crafting_items.items[].name` ∪ `mining_data.mineableElements[].name/.materialName` ∪ `merged.contracts[].itemRewards[].items[].name`（兼容有无 `groups` 层两种结构；注意部分条目无 groups 曾致漏翻）∪ `merged.resourcePools[].name`；**Wikelo 系列**：递归遍历 merged 所有 `name` 字段（含 `Wikelo` 且词数 ≤10，或以 `Special/Sneak/Work/Mod` 结尾）。排除 `PLACEHOLDER`/`<=>` 占位符名。
 
-**7. §4.3 合并的保留集**：删除旧 `en==key` 条目时**只删 key ∈ 物品名集合**的条目——模板自带的星系名条目（`Stanton`/`Pyro`/`Nyx`，en==key 但非物品）必须保留（实测曾被误删导致"破坏性修改"）。
+**7. §4.3 合并的保留集**：删除旧 `en==key` 条目时**只删 key ∈ 物品名集合**的条目——模板自带的星系名条目（`Stanton`/`Pyro`/`Nyx`）必须保留。
 
-**8. 元素白名单扩展**：金、铁、钛、铜、铝、钨、锡、冰、硅、汞、霰、氮、氢、氩、氧、碳、硫、磷、钠、钾、钙、镁、锂、硼、锌、镍、**钴、氨、碘**（4.10 新增元素）。
+**8. 半角括号保护与闭合修复**：`strip()` 字符集不含半角 `()`；合并后对 `en==key` 条目做括号闭合补丁（`(` 多于 `)` 时末尾补全，仅名称条目）。
 
-**9. §4.6 后置校验追加规则**：`tr` 含中文逗号/顿号（`[，、]`）→ 删除（名称条目不含标点，描述片段特征）；碎片黑名单追加**性能、功率、光学**（捕获 `SNS-R6`→"增强的功率和性能使"、`TS-2`→"5倍光学"、`VK-00` 等描述污染，实测只命中污染条目）。
+**9. 元素白名单（扩展）**：金、铁、钛、铜、铝、钨、锡、冰、硅、汞、霰、氮、氢、氩、氧、碳、硫、磷、钠、钾、钙、镁、锂、硼、锌、镍、钴、氨、碘。
+
+**10. 污染检查（§4.6 后置）**：`tr` 含中文逗号/顿号 → 删除；碎片黑名单（…性能、功率、光学）→ 删除；**注意：检查只应用于「名称核心段」（方括号组件参数之前）**——`净采 模组 [+15%功率|+30%绿区速度]` 中的「功率」是合法组件参数，不得误杀（历史踩坑 #20）。
 
 ### 4.5 统计字段更新
 
@@ -328,22 +344,26 @@ git push
 | 15 | **半角括号被删**（`(30发` 缺右括号） | `strip()` 字符集含半角 `()`，把官方值 `弧光手枪电池 (30发)` 的 `)` 删掉 | strip 字符集去掉半角括号；合并后对 en==key 条目做括号闭合补丁（§4.4b #6） |
 | 16 | **星系名条目被 §4.3 误删**（Stanton/Pyro/Nyx） | 删除"所有 en==key 条目"时把模板自带星系名也删了 | 删除条件限定 `key ∈ 物品名集合`；星系名等非物品 en==key 必须保留（§4.4b #7） |
 | 17 | **纯中文值条目无法反查**（（完好）系列勋章、数据截断名） | 官方条目只有中文、英文名只存在于 SCMDB 数据或 global.ini 其他 key；反查（需"中文+英文"同值）结构性失败 | 人工核准映射表：`Tevarin War Service Marker (Pristine)` 等 5 条；截断名用 global.ini 关键词定位官方全名（§4.4b #5） |
-| 18 | **Wikelo 船名整体漏翻**（30 艘维科洛改装船） | `itemRewards` 结构兼容问题：部分条目无 `groups` 层，`items[].name` 直接挂 `itemRewards` 下，4 源提取漏掉 | 递归遍历 merged 所有 `name` 字段（词数 ≤ 10 且含 `Wikelo` 或 `Special/Sneak/Work/Mod` 结尾）作为附加 names（§4.4b #1） |
+| 18 | **Wikelo 船名整体漏翻**（30 艘维科洛改装船） | `itemRewards` 结构兼容问题：部分条目无 `groups` 层，`items[].name` 直接挂 `itemRewards` 下，4 源提取漏掉 | 递归遍历 merged 所有 `name` 字段（词数 ≤ 10 且含 `Wikelo` 或 `Special/Sneak/Work/Mod` 结尾）作为附加 names（§4.4b #6） |
+| 19 | **人工映射表被淘汰**（Gold/勋章/截断名仍硬编码） | 桥接表（英文 global.ini 从 p4k 提取，同 key 合并中英）可覆盖全部"值无英文/纯中文值"条目 | 反查管线改为「桥接表直查 → 词边界 → strip/token → fuzzy」；MANUAL_MAP 删除（§4.4b） |
+| 20 | **污染黑名单误杀组件参数**（`净采 模组 [+15%功率\|+30%绿区速度]` 被"功率"黑名单丢弃） | 黑名单/逗号检查作用于整个 tr，而组件参数含"功率"等合法词 | §4.6/§4.4b #10：污染检查仅应用于**名称核心段**（方括号之前） |
+| 21 | **整值清洗截断**（`地球联合帝国（UEE）六排勋章（完好）`被切成"地球联合帝国"；`铁砧 F7C-M…特别版`被切成"铁砧"） | 旧 `clean_whole` 的中文连续块正则不含全角括号/型号段落 | 改为"剥离式"清洗（`_strip_eng`：仅剥尾部英文/英文括号；保护 `(S1)` 尺寸括号、`SL/XL/Pro/MKx` 白名单型号、全角标点；纯型号 `FR-66` 不动） |
 
 ---
 
 ## 8. 已知边界（不可翻译或超出能力范围）
 
 1. **护甲涂装变体**（`5CA 'Akura'`、`ADP Arms Aqua` 等）：中文 global.ini 中**没有对应文本**（CIG 官方未翻译），反查无果，保持英文是唯一正确行为
+   - **注意（4.10.1 更新）**：经桥接表验证，部分涂装**其实有官方中文**（值格式为 `5CA 阿库拉Akura` 混拼，旧反查漏检）；现已提取为 `5CA 阿库拉 [护盾 S3 民用 C]`。剩余无中文涂装（`ADP Arms Aqua` 等）仍保持英文
 2. **个别物品**（如 `FS-9 Magazine (150 cap)`）：global.ini 无对应条目值（只有描述文本），保持英文
 3. **mine（资源）页面**：作者前端未接入翻译反查（条目已就位，等作者支持）
 4. **fab/mine 页面中文搜索**：前端搜索只匹配英文原始字段（作者需参照任务页 `yN` 过滤把翻译文本拼进匹配串），翻译文件无法解决
 5. **预览页统计参数标签**（`Fire Rate`、`Recoil Smoothness` 等）：前端硬编码 UI 标签，翻译 JSON 无法替换
 6. **SCMDB 网站 UI**（按钮、表头、过滤器）：作者明确不翻译（设计决定），用浏览器翻译功能兜底
 7. **`_noloc_` 前缀条目**：游戏数据无对应本地化 key，`tr = en` 保持英文，属正常
-8. **任务 tag/徽章与制造页属性标签（已向作者提交接入清单）**：`LEGAL/ILLEGAL/SOLO/UNIQUE/STARTER/CHAIN/Story/Event/Career/NEW/ACE/EVENT INACTIVE/WIP`、`Product Stats`、`Fire Rate/DPS/Recoil*/Spread/Ammo Speed/Mag:`、`Impact Force` 等为**前端硬编码字符串**（bundle `children:"ILLEGAL"` 等）或**数据直显**（制造商名、配方槽位名 Frame/Barrels、射击模式名 Rapid、combatRange 类别、bonus statKey），无 loc 通道，翻译文件写入无效。**已发清单给作者（Discord，2026-08-27）接入 `scmdb_ui_*` loc key**；作者完成前端改造后，在翻译文件补 `scmdb_ui_*` 条目即可生效（Key 命名与建议中文见 HANDOFF.md 待办）。
-   - **对比**：`system`（斯坦顿）与 `missionType`（维科洛 - 载具）标签**有 loc 通道**，靠翻译文件 `en==key` 条目 / 模板 UI keys 已中文——确认"前端有 loc 的标签可翻、硬编码的不可翻"。
-   - 作者接入前**不要**在翻译文件建 `scmdb_ui_*` 假条目（前端不查，写了无效）
+8. **任务 tag/徽章与制造页属性标签（作者已接入 scmdb_ui_*，59 条已翻）**：作者 Krovax 已把 `LEGAL/ILLEGAL/SOLO/UNIQUE/STARTER/CHAIN/Story/Event/Career/NEW/ACE/EVENT INACTIVE/WIP`、`Product Stats`、`Fire Rate/DPS/Recoil*/Spread/Ammo Speed/Mag:` 等接入 `scmdb_ui_*` loc（模板内嵌 + sidecar 机制），我们通过 `scmdb_ui_zh-CN.json` 提供中文。
+   - **作者仍漏 4 处（等待其下次更新，届时补 sidecar 对应 key）**：① `Damage / Shot`、`Heat / Shot`（模板字符串拼接未 hook）② 拆解黑名单黄条整句（JSX 硬编码）③ `Impact Force` 等 bonus stat 显示名（无 key）④ `combatRange.category`"Medium"与任务危险等级枚举冲突（显示"中等风险 射程"，需 `scmdb_ui_range_*` key）
+   - system（斯坦顿）/missionType（维科洛 - 载具）标签走 loc 通道，已中文——确认"前端有 loc 的标签可翻、硬编码的不可翻"。作者接入前**不要**在翻译文件建 `scmdb_ui_*` 假条目（前端不查，写了无效）
 
 ---
 

@@ -33,8 +33,9 @@ https://scmdb.net?lang=https://raw.githubusercontent.com/Walkersifolia/SCMDB_zh_
 
 ## 更新流程（每次游戏补丁后）
 
-1. 从 [SCMDB_LANG](https://github.com/KrovaxCode/SCMDB_LANG) 拉取新的 `build_lang_template.py` 与 `lang-template-*.json`
-2. 使用对应客户端的中文 `global.ini`（注意文件需为无 BOM 的 UTF-8）：
+1. 使用项目根目录的统一工具（推荐）：`python update_scmdb.py all`（自动同步主站版本/模板/数据、从游戏 p4k 提取英文 global.ini 建双语桥接表、重建并验证、输出差异报告；确认后人工提交推送）
+2. 也可按 [UPDATE.md](UPDATE.md) 手动流程：拉取新 `build_lang_template.py` 与 `lang-template-*.json`（**注意：模板选择须显式指定，勿直接跑 `--translate`，见 UPDATE.md §3.2**）
+3. 使用对应客户端的中文 `global.ini`（注意文件需为无 BOM 的 UTF-8）：
 
 ```bash
 # LIVE 版本（SCMDB 网站当前数据）
@@ -44,7 +45,7 @@ python build_lang_template.py -p live --translate "StarCitizen\LIVE\data\Localiz
 python build_lang_template.py --translate "StarCitizen\PTU\data\Localization\chinese_(simplified)\global.ini"
 ```
 
-3. 将生成的 `lang-*.json` 提交并推送至本仓库，更新上方链接
+4. 将生成的 `lang-*.json` 重命名为固定名提交并推送至本仓库，更新上方链接
 
 > 注意：`global.ini` 若带 UTF-8 BOM 会导致首行 key 匹配失败，使用前请先转为无 BOM 的 UTF-8。
 
