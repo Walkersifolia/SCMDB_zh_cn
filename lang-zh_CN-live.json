@@ -5,13 +5,13 @@
   "keyCount": 6249,
   "stats": {
     "total": 6249,
-    "translated": 5991,
+    "translated": 5995,
     "missing": 0,
     "noLocKey": 1720,
     "placeholderFallback": 68,
     "lengthFallback": 0,
     "mismatch": 222,
-    "unTranslated": 258,
+    "unTranslated": 254,
     "communityUiHits": 59
   },
   "keys": {
@@ -17145,11 +17145,11 @@
     },
     "_noloc_mining_Hephaestanite (Raw)": {
       "en": "Hephaestanite (Raw)",
-      "tr": "Hephaestanite (Raw)"
+      "tr": "火神石"
     },
     "_noloc_mining_Ice (Raw)": {
       "en": "Ice (Raw)",
-      "tr": "Ice (Raw)"
+      "tr": "冰"
     },
     "items_commodities_iron_ore": {
       "en": "Iron (Ore)",
@@ -17213,7 +17213,7 @@
     },
     "_noloc_mining_Ouratite (Raw)": {
       "en": "Ouratite (Raw)",
-      "tr": "Ouratite (Raw)"
+      "tr": "欧拉特烃"
     },
     "items_commodities_quantainium_raw": {
       "en": "Quantainium (Raw)",
@@ -17237,7 +17237,7 @@
     },
     "_noloc_mining_Silicon (Raw)": {
       "en": "Silicon (Raw)",
-      "tr": "Silicon (Raw)"
+      "tr": "硅"
     },
     "items_commodities_taranite_raw": {
       "en": "Taranite (Raw)",
