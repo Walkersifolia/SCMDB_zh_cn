@@ -11,6 +11,11 @@ Two modes:
      python build_lang_template.py -p ptu --translate path/to/foreign_global.ini
      -> lang-de-4.7.0-ptu.11468334.json (translated text, error report)
 
+     SCMDB's own UI strings (scmdb_ui_*) never appear in CIG's global.ini.
+     Translators supply them in a sidecar next to their INI --
+     scmdb_ui_<lang>.json is picked up automatically, or point at one
+     explicitly with --translate-ui path/to/file.json
+
 Uses the English global.ini as reference + reverse-lookup for strings
 without an explicit key.
 """
@@ -574,13 +579,188 @@ def build_template(all_keys: dict, version: str, raw_keys: dict = None) -> dict:
 
 
 # ---------------------------------------------------------------------------
+# Community UI sidecar (scmdb_ui_*)
+# ---------------------------------------------------------------------------
+# SCMDB's own interface strings ship in the template under the scmdb_ui_*
+# namespace (badge labels, Fabricator labels, tooltips). They are frontend
+# literals, so by definition they do NOT exist in CIG's global.ini -- no
+# foreign INI will ever answer a scmdb_ui_* lookup.
+#
+# Translators supply them in a sidecar file placed next to their global.ini:
+#
+#     global_zh-CN.ini
+#     scmdb_ui_zh-CN.json      <- auto-discovered
+#
+# JSON is the preferred format: these strings carry placeholder tokens
+# ({patch}, {n}, {count}, {chance}, {material}, {pool}, {systems}) that must
+# survive verbatim into the output, and JSON round-trips them without escaping
+# surprises. A .ini sidecar (same key=value format as global.ini) is accepted
+# for convenience.
+#
+# Precedence in build_translation(): CIG's foreign global.ini always wins.
+# The sidecar is only consulted when CIG has no answer for a key -- defensive
+# against a future name collision between our namespace and CIG's.
+#
+# Spec: SCMDB/docs/parser-i18n-badge-handoff.md
+
+_UI_PREFIX = "scmdb_ui_"
+_SIDECAR_EXTS = (".json", ".ini")
+
+
+def _sidecar_lang_candidates(foreign_ini_path: str) -> list:
+    """Language tokens to try for sidecar auto-discovery, most specific first.
+
+    global_zh-CN.ini  -> ["zh-CN", "global_zh-CN"]
+    german_global.ini -> ["german", "german_global"]
+    de.ini            -> ["de"]
+    """
+    stem = os.path.splitext(os.path.basename(foreign_ini_path))[0]
+    low = stem.lower()
+    cands = []
+    if low.startswith("global_") and len(stem) > len("global_"):
+        cands.append(stem[len("global_"):])
+    if low.endswith("_global") and len(stem) > len("_global"):
+        cands.append(stem[:-len("_global")])
+    cands.append(stem)
+    seen = set()
+    out = []
+    for c in cands:
+        if c and c.lower() not in seen:
+            seen.add(c.lower())
+            out.append(c)
+    return out
+
+
+def find_ui_sidecar(foreign_ini_path: str):
+    """Look for scmdb_ui_<lang>.json|.ini next to the foreign INI.
+
+    Returns the path, or None if there is nothing to load. A sidecar that
+    exists but does not match this INI's language is reported as a hint
+    rather than picked up silently -- guessing the language would be worse
+    than doing nothing.
+    """
+    directory = os.path.dirname(os.path.abspath(foreign_ini_path))
+    candidates = _sidecar_lang_candidates(foreign_ini_path)
+    for lang in candidates:
+        for ext in _SIDECAR_EXTS:
+            path = os.path.join(directory, f"{_UI_PREFIX}{lang}{ext}")
+            if os.path.exists(path):
+                return path
+
+    others = sorted(set(
+        p for ext in _SIDECAR_EXTS
+        for p in glob.glob(os.path.join(glob.escape(directory), f"{_UI_PREFIX}*{ext}"))
+    ))
+    if others:
+        names = ", ".join(os.path.basename(p) for p in others[:3])
+        print(f"[HINT] Found {names} next to the INI, but expected "
+              f"{_UI_PREFIX}{candidates[0]}.json for this file.")
+        print(f"       Use --translate-ui <path> to load one of them anyway.")
+    return None
+
+
+def _read_sidecar_ini(path: str) -> dict:
+    """Minimal key=value reader for .ini sidecars, strict UTF-8.
+
+    Deliberately not load_localization(): that one reads with
+    errors="ignore", which is right for CIG's UTF-8 global.ini but wrong for
+    a file a translator wrote by hand. Saved in a legacy codepage -- what
+    "ANSI" means in most Windows editors, cp1252 in Western Europe, GBK in
+    China, Shift-JIS in Japan -- the non-ASCII bytes would be dropped without
+    a word. Guessing the codepage is no better: decoding GBK as cp1252 yields
+    plausible-looking nonsense rather than an error, so refuse the file.
+    """
+    out = {}
+    with open(path, encoding="utf-8") as f:
+        for raw_line in f:
+            line = raw_line.strip()
+            if not line or line.startswith((";", "#", "[")):
+                continue
+            if "=" not in line:
+                continue
+            key, val = line.split("=", 1)
+            out[key.strip()] = val.strip()
+    return out
+
+
+def load_ui_sidecar(path: str) -> dict:
+    """Load a community UI sidecar -> {scmdb_ui_key: translated_string}.
+
+    Accepted JSON shapes:
+        {"scmdb_ui_tag_legal": "LEGAL_DE", ...}                     flat
+        {"lang": "de-DE", "keys": {"scmdb_ui_tag_legal": "..."}}    wrapped
+        {"keys": {"scmdb_ui_tag_legal": {"en": "LEGAL",
+                                         "tr": "LEGAL_DE"}}}        {en,tr} values
+
+    A .ini sidecar uses key=value lines; [sections] and ; # comments are
+    skipped. Both formats must be UTF-8.
+
+    Only keys inside the scmdb_ui_* namespace are accepted. Anything else is
+    dropped with a warning: without that limit, handing in a full generated
+    lang-*.json would answer every key CIG's INI happens to miss with its own
+    English fallback, and the coverage report would show a flawless 100%
+    while the output is entirely English.
+
+    Values are taken verbatim -- no token normalization, no trimming of
+    placeholders. {patch} and friends must reach the output unchanged, the
+    frontend substitutes them at render time. Empty values are skipped so a
+    stubbed-out entry counts as "not translated yet" rather than as an empty
+    translation.
+    """
+    ext = os.path.splitext(path)[1].lower()
+    try:
+        if ext == ".ini":
+            raw = _read_sidecar_ini(path)
+        else:
+            with open(path, encoding="utf-8-sig") as f:
+                data = json.load(f)
+            if not isinstance(data, dict):
+                raise ValueError("sidecar must contain a JSON object")
+            inner = data.get("keys")
+            raw = inner if isinstance(inner, dict) else data
+    except UnicodeDecodeError as e:
+        raise ValueError(
+            f"file is not valid UTF-8 (byte {e.start}). Save it as UTF-8 -- "
+            f"a legacy codepage (what Windows editors call ANSI: cp1252, GBK, "
+            f"Shift-JIS, ...) cannot be decoded reliably, and reading it anyway "
+            f"would corrupt the text without warning."
+        ) from e
+
+    out = {}
+    outside = []
+    for key, val in raw.items():
+        if isinstance(val, dict):
+            # {en, tr} value shape: take the translated side
+            val = val.get("tr") or val.get("value")
+        if not isinstance(val, str) or not val.strip():
+            continue
+        if not key.startswith(_UI_PREFIX):
+            outside.append(key)
+            continue
+        out[key] = val
+
+    if outside:
+        sample = ", ".join(sorted(outside)[:3])
+        more = f", +{len(outside) - 3} more" if len(outside) > 3 else ""
+        print(f"[WARN] UI sidecar: ignored {len(outside)} entries outside the "
+              f"{_UI_PREFIX}* namespace ({sample}{more}).")
+        print(f"       A sidecar supplies SCMDB's own UI strings only -- game data "
+              f"comes from your global.ini.")
+    return out
+
+
+# ---------------------------------------------------------------------------
 # Build translation
 # ---------------------------------------------------------------------------
 
 def build_translation(template: dict, foreign_ini_path: str, version: str,
-                      en_loc: dict = None) -> tuple:
+                      en_loc: dict = None, community_ui: dict = None) -> tuple:
     """Build translation JSON from template + foreign global.ini.
     Returns (translation_dict, stats).
+
+    community_ui is an optional {key: text} map from a translator-supplied
+    scmdb_ui_* sidecar (see load_ui_sidecar). It is consulted only where CIG's
+    global.ini has no answer, so CIG always wins for keys CIG defines.
 
     Mismatch detection: if the raw EN text (rawKeys) contains ~mission()
     tokens that were resolved in the English output, but the foreign text
@@ -590,6 +770,8 @@ def build_translation(template: dict, foreign_ini_path: str, version: str,
     # Also try lowercase keys
     foreign_lower = {k.lower(): v for k, v in foreign_loc.items()}
 
+    community_ui = community_ui or {}
+
     # rawKeys for mismatch detection (raw EN text before token resolution)
     raw_keys = template.get("rawKeys", {})
 
@@ -597,15 +779,24 @@ def build_translation(template: dict, foreign_ini_path: str, version: str,
     missing = []
     noloc = []
     mismatched = []
+    community_hits = []
+    community_overridden = []
+    ui_untranslated = []
     placeholder_fallback = 0
     length_fallback = 0
 
     for key, english_text in template.get("keys", {}).items():
         if key.startswith("_noloc_"):
-            # No global.ini key -> en=tr, no lookup possible
+            # No global.ini key -> en=tr, no lookup possible. Not sidecar
+            # territory either: a sidecar only carries scmdb_ui_* keys.
             translated[key] = {"en": english_text, "tr": english_text}
             noloc.append(key)
             continue
+
+        # scmdb_ui_* deliberately falls through into the normal lookup below:
+        # CIG's INI gets first refusal even on our own namespace, so a future
+        # name collision resolves in CIG's favour. The sidecar is consulted
+        # afterwards, in the fallback branch.
 
         # Try to find key in foreign global.ini
         foreign_val = foreign_loc.get(key) or foreign_loc.get(f"@{key}")
@@ -637,6 +828,11 @@ def build_translation(template: dict, foreign_ini_path: str, version: str,
                 placeholder_fallback += 1
                 continue
 
+            if key in community_ui:
+                # CIG answered a key the sidecar also carries -- the sidecar
+                # entry is inert, say so rather than let it look applied.
+                community_overridden.append(key)
+
             translated[key] = {"en": english_text, "tr": foreign_normalized}
 
             # Mismatch detection: foreign text still contains token placeholders
@@ -651,9 +847,31 @@ def build_translation(template: dict, foreign_ini_path: str, version: str,
                     mismatched.append(key)
 
         else:
-            # Fallback to English
-            translated[key] = {"en": english_text, "tr": english_text}
-            missing.append(key)
+            # CIG has no answer -> community sidecar, then English.
+            # Sidecar values land verbatim: placeholder tokens like {patch}
+            # are part of the contract with the frontend and must not be
+            # rewritten or normalized here.
+            community_val = community_ui.get(key)
+            if community_val:
+                translated[key] = {"en": english_text, "tr": community_val}
+                community_hits.append(key)
+            elif key.startswith(_UI_PREFIX):
+                # SCMDB's own UI string with no sidecar entry -> en=tr.
+                # Counted as noLocKey, not missing: these were never supposed
+                # to be in CIG's global.ini, and listing 59 of them as
+                # "missing" in every language would bury the real gaps.
+                translated[key] = {"en": english_text, "tr": english_text}
+                noloc.append(key)
+                ui_untranslated.append(key)
+            else:
+                translated[key] = {"en": english_text, "tr": english_text}
+                missing.append(key)
+
+    # Sidecar entries that never reached a template key at all -- typo, retired
+    # key, or a template that predates the string. Silent misses are how a
+    # translator loses an afternoon.
+    template_keys = template.get("keys", {})
+    community_unknown = sorted(k for k in community_ui if k not in template_keys)
 
     stats = {
         "total": len(template.get("keys", {})),
@@ -663,8 +881,16 @@ def build_translation(template: dict, foreign_ini_path: str, version: str,
         "placeholderFallback": placeholder_fallback,
         "lengthFallback": length_fallback,
         "mismatch": len(mismatched),
+        "communityUiHits": len(community_hits),
+        "communityUiUnknown": len(community_unknown),
+        "communityUiOverridden": len(community_overridden),
+        "uiUntranslated": len(ui_untranslated),
         "missingKeys": sorted(missing),
         "mismatchKeys": sorted(mismatched),
+        "communityUiKeys": sorted(community_hits),
+        "communityUiUnknownKeys": community_unknown,
+        "communityUiOverriddenKeys": sorted(community_overridden),
+        "uiUntranslatedKeys": sorted(ui_untranslated),
     }
 
     return {
@@ -692,6 +918,7 @@ def _print_translation_report(translation, stats, out_name):
     print(f"  Length:        {stats.get('lengthFallback', 0)} (suspiciously short -> EN fallback)")
     print(f"  Mismatch:      {stats.get('mismatch', 0)} (token placeholders in foreign text)")
     print(f"  No loc key:    {stats['noLocKey']} (kept as-is)")
+    print(f"  UI sidecar:    {stats.get('communityUiHits', 0)} (scmdb_ui_* from community sidecar)")
 
     if stats["missing"] > 0:
         print(f"\n=== Missing keys ({stats['missing']}) ===")
@@ -701,6 +928,36 @@ def _print_translation_report(translation, stats, out_name):
             print(f"  ... and {stats['missing'] - 20} more")
         print(f"\nThese keys are missing from the foreign global.ini.")
         print(f"Fallback: English text is used.")
+
+    unknown = stats.get("communityUiUnknownKeys", [])
+    overridden = stats.get("communityUiOverriddenKeys", [])
+    if unknown or overridden:
+        print(f"\n=== UI sidecar entries that did not apply ({len(unknown) + len(overridden)}) ===")
+        if unknown:
+            print(f"  Not present in this template ({len(unknown)}):")
+            for k in unknown[:20]:
+                print(f"    {k}")
+            if len(unknown) > 20:
+                print(f"    ... and {len(unknown) - 20} more")
+            print(f"  -> typo in the key, a retired key, or a template that")
+            print(f"     predates the string. Nothing was written for these.")
+        if overridden:
+            print(f"  Answered by your global.ini instead ({len(overridden)}):")
+            for k in overridden[:20]:
+                print(f"    {k}")
+            print(f"  -> global.ini wins on purpose; the sidecar value was not used.")
+
+    if stats.get("uiUntranslated", 0) > 0:
+        print(f"\n=== SCMDB UI strings without translation ({stats['uiUntranslated']}) ===")
+        for k in stats.get("uiUntranslatedKeys", [])[:20]:
+            print(f"  {k}")
+        if stats["uiUntranslated"] > 20:
+            print(f"  ... and {stats['uiUntranslated'] - 20} more")
+        print(f"\nThese are SCMDB's own interface strings (badges, Fabricator labels,")
+        print(f"tooltips). They are not part of CIG's global.ini, so no foreign INI")
+        print(f"can supply them. To translate them, drop a sidecar next to your INI:")
+        print(f"  scmdb_ui_<lang>.json   e.g. {{'scmdb_ui_tag_legal': 'LEGAL'}}")
+        print(f"Fallback until then: English text is used.")
 
     if stats.get("mismatch", 0) > 0:
         print(f"\n=== Token mismatches ({stats['mismatch']}) ===")
@@ -730,7 +987,15 @@ def main():
                         help="Profile (default: ptu). Only needed for template generation.")
     parser.add_argument("--translate", metavar="GLOBAL_INI",
                         help="Path to foreign global.ini -> builds translation")
+    parser.add_argument("--translate-ui", metavar="SIDECAR", dest="translate_ui",
+                        help="Path to a scmdb_ui_<lang>.json|.ini sidecar with translations "
+                             "for SCMDB's own UI strings. Default: auto-discovered next to "
+                             "the global.ini given to --translate.")
     args = parser.parse_args()
+
+    if args.translate_ui and not args.translate:
+        print("[ERROR] --translate-ui only applies together with --translate.")
+        sys.exit(1)
 
     # --translate standalone mode: only needs template JSON + foreign INI
     # No parser infrastructure (parser_version_tags.json, records/, EN global.ini) required.
@@ -761,9 +1026,32 @@ def main():
         print(f"  Version: {version}")
         print(f"  Keys:    {len(template.get('keys', {}))}")
 
+        # Community sidecar for SCMDB's own UI strings (scmdb_ui_*).
+        # Explicit --translate-ui overrides auto-discovery.
+        sidecar_path = args.translate_ui
+        if sidecar_path:
+            if not os.path.exists(sidecar_path):
+                print(f"[ERROR] UI sidecar not found: {sidecar_path}")
+                sys.exit(1)
+        else:
+            sidecar_path = find_ui_sidecar(args.translate)
+
+        community_ui = {}
+        if sidecar_path:
+            try:
+                community_ui = load_ui_sidecar(sidecar_path)
+            except (OSError, ValueError, json.JSONDecodeError) as e:
+                # Loud failure on purpose: silently dropping a translator's
+                # work would be worse than not building at all.
+                print(f"[ERROR] Could not read UI sidecar {sidecar_path}: {e}")
+                sys.exit(1)
+            print(f"  UI sidecar: {os.path.basename(sidecar_path)} "
+                  f"({len(community_ui)} entries)")
+
         print(f"\nBuilding translation from {args.translate}...")
         # en_loc not needed in standalone mode (pass empty dict)
-        translation, stats = build_translation(template, args.translate, version, {})
+        translation, stats = build_translation(template, args.translate, version, {},
+                                               community_ui)
 
         # Derive filename from INI name
         ini_basename = os.path.splitext(os.path.basename(args.translate))[0]
