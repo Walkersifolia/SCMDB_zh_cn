@@ -2,6 +2,7 @@
 .codegraph/
 .omo/
 .playwright-mcp/
+__pycache__/
 
 # AI 交接文档（本地维护，不上传）
 HANDOFF*.md

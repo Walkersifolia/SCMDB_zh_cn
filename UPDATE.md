@@ -56,6 +56,7 @@
 | 中文 global.ini（LIVE） | `D:\Roberts Space Industries\StarCitizen\LIVE\data\Localization\chinese_(simplified)\global.ini` |
 | 中文 global.ini（PTU） | `D:\Roberts Space Industries\StarCitizen\PTU\data\Localization\chinese_(simplified)\global.ini` |
 | 主站物品数据（crafting） | `https://scmdb.net/data/crafting_items-<版本>.json` |
+| 主站制造蓝图数据 | `https://scmdb.net/data/crafting_blueprints-<版本>.json`（制造页蓝图/槽位/材料，前端显示蓝图名 `suggestedName`，见 §7 #23） |
 | 主站矿元素数据 | `https://scmdb.net/data/mining_data-<版本>.json` |
 
 > 版本号获取：主站当前数据版本见 `https://scmdb.net/data/game-versions.json`，或从现有翻译文件 `version` 字段（LIVE 用 live 版、PTU 用 ptu 版）。
@@ -262,7 +263,7 @@ global.ini 中舰船组件条目的值格式：`护墙Parapet\n[护盾 S3 工业
 
 **5. fuzzy token 交集（截断名兜底）**：SCMDB 上游数据截断名（如 `Anvil F7 Hornet Mk Wikelo` ← 官方 `Anvil F7C-M Super Hornet Mk II Wikelo Special`）token 归一化后与桥接表 en 做交集，覆盖率 ≥75% 且唯一最高分命中。自动适配官方全名（`铁砧 F7C-M 超级大黄蜂 Mk II 维科洛 特别版`）。
 
-**6. 名字数据源（4 类 + 扩展）**：`crafting_items.items[].name` ∪ `mining_data.mineableElements[].name/.materialName` ∪ `merged.contracts[].itemRewards[].items[].name`（兼容有无 `groups` 层两种结构；注意部分条目无 groups 曾致漏翻）∪ `merged.resourcePools[].name`；**Wikelo 系列**：递归遍历 merged 所有 `name` 字段（含 `Wikelo` 且词数 ≤10，或以 `Special/Sneak/Work/Mod` 结尾）。排除 `PLACEHOLDER`/`<=>` 占位符名。
+**6. 名字数据源（5 类 + 扩展）**：`crafting_items.items[].name` ∪ `mining_data.mineableElements[].name/.materialName` ∪ `merged.contracts[].itemRewards[].items[].name`（兼容有无 `groups` 层两种结构；注意部分条目无 groups 曾致漏翻）∪ `merged.resourcePools[].name` ∪ **`crafting_blueprints.blueprints[].suggestedName`**（制造页蓝图显示名，4.10.0-live.12572603 起；仅 5 个蓝图有值，含 SureGrip TH1/TH2/TH3，见 §7 #23）；**Wikelo 系列**：递归遍历 merged 所有 `name` 字段（含 `Wikelo` 且词数 ≤10，或以 `Special/Sneak/Work/Mod` 结尾）。排除 `PLACEHOLDER`/`<=>` 占位符名。
 
 **7. §4.3 合并的保留集**：删除旧 `en==key` 条目时**只删 key ∈ 物品名集合**的条目——模板自带的星系名条目（`Stanton`/`Pyro`/`Nyx`）必须保留。
 
@@ -348,6 +349,8 @@ git push
 | 19 | **人工映射表被淘汰**（Gold/勋章/截断名仍硬编码） | 桥接表（英文 global.ini 从 p4k 提取，同 key 合并中英）可覆盖全部"值无英文/纯中文值"条目 | 反查管线改为「桥接表直查 → 词边界 → strip/token → fuzzy」；MANUAL_MAP 删除（§4.4b） |
 | 20 | **污染黑名单误杀组件参数**（`净采 模组 [+15%功率\|+30%绿区速度]` 被"功率"黑名单丢弃） | 黑名单/逗号检查作用于整个 tr，而组件参数含"功率"等合法词 | §4.6/§4.4b #10：污染检查仅应用于**名称核心段**（方括号之前） |
 | 21 | **整值清洗截断**（`地球联合帝国（UEE）六排勋章（完好）`被切成"地球联合帝国"；`铁砧 F7C-M…特别版`被切成"铁砧"） | 旧 `clean_whole` 的中文连续块正则不含全角括号/型号段落 | 改为"剥离式"清洗（`_strip_eng`：仅剥尾部英文/英文括号；保护 `(S1)` 尺寸括号、`SL/XL/Pro/MKx` 白名单型号、全角标点；纯型号 `FR-66` 不动） |
+| 22 | **主站版本列表顺序变化导致 fetch 选错 profile**（4.10.0-live.12572603 更新时：下载了 PTU 模板/数据，而英文 ini 仍来自 LIVE p4k，状态错位） | `game-versions.json` 数组顺序不固定（PTU 可排第一），工具硬编码 `versions[0]` | `cmd_fetch` 显式按 `-live.` 匹配选 LIVE（回退 `versions[0]`）并打印版本列表；fetch 后核对日志中的"主站 LIVE 版本" |
+| 23 | **制造蓝图名漏翻**（SureGrip TH1/TH2/TH3 在制造页/搜索结果显示英文） | SCMDB 前端制造页显示蓝图数据 `suggestedName`（如 `SureGrip TH1 Tractor Beam`），该字段只存在于 `crafting_blueprints-<版本>.json`（此前从未同步/提取），未进入名字反查集合 | fetch 增加下载 `crafting_blueprints`；build 提取 `blueprints[].suggestedName` 加入 names（仅 5 个蓝图非空；DayBreak/Goliath 已被物品名覆盖，TH1/2/3 经桥接表命中官方中文"绝对牵引 THn 牵引光束"）。注意 `suggestedName` 与 `productName` 不同时前端显示前者 |
 
 ---
 

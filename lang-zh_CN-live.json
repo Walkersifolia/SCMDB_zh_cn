@@ -1,15 +1,15 @@
 {
-  "version": "4.10.0-live.12545750",
+  "version": "4.10.0-live.12572603",
   "sourceLanguage": "en",
   "targetLanguage": "zh_CN",
-  "keyCount": 6318,
+  "keyCount": 6349,
   "stats": {
-    "total": 6318,
-    "translated": 6114,
-    "unTranslated": 204,
+    "total": 6349,
+    "translated": 6144,
+    "unTranslated": 205,
     "missing": 0,
     "noLocKey": 1720,
-    "placeholderFallback": 68,
+    "placeholderFallback": 69,
     "lengthFallback": 0,
     "mismatch": 222,
     "communityUiHits": 59
@@ -9866,6 +9866,118 @@
     "Xenothreat_RepUI_Name": {
       "en": "XenoThreat",
       "tr": "异种威胁"
+    },
+    "headhunters_from": {
+      "en": "Headhunters",
+      "tr": "猎头帮"
+    },
+    "roughready_from": {
+      "en": "Rough & Ready",
+      "tr": "狂勇帮"
+    },
+    "cfp_from": {
+      "en": "Citizens for Prosperity",
+      "tr": "繁荣公民"
+    },
+    "vaughn_from": {
+      "en": "Vaughn",
+      "tr": "沃恩"
+    },
+    "cdf_from": {
+      "en": "Civilian Defense Force",
+      "tr": "民事防御部队"
+    },
+    "Adagio_from": {
+      "en": "Adagio Holdings",
+      "tr": "阿德吉奥集团"
+    },
+    "BHG_From": {
+      "en": "Bounty Hunters Guild",
+      "tr": "赏金猎人公会"
+    },
+    "shubin_from": {
+      "en": "Shubin Interstellar",
+      "tr": "舒宾星际"
+    },
+    "FTL_from": {
+      "en": "FTL Courier",
+      "tr": "超光速快递"
+    },
+    "Rayari_from": {
+      "en": "Rayari Inc.",
+      "tr": "拉亚利公司"
+    },
+    "foxwell_from": {
+      "en": "Foxwell Enforcement",
+      "tr": "福克斯韦尔安保"
+    },
+    "TheCollector_From": {
+      "en": "Wikelo",
+      "tr": "维科洛"
+    },
+    "InterSec_From": {
+      "en": "InterSec Defense Solutions",
+      "tr": "互安防务"
+    },
+    "Hockrow_from": {
+      "en": "Hockrow Agency",
+      "tr": "霍克罗事务所"
+    },
+    "MissionGivers_ReccoBattaglia": {
+      "en": "Recco Battaglia",
+      "tr": "雷科·巴塔利亚"
+    },
+    "BitZeros_from": {
+      "en": "Bit Zeros",
+      "tr": "零比特"
+    },
+    "northrock_from_001": {
+      "en": "Northrock Service Group",
+      "tr": "北境之岩服务团队"
+    },
+    "mission_contractor_0003": {
+      "en": "Covalex Independent Contractors",
+      "tr": "科瓦莱什独立承包人"
+    },
+    "mg_miles_MissionLegal_from": {
+      "en": "Eckhart Security",
+      "tr": "埃克哈特安保"
+    },
+    "mission_contractor_0009": {
+      "en": "Ling Family Hauling",
+      "tr": "玲家快递"
+    },
+    "mission_contractor_0012": {
+      "en": "Red Wind Linehaul",
+      "tr": "红风物流"
+    },
+    "SalvageContractor_From": {
+      "en": "Adagio Holdings",
+      "tr": "Adagio Holdings"
+    },
+    "deadsaints_from": {
+      "en": "Dead Saints",
+      "tr": "死亡圣徒"
+    },
+    "GFS_From": {
+      "en": "Gilly's Flight School",
+      "tr": "吉利飞行学院"
+    },
+    "UWC_From": {
+      "en": "United Wayfarers Club",
+      "tr": "旅者联合俱乐部"
+    },
+    "Highpoint_from": {
+      "en": "Highpoint Wilderness Specialists",
+      "tr": "高境荒野专家"
+    },
+    "LingFamily_From": {
+      "en": "Ling Family Hauling",
+      "tr": "玲家快递"
+    },
+    "ConerstoneDevelopments_From": {
+      "en": "Cornerstone Developments",
+      "tr": "基石开发公司"
     },
     "mobiGlas_ui_MissionType_Delivery": {
       "en": "Delivery",
@@ -24398,6 +24510,18 @@
     "SureGrip S3 Tractor Beam": {
       "en": "SureGrip S3 Tractor Beam",
       "tr": "绝对牵引 S3 牵引光束"
+    },
+    "SureGrip TH1 Tractor Beam": {
+      "en": "SureGrip TH1 Tractor Beam",
+      "tr": "绝对牵引 TH1 牵引光束"
+    },
+    "SureGrip TH2 Tractor Beam": {
+      "en": "SureGrip TH2 Tractor Beam",
+      "tr": "绝对牵引 TH2 牵引光束"
+    },
+    "SureGrip TH3 Tractor Beam": {
+      "en": "SureGrip TH3 Tractor Beam",
+      "tr": "绝对牵引 TH3 牵引光束"
     },
     "SureStop": {
       "en": "SureStop",

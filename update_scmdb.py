@@ -97,7 +97,10 @@ def git(args):
 def cmd_fetch(force_ini=False):
     log("读取主站版本…")
     versions = json.loads(http_get(MAIN_BASE + "/game-versions.json"))
-    live = versions[0]["version"]
+    log("主站版本列表: %s" % ", ".join(v["version"] for v in versions))
+    # 主站列表顺序不固定（PTU 可能排第一），必须显式按 `-live.` 选 LIVE
+    live = next((v["version"] for v in versions if "-live." in v["version"]),
+                versions[0]["version"])
     log("主站 LIVE 版本: %s" % live)
 
     # 模板（上游）
@@ -112,7 +115,7 @@ def cmd_fetch(force_ini=False):
     log("模板就绪: %s (%d keys)" % (tpl_data["version"], len(tpl_data["keys"])))
 
     # 主站数据
-    for name in ["merged", "crafting_items", "mining_data"]:
+    for name in ["merged", "crafting_items", "mining_data", "crafting_blueprints"]:
         dest = os.path.join(TMP, "%s.json" % name)
         if not os.path.exists(dest) or not os.path.exists(STATE) or \
                 load_json(STATE).get("dataVersion") != live:
@@ -383,6 +386,13 @@ def cmd_build():
             names.add(el["name"])
         if el.get("materialName"):
             names.add(el["materialName"])
+    # 制造蓝图建议名（SCMDB 前端制造页显示蓝图名用 suggestedName，如 SureGrip TH1 Tractor Beam）
+    cb_path = os.path.join(TMP, "crafting_blueprints.json")
+    if os.path.exists(cb_path):
+        for x in (load_json(cb_path).get("blueprints") or []):
+            sn = x.get("suggestedName")
+            if sn:
+                names.add(sn)
     for ct in (merged.get("contracts") or []) + (merged.get("legacyContracts") or []):
         for ir in ct.get("itemRewards") or []:
             for g in (ir.get("groups") or []):
