@@ -1,5 +1,5 @@
 {
-  "version": "4.10.0-live.12572603",
+  "version": "4.10.1-live.12660092",
   "sourceLanguage": "en",
   "targetLanguage": "zh_CN",
   "keyCount": 6349,
@@ -5192,15 +5192,15 @@
       "tr": "你好，\\n\\n十字军安保部队联系了我们，希望我们协助处理一起紧急情况。奥里森附近的几个平台已被九尾帮派成员占领，而北境之岩正迫切需要人手消灭他们，将平台夺回并交还给十字军方面。\\n\\n九尾已采取措施封锁了该区域的所有空中交通，所以我们获准提供一艘安保穿梭机，将你和你的突击队的其他成员运送至第一个平台。\\n\\n为了充分披露，我必须提醒：这不是一份适合胆小鬼的任务。但我相信你的战斗技巧，凭借你和你所选团队，你们完全能够应对这一挑战。\\n\\n等你登上穿梭机，我会直接与你联系并提供更多信息。\\n\\n稍后详谈，\\n艾德里安·杜-布伊松\\n后勤官员 - 斯坦顿分部\\n北境之岩服务团队"
     },
     "ORS_Construct_Large_Desc": {
-      "en": "Alright,\\n\\nThe damage reports are still rolling in from the Nine Tails' attack on Orison and the folks at Crusader are saying they might have to repair a significant proportion of the propulsors on those platforms. That's why this one's a massive order.\\n\\nLarger quantity, but same as before otherwise. Either manufacturer them yourself using an Item Fabricator or source them some other way.\\n\\nWhen you're done, drop the propulsors off at <EM4>[DESTINATION]</EM4>. Be a big payout with this one.\\n\\nTa very much,\\nHal Grimsby\\nContracts Manager\\n\\nCORNERSTONE MAINTENANCE\\n\"Building on the Foundations of our Past.\"",
-      "tr": "好的，\\n\\n来自九尾袭击奥里森的损害报告仍在不断传来，十字军方面表示他们可能不得不修复那些平台上相当大比例的推进器。这就是为什么这次订单如此巨大。\\n\\n数量更大，但其他方面与之前相同。你可以使用物品制造机自行制造，或者通过其他渠道获取。\\n\\n完成后，请将推进器运送到 <EM4>[DESTINATION]</EM4> 交付。这次的报酬非常丰厚。\\n\\n非常感谢，\\n哈尔·格里姆斯比\\n合约经理\\n\\n基石维护公司\\n“立足过往之基石，建设我们的未来。”\n\n\n- TH-01 推进器 TH-01 Propulsor"
+      "en": "Alright,\\n\\nThe damage reports are still rolling in from the Nine Tails' attack on Orison and the folks at Crusader are saying they might have to repair a significant proportion of the propulsors on those platforms. That's why this one's a massive order.\\n\\nLarger quantity, but same as before otherwise. Either manufacturer them yourself using an Item Fabricator or source them some other way.\\n\\nWhen you're done, drop the propulsors off at <EM4>[DESTINATION]</EM4>. Be a big payout with this one.\\n\\nTa very much,\\nHal Grimsby\\nContracts Manager\\n\\nCORNERSTONE DEVELOPMENTS\\n\"Building on the Foundations of our Past.\"",
+      "tr": "好的，\\n\\n来自九尾袭击奥里森的损害报告仍在不断传来，十字军方面表示他们可能不得不修复那些平台上相当大比例的推进器。这就是为什么这次订单如此巨大。\\n\\n数量更大，但其他方面与之前相同。你可以使用物品制造机自行制造，或者通过其他渠道获取。\\n\\n完成后，请将推进器运送到 <EM4>[DESTINATION]</EM4> 交付。这次的报酬非常丰厚。\\n\\n非常感谢，\\n哈尔·格里姆斯比\\n合约经理\\n\\n基石开发公司\\n“立足过往之基石，建设我们的未来。”\n\n\n- TH-01 推进器 TH-01 Propulsor"
     },
     "ORS_ConstructionAid_ResourceGatherLarge_Desc": {
       "en": "Alright,\\n\\nGot a large scale order from the Crusader folks to help them fix up their platforms. Big order means a big payout.\\n\\nWhen you're done collecting all the materials, take them to <EM4>[DESTINATION]</EM4> and job's a good'un.\\n\\nTa very much,\\nHal Grimsby\\nContracts Manager\\n\\nCORNERSTONE MAINTENANCE\\n\"Building on the Foundations of our Past.\"",
       "tr": "好的，\\n\\n拿到了十字军发来了一大笔订单，协助他们修复平台。大订单意味着高报酬。\\n\\n当你收集完所有材料后，把它们运送到 <EM4>[DESTINATION]</EM4>，任务就完成了。\\n\\n非常感谢，\\n哈尔·格里姆斯比\\n合约经理\\n\\n基石维护公司\\n“立足过往之基石，建设我们的未来。”"
     },
     "ORS_MedicalAid_HaulingLarge_Desc": {
-      "en": "Hey, it’s El.\\n\\nOff the bat – this particular job’s a big deal, so if you’re looking to take this one on for us, make sure you’re confident in your ability to do a job well. \\n\\nWe’ve been contracted by Crusader to deliver medical supplies to <EM4>[DESTINATION]</EM4>. Pick up’s at <EM4>[LOCATION]</EM4>. Bear in mind, this is gonna be a big one, so make sure bring a <EM4>handheld tractor beam</EM4> and a ship that can hold <EM4>24 SCU cargo containers</EM4> otherwise it might be a little rough.\\n\\nI can’t stress the importance of this contract enough – lots of good people got hurt in those attacks, and it’s our responsibility to do what we can to help them in the aftermath. We owe the victims that much, at the very least.\\n\\nLet’s do right by them,\\n\\nElla Tieno \\nJr. Logistics Coordinator \\nCovalex Shipping   \\n'Anything you need, anywhere you need it.'",
+      "en": "Hey, it’s El.\\n\\nOff the bat – this particular job’s a big deal, so if you’re looking to take this one on for us, make sure you’re confident in your ability to do a job well. \\n\\nWe’ve been contracted by Crusader to deliver medical supplies to <EM4>[DESTINATION]</EM4>. Pick up’s at <EM4>[LOCATION]</EM4>. Bear in mind, this is gonna be a big one, so make sure bring a <EM4>handheld tractor beam</EM4> and a ship that can hold <EM4>16 SCU cargo containers</EM4> otherwise it might be a little rough.\\n\\nI can’t stress the importance of this contract enough – lots of good people got hurt in those attacks, and it’s our responsibility to do what we can to help them in the aftermath. We owe the victims that much, at the very least.\\n\\nLet’s do right by them,\\n\\nElla Tieno \\nJr. Logistics Coordinator \\nCovalex Shipping   \\n'Anything you need, anywhere you need it.'",
       "tr": "嘿，我是艾拉。\\n\\n首先说明 - 这份任务非同小可，如果你打算接下它，务必确保自己有足够的能力将其圆满完成。\\n\\n我们受十字军委托，需将医疗物资运送至 <EM4>[DESTINATION]</EM4>，取货地点在 <EM4>[LOCATION]</EM4>。请注意，这次是个大单，务必携带 <EM4>手持牵引光束</EM4>，并确保你的飞船能装载 <EM4>[MAX_SCU] 尺寸集装箱</EM4>的货物，否则运输过程可能会有点艰难。\\n\\n我再怎么强调这份合约的重要性也不为过 - 那些袭击中许多好人受了重伤，我们有责任尽己所能在灾后提供帮助。至少，我们对受害者负有这份义务。\\n\\n让我们尽力而为，\\n\\n艾拉·蒂埃诺\\n初级物流协调员\\n科瓦莱什货运\\n“尽你所需，达你所在。”"
     },
     "ORS_MedicalAid_Delivery_Desc": {
@@ -5208,15 +5208,15 @@
       "tr": "哈喽，\\n\\n十字军已要求我们玲家快递协助他们的救援工作，作为一家公司和一个家庭，做好这件事对我们来说极其重要。一想到奥里森受害者遭遇的惨剧若发生在我的家人身上...我们有责任竭尽全力帮助幸存者。\\n\\n十字军所需的医疗物资已准备好从 <EM4>[LOCATION]</EM4> 取货，并需要投递至 <EM4>[DESTINATION]</EM4>。请务必携带一个 <EM4>手持牵引光束</EM4> 以加快进度。\\n\\n谢谢，\\n康妮·玲\\n运输协调员\\n玲家快递"
     },
     "ORS_Construct_Medium_Desc": {
-      "en": "Hullo,\\n\\nCrusader have been in touch to say that the scale of the damage to their platforms is greater than they initially thought and they'll need more propulsors than they originally estimated for.\\n\\nWe're contracting out their request to anyone with an available Item Fabricator standing by. Though I guess you could source the propulsors some other way, but that's on you.\\n\\nOnce ready, deliver them to <EM4>[DESTINATION]</EM4>. Payment sent on completion.\\n\\nTa very much,\\nHal Grimsby\\nContracts Manager\\n\\nCORNERSTONE MAINTENANCE\\n\"Building on the Foundations of our Past.\"",
-      "tr": "哈喽，\\n\\n十字军方面已联系表示，他们平台受损程度比最初预估的更为严重，因此需要比原计划更多的推进器。\\n\\n我们正委托任何有闲置物品制造机的承包商承接此需求。不过我猜你也可以通过其他渠道获取推进器，但这取决于你自己。\\n\\n准备好后，请将它们运送到 <EM4>[DESTINATION]</EM4> 进行交付。任务完成后即支付报酬。\\n\\n非常感谢，\\n哈尔·格里姆斯比\\n合约经理\\n\\n基石维护公司\\n“立足过往之基石，建设我们的未来。”\n\n\n- TH-01 推进器 TH-01 Propulsor"
+      "en": "Hullo,\\n\\nCrusader have been in touch to say that the scale of the damage to their platforms is greater than they initially thought and they'll need more propulsors than they originally estimated for.\\n\\nWe're contracting out their request to anyone with an available Item Fabricator standing by. Though I guess you could source the propulsors some other way, but that's on you.\\n\\nOnce ready, deliver them to <EM4>[DESTINATION]</EM4>. Payment sent on completion.\\n\\nTa very much,\\nHal Grimsby\\nContracts Manager\\n\\nCORNERSTONE DEVELOPMENTS\\n\"Building on the Foundations of our Past.\"",
+      "tr": "哈喽，\\n\\n十字军方面已联系表示，他们平台受损程度比最初预估的更为严重，因此需要比原计划更多的推进器。\\n\\n我们正委托任何有闲置物品制造机的承包商承接此需求。不过我猜你也可以通过其他渠道获取推进器，但这取决于你自己。\\n\\n准备好后，请将它们运送到 <EM4>[DESTINATION]</EM4> 进行交付。任务完成后即支付报酬。\\n\\n非常感谢，\\n哈尔·格里姆斯比\\n合约经理\\n\\n基石开发公司\\n“立足过往之基石，建设我们的未来。”\n\n\n- TH-01 推进器 TH-01 Propulsor"
     },
     "ORS_ConstructionAid_ResourceGatherMedium_Desc": {
       "en": "Ey up,\\n\\nWe're still on the hunt for more materials to help Crusader after the Nine Tails attack. Need a bit more this time though. Will make sure you're compensated accordingly.\\n\\nAfter you've got the materials, head to <EM4>[DESTINATION]</EM4> and we'll get it sorted.\\n\\nTa very much,\\nHal Grimsby\\nContracts Manager\\n\\nCORNERSTONE MAINTENANCE\\n\"Building on the Foundations of our Past.\"",
       "tr": "嘿，\\n\\n九尾袭击之后，我们仍在为十字军搜寻更多物资。这次需要得稍微多一点，我会确保你的报酬会相应增加。\\n\\n拿到材料后，送往 <EM4>[DESTINATION]</EM4>，剩下的交给我们来处理。\\n\\n非常感谢，\\n哈尔·格里姆斯比\\n合约经理\\n\\n基石维护公司\\n“立足过往之基石，建设我们的未来。”"
     },
     "ORS_MedicalAid_HaulingMedium_desc": {
-      "en": "Hey, it’s El.\\n\\nCrusader is still trying to make things right in Orison following the attack, so I’m hoping you’re free to keep assisting with the effort.\\n\\nWe been contracted to deliver relief supplies to <EM4>[DESTINATION]</EM4>. Pick up’s at <EM4>[LOCATION]</EM4>. \\nNot too shabby a haul either, so make sure you’re in a ship that can hold <EM4>24 SCU cargo containers</EM4> and bring a <EM4>handheld tractor beam</EM4>, or you’ll make us all look unprofessional.\\n\\nI’m not kidding around with this job being important to get done right. Lotta people got hurt during the Nine Tails raid, and they’re relying on people like us to get them the help they need. So let’s do right by them, okay?\\n\\nElla Tieno \\nJr. Logistics Coordinator \\nCovalex Shipping   \\n'Anything you need, anywhere you need it.'",
+      "en": "Hey, it’s El.\\n\\nCrusader is still trying to make things right in Orison following the attack, so I’m hoping you’re free to keep assisting with the effort.\\n\\nWe been contracted to deliver relief supplies to <EM4>[DESTINATION]</EM4>. Pick up’s at <EM4>[LOCATION]</EM4>. \\nNot too shabby a haul either, so make sure you’re in a ship that can hold <EM4>8 SCU cargo containers</EM4> and bring a <EM4>handheld tractor beam</EM4>, or you’ll make us all look unprofessional.\\n\\nI’m not kidding around with this job being important to get done right. Lotta people got hurt during the Nine Tails raid, and they’re relying on people like us to get them the help they need. So let’s do right by them, okay?\\n\\nElla Tieno \\nJr. Logistics Coordinator \\nCovalex Shipping   \\n'Anything you need, anywhere you need it.'",
       "tr": "嘿，我是艾拉。\\n\\n十字军仍在努力修复奥里森遇袭后的局面，所以我希望你有空继续协助我们的工作。\\n\\n我们受委托将救援物资运送至 <EM4>[DESTINATION]</EM4>，取货地点在 <EM4>[LOCATION]</EM4>。\\n\\n这趟货运的报酬也相当不错，所以务必确保你的飞船能装载 <EM4>[MAX_SCU] 尺寸集装箱</EM4>，并带上一把<EM4>手持牵引光束</EM4>，否则你会让我们看起来很不专业。\\n\\n我可不是在开玩笑，这项任务非常重要，必须圆满完成。许多人在九尾袭击期间受了伤，他们正依赖像我们这样的人提供急需的帮助。所以，让我们不负所托好吗？\\n\\n艾拉·蒂埃诺\\n初级物流协调员\\n科瓦莱什货运\\n“尽你所需，达你所在。”"
     },
     "ORS_BunkerRaid_Desc": {
@@ -5224,15 +5224,15 @@
       "tr": "据报道，一些负责袭击奥里森的九尾在 <EM4>[LOCATION]</EM4> 附近集结兵力。十字军担心他们正在策划另一次袭击，所以这项任务必须圆满完成。\\n\\n你的任务是渗透进入该地点，并在九尾有机会对奥里森实施报复之前，不惜一切代价将其消灭。正如你所知，这帮家伙非常危险，务必小心，别让他们占了上风。\\n\\n祝你好运，\\n\\n凯文·沃尔顿\\n调度员，福克斯韦尔安保\\n“安全，尽在掌握”\\n\\n福克斯韦尔安保是一家获得 UEE 全境执业许可的担保安全专家公司。我们始终欢迎新的干员加入我们的大家庭。如果您或您认识的任何人对此感兴趣，请与我们的合约代表联系。"
     },
     "ORS_Construct_Small_Desc": {
-      "en": "Now then,\\n\\nAfter the Nine Tails attack, the folks at Crusader could do with more than just a helping hand. What they need are proper propulsors to help replace the ones damaged in the attacks.\\n\\nWe've attached a blueprint outlining what materials you'll need to create them. Up to you whether you go out and find those materials yourself or buy them from a trader. Either way you will need access to an Item Fabricator to make the propulsors yourself.\\n\\nOnce you're done bring them to <EM4>[DESTINATION]</EM4> and one of the team will sort out the rest.\\n\\nTa very much,\\nHal Grimsby\\nContracts Manager\\n\\nCORNERSTONE MAINTENANCE\\n\"Building on the Foundations of our Past.\"",
-      "tr": "那么，\\n\\n九尾袭击之后，十字军方面需要的不仅仅是一点帮助。他们真正需要的是合适的推进器，以替换在袭击中受损的那些。\\n\\n我们附上了一份蓝图，列出了制造这些推进器所需的材料。你可以选择自行外出寻找这些材料，或者从商人那里购买。无论哪种方式，你都需要使用物品制造机来自行制造推进器。\\n\\n完成后，请将它们运送到 <EM4>[DESTINATION]</EM4> 交付，届时有一个团队会负责后续事宜。\\n\\n非常感谢，\\n哈尔·格里姆斯比\\n合约经理\\n\\n基石维护公司\\n“立足过往之基石，建设我们的未来。”\n\n\n- TH-01 推进器 TH-01 Propulsor"
+      "en": "Now then,\\n \\nAfter the Nine Tails attack, the folks at Crusader could do with more than just a helping hand. What they need are proper propulsors to help replace the ones damaged in the attacks.\\n \\nWe've attached a blueprint for the TH-01 Propulsor that you can access at an <EM4>Item Fabricator.</EM4> Just search for it on the fabricator's terminal and you'll be able to see what materials are needed. Up to you whether you go out and find those materials yourself or buy them from a trader. (And if you don't have a fabricator yet, you'll have to purchase one at a shop, unload it at a freight elevator, and then set it up in a hangar or ship's cargo bay.) \\n \\nOnce you're done bring them to <EM4>[DESTINATION]</EM4> and one of the team will sort out the rest.\\n \\nTa very much,\\nHal Grimsby\\nContracts Manager\\n\\nCORNERSTONE DEVELOPMENTS\\n\"Building on the Foundations of our Past.\"",
+      "tr": "那么，\\n\\n九尾袭击之后，十字军方面需要的不仅仅是一点帮助。他们真正需要的是合适的推进器，以替换在袭击中受损的那些。\\n\\n我们已经附上了 TH-01 推进器的蓝图，你可以在<EM4>物品制造机</EM4>中访问它。只要在制造机的终端上搜索，就能看到所需的材料。至于你是亲自出去寻找这些材料，还是从商人那里购买，就由你决定了。无论哪种方式，你都需要使用物品制造机来自行制造推进器。（如果你还没有制造机，就得先在商店购买一台，把它卸到货运电梯上，然后将其设置在机库或飞船货舱中。）\\n\\n完成后，请将它们运送到 <EM4>[DESTINATION]</EM4> 交付，届时有一个团队会负责后续事宜。\\n\\n非常感谢，\\n哈尔·格里姆斯比\\n合约经理\\n\\n基石开发公司\\n“立足过往之基石，建设我们的未来。”\n\n\n- TH-01 推进器 TH-01 Propulsor"
     },
     "ORS_ConstructionAid_ResourceGatherSmall_desc": {
       "en": "Now then,\\n\\nYou might have heard about the recent attacks on the Orison platforms. Terrible stuff. The folks at Crusader are scrambling around trying to put it all back together and have contracted us to help.\\n\\nTo get them back on their feet what we need is construction materials. Can give you a decent pay packet for them too.\\n\\nIf you don't know already how to get construction materials, your best bet is to read United Resource Workers' <EM4>A Salvager's Guide to Material Collection</EM4>. That'll set you on the right path.\\n\\nOnce you've got the order ready, you'll need to drop it all off at <EM4>[DESTINATION]</EM4>.\\n\\nTa very much,\\nHal Grimsby\\nContracts Manager\\n\\nCORNERSTONE MAINTENANCE\\n\"Building on the Foundations of our Past.\"",
       "tr": "那么，\\n\\n你可能已经听说了最近奥里森平台遭受袭击的事情。真是惨不忍睹。十字军的人正忙着试图修复一切，并委托我们进行协助。\\n\\n为了让他们重新站稳脚跟，我们需要的是<EM4>[结构材料Construction Materials]</EM4>。我们也可以为你提供丰厚的报酬。\\n\\n如果你还不知道如何获取结构材料，最好的办法是阅读资源工人联合会发布的<EM4>《打捞者物资收集指南》</EM4>。它会指引你走上正轨。\\n\\n等你把订单准备完毕，你需要把它们全部运送到 <EM4>[DESTINATION]</EM4> 进行交付。\\n\\n非常感谢，\\n哈尔·格里姆斯比\\n合约经理\\n\\n基石维护公司\\n“立足过往之基石，建设我们的未来。”"
     },
     "ORS_MedicalAid_HaulingSmall_Desc": {
-      "en": "Hey, it’s El.\\n\\nNeed a reliable contractor for a pretty important delivery today. I’m sure you’re aware of what went down in Orison, big commotion. Made my job about ten times harder.\\n\\nAnyway, we’ve been contracted by Crusader to deliver some medical stuff to <EM4>[DESTINATION]</EM4>. Pick up’s at <EM4>[LOCATION]</EM4>. Shouldn’t be too heavy an order for this one, just make sure you’ve got a ship that can hold <EM4>24 SCU cargo containers</EM4> and a <EM4>handheld tractor beam</EM4>, or you’ll really embarrass yourself when you get there.\\n\\nLook, I’ll level with you. This job isn’t just hauling for hauling’s sake. Orison got pretty messed up by those Nine Tails, so anything we can do to help them out is probably the right thing to do.\\n\\nLet’s get it done,\\n\\nElla Tieno \\nJr. Logistics Coordinator \\nCovalex Shipping   \\n'Anything you need, anywhere you need it.'",
+      "en": "Hey, it’s El.\\n\\nNeed a reliable contractor for a pretty important delivery today. I’m sure you’re aware of what went down in Orison, big commotion. Made my job about ten times harder.\\n\\nAnyway, we’ve been contracted by Crusader to deliver some medical stuff to <EM4>[DESTINATION]</EM4>. Pick up’s at <EM4>[LOCATION]</EM4>. Shouldn’t be too heavy an order for this one, just make sure you’ve got a ship that can hold <EM4>1 SCU cargo containers</EM4> and a <EM4>handheld tractor beam</EM4>, or you’ll really embarrass yourself when you get there.\\n\\nLook, I’ll level with you. This job isn’t just hauling for hauling’s sake. Orison got pretty messed up by those Nine Tails, so anything we can do to help them out is probably the right thing to do.\\n\\nLet’s get it done,\\n\\nElla Tieno \\nJr. Logistics Coordinator \\nCovalex Shipping   \\n'Anything you need, anywhere you need it.'",
       "tr": "嘿，我是艾拉。\\n\\n今天，需要一位可靠的承包商来完成一项相当重要的运送任务。想必你已经知道奥里森发生了什么，大骚乱。让我的工作难度增加了十倍。\\n\\n总之，我们受十字军委托，需将一些医疗物资运送至 <EM4>[DESTINATION]</EM4>，取货地点在 <EM4>[LOCATION]</EM4>。这次订单重量应该不算太重，但务必确保你的飞船能装载 <EM4>[MAX_SCU] 尺寸集装箱</EM4>的货物，并带上一把<EM4>手持牵引光束</EM4>，否则到了那儿你会很尴尬的。\\n\\n我跟你说句心里话，这项任务绝非为了运货而运货。奥里森被那些九尾搞得一团糟，所以任何能帮上忙的事都是正确的选择。\\n\\n让我们尽力而为，\\n\\n艾拉·蒂埃诺\\n初级物流协调员\\n科瓦莱什货运\\n“尽你所需，达你所在。”"
     },
     "ORS_ShipWaveAt_Desc": {
@@ -9461,7 +9461,7 @@
     },
     "vehicle_NameMISC_Starfarer_Gemini": {
       "en": "MISC Starfarer Gemini",
-      "tr": "003 - 武藏 星际远航者 双子座\\nMISC Starfarer Gemini"
+      "tr": "004 - 武藏 星际远航者 双子座\\nMISC Starfarer Gemini"
     },
     "vehicle_NameMRAI_Guardian_MX": {
       "en": "Mirai Guardian MX",
@@ -9491,10 +9491,6 @@
       "en": "Drake Cutlass Red",
       "tr": "德雷克 红弯刀\\nDrake Cutlass Red"
     },
-    "vehicle_Nameprobe_comms_1_a": {
-      "en": "CHCO Auris PDC Monitor",
-      "tr": "CHCO 奥瑞斯 被动数据收集监测设备"
-    },
     "vehicle_NameVNCL_Mauler": {
       "en": "Vanduul Mauler Destroyer",
       "tr": "剜度 重拳 驱逐舰\\nVanduul Mauler Destroyer"
@@ -9510,6 +9506,10 @@
     "vehicle_NameKRIG_P52_Merlin": {
       "en": "Kruger P-52 Merlin",
       "tr": "克鲁格 P-52 梅林\\nKruger P-52 Merlin"
+    },
+    "vehicle_Nameprobe_comms_1_a": {
+      "en": "CHCO Auris PDC Monitor",
+      "tr": "CHCO 奥瑞斯 被动数据收集监测设备"
     },
     "vehicles_NameOrbital_Sentry": {
       "en": "Broad & Rabiee Overseer Orbital Sentry",
@@ -16585,7 +16585,7 @@
     },
     "_noloc_item_Snowfall": {
       "en": "Snowfall",
-      "tr": "降雪 [冷却 S2 工业 B]"
+      "tr": "飘雪 [冷却 S2 工业 B]"
     },
     "_noloc_item_Snowpack": {
       "en": "Snowpack",
@@ -16801,7 +16801,7 @@
     },
     "_noloc_item_Tundra": {
       "en": "Tundra",
-      "tr": "冻原 [冷却 S4 军用 D]"
+      "tr": "苔原 [冷却 S1 军用 D]"
     },
     "_noloc_item_TurboDrive": {
       "en": "TurboDrive",
@@ -18461,7 +18461,7 @@
     },
     "Aegis Idris-P Wikelo War Special": {
       "en": "Aegis Idris-P Wikelo War Special",
-      "tr": "001 - 圣盾 伊德里斯-P 维科洛 战争特别版"
+      "tr": "圣盾 伊德里斯-P 维科洛 战争特别版"
     },
     "Aegis Sabre Firebird Wikelo War Special": {
       "en": "Aegis Sabre Firebird Wikelo War Special",
@@ -24197,7 +24197,7 @@
     },
     "Snowfall": {
       "en": "Snowfall",
-      "tr": "降雪 [冷却 S2 工业 B]"
+      "tr": "飘雪 [冷却 S2 工业 B]"
     },
     "Snowpack": {
       "en": "Snowpack",
@@ -25101,7 +25101,7 @@
     },
     "Tundra": {
       "en": "Tundra",
-      "tr": "冻原 [冷却 S4 军用 D]"
+      "tr": "苔原 [冷却 S1 军用 D]"
     },
     "Tundra Kopion Horn": {
       "en": "Tundra Kopion Horn",

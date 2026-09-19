@@ -61,7 +61,7 @@
 
 > 版本号获取：主站当前数据版本见 `https://scmdb.net/data/game-versions.json`，或从现有翻译文件 `version` 字段（LIVE 用 live 版、PTU 用 ptu 版）。
 
-> 网络注意：本机 curl 访问部分站点（scmdb.net、raw.githubusercontent.com）可能因 Windows 证书吊销检查失败（`schannel 0x80092013`），务必加 `--ssl-no-revoke` 参数。
+> 网络注意：本机 curl 访问部分站点（scmdb.net、raw.githubusercontent.com）可能因 Windows 证书吊销检查失败（`schannel 0x80092013`），务必加 `--ssl-no-revoke` 参数。raw.githubusercontent.com 偶发持续超时（curl exit 28，实测 60s 仅收到 65KB）时，模板可改用 jsDelivr 镜像（`https://cdn.jsdelivr.net/gh/KrovaxCode/SCMDB_LANG@main/<文件名>`）下载，并以 GitHub blob SHA 校验完整性（见 §7 #25）。
 
 ### 2.1 StarBreaker 工具（p4k / DataCore 解包）
 
@@ -351,6 +351,8 @@ git push
 | 21 | **整值清洗截断**（`地球联合帝国（UEE）六排勋章（完好）`被切成"地球联合帝国"；`铁砧 F7C-M…特别版`被切成"铁砧"） | 旧 `clean_whole` 的中文连续块正则不含全角括号/型号段落 | 改为"剥离式"清洗（`_strip_eng`：仅剥尾部英文/英文括号；保护 `(S1)` 尺寸括号、`SL/XL/Pro/MKx` 白名单型号、全角标点；纯型号 `FR-66` 不动） |
 | 22 | **主站版本列表顺序变化导致 fetch 选错 profile**（4.10.0-live.12572603 更新时：下载了 PTU 模板/数据，而英文 ini 仍来自 LIVE p4k，状态错位） | `game-versions.json` 数组顺序不固定（PTU 可排第一），工具硬编码 `versions[0]` | `cmd_fetch` 显式按 `-live.` 匹配选 LIVE（回退 `versions[0]`）并打印版本列表；fetch 后核对日志中的"主站 LIVE 版本" |
 | 23 | **制造蓝图名漏翻**（SureGrip TH1/TH2/TH3 在制造页/搜索结果显示英文） | SCMDB 前端制造页显示蓝图数据 `suggestedName`（如 `SureGrip TH1 Tractor Beam`），该字段只存在于 `crafting_blueprints-<版本>.json`（此前从未同步/提取），未进入名字反查集合 | fetch 增加下载 `crafting_blueprints`；build 提取 `blueprints[].suggestedName` 加入 names（仅 5 个蓝图非空；DayBreak/Goliath 已被物品名覆盖，TH1/2/3 经桥接表命中官方中文"绝对牵引 THn 牵引光束"）。注意 `suggestedName` 与 `productName` 不同时前端显示前者 |
+| 24 | **组件名新旧 key 并存致候选平局，选择不稳定**（Tundra 冷却器 4.10.0 版输出过错误尺寸 S4） | CIG 在 4.10.1 为部分组件新增规范化 key（如 `item_Name_COOL_AEGS_S01_Tundra = '苔原Tundra\n[冷却 S1 军用 D]'`），旧 key（`item_NameCOOL_AEGS_S01_Tundra` / `..._S04_Tundra`）仍在 → 桥接表同一英文名（`Tundra`）存在多个中文候选（用字/尺寸不同），`best_of` 各项打分相同（均带 bracket、中文字数相同）时取 set 迭代首个，顺序不稳定 | 4.10.1 实测输出正确：`Tundra → 苔原 [冷却 S1 军用 D]`、`Snowfall → 飘雪 [冷却 S2 工业 B]`（均与主站 `crafting_items` 的 size 字段一致：Tundra=1、Snowfall=2）。**未来重跑 build 后必须抽查 Tundra/Snowfall：若回退为「冻原 [冷却 S4 军用 D]」或「降雪」，即为平局回退，以主站 size 字段核对后人工修正** |
+| 25 | **raw.githubusercontent.com 持续超时（curl exit 28）导致上游模板无法下载** | 本机到 raw 域名偶发极低带宽（实测 60s 仅收到 65KB / 共 1.8MB），重试无效 | 用 jsDelivr 镜像下载模板：`https://cdn.jsdelivr.net/gh/KrovaxCode/SCMDB_LANG@main/<文件名>`，再用 `gh api repos/KrovaxCode/SCMDB_LANG/contents/<文件名> --jq .sha` 与 `git hash-object <本地文件>` 比对 blob SHA 校验完整性（4.10.1 实测一致）；校验通过后放入仓库根目录，fetch 检测到文件已存在即跳过下载 |
 
 ---
 
