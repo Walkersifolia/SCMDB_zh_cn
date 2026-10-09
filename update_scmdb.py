@@ -5,6 +5,7 @@ SCMDB 中文翻译更新工具（统一入口，本项目长期维护用）
 
 用法（PowerShell / Python3）：
   python update_scmdb.py fetch      # 同步主站版本/模板/数据；需要时从 p4k 提取英文 global.ini
+  python update_scmdb.py fetch --source ptu   # 同上，但中英文数据源改用 PTU 客户端（PTU 已到新版而 LIVE 未推送时）
   python update_scmdb.py build      # 重建翻译（双向桥接表 + 反查合并 + 清理 + 统计），输出到临时目录
   python update_scmdb.py verify     # 对 build 产物执行完整验证清单
   python update_scmdb.py diff       # 与上次推送版本对比（新增/变化/回归分类）
@@ -30,7 +31,9 @@ from urllib.request import Request, urlopen
 REPO = os.path.dirname(os.path.abspath(__file__))
 TMP = os.path.join(os.environ.get("TEMP", r"C:\Users\90389\AppData\Local\Temp"), "opencode")
 GAME_LIVE_INI = r"D:\Roberts Space Industries\StarCitizen\LIVE\data\Localization\chinese_(simplified)\global.ini"
-GAME_P4K = r"D:\Roberts Space Industries\StarCitizen\LIVE\Data.p4k"
+GAME_LIVE_P4K = r"D:\Roberts Space Industries\StarCitizen\LIVE\Data.p4k"
+GAME_PTU_INI = r"D:\Roberts Space Industries\StarCitizen\PTU\data\Localization\chinese_(simplified)\global.ini"
+GAME_PTU_P4K = r"D:\Roberts Space Industries\StarCitizen\PTU\Data.p4k"
 STARBREAKER = r"D:\StarBreaker\cli\starbreaker.exe"
 # LIVE 输入（按主站 game-versions.json 自动更新）
 MAIN_BASE = "https://scmdb.net/data"
@@ -66,8 +69,11 @@ def log(msg):
 
 
 def curl_download(url, dest):
-    subprocess.run(["curl.exe", "--ssl-no-revoke", "-s", url, "-o", dest], check=True,
-                   stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+    # 本机网络偶发 SSL connect error（exit 35）/极慢连接（UPDATE.md §7 #25），统一自动重试
+    subprocess.run(["curl.exe", "--ssl-no-revoke", "-s", "--retry", "5", "--retry-delay", "2",
+                    "--retry-all-errors", "--connect-timeout", "30",
+                    "--speed-limit", "10240", "--speed-time", "60", url, "-o", dest],
+                   check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 
 
 def http_get(url):
@@ -94,8 +100,8 @@ def git(args):
 
 
 # ============ fetch：同步版本/模板/数据 + 英文 global.ini ============
-def cmd_fetch(force_ini=False):
-    log("读取主站版本…")
+def cmd_fetch(force_ini=False, source="live"):
+    log("读取主站版本…（数据源: %s）" % ("PTU" if source == "ptu" else "LIVE"))
     versions = json.loads(http_get(MAIN_BASE + "/game-versions.json"))
     log("主站版本列表: %s" % ", ".join(v["version"] for v in versions))
     # 主站列表顺序不固定（PTU 可能排第一），必须显式按 `-live.` 选 LIVE
@@ -122,24 +128,35 @@ def cmd_fetch(force_ini=False):
             log("下载 %s-%s.json…" % (name, live))
             curl_download("%s/%s-%s.json" % (MAIN_BASE, name, live), dest)
 
+    # 数据源选择：默认 LIVE 客户端；--source ptu 改用 PTU 客户端（PTU 已到新版而 LIVE 未推送时）
+    if source == "ptu":
+        game_ini, game_p4k = GAME_PTU_INI, GAME_PTU_P4K
+        force_ini = True  # PTU 源必须重新提取英文（LIVE 缓存不可复用）
+    else:
+        game_ini, game_p4k = GAME_LIVE_INI, GAME_LIVE_P4K
+
     # 中文 global.ini 去 BOM 副本（只读游戏文件）
-    content = open(GAME_LIVE_INI, encoding="utf-8-sig").read()
+    log("读取中文 global.ini（%s 客户端）…" % source.upper())
+    content = open(game_ini, encoding="utf-8-sig").read()
     with open(INI_COPY, "w", encoding="utf-8") as f:
         f.write(content)
 
     # 英文 global.ini（从 p4k 提取，缓存；--force 或缓存缺失时重新提取）
     if force_ini or not os.path.exists(EN_INI):
-        log("从 p4k 提取英文 global.ini…")
+        log("从 p4k 提取英文 global.ini…（%s 客户端）" % source.upper())
         out_dir = os.path.join(TMP, "p4k_extract")
-        subprocess.run([STARBREAKER, "p4k", "extract", "--p4k", GAME_P4K, "-o", out_dir,
+        src_en = os.path.join(out_dir, "Data", "Localization", "english", "global.ini")
+        if os.path.exists(src_en):
+            os.remove(src_en)  # 防 StarBreaker 跳过已存在文件而拿到旧版本
+        subprocess.run([STARBREAKER, "p4k", "extract", "--p4k", game_p4k, "-o", out_dir,
                         "--filter", "Data/Localization/english/global.ini"],
                        check=True, capture_output=True)
-        src_en = os.path.join(out_dir, "Data", "Localization", "english", "global.ini")
         shutil.copyfile(src_en, EN_INI)
         log("英文 global.ini 缓存就绪")
 
     save_json(STATE, {"lastUpdate": time.strftime("%Y-%m-%d %H:%M:%S"),
-                      "dataVersion": live, "template": tpl_data["version"]})
+                      "dataVersion": live, "template": tpl_data["version"],
+                      "source": source})
     log("fetch 完成 → %s" % live)
 
 
@@ -166,15 +183,16 @@ def _strip_eng(s):
     return s
 
 
-def clean_whole(zh):
-    """整值清洗：先清扫主段（剥尾部英文/英文括号），再拼组件 tail"""
+def clean_whole(zh, drop_tail=False):
+    """整值清洗：先清扫主段（剥尾部英文/英文括号），再拼组件 tail；
+    drop_tail=True 时丢弃 tail（供超长候选兜底，见 _bridge_candidates）"""
     z = zh.replace("\\n", "\n").strip()
     head, tail = z, ""
     if "\n" in z:
         head, tail = z.split("\n", 1)
         head, tail = head.strip(), tail.strip()
     head = _strip_eng(head)
-    if tail and re.search(r"[\u4e00-\u9fff]", tail):
+    if tail and re.search(r"[\u4e00-\u9fff]", tail) and not drop_tail:
         return (head + " " + tail, "")
     if not re.search(r"[\u4e00-\u9fff]", head):
         return None
@@ -287,6 +305,9 @@ class Resolver:
                 r = clean_whole(zh)
                 if r:
                     out.append((r[0], "", 1))
+                    r2 = clean_whole(zh, drop_tail=True)  # 原样超长被过滤时的兜底（如武器参数方括号）
+                    if r2 and r2[0] != r[0]:
+                        out.append((r2[0], "", 2))
         return out
 
     def _fuzzy(self, name):
@@ -445,6 +466,24 @@ def cmd_build():
         if v.get("en") == k and v["tr"].count("(") > v["tr"].count(")"):
             v["tr"] = v["tr"] + ")" * (v["tr"].count("(") - v["tr"].count(")"))
 
+    # 已核准人工修正（桥接表候选平局回退，依赖 set 顺序、随机不稳定；见 UPDATE.md §7 #24）
+    # Tundra/Snowfall/Endurance：官方同名多 key 并存（不同尺寸变体），按主站 size 字段锁定
+    manual_fix = {
+        "Tundra": "苔原 [冷却 S1 军用 D]",
+        "Snowfall": "飘雪 [冷却 S2 工业 B]",
+        "Endurance": "耐力 [发电 S1 工业 B]",
+        "_noloc_item_Tundra": "苔原 [冷却 S1 军用 D]",
+        "_noloc_item_Snowfall": "飘雪 [冷却 S2 工业 B]",
+        "_noloc_item_Endurance": "耐力 [发电 S1 工业 B]",
+    }
+    fixed = []
+    for fk, fv in manual_fix.items():
+        if fk in keys and keys[fk]["tr"] != fv:
+            fixed.append("%s: %r→%r" % (fk, keys[fk]["tr"], fv))
+            keys[fk]["tr"] = fv
+    if fixed:
+        log("人工修正（#24）: %s" % "; ".join(fixed))
+
     en_key_map = {}
     for bk, bv in keys.items():
         if not bk.startswith("_noloc_") and bv.get("en") == bk and bv["tr"] != bk:
@@ -473,10 +512,12 @@ def cmd_build():
         "keys": keys,
     }
     save_json(BUILD, out)
-    save_json(STATE, {"lastUpdate": time.strftime("%Y-%m-%d %H:%M:%S"),
-                      "dataVersion": template["version"], "template": template["version"],
-                      "keyCount": total, "translated": total - n_tr_eq,
-                      "unTranslated": n_tr_eq, "buildAt": time.strftime("%Y-%m-%d %H:%M:%S")})
+    st = load_json(STATE) if os.path.exists(STATE) else {}
+    st.update({"lastUpdate": time.strftime("%Y-%m-%d %H:%M:%S"),
+               "dataVersion": template["version"], "template": template["version"],
+               "keyCount": total, "translated": total - n_tr_eq,
+               "unTranslated": n_tr_eq, "buildAt": time.strftime("%Y-%m-%d %H:%M:%S")})
+    save_json(STATE, st)
     log("build 完成: %d keys / %d translated / %d unTranslated" % (total, total - n_tr_eq, n_tr_eq))
     log("产物: %s" % BUILD)
 
@@ -585,9 +626,15 @@ def main():
     if len(sys.argv) < 2:
         print(__doc__)
         sys.exit(0)
-    cmd = sys.argv[1]
+    args = sys.argv[1:]
+    cmd = args[0]
+    source = "live"
+    if "--source" in args:
+        i = args.index("--source")
+        if i + 1 < len(args) and args[i + 1] in ("live", "ptu"):
+            source = args[i + 1]
     if cmd == "fetch":
-        cmd_fetch(force_ini="--force" in sys.argv)
+        cmd_fetch(force_ini="--force" in args, source=source)
     elif cmd == "build":
         cmd_build()
     elif cmd == "verify":
@@ -595,7 +642,7 @@ def main():
     elif cmd == "diff":
         cmd_diff()
     elif cmd == "all":
-        cmd_fetch()
+        cmd_fetch(force_ini="--force" in args, source=source)
         cmd_build()
         cmd_verify()
         cmd_diff()

@@ -41,6 +41,7 @@
   "scmdb_ui_tag_evt": "事件链接",
   "scmdb_ui_tag_illegal": "非法",
   "scmdb_ui_tag_legal": "合法",
+  "scmdb_ui_tag_lockout": "锁定",
   "scmdb_ui_tag_max": "最高",
   "scmdb_ui_tag_min": "最低",
   "scmdb_ui_tag_multi": "多星系",
