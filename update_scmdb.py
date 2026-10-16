@@ -52,7 +52,7 @@ ZH_RE = re.compile(r"[\u4e00-\u9fffA-Za-z0-9][\u4e00-\u9fff0-9a-zA-Z·（）()�
 BRACKET_RE = re.compile(r"(?:\\n|\n)\s*(\[[^\]]*S\d[^\]]*\])")
 END_PUNCT_RE = re.compile(r"[，。！？；、…:：]$")
 SEP_RE = re.compile(r"\((?:Raw|Ore)\)\s*$")
-WATERMARK_RE = re.compile(r"\*{5,}[^*]*?\[任务蓝图奖励\][^*]*?\*{5,}[\s\S]*?1011682468\s*(?:\\n|\n)+")
+WATERMARK_RE = re.compile(r"\*{5,}[^*]*?\[任务蓝图奖励\][^*]*?\*{5,}[\s\S]*?1011682468\s*(?:(?:\\n|\n)+|$)")
 ELEMENT_SINGLE = set("金铁钛铜铝钨锡冰硅汞霰氮氢氩氧碳硫磷钠钾钙镁锂硼锌镍钴氨碘")
 FRAGMENT_BLACKLIST = ["这款", "这", "风险", "灵魂", "纯水", "用于", "作为", "采用",
                       "高性能", "使用", "以及", "并且", "但是", "不过", "如果", "因为",
@@ -466,8 +466,11 @@ def cmd_build():
         if v.get("en") == k and v["tr"].count("(") > v["tr"].count(")"):
             v["tr"] = v["tr"] + ")" * (v["tr"].count("(") - v["tr"].count(")"))
 
-    # 已核准人工修正（桥接表候选平局回退，依赖 set 顺序、随机不稳定；见 UPDATE.md §7 #24）
-    # Tundra/Snowfall/Endurance：官方同名多 key 并存（不同尺寸变体），按主站 size 字段锁定
+    # 已核准人工修正（见 UPDATE.md §7 #24/#28）：
+    # - #24 Tundra/Snowfall/Endurance：官方同名多 key 并存致候选平局（依赖 set 顺序、随机不稳定），按主站 size 字段锁定
+    # - #28 Antium Helmet Jet：CIG 4.10.2 en/zh 数据错位（item_Name_qrt_specialist_heavy_arms_01_01_13
+    #   的英文值被错标为 Antium Helmet Jet），桥接表直查命中错误对应「安腾 臂甲 栗红」；
+    #   以中文值内嵌英文段（安腾 头盔 乌玉\nAntium Helmet Jet，中英自洽且物品语义相符）为准定向修正
     manual_fix = {
         "Tundra": "苔原 [冷却 S1 军用 D]",
         "Snowfall": "飘雪 [冷却 S2 工业 B]",
@@ -475,6 +478,8 @@ def cmd_build():
         "_noloc_item_Tundra": "苔原 [冷却 S1 军用 D]",
         "_noloc_item_Snowfall": "飘雪 [冷却 S2 工业 B]",
         "_noloc_item_Endurance": "耐力 [发电 S1 工业 B]",
+        "Antium Helmet Jet": "安腾 头盔 乌玉",
+        "_noloc_item_Antium Helmet Jet": "安腾 头盔 乌玉",
     }
     fixed = []
     for fk, fv in manual_fix.items():

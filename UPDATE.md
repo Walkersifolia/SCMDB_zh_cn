@@ -166,7 +166,7 @@ python build_lang_template.py --translate <去BOM副本.ini>
 
 | # | 删除/处理内容 | 规则（Python 正则/字符串） | 说明 |
 |---|---|---|---|
-| 1 | **任务描述水印块**（含 QQ 群广告） | `re.sub(r"\*{5,}[^*]*?\[任务蓝图奖励\][^*]*?\*{5,}[\s\S]*?1011682468\s*(?:\\n|\n)+", "\n", tr)` | 兼容 `*` 数量变化、EM4 标签有无、真实/字面换行；替换为单个换行 |
+| 1 | **任务描述水印块**（含 QQ 群广告） | `re.sub(r"\*{5,}[^*]*?\[任务蓝图奖励\][^*]*?\*{5,}[\s\S]*?1011682468\s*(?:(?:\\n|\n)+|$)", "\n", tr)` | 兼容 `*` 数量变化、EM4 标签有无、真实/字面换行、水印位于值结尾（无尾随换行）；替换为单个换行 |
 | 2 | **蓝图标签** | `tr.replace("<EM4>[蓝图]</EM4>", "")` | 官方中文翻译在任务标题尾部添加的广告性标签 |
 | 3 | **蓝图池标签** | `tr.replace("<EM4>包含多个蓝图池<EM4>", "")` | 注意此标签开头结尾都是 `<EM4>`（不闭合），不要只删一半 |
 | 4 | **多余空行折叠** | `re.sub(r"\n{3,}", "\n\n", tr)` 然后 `re.sub(r"(?:\\n){3,}", "\\n\\n", tr)` | 真实换行与字面 `\n`（CIG 转义）分别处理；删除上述内容后产生的空行必须折叠 |
@@ -357,6 +357,8 @@ git push
 | 24 | **组件名新旧 key 并存致候选平局，选择不稳定**（Tundra 冷却器 4.10.0 版输出过错误尺寸 S4） | CIG 在 4.10.1 为部分组件新增规范化 key（如 `item_Name_COOL_AEGS_S01_Tundra = '苔原Tundra\n[冷却 S1 军用 D]'`），旧 key（`item_NameCOOL_AEGS_S01_Tundra` / `..._S04_Tundra`）仍在 → 桥接表同一英文名（`Tundra`）存在多个中文候选（用字/尺寸不同），`best_of` 各项打分相同（均带 bracket、中文字数相同）时取 set 迭代首个，顺序不稳定 | 4.10.1 实测输出正确：`Tundra → 苔原 [冷却 S1 军用 D]`、`Snowfall → 飘雪 [冷却 S2 工业 B]`（均与主站 `crafting_items` 的 size 字段一致：Tundra=1、Snowfall=2）。**4.10.2 实测：平局随机性再现**——同一数据两次构建分别输出「冻原 [冷却 S4 军用 D]」/「苔原 [冷却 S1 军用 D]」与「降雪」/「飘雪」（Python set 迭代顺序随机、每次进程不同）；另发现同类 `Endurance`（主站 size=1，随机输出过 S3）。**已改为 `update_scmdb.py` 内 `manual_fix` 表锁定**（Tundra/Snowfall/Endurance 及对应 `_noloc_` 条目，每次 build 自动修正、输出确定）；未来官方文本再变化时以主站 size 字段核对后同步维护该表 |
 | 25 | **raw.githubusercontent.com 持续超时（curl exit 28）导致上游模板无法下载** | 本机到 raw 域名偶发极低带宽（实测 60s 仅收到 65KB / 共 1.8MB），重试无效 | 用 jsDelivr 镜像下载模板：`https://cdn.jsdelivr.net/gh/KrovaxCode/SCMDB_LANG@main/<文件名>`，再用 `gh api repos/KrovaxCode/SCMDB_LANG/contents/<文件名> --jq .sha` 与 `git hash-object <本地文件>` 比对 blob SHA 校验完整性（4.10.1 实测一致）；校验通过后放入仓库根目录，fetch 检测到文件已存在即跳过下载 |
 | 26 | **采矿激光器条目批量丢失**（4.10.2 更新：Arbor MH1/MH2、Hofstede-S1/S2、Klein-S1/S2、Lancet MH1/MH2、Impact I/II、S00 Hofstede 共 11 条丢失） | ① 旧数据源中这些物品的中文来自"任务蓝图奖励"水印列表（`- 中文名 英文名`）被 values 直查命中的巧合通道，PTU 新数据源无水印后通道消失；② bridge 直查失败（官方值内嵌英文为短名 `Arbor MH1`，与 SCMDB 名 `Arbor MH1 Mining Laser` 不完整匹配）；③ `clean_whole` 整值清洗把武器统计参数方括号（`[-35%不稳定\|+40%绿区...]`）拼入名称导致超长（>40），被 `best_of` 长度阈值过滤 | `clean_whole` 新增 `drop_tail` 备选候选：原样优先保留（不改变 #20 保护的"带参数"条目行为），仅当原样超长被过滤时启用去除参数方括号的短候选；11 条全部恢复且与 4.10.1 输出一致 |
+| 27 | **任务水印残留**（4.10.2-live.12913470 更新：`TheCollector_Recipes_Desc_GMNI_LMG` 的"任务蓝图奖励"水印未被删除） | 该条水印结束于值末尾——`1011682468` 后无换行（且 `load_localization` 已剥离尾部字面 `\n`），旧正则结尾 `(?:\\n|\n)+` 要求至少一个换行，无法匹配 | 正则结尾改为 `(?:(?:\\n|\n)+|$)`，兼容水印位于字符串末尾；修复后 clean 输出与 HEAD 基线一致（全量仅此 1 条命中，无副作用） |
+| 28 | **`Antium Helmet Jet` 反查错配**（4.10.2-live.12913470 更新：输出「安腾 臂甲 栗红」，正确为「安腾 头盔 乌玉」） | CIG 官方 en/zh 数据错位：`item_Name_qrt_specialist_heavy_arms_01_01_13` 的英文值被错标为 `Antium Helmet Jet`（中文值 `安腾 臂甲 栗红\nAntium Arms Maroon` 中英自洽，对应的是 Arms Maroon）；桥接表按 key 英文值建索引，直查命中该错误对应。正确值在 `item_Name_qrt_specialist_heavy_helmet_01_01_12` 的中文值内嵌英文段（`安腾 头盔 乌玉\nAntium Helmet Jet`） | 加入 `manual_fix` 表定向锁定（`Antium Helmet Jet`/`_noloc_item_Antium Helmet Jet` → `安腾 头盔 乌玉`）。全量扫描确认仅此 1 对 key 为语义错位（其余「en≠值内英文段」为 NBSP/拼写变体噪音，直查+clean_whole 输出正确）；未来官方修数据时按主站物品名核对后同步维护该表 |
 
 ---
 

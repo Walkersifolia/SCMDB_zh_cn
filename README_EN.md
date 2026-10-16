@@ -22,12 +22,12 @@ To remove the translation: visit `https://scmdb.net?lang=clear`, or remove the U
 
 | Version | Total keys | Translated | Missing | No loc key | Placeholder fallback |
 |---|---|---|---|---|---|
-| **4.10.2-live.12881860** (currently active) | 6462 | 6240 | 0 | 1736 | 69 |
+| **4.10.2-live.12913470** (currently active) | 6473 | 6262 | 0 | 1736 | 69 |
 | 4.10.0-ptu.12409360 (PTU backup) | 4303 | 4175 | 0 | 60 | 68 |
 
 Notes:
 - Translation covers **in-game data only** (missions, locations, ships, items, factions, etc.); the SCMDB site UI itself is intentionally not localized.
-- The "Translated" count uses the `tr != en` metric (entries actually displaying Chinese). The 222 untranslated entries are mission/contract texts (71; 3 with official `~mission(...)` references), location IDs (66), crafting slots (64), items without Chinese text (11), a mining element fallback (1) and other untranslated labels (9; freight-elevator SCU tags, placeholder sentinels, UI numerics) — English fallbacks with no matching Chinese text, expected by design.
+- The "Translated" count uses the `tr != en` metric (entries actually displaying Chinese). The 211 untranslated entries are mission/contract texts (70; 3 with official `~mission(...)` references), location IDs (66), crafting slots (64), a mining element fallback (1) and other untranslated labels (10; freight-elevator SCU tags, placeholder sentinels, UI numerics) — English fallbacks with no matching Chinese text, expected by design.
 - **scmdb_ui_* entries** (mission tags/badges, Fabricator stat labels/sliders, 60 keys) are wired by the upstream author via the community translation mechanism (template-embedded keys + sidecar); we supply Chinese through `scmdb_ui_zh-CN.json`.
 - Placeholders like `[RANK]`, `[SHIP]`, `[LOCATION]` in mission texts are resolved by the SCMDB frontend at runtime — do not remove them from translated text.
 
