@@ -7,6 +7,14 @@ __pycache__/
 # AI 交接文档（本地维护，不上传）
 HANDOFF*.md
 
+# 开发工具、语言模板与维护手册（仅本地维护，不随仓库分发）
+UPDATE.md
+update_scmdb.py
+build_lang_template.py
+lang-template-*.json
+
 # 更新工具本地状态与日志
 update_state.json
 logs/
+# 兜底缓存目录：仅在 %TEMP% 与 %LOCALAPPDATA%\Temp 均不可写时启用（见 update_scmdb.py）
+.cache/
