@@ -1,14 +1,14 @@
 {
-  "version": "4.10.2-live.12913470",
+  "version": "4.10.3-live.13165946",
   "sourceLanguage": "en",
   "targetLanguage": "zh_CN",
-  "keyCount": 6473,
+  "keyCount": 6552,
   "stats": {
-    "total": 6473,
-    "translated": 6262,
-    "unTranslated": 211,
+    "total": 6552,
+    "translated": 6333,
+    "unTranslated": 219,
     "missing": 0,
-    "noLocKey": 1736,
+    "noLocKey": 1755,
     "placeholderFallback": 69,
     "lengthFallback": 0,
     "mismatch": 229,
@@ -169,7 +169,7 @@
     },
     "CleanAir_Courier_title": {
       "en": "Alliance Aid: Courier Needed",
-      "tr": "援助联盟：需要快递员\\n[运输部门 - 包裹投递]"
+      "tr": "援助联盟：需要快递员\\n[运输部门 - 投递]"
     },
     "CleanAir_Transport-Milestone1_title": {
       "en": "Alliance Aid: Double Interstellar Med. Haul (Medical / Filters)",
@@ -309,7 +309,7 @@
     },
     "CleanAir_Courier_Derelict_title": {
       "en": "Alliance Aid: Vital Package Retrieval",
-      "tr": "援助联盟：取回重要包裹\\n[运输部门 - 包裹投递]"
+      "tr": "援助联盟：取回重要包裹\\n[运输部门 - 投递]"
     },
     "HeadHunters_ShipAmbush_M_title_001": {
       "en": "Ambush Op",
@@ -661,7 +661,7 @@
     },
     "EckhartSecurity_EliminateAll_storm_data_H_title_001": {
       "en": "Combat Support: [LOCATION]",
-      "tr": "战斗协助：[LOCATION]"
+      "tr": "战斗协助：[LOCATION]\\n[埃克哈特 - 消灭人员 HRT]"
     },
     "cfp_defendship_multi_SRT_title_001": {
       "en": "Come to Aid of Convoy",
@@ -682,6 +682,10 @@
     "cfp_defendship_multi_VHRT_SB_title_001": {
       "en": "Convoy Under Attack",
       "tr": "运输舰对遭遇袭击\\n[繁荣公民 - 保卫飞船 碎刃帮 VHRT]"
+    },
+    "Intersec_ShipWaveAttack_VH_Van_Title_001": {
+      "en": "Counterstrike Against Vanduul Raiders",
+      "tr": "反击剜度劫掠者\\n[互安防务 - 飞船战斗 多波次 VHRT]"
     },
     "spacecollect_cargo_title_VE_01": {
       "en": "Red Wind Package Recovery",
@@ -705,7 +709,7 @@
     },
     "FTL_RecoverItem_E_Title_001": {
       "en": "COURIER NEEDED FOR RETRIEVAL. EXP: E",
-      "tr": "急需快递员取件 - 经验水平：入门\\n[超光速快递 - 物品取回 LRT]"
+      "tr": "急需快递员取件 - 经验水平：初级\\n[超光速快递 - 物品取回 LRT]"
     },
     "deadsaints_recoveritem_E_Title_001": {
       "en": "Write Off",
@@ -947,6 +951,10 @@
       "en": "Down For the Count",
       "tr": "被击倒\\n[沃恩 - 寻找尸体 HRT]"
     },
+    "Intersec_ShipWaveAttack_DrawOutBoss_S_Van_Title_001": {
+      "en": "Draw Out Maulers",
+      "tr": "引出重拳\\n[互安防务 - 飞船战斗 多波次 ERT]"
+    },
     "headhunters_ChainElimAll_1C_ElimSpec_AttackCFP_M_title_001": {
       "en": "Driving CFP out",
       "tr": "驱逐繁荣公民"
@@ -1003,13 +1011,17 @@
       "en": "Emergency: Blinding Hope in Trouble",
       "tr": "紧急：炫目希望号有麻烦"
     },
+    "Intersec_3Way_Title_Hard_001": {
+      "en": "Engage Shattered Blade and Vanduul",
+      "tr": "与碎刃帮和剜度交战\\n[互安防务 - 击杀飞船 HRT]"
+    },
     "FTL_Courier_Nyx_Easy_Title_001": {
       "en": "ENTRY LVL. COURIER NEEDED IN NYX",
-      "tr": "尼克斯星系需要入门级快递员\\n[超光速快递 - 投递 尼克斯 简单]"
+      "tr": "尼克斯星系需要入门级快递员\\n[超光速快递 - 投递 简单]"
     },
     "FTL_Courier_Stanton_Easy_Title_001": {
       "en": "ENTRY LVL. COURIER NEEDED IN STANTON",
-      "tr": "斯坦顿星系需要入门级快递员\\n[超光速快递 - 投递 斯坦顿 简单]"
+      "tr": "斯坦顿星系需要入门级快递员\\n[超光速快递 - 投递 简单]"
     },
     "cfp_sabotage_server_elimiatespecific_HH_title_001": {
       "en": "Eradicate All Traces of Headhunter Data",
@@ -1037,7 +1049,7 @@
     },
     "EckhartSecurity_EliminateAll_DC_Title_001": {
       "en": "Expel Outlaws",
-      "tr": "驱逐不法分子"
+      "tr": "驱逐不法分子\\n[埃克哈特 - 消灭人员]"
     },
     "RedWind_HaulCargo_AToB_title_01": {
       "en": "Trainee Hauler Needed for Direct Small Shipment",
@@ -1257,7 +1269,7 @@
     },
     "EckhartSecurity_EliminateBoss_DC_Title_001": {
       "en": "High-Risk Bounty: [TARGET]",
-      "tr": "高风险赏金：[TARGET]"
+      "tr": "高风险赏金：[TARGET]\\n[埃克哈特 - 消灭人员]"
     },
     "eckhart_defendship_multi_HRT_title_001": {
       "en": "High-Risk Ship Encounter",
@@ -1293,7 +1305,7 @@
     },
     "EckhartSecurity_EliminateSpecific_DC_Title_001": {
       "en": "Hunt Bounty: [TARGET]",
-      "tr": "追猎赏金：[TARGET]"
+      "tr": "追猎赏金：[TARGET]\\n[埃克哈特 - 消灭人员]"
     },
     "Headhunters_SecurityPatrol_S_Title_001": {
       "en": "Hunt Some Heads",
@@ -1327,9 +1339,17 @@
       "en": "Inter-Outpost Delivery at Jackson's Swap - Multiple Boxes",
       "tr": "在 [DESTINATION] 的前哨站之间配送 - 多个箱子\\n[繁荣公民 - 一对一投递]"
     },
+    "Intersec_ShipWaveAttack_S_Van_Title_001": {
+      "en": "Intercept Vanduul Fleet",
+      "tr": "拦截剜度舰队\\n[互安防务 - 飞船战斗 多波次 ERT]"
+    },
     "CFP_RecoverCargo_Easy_Title": {
       "en": "Intercepted Supply Run",
       "tr": "供应被中断\\n[繁荣公民 - 取回货物 LRT]"
+    },
+    "Intersec_ShipWaveAttack_DrawOutBoss_VH_Van_Title_001": {
+      "en": "Interdict Vanduul Maulers",
+      "tr": "拦截剜度重拳\\n[互安防务 - 飞船战斗 多波次 VHRT]"
     },
     "Foxwell_X2_ShipWaves_Title": {
       "en": "Interdict XenoThreat Attack Force",
@@ -1401,7 +1421,7 @@
     },
     "FTL_Courier_Stanton_Medium_Title_001": {
       "en": "JR. LVL. COURIER NEEDED IN STANTON",
-      "tr": "斯坦顿星系需要初级快递员\\n[超光速快递 - 投递 斯坦顿 中等难度]"
+      "tr": "斯坦顿星系需要初级快递员\\n[超光速快递 - 投递 中等难度]"
     },
     "HeadHunters_DefendEntitesAndEscort_VE_Title": {
       "en": "Keep [LOCATION] Safe",
@@ -1455,6 +1475,10 @@
       "en": "Little Heavy Lifting at [DESTINATION]",
       "tr": "在 [DESTINATION] 搬点小重货"
     },
+    "Intersec_BlueCryo_Title_001": {
+      "en": "Living Vanduul Sample",
+      "tr": "活体剜度样本\\n[互安防务 - 取回冷冻舱]"
+    },
     "Hockrow_searchbody_space_H_Title_001": {
       "en": "Locate Missing Agent: [TARGET]",
       "tr": "找到失踪特工：[TARGET]\\n[霍克罗 - 寻找尸体 HRT]"
@@ -1505,7 +1529,7 @@
     },
     "Covalex_Delivery_Stanton_Hard_Title_001": {
       "en": "Long Distance Covalex Delivery Stanton",
-      "tr": "斯坦顿星系 远距离 科瓦莱什货运\\n[科瓦莱什 - 斯坦顿投递 困难]"
+      "tr": "斯坦顿星系 远距离 科瓦莱什货运\\n[科瓦莱什 - 斯坦顿货运 困难]"
     },
     "headhunters_defendship_multi_SRT_PA_title_001": {
       "en": "Looking for a Damn Hero",
@@ -1609,11 +1633,11 @@
     },
     "Covalex_Delivery_Nyx_Medium_Title_001": {
       "en": "Med. Distance Covalex Delivery Nyx",
-      "tr": "尼克斯星系 中距离 科瓦莱什货运\\n[科瓦莱什 - 尼克斯投递 中等难度]"
+      "tr": "尼克斯星系 中距离 科瓦莱什货运\\n[科瓦莱什 - 尼克斯货运 中等难度]"
     },
     "Covalex_Delivery_Stanton_Medium_Title_001": {
       "en": "Med. Distance Covalex Delivery Stanton",
-      "tr": "斯坦顿星系 中距离 科瓦莱什货运\\n[科瓦莱什 - 斯坦顿投递 中等难度]"
+      "tr": "斯坦顿星系 中距离 科瓦莱什货运\\n[科瓦莱什 - 斯坦顿货运 中等难度]"
     },
     "Shubin_Industrial_HandMining_Pyro_M_DiscoverPlanetary_Title_001": {
       "en": "Med. Purchase Order: Hand Mined Materials",
@@ -1754,6 +1778,10 @@
     "Intersec_KillShip_Title_Medium_001": {
       "en": "Neutralize UEE Threat: [TARGET]",
       "tr": "消除 UEE 威胁：[TARGET]\\n[互安防务 - 击杀飞船 MRT]"
+    },
+    "Intersec_3Way_Title_VeryHard_001": {
+      "en": "Neutralize Vanduul and Shattered Blade Threat",
+      "tr": "消除剜度与碎刃帮的威胁\\n[互安防务 - 击杀飞船 VHRT]"
     },
     "Intersec_KillShip_Vanduul_Title_VeryHard_001": {
       "en": "Neutralize Vanduul Target",
@@ -1933,7 +1961,7 @@
     },
     "ORS_ShipWaveAt_Title": {
       "en": "Orison Relief: Stop Nine Tails Regrouping",
-      "tr": "奥里森救援：阻止九尾重新集结\\n[飞船战斗 多波次]"
+      "tr": "奥里森救援：阻止九尾重新集结\\n[击杀飞船 多波次]"
     },
     "ORS_ShipAmb_Title": {
       "en": "Orison Relief: Strike Nine Tails Squad",
@@ -2429,7 +2457,7 @@
     },
     "EckhartSecurity_EliminateAll_storm_shut_H_title_001": {
       "en": "Requesting Help",
-      "tr": "请求帮助"
+      "tr": "请求帮助\\n[埃克哈特 - 消灭人员 HRT]"
     },
     "LingFamily_RecoverCargo_Medium_Title": {
       "en": "Rescue Incomplete Ling Delivery",
@@ -2442,6 +2470,10 @@
     "Headhunters_DefendLocation_S_Title_001": {
       "en": "Restore Order at [LOCATION]",
       "tr": "恢复 [LOCATION] 的秩序\\n[猎头帮 - 地点保卫 ERT]"
+    },
+    "Intersec_BoardShip_ShatteredBlade_Title_001": {
+      "en": "Retake Boarded Vessel",
+      "tr": "夺回被劫持的飞船\\n[互安防务 - 登船任务]"
     },
     "northrock_SOO_repeat_title_001": {
       "en": "Retake Platforms From Nine Tails",
@@ -2707,6 +2739,10 @@
       "en": "SEEK AND DESTROY ASD DATA",
       "tr": "搜寻并摧毁 ASD 的数据\\n[工程翼楼 - 控制中心]"
     },
+    "Intersec_ShipWaveAttack_DrawOutBoss_H_Van_Title_001": {
+      "en": "Seek and Destroy Super Stingers",
+      "tr": "搜索并摧毁超级毒刺\\n[互安防务 - 飞船战斗 多波次 HRT]"
+    },
     "cfp_defendship_Intro_title_001": {
       "en": "Seeking Experienced Combat Pilots",
       "tr": "招募经验丰富的战斗飞行员\\n[繁荣公民 - 保卫飞船 入门]"
@@ -2837,7 +2873,7 @@
     },
     "Covalex_Delivery_Stanton_Super_Title_001": {
       "en": "Special Covalex Delivery Stanton System",
-      "tr": "斯坦顿星系 特殊 科瓦莱什货运\\n[科瓦莱什 - 斯坦顿投递 超级困难]"
+      "tr": "斯坦顿星系 特殊 科瓦莱什货运\\n[科瓦莱什 - 斯坦顿货运 超级困难]"
     },
     "TheCollector_Ships_Idris_Title": {
       "en": "Special Idris For Killing",
@@ -2918,6 +2954,10 @@
     "eckhart_defendship_VLRT_SB_title_001": {
       "en": "Stop Shattered Blade Attack",
       "tr": "阻止碎刃帮的攻击\\n[埃克哈特 - 保卫飞船 碎刃帮 VLRT]"
+    },
+    "Intersec_3Way_Title_Super_001": {
+      "en": "Stop Vanduul and Shattered Blade Hostilities",
+      "tr": "制止剜度与碎刃帮的敌对行动\\n[互安防务 - 击杀飞船 ERT]"
     },
     "headhunters_bombingrun_M_title_001": {
       "en": "Stopping the Competition",
@@ -3006,6 +3046,10 @@
     "headhunters_killship_asteroid_rank1_title_001": {
       "en": "Target at [LOCATION]",
       "tr": "目标位于 [LOCATION]"
+    },
+    "Intersec_ElimAux_ShatteredBlade_Med_Title_001": {
+      "en": "Target Shattered Blade: [TARGET]",
+      "tr": "目标碎刃帮：[TARGET]\\n[互安防务 - 消灭人员 MRT]"
     },
     "headhunters_killship_asteroid_rank0_title_001": {
       "en": "Target takedown for a fast track in",
@@ -3135,6 +3179,10 @@
       "en": "UWC'S HIRING REFUELERS",
       "tr": "UWC 正在招募加油员\\n[旅者联合 - 燃料补给 入门]"
     },
+    "Intersec_ShipWaveAttack_H_Van_Title_001": {
+      "en": "Vanduul Strike Group Detected",
+      "tr": "检测到剜度打击编队\\n[互安防务 - 飞船战斗 多波次 HRT]"
+    },
     "Kaboos_Intro_Title": {
       "en": "Vanduul-Tech Smugglers",
       "tr": "剜度科技走私犯\\n[互安防务 - 调查剜度科技走私 入门]"
@@ -3177,7 +3225,7 @@
     },
     "Covalex_Delivery_Stanton_VeryHard_Title_001": {
       "en": "Very Long Distance Covalex Delivery Stanton",
-      "tr": "斯坦顿星系 超远距离 科瓦莱什货运\\n[科瓦莱什 - 斯坦顿投递 非常困难]"
+      "tr": "斯坦顿星系 超远距离 科瓦莱什货运\\n[科瓦莱什 - 斯坦顿货运 非常困难]"
     },
     "Eckhart_EscortShips_H_title": {
       "en": "VIP Client Needs Protection",
@@ -3581,7 +3629,7 @@
     },
     "CleanAir_Hauling_Bulk_Ventfilters_desc": {
       "en": "Hey,\\n\\nHelp us put an end to the People's Affliction by hauling new vent filters to places that need replacements. \\n\\nHere's a run of them from <EM4>[LOCATION]</EM4> to <EM4>[DESTINATION]</EM4>. This is a large scale haul, so bring a ship that can fit everything. The manifest also specifies that that largest container you'll be dealing with is <EM4>16 SCU</EM4>. Would strongly recommending bringing a <EM4>handheld tractor beam</EM4> to deal with those. \\n\\nThanks for joining us and Alliance Aid to help bring this crisis to an end!\\n\\nElla Tieno\\nJr. Logistics Coordinator\\nCovalex Shipping  \\n'Anything you need, anywhere you need it.'",
-      "tr": "嘿，\\n\\n帮我们终结人民病吧——把新的通风过滤器运送到急需更换的地方。\\n\\n这趟任务是从 <EM4>[LOCATION]</EM4> 运到 <EM4>[DESTINATION]</EM4>。这是个大规模运输任务，记得带一艘能装下所有货物的飞船。货单上还特别注明，你将要处理的最大集装箱尺寸是 <EM4>[MAX_SCU]</EM4>，强烈建议带上一把<EM4>手持式牵引光束</EM4>来应对这些大件。\\n\\n感谢你加入我们和援助联盟，一起努力让这场危机早日结束！\\n\\n艾拉·蒂埃诺\\n初级物流协调员\\n科瓦莱什货运\\n“尽你所需，达你所在。”"
+      "tr": "嘿，\\n\\n帮我们终结人民病吧 —— 把新的通风过滤器运送到急需更换的地方。\\n\\n这趟任务是从 <EM4>[LOCATION]</EM4> 运到 <EM4>[DESTINATION]</EM4>。这是个大规模运输任务，记得带一艘能装下所有货物的飞船。货单上还特别注明，你将要处理的最大集装箱尺寸是 <EM4>[MAX_SCU]</EM4>，强烈建议带上一把<EM4>手持式牵引光束</EM4>来应对这些大件。\\n\\n感谢你加入我们和援助联盟，一起努力让这场危机早日结束！\\n\\n艾拉·蒂埃诺\\n初级物流协调员\\n科瓦莱什货运\\n“尽你所需，达你所在。”"
     },
     "CleanAir_Hauling_Bulk_MedicalSupplies_desc": {
       "en": "Hi,\\n\\nThe outbreak of the People’s Ailment from Molina Mold has put a strain on the availability of medical supplies. Got a priority, large scale run here to get <EM4>[DESTINATION]</EM4> restocked with necessary pharmaceuticals and equipment. Any chance you’re available?\\n\\nPick up for this haul is at <EM4>[LOCATION]</EM4>. You’ll be dealing with containers that are up to <EM4>8 SCU</EM4> in size. Be sure to bring a <EM4>handheld tractor beam</EM4>, and a ship that can fit containers that size. \\n\\nElla Tieno\\nJr. Logistics Coordinator\\nCovalex Shipping  \\n'Anything you need, anywhere you need it.'",
@@ -3597,7 +3645,7 @@
     },
     "CleanAir_Hauling_Supply_Ventfilters_desc": {
       "en": "Hey,\\n\\nThere's a medium scale haul of new vent filters at <EM4>[LOCATION]</EM4> waiting to go to <EM4>[DESTINATION]</EM4>. You available to handle it? \\n\\nThe team at <EM4>[DESTINATION]</EM4> is obviously very anxious to get these new filters, and won't stop bugging me about this haul until I give them a delivery ETA. No wonder with how worried everyone is about this Molina mold outbreak. Should be an easy run. All that's needed is a ship that can hold containers <EM4>8 SCU</EM4> in size or smaller, and a <EM4>handheld tractor beam</EM4>. \\n\\nElla Tieno\\nJr. Logistics Coordinator\\nCovalex Shipping  \\n'Anything you need, anywhere you need it.'",
-      "tr": "嘿，\\n\\n<EM4>[LOCATION]</EM4> 那儿有批中等规模的新通风滤芯，正等着运到 <EM4>[DESTINATION]</EM4>。你有空接这单吗？\\n\\n<EM4>[DESTINATION]</EM4> 那边的团队显然急着要这批新滤芯，不给我个预计送达时间，他们怕是得一直催我。也难怪，毕竟大家都为莫利纳霉菌爆发的事提心吊胆。这趟活儿应该挺轻松——只要船能装下尺寸不超过 <EM4>[MAX_SCU]</EM4> 的集装箱，再带上一支<EM4>手持式牵引光束</EM4>就行。\\n\\n艾拉·蒂埃诺\\n初级物流协调员\\n科瓦莱什货运\\n“尽你所需，达你所在。”"
+      "tr": "嘿，\\n\\n<EM4>[LOCATION]</EM4> 那儿有批中等规模的新通风滤芯，正等着运到 <EM4>[DESTINATION]</EM4>。你有空接这单吗？\\n\\n<EM4>[DESTINATION]</EM4> 那边的团队显然急着要这批新滤芯，不给我个预计送达时间，他们怕是得一直催我。也难怪，毕竟大家都为莫利纳霉菌爆发的事提心吊胆。这趟活儿应该挺轻松 —— 只要船能装下尺寸不超过 <EM4>[MAX_SCU]</EM4> 的集装箱，再带上一支<EM4>手持式牵引光束</EM4>就行。\\n\\n艾拉·蒂埃诺\\n初级物流协调员\\n科瓦莱什货运\\n“尽你所需，达你所在。”"
     },
     "CleanAir_Hauling_Supply_MedicalSupplies_desc": {
       "en": "I hope this message finds you well,\\n\\nThings are a bit crazy than normal around here because of how many of our pilots ended up getting sick while doing runs to Levski. Thankfully, Covalex is contributing to 'Alliance Aid' so hopefully we can put this whole affair behind us soon. \\n\\nCurrently, I've got a medium scale haul of medical supplies waiting at <EM4>[LOCATION]</EM4>. Really need someone to take it to <EM4>[DESTINATION]</EM4>, so the team there can operate at full capacity. \\n\\nThe biggest container on this run will be <EM4>4 SCU</EM4> in size, so have a ship that can handle those. Oh, and don't forget your <EM4>handheld tractor beam</EM4>.  \\n\\nThanks for joining us and Alliance Aid to help bring this crisis to an end!\\n\\nElla Tieno\\nJr. Logistics Coordinator\\nCovalex Shipping  \\n'Anything you need, anywhere you need it.'",
@@ -3693,7 +3741,7 @@
     },
     "CleanAir_Hauling_Bulk_MoldTreatment_desc": {
       "en": "Hi,\\n\\nPeople are breathing a sigh of relief that a treatment for the People's Aliment has been found, but we're not out of the woods just yet. There's still plenty of folks suffering . We're hoping you can help the cause by handling a large scale haul of the stuff.  \\n\\nIf you're available, we need you to pick up from <EM4>[LOCATION]</EM4> and then fly it over to <EM4>[DESTINATION]</EM4>. Remember to bring a <EM4>handheld tractor beam</EM4> and a ship that can hold <EM4>16 SCU cargo containers</EM4>. \\n \\n\\nSafe Hauling,  \\nReyes Ling \\nCargo Logistics Coordinator\\nLing Family Hauling\\n\\nLing Family Hauling knows it’s a dangerous and unpredictable universe and has established several protocols to protect both you and our client’s cargo. To ensure you aren’t punished for circumstances outside of your control, total payment will be prorated to the percentage of cargo successfully delivered. A delivery timer will be set for each haul. Any cargo that remains undelivered upon its expiration will be flagged as stolen and treated as such. All pick-ups and deliveries must be autoloaded or done at a freight elevator.",
-      "tr": "嗨，\\n\\n人们得知人民病的治疗方法已被找到后都松了一口气，但我们还没完全脱离困境——仍有不少人正在受苦。我们希望你能帮忙，接手这批大规模运输任务。\\n\\n如果你有空，请从 <EM4>[LOCATION]</EM4> 取货，然后运送到 <EM4>[DESTINATION]</EM4>。记得带上一把<EM4>手持式牵引光束</EM4>，以及一艘能装载 <EM4>[MAX_SCU]</EM4> 尺寸集装箱的飞船。\\n\\n运输平安，\\n雷耶斯·玲\\n货运物流协调员\\n玲家快递\\n\\n玲家快递深知宇宙危险莫测，因此制定了多项协议，以保护你和客户货物的安全。为确保你不会因不可控因素受罚，总报酬将按成功交付的货物比例计算。每趟运输都会设置交付倒计时，倒计时结束时仍未交付的货物将被标记为被盗，并按盗窃处理。所有取货和送货必须通过自动装载或货运电梯完成。"
+      "tr": "嗨，\\n\\n人们得知人民病的治疗方法已被找到后都松了一口气，但我们还没完全脱离困境 —— 仍有不少人正在受苦。我们希望你能帮忙，接手这批大规模运输任务。\\n\\n如果你有空，请从 <EM4>[LOCATION]</EM4> 取货，然后运送到 <EM4>[DESTINATION]</EM4>。记得带上一把<EM4>手持式牵引光束</EM4>，以及一艘能装载 <EM4>[MAX_SCU]</EM4> 尺寸集装箱的飞船。\\n\\n运输平安，\\n雷耶斯·玲\\n货运物流协调员\\n玲家快递\\n\\n玲家快递深知宇宙危险莫测，因此制定了多项协议，以保护你和客户货物的安全。为确保你不会因不可控因素受罚，总报酬将按成功交付的货物比例计算。每趟运输都会设置交付倒计时，倒计时结束时仍未交付的货物将被标记为被盗，并按盗窃处理。所有取货和送货必须通过自动装载或货运电梯完成。"
     },
     "CleanAir_Hauling_Supply_MoldTreatment_desc": {
       "en": "Hey,\\n\\nPretty heartbreaking hearing what's happening to the people out in Levski with this Molina mold outbreak? Our family has decided to do all we can to help out with Alliance Aid.  Got a medium scale haul of antifungal waiting to be picked up at <EM4>[LOCATION]</EM4> and taken to <EM4>[DESTINATION]</EM4>. Think you can handle this for us?\\n\\nBefore you go, please make sure you bring a ship that can hold <EM4>8 SCU cargo containers</EM4>. You'll also need a <EM4>handheld tractor beam</EM4> to deal with the containers. \\n \\n\\nSafe Hauling,  \\nReyes Ling \\nCargo Logistics Coordinator\\nLing Family Hauling\\n\\nLing Family Hauling knows it’s a dangerous and unpredictable universe and has established several protocols to protect both you and our client’s cargo. To ensure you aren’t punished for circumstances outside of your control, total payment will be prorated to the percentage of cargo successfully delivered. A delivery timer will be set for each haul. Any cargo that remains undelivered upon its expiration will be flagged as stolen and treated as such. All pick-ups and deliveries must be autoloaded or done at a freight elevator.",
@@ -3777,7 +3825,7 @@
     },
     "BitZeros_blackbox_S_Desc_001": {
       "en": "Got a big job for a big player. We’re in the process of making someone disappear, like completely vanish, and a part of that is recovering the blackbox from the “accident” that they had recently over at <EM4>[LOCATION]</EM4>.\\nOnly problem is, seems the people this person hired to stage the accident have gotten it in their heads that there’s more money to be made. So much so that they’re still keeping tabs on the now deceased’s ship.\\nThese guys aren’t playing around either. You’ll need a couple of friends to help you do this. But if you can get the blackbox out of there and into our hands by dropping it at <EM4>[DESTINATION]</EM4>, we can really make it worth your while.\\n\\n-Bit Zeros",
-      "tr": "我们有个大活儿要找个真正的狠角色。我们正在想办法让某个人彻底消失，消得一干二净，其中一部分就是从那个人最近在 <EM4>[LOCATION]</EM4> 那边出的“事故”里把黑匣子捞出来。\\n\\n问题是——这个人雇来策划这场事故的家伙们，现在觉得这事儿能赚更多，干脆赖在那艘死人飞船旁边不走了，不肯撒手。\\n\\n这帮人可不讲武德，你最好带俩帮手，不然分分钟凉透。但只要你能把黑匣子搞出来，送到 <EM4>[DESTINATION]</EM4>，咱保证让你赚得盆满钵满。\\n\\n- 零比特\n\n\n- 卢敏 V 冲锋枪 Lumin V SMG\\n- 箭头 狙击枪 Arrowhead Sniper Rifle\\n- 飞鸟 臂甲 Aves Arms\\n- 飞鸟 胸甲 Aves Core\\n- 飞鸟 腿甲 Aves Legs\\n- 飞鸟 头盔 Aves Helmet\\n- 伯劳鸟 胸甲 Aves Shrike Core\\n- 伯劳鸟 臂甲 Aves Shrike Arms\\n- 伯劳鸟 腿甲 Aves Shrike Legs\\n- 伯劳鸟 头盔 Aves Shrike Helmet\\n- 卢敏 V 冲锋枪电池 (45 发) Lumin V SMG Battery (45 cap)\\n- 箭头能量狙击枪电池 (16发) Arrowhead Sniper Rifle Battery (16 cap)"
+      "tr": "我们有个大活儿要找个真正的狠角色。我们正在想办法让某个人彻底消失，消得一干二净，其中一部分就是从那个人最近在 <EM4>[LOCATION]</EM4> 那边出的“事故”里把黑匣子捞出来。\\n\\n问题是 —— 这个人雇来策划这场事故的家伙们，现在觉得这事儿能赚更多，干脆赖在那艘死人飞船旁边不走了，不肯撒手。\\n\\n这帮人可不讲武德，你最好带俩帮手，不然分分钟凉透。但只要你能把黑匣子搞出来，送到 <EM4>[DESTINATION]</EM4>，咱保证让你赚得盆满钵满。\\n\\n- 零比特\n\n\n- 卢敏 V 冲锋枪 Lumin V SMG\\n- 箭头 狙击枪 Arrowhead Sniper Rifle\\n- 飞鸟 臂甲 Aves Arms\\n- 飞鸟 胸甲 Aves Core\\n- 飞鸟 腿甲 Aves Legs\\n- 飞鸟 头盔 Aves Helmet\\n- 伯劳鸟 胸甲 Aves Shrike Core\\n- 伯劳鸟 臂甲 Aves Shrike Arms\\n- 伯劳鸟 腿甲 Aves Shrike Legs\\n- 伯劳鸟 头盔 Aves Shrike Helmet\\n- 卢敏 V 冲锋枪电池 (45 发) Lumin V SMG Battery (45 cap)\\n- 箭头能量狙击枪电池 (16发) Arrowhead Sniper Rifle Battery (16 cap)"
     },
     "Hockrow_BlackBox_space_S_Desc_001": {
       "en": "Hockrow Agency \\nCase File #BR547384\\nLead Investigator: Arken Mallor\\n\\nCase Summary: \\nThis request comes down from Head Office. \\n\\nWe’ve just learned that a recent ship attack near <EM4>[LOCATION]</EM4> might have been the work of a notorious and equally elusive outlaw ringleader. The last time they popped their head above water was years ago, so this is a rare opportunity to catch them. This is an opportunity that our client does not want to pass up. We need a <EM4>top-tier operative</EM4> with elite combat experience to retrieve the blackbox of this downed ship in order to prove the ringleader’s involvement.\\n\\n<EM4>There will be highly-trained hostiles present on the scene</EM4> who will put up significant resistance to your presence. Eliminate them and complete the mission.\\n\\nContract Investigator Actions:\\nImmediately scramble to <EM4>[LOCATION]</EM4> and clear the surrounding airspace in order to secure the blackbox. Once obtained, deliver it to <EM4>[DESTINATION]</EM4>.\\n\\nAdditional Notes:\\nHead Office stresses that this will be an incredibly difficult mission to pull off. Make sure you bring your A-game.",
@@ -3797,7 +3845,7 @@
     },
     "BitZeros_blackbox_M_Desc_001": {
       "en": "We were a little too smart with this one and it’s kinda backfired. Sometimes you gotta dream big, you know? Anyway. we were looking to move some encrypted data to one of our data havens and decided to hide it in a ship’s blackbox. They filled the ship with “valuable” stuff as a decoy in case it got attacked. The plan worked a little too well and the cargo might have attracted the wrong kind of attention. They stole all the cargo but missed the blackbox. Bad news is the ship is now swarming with outlaws.\\n\\nThe data on that blackbox is useless to them, but we need it. If you can get it back for us, we can give you a nice cut from what we make. Seems like a fair deal, right?\\n\\nHead to <EM4>[LOCATION]</EM4> and after you’ve done your thing take the flight recorder to <EM4>[DESTINATION]</EM4>.\\n\\n-Bit Zeros",
-      "tr": "这次我们自作聪明，结果翻车了。人嘛，总得有点梦想对吧？我们本来想把一批加密数据藏进飞船黑匣子，运到咱们的数据据点。为了骗过敌人，还特意在船上堆满“值钱货”当诱饵。结果这招太灵了——东西是唬住人了，可也引来了不该来的人。货全被抢光了，唯独漏了黑匣子。坏消息是，现在那艘船周围全是不法分子，跟蜂窝似的。\\n\\n那黑匣子里的数据对他们屁用没有，但我们非得拿回来。你要是能帮我们搞到手，分你一大笔，这买卖不亏吧？\\n\\n去 <EM4>[LOCATION]</EM4> 把事儿办了，然后把飞行记录仪送到 <EM4>[DESTINATION]</EM4>。\\n\\n- 零比特\n\n\n- 卢敏 V 冲锋枪 Lumin V SMG\\n- 箭头 狙击枪 Arrowhead Sniper Rifle\\n- 飞鸟 臂甲 Aves Arms\\n- 飞鸟 胸甲 Aves Core\\n- 飞鸟 腿甲 Aves Legs\\n- 飞鸟 头盔 Aves Helmet\\n- 伯劳鸟 胸甲 Aves Shrike Core\\n- 伯劳鸟 臂甲 Aves Shrike Arms\\n- 伯劳鸟 腿甲 Aves Shrike Legs\\n- 伯劳鸟 头盔 Aves Shrike Helmet\\n- 卢敏 V 冲锋枪电池 (45 发) Lumin V SMG Battery (45 cap)\\n- 箭头能量狙击枪电池 (16发) Arrowhead Sniper Rifle Battery (16 cap)"
+      "tr": "这次我们自作聪明，结果翻车了。人嘛，总得有点梦想对吧？我们本来想把一批加密数据藏进飞船黑匣子，运到咱们的数据据点。为了骗过敌人，还特意在船上堆满“值钱货”当诱饵。结果这招太灵了 —— 东西是唬住人了，可也引来了不该来的人。货全被抢光了，唯独漏了黑匣子。坏消息是，现在那艘船周围全是不法分子，跟蜂窝似的。\\n\\n那黑匣子里的数据对他们屁用没有，但我们非得拿回来。你要是能帮我们搞到手，分你一大笔，这买卖不亏吧？\\n\\n去 <EM4>[LOCATION]</EM4> 把事儿办了，然后把飞行记录仪送到 <EM4>[DESTINATION]</EM4>。\\n\\n- 零比特\n\n\n- 卢敏 V 冲锋枪 Lumin V SMG\\n- 箭头 狙击枪 Arrowhead Sniper Rifle\\n- 飞鸟 臂甲 Aves Arms\\n- 飞鸟 胸甲 Aves Core\\n- 飞鸟 腿甲 Aves Legs\\n- 飞鸟 头盔 Aves Helmet\\n- 伯劳鸟 胸甲 Aves Shrike Core\\n- 伯劳鸟 臂甲 Aves Shrike Arms\\n- 伯劳鸟 腿甲 Aves Shrike Legs\\n- 伯劳鸟 头盔 Aves Shrike Helmet\\n- 卢敏 V 冲锋枪电池 (45 发) Lumin V SMG Battery (45 cap)\\n- 箭头能量狙击枪电池 (16发) Arrowhead Sniper Rifle Battery (16 cap)"
     },
     "blackbox_recover_desc_E_001": {
       "en": "So we were expecting a pretty important package earlier today but turns out the pilot got ghosted and they ripped the tracking chip from it and got away. Pretty clever right? Not really, because they forgot to take the flight recorder too.\\n\\nGet the blackbox from the wreck at <EM4>[LOCATION]</EM4> and take it to <EM4>[DESTINATION]</EM4>. We’ll send you the creds when you’re done.\\n\\nOh and watch out for scavs, people are pretty desperate these days, even if it just some busted courier ship.\\n\\n-Bit Zeros",
@@ -3845,7 +3893,7 @@
     },
     "BitZeros_blackbox_H_Desc_001": {
       "en": "Don’t know if you’ve heard, but there’s a bunch of ships over at <EM4>[LOCATION]</EM4> surrounding a burnt-out ship. You curious why? I know we are.\\nThink you can get in that wreck, grab the blackbox, and get out? We’ll pay you for it.\\n\\nBased on the number of sketchy ships in the area, you should bring some friends with to watch your ass, unless you’re some crazy solo act, but we’d prefer if you actually survived this so you can drop off the blackbox at <EM4>[DESTINATION]</EM4> for us. \\n\\nBut hey, your call. As long as it gets done.\\n\\n-Bit Zeros",
-      "tr": "你听说没？<EM4>[LOCATION]</EM4> 那儿一堆船围着艘烧得只剩架子的飞船，知道为啥不？我们可好奇死了。你能不能溜进那堆废铁里，找到黑匣子再溜出来？事成之后我们付钱。\\n\\n这地方到处都是不靠谱的家伙，你最好带几个帮手盯着后背，除非你真打算一个人单干——但咱还是希望你能活下来，好把黑匣子送到 <EM4>[DESTINATION]</EM4> 这儿来。\\n\\n不过嘛，咋干你说了算，只要事儿能办成。\\n\\n- 零比特\n\n\n- 卢敏 V 冲锋枪 Lumin V SMG\\n- 箭头 狙击枪 Arrowhead Sniper Rifle\\n- 飞鸟 臂甲 Aves Arms\\n- 飞鸟 胸甲 Aves Core\\n- 飞鸟 腿甲 Aves Legs\\n- 飞鸟 头盔 Aves Helmet\\n- 伯劳鸟 胸甲 Aves Shrike Core\\n- 伯劳鸟 臂甲 Aves Shrike Arms\\n- 伯劳鸟 腿甲 Aves Shrike Legs\\n- 伯劳鸟 头盔 Aves Shrike Helmet\\n- 卢敏 V 冲锋枪电池 (45 发) Lumin V SMG Battery (45 cap)\\n- 箭头能量狙击枪电池 (16发) Arrowhead Sniper Rifle Battery (16 cap)"
+      "tr": "你听说没？<EM4>[LOCATION]</EM4> 那儿一堆船围着艘烧得只剩架子的飞船，知道为啥不？我们可好奇死了。你能不能溜进那堆废铁里，找到黑匣子再溜出来？事成之后我们付钱。\\n\\n这地方到处都是不靠谱的家伙，你最好带几个帮手盯着后背，除非你真打算一个人单干 —— 但咱还是希望你能活下来，好把黑匣子送到 <EM4>[DESTINATION]</EM4> 这儿来。\\n\\n不过嘛，咋干你说了算，只要事儿能办成。\\n\\n- 零比特\n\n\n- 卢敏 V 冲锋枪 Lumin V SMG\\n- 箭头 狙击枪 Arrowhead Sniper Rifle\\n- 飞鸟 臂甲 Aves Arms\\n- 飞鸟 胸甲 Aves Core\\n- 飞鸟 腿甲 Aves Legs\\n- 飞鸟 头盔 Aves Helmet\\n- 伯劳鸟 胸甲 Aves Shrike Core\\n- 伯劳鸟 臂甲 Aves Shrike Arms\\n- 伯劳鸟 腿甲 Aves Shrike Legs\\n- 伯劳鸟 头盔 Aves Shrike Helmet\\n- 卢敏 V 冲锋枪电池 (45 发) Lumin V SMG Battery (45 cap)\\n- 箭头能量狙击枪电池 (16发) Arrowhead Sniper Rifle Battery (16 cap)"
     },
     "Battaglia_RPT_RecoverItem_VE_01_desc": {
       "en": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Blackbox Retrieval\\n\\nWORK BRIEF: \\nReceived a tip about <EM4>a ship that had been attacked at [LOCATION]</EM4>.  Apparently it's been there for a little while, but the Governing Committee would like to know how it got there. \\n\\nWe're looking for someone to go out, <EM4>retrieve the blackbox and bring it to [DESTINATION]</EM4> so we can figure out what happened. \\n\\nJust a reminder, the blackbox isn't small, so <EM4>you'll need a ship with some storage</EM4>.\\n\\nPAYMENT:\\nStandard listed rate upon delivery\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
@@ -3957,11 +4005,11 @@
     },
     "LingFamily_HaulCargo_AToB_Intro_desc": {
       "en": "Hi,  \\n \\nThis is Petra Ling, and I’m proud to offer you a new and exciting opportunity to partner with Ling Family Hauling. When my parents started this company, their goal was to provide fast and reliable courier deliveries around the greater Crusader area. It quickly became a success, and as our reputation grew, so did our operations.  \\n \\nNow, under my stewardship, Ling Family Hauling is taking the next big step – cargo hauling. Demand for this new service is growing faster than I expected, and that’s great news for both of us.   \\n \\nIf you’ve ever wanted to be a hauler, then I can make your dreams come true. Best way to learn something is by doing it, and I’ve got a haul of <EM4>[ITEM]</EM4> that needs to go from <EM4>[LOCATION]</EM4> to <EM4>[DESTINATION]</EM4>.  \\n\\nNo prior experience is necessary, but here’s a few things to keep in mind. All pick-ups and deliveries must be done at a freight elevator or autoloaded. You will need a ship that can hold <EM4>2 SCU cargo containers</EM4>, and a <EM4>handheld tractor beam</EM4> to move them around. \\n \\nUpon successful completion of this delivery, you will be promoted to a ‘trusted contractor’ status and more hauls will become available to you.     \\n\\n \\nSincerely,  \\nPetra Ling  \\nManaging Director of Cargo Operations \\nLing Family Hauling \\n\\n \\n\\n \\n\\n \\n\\nLing Family Hauling knows it’s a dangerous and unpredictable universe and has established several protocols to protect both you and our client’s cargo. To ensure you aren’t punished for circumstances outside of your control, total payment will be prorated to the percentage of cargo successfully delivered. A delivery timer will be set for each haul. Any cargo that remains undelivered upon its expiration will be flagged as stolen and treated as such. All pick-ups and deliveries must be autoloaded or done at a freight elevator.",
-      "tr": "嗨，\\n\\n我是佩特拉·玲，很荣幸能为你提供与玲家快递合作的新机会。我爸妈当初开这家公司，就是想在十字军这一带做又快又稳的快递服务，结果一炮而红，名气越大，生意也越做越大。\\n\\n现在，在我的管理下，玲家快递即将迈出新的重要一步——开展货运业务。这项新服务的需求增长速度超出了我的预期，这对我们双方来说都是好消息。\\n\\n如果你一直想从事货运行业，那么这个机会能帮你实现梦想。实践是最好的学习方式，我正好有一单 <EM4>[ITEM]</EM4> 需要从 <EM4>[LOCATION]</EM4> 运到 <EM4>[DESTINATION]</EM4>。\\n\\n虽然不需要有相关经验，但有以下几点需要注意：所有提货和交付都必须通过货运电梯完成，或者使用自动装载。你需要有一艘能装得下最大 <EM4>[MAX_SCU] 尺寸集装箱</EM4>的飞船，并且需要配备<EM4>手持式牵引光束</EM4>来搬运货物。\\n\\n如果这次运输任务顺利完成，你将被提升为“值得信赖承包商”，之后会有更多的运输任务等着你。\n\n此致，\\n佩特拉·玲\\n货运运营总经理\\n玲家快递\n\n玲家快递深知宇宙危险莫测，因此制定了多项协议，以保护你和客户货物的安全。为确保你不会因不可控因素受罚，总报酬将按成功交付的货物比例计算。每趟运输都会设置交付倒计时，倒计时结束时仍未交付的货物将被标记为被盗，并按盗窃处理。所有取货和送货必须通过自动装载或货运电梯完成。\n\n\n- 幽魂Spectre [量子 S1 隐形 A]\\n- 和风Zephyr [量子 S1 隐形 B]\\n- 雷电Bolt [量子 S2 隐形 B]\\n- 刺针Spicule [量子 S2 隐形 A]\\n- 守卫Guardian [护盾 S1 工业 B]\\n- 要塞Citadel [护盾 S2 工业 B]\\n- 外堡Barbican [护盾 S3 工业 B]"
+      "tr": "嗨，\\n\\n我是佩特拉·玲，很荣幸能为你提供与玲家快递合作的新机会。我爸妈当初开这家公司，就是想在十字军这一带做又快又稳的快递服务，结果一炮而红，名气越大，生意也越做越大。\\n\\n现在，在我的管理下，玲家快递即将迈出新的重要一步 —— 开展货运业务。这项新服务的需求增长速度超出了我的预期，这对我们双方来说都是好消息。\\n\\n如果你一直想从事货运行业，那么这个机会能帮你实现梦想。实践是最好的学习方式，我正好有一单 <EM4>[ITEM]</EM4> 需要从 <EM4>[LOCATION]</EM4> 运到 <EM4>[DESTINATION]</EM4>。\\n\\n虽然不需要有相关经验，但有以下几点需要注意：所有提货和交付都必须通过货运电梯完成，或者使用自动装载。你需要有一艘能装得下最大 <EM4>[MAX_SCU] 尺寸集装箱</EM4>的飞船，并且需要配备<EM4>手持式牵引光束</EM4>来搬运货物。\\n\\n如果这次运输任务顺利完成，你将被提升为“值得信赖承包商”，之后会有更多的运输任务等着你。\n\n此致，\\n佩特拉·玲\\n货运运营总经理\\n玲家快递\n\n玲家快递深知宇宙危险莫测，因此制定了多项协议，以保护你和客户货物的安全。为确保你不会因不可控因素受罚，总报酬将按成功交付的货物比例计算。每趟运输都会设置交付倒计时，倒计时结束时仍未交付的货物将被标记为被盗，并按盗窃处理。所有取货和送货必须通过自动装载或货运电梯完成。\n\n\n- 幽魂Spectre [量子 S1 隐形 A]\\n- 和风Zephyr [量子 S1 隐形 B]\\n- 雷电Bolt [量子 S2 隐形 B]\\n- 刺针Spicule [量子 S2 隐形 A]\\n- 守卫Guardian [护盾 S1 工业 B]\\n- 要塞Citadel [护盾 S2 工业 B]\\n- 外堡Barbican [护盾 S3 工业 B]"
     },
     "LingFamily_HaulCargo_MultiToSingle_desc_Party": {
       "en": "Hi, \\n\\nGuess the folks at <EM4>[DESTINATION]</EM4> are planning a party and need help acquiring everything in a timely manner. You’ll need to make multiple pick-ups for this one, including one in Nyx to grab some Jynx gin. Not sure if you’ve ever had the stuff, but it’s a Nyx specialty. Some folks can’t get past that it glows pink, but I love it. Got a truly unique kick to it.\\n\\nHere are the pick ups:  \\n\\nPICK UP LOCATIONS (ANY ORDER) \\n\\n- [LOCATION 1]\n- [LOCATION 2]     \\n\\nPlease remember to bring a <EM4>handheld tractor beam</EM4>, as you’ll be handling cargo containers up to <EM4>2 SCU</EM4>.  \\n\\n  \\nHappy Hauling,  \\nReyes Ling \\nCargo Logistics Coordinator \\nLing Family Hauling\\n\\nLing Family Hauling knows it’s a dangerous and unpredictable universe and has established several protocols to protect both you and our client’s cargo. To ensure you aren’t punished for circumstances outside of your control, total payment will be prorated to the percentage of cargo successfully delivered. A delivery timer will be set for each haul. Any cargo that remains undelivered upon its expiration will be flagged as stolen and treated as such. All pick-ups and deliveries must be autoloaded or done at a freight elevator.",
-      "tr": "嗨，\\n\\n<EM4>[DESTINATION]</EM4> 那帮人估计是准备要开派对了，急着把东西凑齐。你得跑好几个地方提货，其中一个还得去尼克斯拿点“金克斯金酒”——你没喝过吧？那可是尼克斯的招牌，有人嫌它粉嘟嘟地发光，但我超爱，就爱喝那一口独特的劲道。\\n\\n以下是取货地点：\\n\\n取货地点（任意顺序）\\n\\n[MULTITOSINGLETOKEN]\\n\\n别忘了带上<EM4>手持式牵引光束</EM4>，集装箱最大能到 <EM4>[MAX_SCU] 尺寸</EM4>，没它真搞不定。\n\n运货顺利，\\n雷耶斯·玲\\n货运物流协调员\\n玲家快递\n\n玲家快递深知宇宙危险莫测，因此制定了多项协议，以保护你和客户货物的安全。为确保你不会因不可控因素受罚，总报酬将按成功交付的货物比例计算。每趟运输都会设置交付倒计时，倒计时结束时仍未交付的货物将被标记为被盗，并按盗窃处理。所有取货和送货必须通过自动装载或货运电梯完成。\n\n\n- 幽魂Spectre [量子 S1 隐形 A]\\n- 和风Zephyr [量子 S1 隐形 B]\\n- 雷电Bolt [量子 S2 隐形 B]\\n- 刺针Spicule [量子 S2 隐形 A]\\n- 守卫Guardian [护盾 S1 工业 B]\\n- 要塞Citadel [护盾 S2 工业 B]\\n- 外堡Barbican [护盾 S3 工业 B]"
+      "tr": "嗨，\\n\\n<EM4>[DESTINATION]</EM4> 那帮人估计是准备要开派对了，急着把东西凑齐。你得跑好几个地方提货，其中一个还得去尼克斯拿点“金克斯金酒” —— 你没喝过吧？那可是尼克斯的招牌，有人嫌它粉嘟嘟地发光，但我超爱，就爱喝那一口独特的劲道。\\n\\n以下是取货地点：\\n\\n取货地点（任意顺序）\\n\\n[MULTITOSINGLETOKEN]\\n\\n别忘了带上<EM4>手持式牵引光束</EM4>，集装箱最大能到 <EM4>[MAX_SCU] 尺寸</EM4>，没它真搞不定。\n\n运货顺利，\\n雷耶斯·玲\\n货运物流协调员\\n玲家快递\n\n玲家快递深知宇宙危险莫测，因此制定了多项协议，以保护你和客户货物的安全。为确保你不会因不可控因素受罚，总报酬将按成功交付的货物比例计算。每趟运输都会设置交付倒计时，倒计时结束时仍未交付的货物将被标记为被盗，并按盗窃处理。所有取货和送货必须通过自动装载或货运电梯完成。\n\n\n- 幽魂Spectre [量子 S1 隐形 A]\\n- 和风Zephyr [量子 S1 隐形 B]\\n- 雷电Bolt [量子 S2 隐形 B]\\n- 刺针Spicule [量子 S2 隐形 A]\\n- 守卫Guardian [护盾 S1 工业 B]\\n- 要塞Citadel [护盾 S2 工业 B]\\n- 外堡Barbican [护盾 S3 工业 B]"
     },
     "Headhunters_HaulCargo_AToB_OLP_Illegal_desc_01": {
       "en": "Need someone to snag some cargo for us. We were using an old Hathor PAF for dead drops, but a local gang has dug in and we can’t get our shit.\\n\\nIf you feel like kicking some ass, grab the cargo from the freight elevator at <EM4>[LOCATION]</EM4> and deliver it to the freight elevator at <EM4>[DESTINATION]</EM4>. \\n\\nFrom what I’ve heard this place is full of all sorts. Won’t be easy getting out stuff back, but that’s what we’re paying you for.\\n\\nJust make sure you got a ship that can handle a <EM4>32 SCU</EM4> load, and try not to get shot in the process. A <EM4>handheld tractor beam</EM4> would also be smart to bring along. \\n\\nStows out.",
@@ -4001,15 +4049,15 @@
     },
     "DeadSaints_RecoverCargo_Easy_Description": {
       "en": "You know when you ask someone a question and you have a feeling they’re lying, but you choose to give them the benefit of the doubt? Yeah. That’s what I’m dealing with right now.\\n\\nTwo “expert” haulers I hired to transport some gear for me ran into some trouble and ended up ditching my goods over at <EM4>[LOCATION]</EM4>. Needless to say, I’ve ordered a hit on them, but what I need from you is to go recover that cargo. The tracker says the cargo’s still on the ship, so you’ll just need a <EM4>a heavy-duty tractor beam</EM4> and your own ship to recover it.\\n\\nYou might run into a couple of scavengers lurking around there, but I doubt you’ll have any trouble with them.\\n\\nWhen you’re done, take the stuff to <EM4>[DESTINATION]</EM4> and I’ll sort you out with a reward.\\n\\n-Twitch",
-      "tr": "你有没有过那种感觉——问别人问题时，明明觉得他在撒谎，可你还是选择信他一回？对，我现在就处在这种状况。\\n\\n我雇了两个自称“专家”的运输工，帮我运点货，结果他们半路出事，直接把我的货扔在了 <EM4>[LOCATION]</EM4>。不用说，我已经下了追杀令，但现在我需要你去把那批货给捞回来。追踪器显示货还在船上，你只需要带个<EM4>重型牵引光束</EM4>和你自己的船，直接去拖走就行。\\n\\n可能会有几个捡破烂的在那边晃荡，不过我觉得你应付起来应该不费劲。\\n\\n搞定之后，把货送到 <EM4>[DESTINATION]</EM4>，报酬少不了你的。\\n\\n- 刺痛"
+      "tr": "你有没有过那种感觉 —— 问别人问题时，明明觉得他在撒谎，可你还是选择信他一回？对，我现在就处在这种状况。\\n\\n我雇了两个自称“专家”的运输工，帮我运点货，结果他们半路出事，直接把我的货扔在了 <EM4>[LOCATION]</EM4>。不用说，我已经下了追杀令，但现在我需要你去把那批货给捞回来。追踪器显示货还在船上，你只需要带个<EM4>重型牵引光束</EM4>和你自己的船，直接去拖走就行。\\n\\n可能会有几个捡破烂的在那边晃荡，不过我觉得你应付起来应该不费劲。\\n\\n搞定之后，把货送到 <EM4>[DESTINATION]</EM4>，报酬少不了你的。\\n\\n- 刺痛"
     },
     "CFP_ShipWaveAttack_ClearHostiles_Desc_E_001": {
-      "en": "To help protect our pilots, Citizens for Prosperity will often recommend the use of less traditional routes through the system. However, it seems that a gang of outlaws has gotten word and has begun to stage repeated ambushes along one such flightpath. Rather than just go around the problem and risk it persisting along the new route, we feel it we be prudent to meet these outlaws head on.\\n\\nYou and whatever support ships you enlist will head to [LOCATION] and neutralize any hostiles you find laying in wait there. They have been known to operate in smaller packs, so it's vital that you wait until all of the hostiles have been dealt with.\\n\\nYour assistance is much appreciated,\\nLima Endicott\\nLead Dispatcher\\nCitizens for Prosperity",
-      "tr": "为保护我方飞行员，繁荣公民常建议采用星系内不那么传统的航线。然而，似乎一伙不法分子已获悉此事，并开始在其中一条航线上反复设伏。与其绕行避险、任其隐患蔓延至新路线，我们更倾向于正面迎击这些不法分子。\\n\\n你及你召集来的支援飞船需要前往 [LOCATION]，清除所有埋伏于此的敌对势力。据知，他们惯以小股编队行动，因此务必确保全部敌人都已被歼灭后方可撤离。\\n\\n非常感谢您的帮助，\\n利玛·恩迪科特\\n首席调度员\\n繁荣公民"
+      "en": "To help protect our pilots, Citizens for Prosperity will often recommend the use of less traditional routes through the system. However, it seems that a gang of outlaws has gotten word and has begun to stage <EM4>repeated ambushes</EM4> along one such flightpath. Rather than just go around the problem and risk it persisting along the new route, we feel it we be prudent to meet these outlaws head on.\\n\\nYou and whatever support ships you enlist will head to <EM4>[LOCATION]</EM4> and neutralize any hostiles you find laying in wait there. They have been known to operate in smaller packs, so it's vital that you wait until all of the hostiles have been dealt with.\\n\\nYour assistance is much appreciated,\\nLima Endicott\\nLead Dispatcher\\nCitizens for Prosperity",
+      "tr": "为保护我方飞行员，繁荣公民常建议采用星系内不那么传统的航线。然而，似乎一伙不法分子已获悉此事，并开始在其中一条航线上<EM4>反复设伏</EM4>。与其绕行避险、任其隐患蔓延至新路线，我们更倾向于正面迎击这些不法分子。\\n\\n你及你召集来的支援飞船需要前往 <EM4>[LOCATION]</EM4>，清除所有埋伏于此的敌对势力。据知，他们惯以小股编队行动，因此务必确保全部敌人都已被歼灭后方可撤离。\\n\\n非常感谢您的帮助，\\n利玛·恩迪科特\\n首席调度员\\n繁荣公民"
     },
     "headhunters_sabotage_servers_E_CFP_desc_001": {
       "en": "Long story, short - a Headhunter messed up real bad and now Citizens for Prosperity has gotten their hands on some data that could really do some damage to us. \\n\\nThe bastard is going to need some time to heal so that leaves it to you to clean up the mess. Can you go to [LOCATION] and destroy the servers they got stored there? I wanna make sure there's no chance of this info getting out there.\\n\\n-Stows out",
-      "tr": "长话短说——有个猎头帮成员搞砸了，现在繁荣公民手里有一些可能对我们造成严重损害的数据。\\n\\n那个家伙需要一些时间来恢复，所以这就得由你来收拾这个烂摊子。你能去 [LOCATION] 把他们存放的服务器砸了吗？我想确保这些信息绝对不会泄露出去。\\n\\n- 斯托斯通讯完毕。"
+      "tr": "长话短说 —— 有个猎头帮成员搞砸了，现在繁荣公民手里有一些可能对我们造成严重损害的数据。\\n\\n那个家伙需要一些时间来恢复，所以这就得由你来收拾这个烂摊子。你能去 [LOCATION] 把他们存放的服务器砸了吗？我想确保这些信息绝对不会泄露出去。\\n\\n- 斯托斯通讯完毕。"
     },
     "eckhart_defendship_multi_VHRT_SB_desc_001": {
       "en": "ECKHART SECURITY, LLC.\\nCONTRACTS & DISPATCH\\n\\nCONTRACT TYPE: Defend Ship\\nAPPROVAL CODE = [APPROVAL_CODE]\\n\\nFOR IMMEDIATE PROCESSING\\n\\nA longtime client needs combat support at <EM4>[LOCATION]</EM4> as fast as we can get it there. Any chance you’re interested and available? \\n\\nThis client can hold their own in a dogfight, so they must be up against seriously skilled fighters to have put out this call. Don’t make the mistake of heading there thinking that this is going to be easy. \\n\\nPayment will be issued upon successful completion of contract.\\n\\nThis contract is non-negotiable.\\n\\nThis message may contain confidential, proprietary, privileged and/or private information. The information is intended to be for the use of the individual or entity designated above.",
@@ -4045,7 +4093,7 @@
     },
     "GFS_ShipWaveAttack_Mission04_Desc": {
       "en": "Congrats on completing part three of this eight-part course.\\n\\nGood combat pilots know not all threats are apparent. It’s the threats you don’t expect that can be the most devastating. Scenario four is focused on how to identify and deal with stealth targets. Hopefully by the end, you’ll understand just how important your radar is in determining who you’re really up against. Expect to have regular and stealth ships hunting you down.    \\n\\nMake your way to <EM4>[LOCATION]</EM4> whenever you’re ready, and remember to keep your eyes on your radar.\\n\\nAs a bonus, successful completion of the scenario will net the original contractor holder an award of <EM4>10 MG Scrip</EM4>.\\n\\nTRICKS OF THE TRADE:\\n- Surprise Attacks - Pinging your surroundings can sometimes reveal hidden ships. Be ready for contacts to show up unexpectedly.\\n\\nGood luck out there, \\nInstructor Gilly     \\n\\nABOUT GILLY’S FLIGHT SCHOOL  \\nInstructor Lucas “Gilly” Baramsco has served in six squadrons and has over ten years of teaching experience. Whether a student with zero flight experience or a professional looking to polish their skills, Gilly Flight School offers a variety of courses to “Launch Your Piloting Career.”",
-      "tr": "恭喜完成八节课程的第三部分。\\n\\n优秀飞行员都明白：真正的威胁往往藏于暗处。场景 4 将重点训练如何应对隐形目标。课程结束时，你会深刻体会到雷达在识别敌情时的重要性——本次你将同时遭遇常规飞船和隐身飞船的围剿。\\n\\n准备就绪后前往 <EM4>[LOCATION]</EM4> ，切记时刻关注雷达动向。\\n\\n作为奖励，成功完成该场景后，原始合约持有人将获得 <EM4>[SCRIPAMOUNT] 个雇佣兵公会凭证</EM4>。\\n\\n实战技巧：\\n- 反隐侦查 - 主动扫描周围空域可能发现隐藏目标，随时做好遭遇突发敌情的准备。\\n\\n祝你好运，\\n教练吉利\n\n关于吉利飞行学院\\n教练卢卡斯·“吉利”·巴拉姆斯科曾在六个飞行中队服役，拥有超过十年的教学经验。无论是零飞行经验的学生，还是希望提升技能的专业人士，吉利飞行学院都提供多种课程，帮助“开启你的飞行生涯”。"
+      "tr": "恭喜完成八节课程的第三部分。\\n\\n优秀飞行员都明白：真正的威胁往往藏于暗处。场景 4 将重点训练如何应对隐形目标。课程结束时，你会深刻体会到雷达在识别敌情时的重要性 —— 本次你将同时遭遇常规飞船和隐身飞船的围剿。\\n\\n准备就绪后前往 <EM4>[LOCATION]</EM4> ，切记时刻关注雷达动向。\\n\\n作为奖励，成功完成该场景后，原始合约持有人将获得 <EM4>[SCRIPAMOUNT] 个雇佣兵公会凭证</EM4>。\\n\\n实战技巧：\\n- 反隐侦查 - 主动扫描周围空域可能发现隐藏目标，随时做好遭遇突发敌情的准备。\\n\\n祝你好运，\\n教练吉利\n\n关于吉利飞行学院\\n教练卢卡斯·“吉利”·巴拉姆斯科曾在六个飞行中队服役，拥有超过十年的教学经验。无论是零飞行经验的学生，还是希望提升技能的专业人士，吉利飞行学院都提供多种课程，帮助“开启你的飞行生涯”。"
     },
     "GFS_ShipWaveAttack_Mission05_Desc": {
       "en": "Congrats on completing part four of this eight-part course.   \\n\\nThe fifth scenario focuses on defensive tactics. Knowing when to take evasive measures and deploy either decoys or noise countermeasures is essential to your survival. That’s why the aggressors in this exercise will be armed with missiles.   \\n\\nEnsure your countermeasures are fully stocked and then go to <EM4>[LOCATION]</EM4> to start.\\n\\nAs a bonus, successful completion of the scenario will net the original contractor holder an award of <EM4>12 MG Scrip</EM4>.\\n\\nTRICKS OF THE TRADE:\\n- Ready to Launch - Easy access to your decoys and countermeasures can be critical in your success in dealing with incoming missile fire. \\n- Stand and Fight - Resist the temptation to hit the afterburner to escape as you’ll increase your signature and make it easier for the missile to hit you. They’re almost certainly much faster than you anyway.\\n- Close the Gap – While it may seem counterintuitive, getting closer to an enemy ship can be an advantage. Missiles have a minimum range and if you’re inside of it they won’t be able to get a lock on you.\\n\\nGood luck out there, \\nInstructor Gilly     \\n\\nABOUT GILLY’S FLIGHT SCHOOL  \\nInstructor Lucas “Gilly” Baramsco has served in six squadrons and has over ten years of teaching experience. Whether a student with zero flight experience or a professional looking to polish their skills, Gilly Flight School offers a variety of courses to “Launch Your Piloting Career.”",
@@ -4053,15 +4101,15 @@
     },
     "GFS_ShipWaveAttack_Mission06_Desc": {
       "en": "Congrats on completing part five of this eight-part course.\\n\\nI’m bringing out the big guns for scenario six. Time for you to go up against larger, multi-crewed ships, which provide a few new challenges. Not only will you have to contend with their enhanced firepower but their multifaceted shields means you’ll have to target one shield face continually to do real damage. Easier said than done when both of y’all are moving at such fast speeds.      \\n\\nFind your way to <EM4>[LOCATION]</EM4> whenever you're ready.\\n\\nAs a bonus, successful completion of the scenario will net the original contractor holder an award of <EM4>14 MG Scrip</EM4>. \\n\\nTRICKS OF THE TRADE:\\n- Size Advantage – When going up against a larger ship, try to stay away from their front as typically this is where the majority of their offensive fire is located. \\n\\nGood luck out there, \\nInstructor Gilly     \\n\\nABOUT GILLY’S FLIGHT SCHOOL   \\nInstructor Lucas “Gilly” Baramsco has served in six squadrons and has over ten years of teaching experience. Whether a student with zero flight experience or a professional looking to polish their skills, Gilly Flight School offers a variety of courses to “Launch Your Piloting Career.”",
-      "tr": "恭喜完成八节课程的第五部分。\\n\\n场景 6 要动真格了——你将面对大型多船员飞船。这些巨兽带来全新挑战：不仅要应付凶猛火力，其多面护盾系统更要求你持续攻击同一面护盾才能造成有效伤害。在高速机动中保持精准攻击可不容易。\\n\\n准备就绪后，请前往 <EM4>[LOCATION]</EM4> 开始训练。\\n\\n作为奖励，成功完成该场景后，原始合约持有人将获得 <EM4>[SCRIPAMOUNT] 个雇佣兵公会凭证</EM4>。\\n\\n实战技巧：\\n- 尺寸优势 - 对抗大型飞船时，尽量避开正前方，那里通常是主武器集中区域\\n\\n祝你好运，\\n教练吉利\n\n关于吉利飞行学院\\n教练卢卡斯·“吉利”·巴拉姆斯科曾在六个飞行中队服役，拥有超过十年的教学经验。无论是零飞行经验的学生，还是希望提升技能的专业人士，吉利飞行学院都提供多种课程，帮助“开启你的飞行生涯”。"
+      "tr": "恭喜完成八节课程的第五部分。\\n\\n场景 6 要动真格了 —— 你将面对大型多船员飞船。这些巨兽带来全新挑战：不仅要应付凶猛火力，其多面护盾系统更要求你持续攻击同一面护盾才能造成有效伤害。在高速机动中保持精准攻击可不容易。\\n\\n准备就绪后，请前往 <EM4>[LOCATION]</EM4> 开始训练。\\n\\n作为奖励，成功完成该场景后，原始合约持有人将获得 <EM4>[SCRIPAMOUNT] 个雇佣兵公会凭证</EM4>。\\n\\n实战技巧：\\n- 尺寸优势 - 对抗大型飞船时，尽量避开正前方，那里通常是主武器集中区域\\n\\n祝你好运，\\n教练吉利\n\n关于吉利飞行学院\\n教练卢卡斯·“吉利”·巴拉姆斯科曾在六个飞行中队服役，拥有超过十年的教学经验。无论是零飞行经验的学生，还是希望提升技能的专业人士，吉利飞行学院都提供多种课程，帮助“开启你的飞行生涯”。"
     },
     "GFS_ShipWaveAttack_Mission07_Desc": {
       "en": "Congrats on completing part six of this eight-part course.\\n\\nYou’ve gained a lot of experience across the past six scenarios, and now it’s time to put it all to practice. Scenario seven puts you up against a corvette-class ship and its escorts. This extended encounter will push you to the limit and test everything you got.   \\n\\nThe only thing left is to understand the limit of your skillset. To put it simply, you can’t do everything yourself. Developing and maintaining relationships with fellow pilots that you can call upon for support is really the last piece of the puzzle. Not saying you can't overcome encounters like this by yourself, but even the Navy doesn’t send their ace pilots on a patrol alone.    \\n\\nOnce you decided whether to do this alone or call in some support, head over to <EM4>[LOCATION]</EM4> to kick off the encounter.\\n\\nAs a bonus, successful completion of the scenario will net the original contractor holder an award of <EM4>16 MG Scrip</EM4>.\\n\\nTRICKS OF THE TRADE\\n- Strength in Diversity – Think about the roles your allies will be filling and choose who to bring carefully to help balance strengths and weaknesses. You’ll want ships capable of taking on the Corvette while others deal with the escort.\\n\\nGood luck out there, \\nInstructor Gilly     \\n\\nABOUT GILLY’S FLIGHT SCHOOL   \\nInstructor Lucas “Gilly” Baramsco has served in six squadrons and has over ten years of teaching experience. Whether a student with zero flight experience or a professional looking to polish their skills, Gilly Flight School offers a variety of courses to “Launch Your Piloting Career.”",
-      "tr": "恭喜完成八节课程的第六部分。\\n\\n经过前六个场景训练，现在是检验成果的时候了。第七课将让你直面一艘护卫舰级飞船及其护航编队。这场持久战会把你逼到极限，全面考验所学技能。\\n\\n现在只剩最后一项要领悟：个人能力的极限。说白了，单打独斗总有尽头。发展和维护与其他飞行员的关系，能在关键时刻呼叫支援，才是终极解决方案。当然独狼也能完成任务——但就连海军也从不让王牌飞行员单独出勤。\\n\\n决定好单干还是呼叫支援后，请前往 <EM4>[LOCATION]</EM4> 开始战斗。\\n\\n作为奖励，成功完成该场景后，原始合约持有人将获得 <EM4>[SCRIPAMOUNT] 个雇佣兵公会凭证</EM4>。\\n\\n实战技巧：\\n- 优势互补 - 慎重选择援军阵容，确保有人牵制护卫舰时，其他人能解决护航舰队。合理搭配各舰职能才能扬长避短。\\n\\n祝你好运，\\n教练吉利\n\n关于吉利飞行学院\\n教练卢卡斯·“吉利”·巴拉姆斯科曾在六个飞行中队服役，拥有超过十年的教学经验。无论是零飞行经验的学生，还是希望提升技能的专业人士，吉利飞行学院都提供多种课程，帮助“开启你的飞行生涯”。"
+      "tr": "恭喜完成八节课程的第六部分。\\n\\n经过前六个场景训练，现在是检验成果的时候了。第七课将让你直面一艘护卫舰级飞船及其护航编队。这场持久战会把你逼到极限，全面考验所学技能。\\n\\n现在只剩最后一项要领悟：个人能力的极限。说白了，单打独斗总有尽头。发展和维护与其他飞行员的关系，能在关键时刻呼叫支援，才是终极解决方案。当然独狼也能完成任务 —— 但就连海军也从不让王牌飞行员单独出勤。\\n\\n决定好单干还是呼叫支援后，请前往 <EM4>[LOCATION]</EM4> 开始战斗。\\n\\n作为奖励，成功完成该场景后，原始合约持有人将获得 <EM4>[SCRIPAMOUNT] 个雇佣兵公会凭证</EM4>。\\n\\n实战技巧：\\n- 优势互补 - 慎重选择援军阵容，确保有人牵制护卫舰时，其他人能解决护航舰队。合理搭配各舰职能才能扬长避短。\\n\\n祝你好运，\\n教练吉利\n\n关于吉利飞行学院\\n教练卢卡斯·“吉利”·巴拉姆斯科曾在六个飞行中队服役，拥有超过十年的教学经验。无论是零飞行经验的学生，还是希望提升技能的专业人士，吉利飞行学院都提供多种课程，帮助“开启你的飞行生涯”。"
     },
     "GFS_ShipWaveAttack_Mission08_Desc": {
       "en": "Welcome to the final scenario of the Combat Gauntlet.\\n\\nThroughout this course, you’ve gotten to experience the advanced combat and defensive tactics needed to survive a variety of encounters. Time to take all those new skills and knowledge and see how they hold up against a large capital vessel and some escort ships.\\n\\nYou know the drill by now. Once you and all your allies are set, find your way to <EM4>[LOCATION]</EM4> to see how you do when truly pushed to the limits.\\n\\nAs a bonus, successful completion of the scenario will net the original contractor holder an award of <EM4>20 MG Scrip</EM4>.\\n\\nTRICKS OF THE TRADE\\n- Patience is a Virtue – If you’ve balanced your squadron properly, you should be able to come out on top, just don’t expect it to be a quick fight. Ships this big don’t go down quickly.\\n\\nGood luck out there, \\nInstructor Gilly     \\n\\nABOUT GILLY’S FLIGHT SCHOOL   \\nInstructor Lucas “Gilly” Baramsco has served in six squadrons and has over ten years of teaching experience. Whether a student with zero flight experience or a professional looking to polish their skills, Gilly Flight School offers a variety of courses to “Launch Your Piloting Career.”",
-      "tr": "欢迎来到战斗挑战的最终场景。\\n\\n通过本课程，你已掌握在各种遭遇战中生存所需的进阶战斗与防御技巧。现在是将所学融会贯通的时刻——直面一艘主力舰及其护航编队的终极考验。\\n\\n老规矩，当你和僚机准备就绪后，前往 <EM4>[LOCATION]</EM4> 看看当你被逼到极限时候的表现。\\n\\n作为奖励，成功完成该场景后，原始合约持有人将获得 <EM4>[SCRIPAMOUNT] 个雇佣兵公会凭证</EM4>。\\n\\n实战技巧：\\n- 耐心制胜 - 只要编队配置合理，胜利终将属于你。但要做好持久战准备，击沉巨舰从来不是速战速决的事。\\n\\n祝你好运，\\n教练吉利\n\n关于吉利飞行学院\\n教练卢卡斯·“吉利”·巴拉姆斯科曾在六个飞行中队服役，拥有超过十年的教学经验。无论是零飞行经验的学生，还是希望提升技能的专业人士，吉利飞行学院都提供多种课程，帮助“开启你的飞行生涯”。"
+      "tr": "欢迎来到战斗挑战的最终场景。\\n\\n通过本课程，你已掌握在各种遭遇战中生存所需的进阶战斗与防御技巧。现在是将所学融会贯通的时刻 —— 直面一艘主力舰及其护航编队的终极考验。\\n\\n老规矩，当你和僚机准备就绪后，前往 <EM4>[LOCATION]</EM4> 看看当你被逼到极限时候的表现。\\n\\n作为奖励，成功完成该场景后，原始合约持有人将获得 <EM4>[SCRIPAMOUNT] 个雇佣兵公会凭证</EM4>。\\n\\n实战技巧：\\n- 耐心制胜 - 只要编队配置合理，胜利终将属于你。但要做好持久战准备，击沉巨舰从来不是速战速决的事。\\n\\n祝你好运，\\n教练吉利\n\n关于吉利飞行学院\\n教练卢卡斯·“吉利”·巴拉姆斯科曾在六个飞行中队服役，拥有超过十年的教学经验。无论是零飞行经验的学生，还是希望提升技能的专业人士，吉利飞行学院都提供多种课程，帮助“开启你的飞行生涯”。"
     },
     "EckhartSecurity_EliminateAll_storm_data_H_desc_001": {
       "en": "ECKHART SECURITY, LLC.\\nCONTRACTS & DISPATCH\\n\\nCONTRACT TYPE: Clear Location\\nAPPROVAL CODE = [APPROVAL_CODE]\\n\\nFOR IMMEDIATE PROCESSING\\n\\nUrgent request came in from Associated Science & Development to provide combat support at [LOCATION]. Apparently they have been attacked by outlaws and their security forces have been unable to handle it on their own. \\n\\nYou've been cleared to go on site and aide local security elements in taking out the outlaws, but ASD reserves the right to restrict you from certain areas.\\n\\nThis is a confirmed combat op, so prepare accordingly.\\n\\nThis contract is non-negotiable.\\n\\nThis message may contain confidential, proprietary, privileged and/or private information. The information is intended to be for the use of the individual or entity designated above.",
@@ -4086,6 +4134,10 @@
     "cfp_defendship_multi_VHRT_SB_desc_001": {
       "en": "We’ve lost contact with a supply convoy and are concerned it might be under attack. Last comm we received from them reported Shattered Blade ships were incoming, but haven’t heard anything since. Are you free to hurry to <EM4>[LOCATION]</EM4> and support our forces? \\n\\nWe’ve come to learn that the Shattered Blade are very protective of their hunting grounds. Our last few encounters with them were quite intense, so I’d recommend bringing some heavy firepower.   \\n\\nLima Endicott\\nLead Dispatcher\\nCitizens for Prosperity",
       "tr": "我们与一支物资运输队失去了联系，担心他们可能正遭到攻击。我们最后收到的消息说，碎刃帮的飞船正在逼近，但从那以后就再没消息了。你现在有空的话，能赶紧赶到 <EM4>[LOCATION]</EM4> 支援我们的部队吗？\\n\\n我们了解到，碎刃帮对他们狩猎地的保护非常严，最近几次和他们交手都挺激烈的，所以建议你带上足够的重火力。\\n\\n利玛·恩迪科特\\n首席调度员\\n繁荣公民\n\n\n- R97 霰弹枪 R97 Shotgun\\n- 蒙德 臂甲 Monde Arms\\n- 蒙德 胸甲 Monde Core\\n- 蒙德 腿甲 Monde Legs\\n- 蒙德 头盔 Monde Helmet\\n- 蒙德 臂甲 弘 Monde Arms Hiro\\n- 蒙德 胸甲 弘 Monde Core Hiro\\n- 蒙德 腿甲 弘 Monde Legs Hiro\\n- 蒙德 头盔 弘 Monde Helmet Hiro\\n- R97 霰弹枪弹匣 (18 发) R97 Shotgun Magazine (18 cap)"
+    },
+    "Intersec_ShipWaveAttack_VH_Van_Desc_001": {
+      "en": "MISSION SPECS\\n\\nArea of Operation: Nyx System \\nHostile Forces: Vanduul\\nEquipment Specs: Combat-rated ship\\nBriefing:\\n\\nIntersec has been tasked with organizing a counterstrike at <EM4>[LOCATION]</EM4> against Vanduul raiders responsible for a number of fast-strike attacks on commercial convoys. \\n\\nScanner intel suggests the Vanduul have yet to reveal the true size of their attack wing. Be prepared to face  reinforcements after your initial contact.\\n\\nRespectfully,   \\n\\nDeacon Tobin \\nOperations Manager \\nInterSec Defense Solutions  \\n\\nThis communication consists of confidential information solely intended for the recipient. Please disregard if received in error and notify the sender. All operations are conducted at the contractor’s own personal risk and must adhere to UEE and system law where applicable.",
+      "tr": "任务说明\\n\\n行动区域：尼克斯星系\\n敌对势力：剜度\\n装备规格：战斗级飞船\\n任务简报：\\n\\n互安防务接到任务，要在 <EM4>[LOCATION]</EM4> 组织一次反击，打击那些对商业运输队发动多次快速突袭的剜度劫掠者。\\n\\n扫描情报显示，剜度还没展露他们攻击机群的真正规模。初次交锋之后，要做好迎战援军的准备。\\n\\n此致，\\n\\n迪肯·托宾\\n运营经理\\n互安防务\\n\\n本通信内容包含机密内容，仅限收件人阅读。如误收请忽略并通知发件人。所有行动均由承包商自行承担风险，并须遵守适用的 UEE 及星系法律。"
     },
     "spacecollect_cargo_desc_VE_01": {
       "en": "RED WIND LINEHAUL\\n'YOUR GOODS IN GOOD HANDS'\\n----------------------------\\n\\nA contractor of ours has run into some trouble and abandoned their ship over at <EM4>[LOCATION]</EM4>. We need someone to head to their ship, pick up the package they left there, and finish the job.\\n\\nPACKAGES TO RECOVER\\n     · <EM4>1x [ITEM1]</EM4>\\n\\nDROP OFF LOCATION\\n     · Deliver to <EM4>[DESTINATION]</EM4>\\n\\nWe’re currently uncertain as to why they failed to complete the contract, so be cautious when approaching the ship.\\n\\nTAKE PRIDE IN YOUR WORK – Even as a contractor you are representing Red Wind Linehaul. Do not intentionally do anything to harm the company’s reputation.",
@@ -4225,7 +4277,7 @@
     },
     "Eckhart_ShipAmbush_VH_desc": {
       "en": "ECKHART SECURITY, LLC.\\nCONTRACTS & DISPATCH\\n\\nCONTRACT TYPE: Ship Ambush\\nAPPROVAL CODE = [APPROVAL_CODE]\\n\\nFOR IMMEDIATE PROCESSING\\n\\nA high profile client recently lost an important shipment when a pilot double-crossed them and ran off with their product. After weeks of hunting we’ve discovered that they were connected with an outlaw pack, so the client is looking to us to deter similar future issues from arising. The ultimate target is the pilot of a <EM4>[TARGET]</EM4>, who leads the crew responsible. This won’t be easy. They don’t go anywhere without escort fighters and sub-capital ships. That’s why we highly recommend that you find a trusted friend or two who can handle this with you.  \\n  \\nIntel gathered by our analysts indicates that they frequently fly by an <EM4>emission cloud</EM4> near <EM4>[LOCATION]</EM4> which would provide an excellent area to stage a surprise strike.\\n\\nPayment will be issued upon successful completion of contract. We’re also adding a bonus payment of <EM4>12 MG Scrip</EM4> that’ll go to the main contractor.\\n\\nThis contract is non-negotiable.\\n\\nThis message may contain confidential, proprietary, privileged and/or private information. The information is intended to be for the use of the individual or entity designated above.",
-      "tr": "埃克哈特安保有限公司\\n合约 & 派遣\\n\\n合约类型：飞船伏击\\n授权代码 = [APPROVAL_CODE]\\n\\n需要立即处理\\n\\n我们的一位知名客户最近遭遇了重大损失，因为一名飞行员背叛了他们并带着他们的货物逃走了。经过数周的追踪，我们发现这名飞行员与一伙不法分子有联系，所以客户希望我们能够出手，以震慑未来可能出现的类似问题。最终目标是那名驾驶 <EM4>[TARGET]</EM4> 的飞行员，他是整个团伙的头目。这事可不简单——他们出行从不单独行动，总有护航战斗机和次主力舰随行。所以我们强烈建议你找一两个信得过的朋友一起出手。\\n\\n我们的分析员收集的情报显示，他们经常经过 <EM4>[LOCATION]</EM4> 附近的一片<EM4>辐射云</EM4>，那里是发动突袭的绝佳地点。\\n\\n合约完成后立即付款。主承包商还能获得 <EM4>[SCRIPAMOUNT] 个雇佣兵凭证</EM4>的额外奖励。\\n\\n该合约不可转让。\\n\\n此消息中可能包含机密、专有、特许保密的和/或私人信息，该等资料仅供上述指定的个人或实体使用。\n\n\n\\n- 轻音SonicLite [发电 S1 隐形 C]\\n- 卷云Cirrus [发电 S2 隐形 C]\\n- 光击 I 能量加农炮 Lightstrike I Cannon\\n- 光击 II 能量加农炮 Lightstrike II Cannon\\n- 光击 III 能量加农炮 Lightstrike III Cannon\\n\\n- 德尔塔Max DeltaMax [发电 S1 隐形 B]\\n- 伽马Max GammaMax [发电 S2 隐形 B]\\n- FL-11 能量加农炮 FL-11 Cannon\\n- FL-22 能量加农炮 FL-22 Cannon\\n- FL-33 能量加农炮 FL-33 Cannon\\n\\n- 尾流Slipstream [发电 S1 隐形 A]\\n- 日蚀Eclipse [发电 S2 隐形 A]\\n- 光击 IV 能量加农炮 Lightstrike IV Cannon\\n- 光击 V 能量加农炮 Lightstrike V Cannon\\n- 光击 VI 能量加农炮 Lightstrike VI Cannon"
+      "tr": "埃克哈特安保有限公司\\n合约 & 派遣\\n\\n合约类型：飞船伏击\\n授权代码 = [APPROVAL_CODE]\\n\\n需要立即处理\\n\\n我们的一位知名客户最近遭遇了重大损失，因为一名飞行员背叛了他们并带着他们的货物逃走了。经过数周的追踪，我们发现这名飞行员与一伙不法分子有联系，所以客户希望我们能够出手，以震慑未来可能出现的类似问题。最终目标是那名驾驶 <EM4>[TARGET]</EM4> 的飞行员，他是整个团伙的头目。这事可不简单 —— 他们出行从不单独行动，总有护航战斗机和次主力舰随行。所以我们强烈建议你找一两个信得过的朋友一起出手。\\n\\n我们的分析员收集的情报显示，他们经常经过 <EM4>[LOCATION]</EM4> 附近的一片<EM4>辐射云</EM4>，那里是发动突袭的绝佳地点。\\n\\n合约完成后立即付款。主承包商还能获得 <EM4>[SCRIPAMOUNT] 个雇佣兵凭证</EM4>的额外奖励。\\n\\n该合约不可转让。\\n\\n此消息中可能包含机密、专有、特许保密的和/或私人信息，该等资料仅供上述指定的个人或实体使用。\n\n\n\\n- 轻音SonicLite [发电 S1 隐形 C]\\n- 卷云Cirrus [发电 S2 隐形 C]\\n- 光击 I 能量加农炮 Lightstrike I Cannon\\n- 光击 II 能量加农炮 Lightstrike II Cannon\\n- 光击 III 能量加农炮 Lightstrike III Cannon\\n\\n- 德尔塔Max DeltaMax [发电 S1 隐形 B]\\n- 伽马Max GammaMax [发电 S2 隐形 B]\\n- FL-11 能量加农炮 FL-11 Cannon\\n- FL-22 能量加农炮 FL-22 Cannon\\n- FL-33 能量加农炮 FL-33 Cannon\\n\\n- 尾流Slipstream [发电 S1 隐形 A]\\n- 日蚀Eclipse [发电 S2 隐形 A]\\n- 光击 IV 能量加农炮 Lightstrike IV Cannon\\n- 光击 V 能量加农炮 Lightstrike V Cannon\\n- 光击 VI 能量加农炮 Lightstrike VI Cannon"
     },
     "blackbox_recover_desc_intro_001": {
       "en": "Who we are and what we do is not important. All you gotta know is that we need things to get done and we pay people to do it.\\n\\nIf everything goes well, we don’t ever have to meet. Doesn’t that sound good?\\n\\nGot a good one to start you off, nice and simple. There’s a blackbox from a downed ship at <EM4>[LOCATION]</EM4> that we want.\\n\\nAll you have to do is take it to <EM4>[DESTINATION]</EM4> and you get paid. Easy right? Watch out for scavs, you never know what kind of weirdos are hanging around these abandoned ships.\\n\\n-Bit Zeros",
@@ -4241,7 +4293,7 @@
     },
     "DeadSaints_HaulCargo_SingleToMulti_desc_Altruciatoxin_Danger_Timed": {
       "en": "We're looking for someone discreet to move a new batch of altruciatoxin to a number of buyers . Yeah, it's illegal, but only if you get caught. \\n\\nThe shipment is at <EM4>[LOCATION]</EM4>. You'll need to take it to these drop points:\\n\\nDROP OFF LOCATIONS (ANY ORDER)\\n\\n[SINGLETOMULTITOKEN]\\n\\nBe sure your ship can carry size <EM4>8 SCU</EM4> containers, and don't forget to pack a <EM4>handheld tractor beam</EM4>. Not sure how you're planning on moving the boxes, otherwise.\\n\\n-Twitch",
-      "tr": "我们想找个人低调地把一批新到的仁木毒运给几个买家。没错，这玩意儿是违禁品，但只要不被抓谁管你？\\n\\n货在 <EM4>[LOCATION]</EM4>，你得把它送到这些交货点：\\n\\n卸货地点（任意顺序）\\n\\n[SINGLETOMULTITOKEN]\\n\\n确保你飞船能装下最大尺寸 <EM4>[MAX_SCU]</EM4> 的集装箱，别忘了带个<EM4>手持式牵引光束</EM4>——不然你打算怎么搬这些箱子？\\n\\n- 刺痛"
+      "tr": "我们想找个人低调地把一批新到的仁木毒运给几个买家。没错，这玩意儿是违禁品，但只要不被抓谁管你？\\n\\n货在 <EM4>[LOCATION]</EM4>，你得把它送到这些交货点：\\n\\n卸货地点（任意顺序）\\n\\n[SINGLETOMULTITOKEN]\\n\\n确保你飞船能装下最大尺寸 <EM4>[MAX_SCU]</EM4> 的集装箱，别忘了带个<EM4>手持式牵引光束</EM4> —— 不然你打算怎么搬这些箱子？\\n\\n- 刺痛"
     },
     "DeadSaints_HaulCargo_MultiToSingle_desc_Drugs_Danger": {
       "en": "One of our best distributors got busted in Stanton so we need a replacement. The guy was an incredible salesman, but a shit smuggler. We need someone who won't run face-first into a security patrol or a pack of pirates to pick up some merchandise at these locations:\\n\\nPICK UP LOCATIONS (ANY ORDER) \\n\\n- [LOCATION 1]\n- [LOCATION 2]\\n\\nAnd bring it all to <EM4>[DESTINATION]</EM4> before security catches on to what's happening. You'll need enough space on your ship for size <EM4>2 SCU</EM4> containers, and a <EM4>handheld tractor beam</EM4> should make loading and unloading nice and easy. \\n\\n-Twitch",
@@ -4257,7 +4309,7 @@
     },
     "DeadSaints_HaulCargo_AToB_intro_desc": {
       "en": "Call me Twitch. I run the Dead Saints. \\n\\nI doubt this is the first time you've heard of us, but in case you haven't, we do a lot of things, but one of them is transporting goods that need discreet handling. \\n\\nI got your info from one of my contacts. They say you've got the stuff we like in a hauler, which works for me, because we're looking for one. \\n\\nHere's my proposal – we're offering creds to the pilot that can transport some special cargo for us. Your ship’s hold will need room for <EM4>2 SCU cargo containers</EM4>, and you'll need a <EM4>handheld tractor beam</EM4> for loading and unloading. All you have to do is get everything from <EM4>[LOCATION]</EM4> to <EM4>[DESTINATION]</EM4> without getting security involved. \\n \\nIf you can pull the job off, the Saints will have more contracts for you down the line. \\n\\n-Twitch",
-      "tr": "叫我刺痛。死亡圣徒由我管着。\\n\\n你八成听过我们名号，没听过也无所谓——我们啥都干，但最拿手的就是运些得偷偷摸摸处理的货。\\n\\n我是从我的一个线人那儿打听到你的，他说你驾驶的运输船有东西挺符合咱们的胃口。\\n\\n我的方案是这样的——我们出信用点，找人运一票特殊货。你船舱得能塞下 <EM4>[MAX_SCU] 尺寸的集装箱</EM4>，还得配个手持式牵引光束，好装货卸货。你唯一要做的，就是从 <EM4>[LOCATION]</EM4> 把东西运到 <EM4>[DESTINATION]</EM4>，别惊动安保。\\n\\n事儿办漂亮了，以后死亡圣徒的活儿，少不了你。\\n- 刺痛"
+      "tr": "叫我刺痛。死亡圣徒由我管着。\\n\\n你八成听过我们名号，没听过也无所谓 —— 我们啥都干，但最拿手的就是运些得偷偷摸摸处理的货。\\n\\n我是从我的一个线人那儿打听到你的，他说你驾驶的运输船有东西挺符合咱们的胃口。\\n\\n我的方案是这样的 —— 我们出信用点，找人运一票特殊货。你船舱得能塞下 <EM4>[MAX_SCU] 尺寸的集装箱</EM4>，还得配个手持式牵引光束，好装货卸货。你唯一要做的，就是从 <EM4>[LOCATION]</EM4> 把东西运到 <EM4>[DESTINATION]</EM4>，别惊动安保。\\n\\n事儿办漂亮了，以后死亡圣徒的活儿，少不了你。\\n- 刺痛"
     },
     "DeadSaints_HaulCargo_AToB_desc_ToGrimHEX_Danger": {
       "en": "If you're looking for creds, the Saints need someone with hauling experience to do a supply run from <EM4>[LOCATION]</EM4> to <EM4>[DESTINATION]</EM4>. \\n\\nYou're gonna need a ship that can hold size <EM4>16 SCU cargo containers</EM4> and a <EM4>handheld tractor beam</EM4> to move the boxes around. \\n\\nDon't open the crates but just so you know, most of this stuff is legal but not all of it. Try not to cross paths with anyone who might make that a problem for you. Get me?\\n\\n-Twitch",
@@ -4351,6 +4403,10 @@
       "en": "<EM4>[TARGET]</EM4> was a name that proved particularly troublesome for some time. Whether a master of evasion or just unerringly lucky all of our attempts have thus far failed.\\n\\nWith that being said, it seems that someone else may have beaten us to the punch so to speak. We’d like you to visit <EM4>[LOCATION]</EM4> and confirm if the target has indeed been neutralized. But be advised, I suspect they’re former crew may still be in the area, most likely out of a misplaced sense of loyalty. I’d suggest a crew of your own for this one, but will defer to your expertise.\\n\\nSincerely,\\n\\nVaughn",
       "tr": "<EM4>[TARGET]</EM4> 这个名字曾经让我们头疼了好一阵子。不管他是逃避大师还是运气好到没话说，我们所有尝试都到目前为止失败了。\\n\\n话虽如此，看来似乎有人抢先我们一步了。我们希望你去 <EM4>[LOCATION]</EM4> 确认一下目标是否真的被干掉了。不过得提醒你一下，我怀疑他之前的船员可能还在这附近，大概是因为错把忠诚当回事儿。我建议你自己带个队伍去，不过具体怎么安排就看你专业了。\\n\\n此致，\\n沃恩"
     },
+    "Intersec_ShipWaveAttack_DrawOutBoss_S_Van_Desc_001": {
+      "en": "MISSION SPECS\\n\\nArea of Operation: Nyx System \\nHostile Forces: Vanduul\\nEquipment Specs: Combat-rated ship\\nBriefing:\\n\\nLong-range scans indicate the presence of an extremely dangerous Mauler-led strike group at <EM4>[LOCATION]</EM4>. Intersec are looking for highly-experienced combat pilots with fully combat-ready ships to take part in an operation to draw out and eliminate the Mauler.\\n\\nIt goes without saying that this commission should only be attempted with substantial back-up. Rewards will reflect the high-risk nature of this contract.\\n\\nRespectfully,   \\n\\nDeacon Tobin \\nOperations Manager \\nInterSec Defense Solutions  \\n\\nThis communication consists of confidential information solely intended for the recipient. Please disregard if received in error and notify the sender. All operations are conducted at the contractor’s own personal risk and must adhere to UEE and system law where applicable.",
+      "tr": "任务说明\\n\\n行动区域：尼克斯星系\\n敌对势力：剜度\\n装备规格：战斗级飞船\\n任务简报：\\n\\n远程扫描显示，在 <EM4>[LOCATION]</EM4> 出现了一支由重拳率领的、极为危险的打击编队。互安防务正在寻找经验丰富的作战飞行员，要求配备完全具备作战能力的飞船，参与一项引出并消灭重拳的行动。\\n\\n不言而喻，这项委托必须有充足的支援才能尝试。报酬将体现这份合约的高风险性质。\\n\\n此致，\\n\\n迪肯·托宾\\n运营经理\\n互安防务\\n\\n本通信内容包含机密内容，仅限收件人阅读。如误收请忽略并通知发件人。所有行动均由承包商自行承担风险，并须遵守适用的 UEE 及星系法律。"
+    },
     "headhunters_ChainElimAll_1C_ElimSpec_AttackCFP_M_desc_001": {
       "en": "We've been trying to play nice with these Citizens for Prosperity people, but they've made it abundantly clear that we don't have a place in their 'safe system.' Their use of mercs for security have been causing all kinds of unreasonable violence like when this asshole [TARGET] opened fire on a group of settlers to drive them away from an outpost they'd been eyeing. So now the gloves are coming off.\\n\\nI need some hard workers to go hit [LOCATION] and take out [TARGET]. Odds are, they'll stay hidden until you prove you're enough of a threat, so make sure you do some damage.\\n\\nStows out.",
       "tr": "我们一直试图与这些繁荣公民好好相处，但他们已经非常清楚地表示，在他们的“安全星系”里我们没有立足之地。他们雇佣佣兵提供安保，结果导致了各种不合理的暴力事件。比如那个混蛋 [TARGET] 对一群定居者开火，以将他们驱离一个他们盯上的前哨站，所以现在是时候不再客气了。\\n\\n我需要一些干劲十足的人去攻击 [LOCATION]，干掉 [TARGET]。直到你证明你是个威胁之前他们都可能会隐藏起来，所以务必要搞出来一点破坏。\\n\\n- 斯托斯通讯完毕。\n\n\n- 阿兹卡夫 狙击步枪 Atzkav Sniper Rifle\\n- 阿兹卡夫 “点火器” 狙击步枪 Atzkav \"Igniter\" Sniper Rifle\\n- 阿兹卡夫 “幻影迷彩” 狙击步枪 Atzkav \"Mirage\" Sniper Rifle\\n- 棉布臂甲 战术 Calico Arms Tactical\\n- 棉布胸甲 战术 Calico Core Tactical\\n- 棉布腿甲 战术 Calico Legs Tactical\\n- 棉布头盔 战术 Calico Helmet Tactical\\n- 阿兹卡夫狙击步枪电池 (8发) Atzkav Sniper Rifle Battery (8 cap)"
@@ -4393,7 +4449,7 @@
     },
     "InterSec_KillShip_Vanduul_Desc_Super_001": {
       "en": "MISSION SPECS\\n\\nArea of Operation: Nyx System\\nHostile Forces: Vanduul\\nEquipment Specs: Combat-rated Ship\\nBriefing: InterSec requires the services of a skilled pilot who’s prepared to assist in taking down a dangerous Vanduul target that has been involved in numerous attacks.\\n\\nVanduul incursions have been on the rise recently, posing not only a threat to the system of Nyx, but the UEE as a whole. It is imperative that these sightings are responded to in a swift and efficient manner. \\n\\nWe require you to fly to the last known sighting of the Vanduul ship at <EM4>[LOCATION]</EM4> and eliminate them immediately.  \\n\\nVanduul pilots are highly skilled and extremely dangerous. Engage the enemy immediately and do not hesitate – they will not show the same mercy.\\n\\nCompensation proportionate to the risk of the contract will be awarded.\\n\\nRespectfully,\\nDeacon Tobin\\nOperations Manager\\nInterSec Defense Solutions\\n\\nThis communication consists of a non-binding offer that upon acceptance may be immediately terminated by either party without any given notice. All operations are conducted at the contractor’s own personal risk and must adhere to system law where applicable.",
-      "tr": "任务说明\\n\\n行动区域：尼克斯星系\\n敌对势力：剜度\\n装备规格：战斗级飞船\\n任务简报：互安需要一名技术娴熟的飞行员，该飞行员必须准备好协助击落一个危险的剜度目标，这个目标已经参与了许多次攻击。\\n\\n最近剜度的入侵事件有所增加，这不仅对尼克斯星系构成了威胁，也对整个 UEE 构成了威胁。必须迅速而有效地应对这些情况。\\n\\n我们需要你飞往 <EM4>[LOCATION]</EM4>，即剜度飞船最后一次出现的地点，并立即将其消灭。\\n\\nVanduul飞行员技术高超且极其危险。立即与敌人交战，不要犹豫——他们不会手下留情。\\n\\n根据合约风险，将给予相应的报酬。\n\n此致，\\n迪肯·托宾\\n运营经理\\n互安防务\\n\\n本通讯内容是一份非约束性的提议，一旦接受，任何一方都可以在不另行通知的情况下立即终止。所有行动均由承包商自行承担风险，并且必须遵守 UEE 和相关星系的法律。\n\n\n- R97 霰弹枪 R97 Shotgun\\n- 蒙德 臂甲 Monde Arms\\n- 蒙德 胸甲 Monde Core\\n- 蒙德 腿甲 Monde Legs\\n- 蒙德 头盔 Monde Helmet\\n- 蒙德 臂甲 弘 Monde Arms Hiro\\n- 蒙德 胸甲 弘 Monde Core Hiro\\n- 蒙德 腿甲 弘 Monde Legs Hiro\\n- 蒙德 头盔 弘 Monde Helmet Hiro\\n- R97 霰弹枪弹匣 (18 发) R97 Shotgun Magazine (18 cap)"
+      "tr": "任务说明\\n\\n行动区域：尼克斯星系\\n敌对势力：剜度\\n装备规格：战斗级飞船\\n任务简报：互安需要一名技术娴熟的飞行员，该飞行员必须准备好协助击落一个危险的剜度目标，这个目标已经参与了许多次攻击。\\n\\n最近剜度的入侵事件有所增加，这不仅对尼克斯星系构成了威胁，也对整个 UEE 构成了威胁。必须迅速而有效地应对这些情况。\\n\\n我们需要你飞往 <EM4>[LOCATION]</EM4>，即剜度飞船最后一次出现的地点，并立即将其消灭。\\n\\nVanduul飞行员技术高超且极其危险。立即与敌人交战，不要犹豫 —— 他们不会手下留情。\\n\\n根据合约风险，将给予相应的报酬。\n\n此致，\\n迪肯·托宾\\n运营经理\\n互安防务\\n\\n本通讯内容是一份非约束性的提议，一旦接受，任何一方都可以在不另行通知的情况下立即终止。所有行动均由承包商自行承担风险，并且必须遵守 UEE 和相关星系的法律。\n\n\n- R97 霰弹枪 R97 Shotgun\\n- 蒙德 臂甲 Monde Arms\\n- 蒙德 胸甲 Monde Core\\n- 蒙德 腿甲 Monde Legs\\n- 蒙德 头盔 Monde Helmet\\n- 蒙德 臂甲 弘 Monde Arms Hiro\\n- 蒙德 胸甲 弘 Monde Core Hiro\\n- 蒙德 腿甲 弘 Monde Legs Hiro\\n- 蒙德 头盔 弘 Monde Helmet Hiro\\n- R97 霰弹枪弹匣 (18 发) R97 Shotgun Magazine (18 cap)"
     },
     "Foxwell_X2_DrawOutBoss_Desc": {
       "en": "We have intercepted a location beacon that puts <EM>[TARGET]</EM4> and their personal attack wing at <EM4>[LOCATION]</EM4>. They have been one of XenoThreat's most brutal enforcers since their founding. \\n\\n<EM>[TARGET]</EM4>'s not one to back down from a fight so hit their ships hard enough, do enough damage and they won't be able to resist joining in the action. Once they're out in the open, they'll be your main target.\\n\\nReady to go?\\n\\nEugene Walton\\nDispatcher, Foxwell Enforcement\\n'Security, Your Way'\\n\\nFoxwell Enforcement is a bonded security specialist licensed to operate throughout the UEE. We are always looking for new operators to join our family. If you or anyone you know is interested, please reach out to one of our contract representatives.",
@@ -4401,11 +4457,15 @@
     },
     "HeadHunters_ShipAmbush_S_desc_001": {
       "en": "Headhunters are looking for someone with the skills and crew to execute an elite op. A military frigate and escort ships are stalking one of our Clips around the system. Don’t know their intentions but it can’t be good. Figure while they’ve got their eyes focused on their prize, we get someone to gather a crew to hit ‘em.  \\n\\nAlready got a spot picked out. If you get to <EM4>[LOCATION]</EM4> there’s an emission cloud that’s exactly what we need. Head there with friends, power down your ships, and wait for the <EM4>[TARGET]</EM4> and its escorts to pass by. \\n\\nWith a bonus of <EM4>16 Council Scrip</EM4> for the main contractor, payment alone should make this worth your while, but you can also keep anything you scrounge from the wreckage.\\n\\n- Stows",
-      "tr": "猎头帮在找能带队干票大的狠角色。有艘军用护卫舰带着小弟在星系里盯咱们金主，准没憋好屁。趁他们盯着肥肉时，咱找人组队抄他们后路。\\n\\n埋伏点都选好了——去 <EM4>[LOCATION]</EM4> 那片辐射云后面猫着。带上兄弟关掉引擎，等 <EM4>[TARGET]</EM4> 和护航队经过就动手。\\n\\n主承包商将获得 <EM4>[SCRIPAMOUNT] 个堂会凭证</EM4> ，光这点就够赚了，而且残骸里的破烂也归你。\\n\\n- 斯托斯"
+      "tr": "猎头帮在找能带队干票大的狠角色。有艘军用护卫舰带着小弟在星系里盯咱们金主，准没憋好屁。趁他们盯着肥肉时，咱找人组队抄他们后路。\\n\\n埋伏点都选好了 —— 去 <EM4>[LOCATION]</EM4> 那片辐射云后面猫着。带上兄弟关掉引擎，等 <EM4>[TARGET]</EM4> 和护航队经过就动手。\\n\\n主承包商将获得 <EM4>[SCRIPAMOUNT] 个堂会凭证</EM4> ，光这点就够赚了，而且残骸里的破烂也归你。\\n\\n- 斯托斯"
     },
     "Battaglia_Story02_desc": {
       "en": "*********** People's Alliance ***********\\n******/ 'Stronger When United' /******\\n\\nRE: Blinding Hope in trouble\\n\\nWORK BRIEF: \\nWe received a distress call from the Blinding Hope that said they were under attack from the Moraine again before they were cut off. I just want to know if they're okay. <EM4>Head to their last known location and report what you find</EM4>.\\n\\nPAYMENT:\\nStandard listed rate upon entire crew's status confirmation.\\n\\nAUTHORIZATION:\\nBattaglia, Recco",
       "tr": "*********** 人民联盟 ***********\\n******/ “团结就是力量” /******\\n\\n回复：炫目希望号有麻烦\\n\\n工作简报：\\n我们收到了炫目希望号发出的求救信号，说他们在被切断联系前再次遭到了冰碛帮的攻击。我就想知道他们现在是否安全。赶紧<EM4>前往他们最后的已知位置，并报告你发现的东西</EM4>。\\n\\n报酬：\\n确认全体成员状态后，按标准列出的费率结算。\\n\\n授权人：\\n雷科·巴塔利亚\n\n\n\\n- 超限 模组 Overrun Module\\n\\n- 洪暴 模组 Deluge Module"
+    },
+    "Intersec_3Way_Desc_Hard_001": {
+      "en": "MISSION SPECS\\n\\nArea of Operation: Nyx System \\nHostile Forces: Vanduul, Shattered Blade\\nEquipment Specs: Combat-rated ship\\nBriefing:\\n\\nHeightened Vanduul and Shattered Blade activity has been reported at <EM4>[LOCATION]</EM4>. Intersec is looking for pilots to  engage the hostile vessels.\\n\\nHead there with all due speed before this conflict becomes a bigger threat.\\n\\nRespectfully,   \\n\\nDeacon Tobin \\nOperations Manager \\nInterSec Defense Solutions  \\n\\nThis communication consists of confidential information solely intended for the recipient. Please disregard if received in error and notify the sender. All operations are conducted at the contractor’s own personal risk and must adhere to UEE and system law where applicable.",
+      "tr": "任务说明\\n\\n行动区域：尼克斯星系\\n敌对势力：剜度，碎刃帮\\n装备规格：战斗级飞船\\n任务简报：\\n\\n据线报，<EM4>[LOCATION]</EM4> 一带的剜度和破碎之刃活动有所加剧。互安防务正在招募飞行员，前去攻击那些敌对飞船。\\n\\n请尽快赶赴那里，别让这场冲突演变成更大的威胁。\\n\\n此致，\\n\\n迪肯·托宾\\n运营经理\\n互安防务\\n\\n本通信内容包含机密内容，仅限收件人阅读。如误收请忽略并通知发件人。所有行动均由承包商自行承担风险，并须遵守适用的 UEE 及星系法律。"
     },
     "FTL_Courier_Nyx_Easy_Desc_001": {
       "en": "AVAILABLE FTL CONTRACT\\nFOR IMMEDIATE ASSIGNMENT\\n\\n**CONTRACT DETAILS**\\nFTL requires an entry-level courier to complete deliveries in Nyx.\\nCourier must provide own transportation.\\nPrior training in manual lifting is preferred, with the <EM4>ability to move boxes of up to .25 SCU</EM4> in weight.\\nBy accepting this contract you agree to take full responsibility for the safety of the assigned packages.\\n\\nGood luck and good speed, courier!",
@@ -4541,7 +4601,7 @@
     },
     "Headhunters_HaulCargo_MultiToSingle_desc_01": {
       "en": "We’ve been using the old Hathor <EM4>[LOCATION1]</EM4> and <EM4>[LOCATION2]</EM4> as stashes, but it turns out some over-eager nullbrains sniffed them out and are trying to boost our shit for their own.\\n\\nLuckily, the goods are still there - for now. We need someone to visit that PAF and OLP, grab our stuff from the freight elevators, and take it to the freight elevator at <EM4>[DESTINATION]</EM4> where we should be able to keep it on ice. \\n\\nHere’s the list of what to grab. Don’t care what order you do ‘em in. Be sure to bring a ship that can store <EM4>32 SCU</EM4> at the very least. \\n\\n- [LOCATION 1]\n- [LOCATION 2]\n- [LOCATION 3]\\n\\nMake sure you’re ready to deal with whatever assholes you run across. A <EM4>handheld tractor beam</EM4> would also be smart to bring along. \\n\\nStows out.",
-      "tr": "我们一直在使用旧的哈索尔 <EM4>[LOCATION1]</EM4> 和 <EM4>[LOCATION2]</EM4> 作为藏货点，但结果发现一些过于热心的没脑子家伙找到了它们，还试图把我们的东西偷走。\\n\\n幸运的是，货物现在还在那儿——暂时的。我们需要有人去那个平台校准设施和轨道激光平台，从货运电梯上拿走我们的东西，然后把它送到 <EM4>[DESTINATION] 的货运电梯</EM4>上，我们应该能把它保管好。\\n\\n这是需要拿的货物清单。顺序随你，无所谓。确保你带一艘至少能存放 <EM4>[MAX_SCU]</EM4> 集装箱的飞船。\\n\\n<EM4>[MULTITOSINGLETOKEN]</EM4>\\n\\n确保你准备好应对任何碰到的混蛋。带个<EM4>手持式牵引光束</EM4>也是个聪明选择。\\n\\n斯托斯通讯完毕。"
+      "tr": "我们一直在使用旧的哈索尔 <EM4>[LOCATION1]</EM4> 和 <EM4>[LOCATION2]</EM4> 作为藏货点，但结果发现一些过于热心的没脑子家伙找到了它们，还试图把我们的东西偷走。\\n\\n幸运的是，货物现在还在那儿 —— 暂时的。我们需要有人去那个平台校准设施和轨道激光平台，从货运电梯上拿走我们的东西，然后把它送到 <EM4>[DESTINATION] 的货运电梯</EM4>上，我们应该能把它保管好。\\n\\n这是需要拿的货物清单。顺序随你，无所谓。确保你带一艘至少能存放 <EM4>[MAX_SCU]</EM4> 集装箱的飞船。\\n\\n<EM4>[MULTITOSINGLETOKEN]</EM4>\\n\\n确保你准备好应对任何碰到的混蛋。带个<EM4>手持式牵引光束</EM4>也是个聪明选择。\\n\\n斯托斯通讯完毕。"
     },
     "HeadHunters_RecoverCargo_VeryHard_Description": {
       "en": "Here’s the thing, I got a situation over at <EM4>[LOCATION]</EM4> and need someone with a brain between their ears to sort it out for me. Former pilot of mine thought he could cut a deal with another gang and unsurprisingly it didn’t work out for him. Now my cargo is sitting idle and being guarded by a whole bunch of nullbrains waiting for their hauler to come pick it up.\\n\\nNeed you to head there with a <EM4>heavy-duty tractor beam</EM4> and a strong crew to get my shit back before its gone for good.\\n\\nTake it all to the freight elevator at <EM4>[DESTINATION]</EM4> and I’ll give you a generous cut of the takings.\\n\\nStows out.",
@@ -4640,8 +4700,8 @@
       "tr": "我们的一支舰队需要战斗支援。听起来他们在送货途中无意中闯入了一个碎刃帮的藏身处。现在，尽管他们已经拼尽全力，但运输队还是摆脱不了困境。我们正在寻找一名愿意前往 <EM4>[LOCATION]</EM4> 帮助他们抵御这次袭击的战斗飞行员，别让情况太糟糕了。\\n\\n利玛·恩迪科特\\n首席调度员\\n繁荣公民\n\n\n- R97 霰弹枪 R97 Shotgun\\n- 蒙德 臂甲 Monde Arms\\n- 蒙德 胸甲 Monde Core\\n- 蒙德 腿甲 Monde Legs\\n- 蒙德 头盔 Monde Helmet\\n- 蒙德 臂甲 弘 Monde Arms Hiro\\n- 蒙德 胸甲 弘 Monde Core Hiro\\n- 蒙德 腿甲 弘 Monde Legs Hiro\\n- 蒙德 头盔 弘 Monde Helmet Hiro\\n- R97 霰弹枪弹匣 (18 发) R97 Shotgun Magazine (18 cap)"
     },
     "CFP_ShipWaveAttack_ClearHostiles_Desc_VE_001": {
-      "en": "Recently we've had incident reports of numerous Citizens for Prosperity contractors in the system having run-ins with an outlaw hunting party operating out of [LOCATION]. \\n\\nTo help re-establish safer routes through that sector, you will be dispatched to head there and engage with these outlaws. The group is known to travel in smaller packs, so its important that you and whatever backup you bring wait in the area to deal with all of them or else there's a chance the threat will remain. \\n\\nThank you for helping us,\\nLima Endicott\\nLead Dispatcher\\nCitizens for Prosperity",
-      "tr": "近期我们接到多起报告，称星系内多名繁荣公民承包商在行动中遭遇一支以 [LOCATION] 为据点的不法分子狩猎队。\\n\\n为协助恢复该星区的安全航线，现派遣你前往该地，与这些不法分子交战。该团伙惯以小股编队行动，因此，你及所携支援力量务必在该区域驻守，直至全部敌对目标全部清除，否则威胁仍有可能存在。\\n\\n感谢您的协助，\\n利玛·恩迪科特\\n首席调度员\\n繁荣公民"
+      "en": "Recently we've had incident reports of numerous Citizens for Prosperity contractors in the system having run-ins with an outlaw hunting party operating out of <EM4>[LOCATION]</EM4>. \\n\\nTo help re-establish safer routes through that sector, you will be dispatched to head there and engage with these outlaws. The group is known to travel in smaller packs, so its important that you and whatever <EM4>backup</EM4> you bring wait in the area to deal with all of them or else there's a chance the threat will remain. \\n\\nThank you for helping us,\\nLima Endicott\\nLead Dispatcher\\nCitizens for Prosperity",
+      "tr": "近期我们接到多起报告，称星系内多名繁荣公民承包商在行动中遭遇一支以 <EM4>[LOCATION]</EM4> 为据点的不法分子狩猎队。\\n\\n为协助恢复该星区的安全航线，现派遣你前往该地，与这些不法分子交战。该团伙惯以小股编队行动，因此，你及所携<EM4>支援力量</EM4>务必在该区域驻守，直至全部敌对目标全部清除，否则威胁仍有可能存在。\\n\\n感谢您的协助，\\n利玛·恩迪科特\\n首席调度员\\n繁荣公民"
     },
     "cfp_ChainElimAll_1C_HHAttack_M_desc_001": {
       "en": "We just received a frantic comm from [LOCATION] and are looking for any available combat specialists to help repel a Headhunter attack. There are still hostiles on site and there are reports of several casualties so we need this handled quickly.\\n\\nI will provide all relevant data upon acceptance. Thank you for your assistance.\\n\\nLima Endicott\\nLead Dispatcher\\nCitizens for Prosperity",
@@ -4739,9 +4799,17 @@
       "en": "Hi,\\n\\nCitizens for Prosperity needs help moving supplies around one of our outposts. The boxes need to be picked up from <EM4>[LOCATION]</EM4> and taken to <EM4>[DESTINATION]</EM4>. \\n\\nDoesn’t sound too difficult, does it? Just make sure you’re wearing a comfy pair of shoes. Also, to make your life easier, I'd bring a <EM4>handheld tractor beam</EM4> with you. \\n\\nLima Endicott\\nLead Dispatcher\\nCitizens for Prosperity",
       "tr": "嗨，\\n\\n繁荣公民需要帮助，需要在我们的一处前哨站搬运物资。箱子需要从 <EM4>[LOCATION]</EM4> 拿起，然后运送到 [DESTINATION]。\\n\\n听起来不太难，对吧？只要确保你穿着舒适的鞋子就行了。\\n\\n另外，为了让你省点事，我想确保你带了一个<EM4>手持式牵引光束</EM4>。\\n\\n利玛·恩迪科特\\n首席调度员\\n繁荣公民"
     },
+    "Intersec_ShipWaveAttack_S_Van_Desc_001": {
+      "en": "MISSION SPECS\\n\\nArea of Operation: Nyx System \\nHostile Forces: Vanduul\\nEquipment Specs: Combat-rated ship\\nBriefing:\\n\\nA clan-sized fleet of Vanduul vessels has been detected at <EM4>[LOCATION]</EM4>, threatening the integrity of vital commercial routes. Intersec is assembling a counterforce of experienced pilots with combat-ready ships. \\n\\nGiven the size of the Vanduul fleet, pilots should expect to encounter support waves in response to their initial action.\\n\\nPut together a team and head to the co-ordinates with all due speed. The commercial crews are counting on you to keep the routes open.\\n\\nRespectfully,   \\n\\nDeacon Tobin \\nOperations Manager \\nInterSec Defense Solutions  \\n\\nThis communication consists of confidential information solely intended for the recipient. Please disregard if received in error and notify the sender. All operations are conducted at the contractor’s own personal risk and must adhere to UEE and system law where applicable.",
+      "tr": "任务说明\\n\\n行动区域：尼克斯星系\\n敌对势力：剜度\\n装备规格：战斗级飞船\\n任务简报：\\n\\n在 <EM4>[LOCATION]</EM4> 检测到一支氏族规模的剜度舰队，这威胁到了重要商业航线的安全。互安防务正在集结一支由经验丰富的，具备战斗级飞船的飞行员组成的反制力量。\\n\\n考虑到这支剜度舰队的规模，飞行员应当预料到一旦他们发起首次攻击，就会遇到多个前来支援的波次。\\n\\n组织好队伍，尽快前往坐标位置。商业船员们都指望你们保住航线的畅通。\\n\\n此致，\\n\\n迪肯·托宾\\n运营经理\\n互安防务\\n\\n本通信内容包含机密内容，仅限收件人阅读。如误收请忽略并通知发件人。所有行动均由承包商自行承担风险，并须遵守适用的 UEE 及星系法律。"
+    },
     "CFP_RecoverCargo_Easy_Description": {
       "en": "Life is tough on the frontier, and every delivery to our settlers is important. We really can't afford to lose any more this year.\\n\\nOne of our key suppliers has been hit by a group of outlaws over at <EM4>[LOCATION]</EM4> and gone silent on us. I fear the worst, but if we can still recover the supplies they were transporting, it could make a huge difference.\\n\\nChances are the outlaws who attacked them are still lurking around there so be on your guard. Once you've dealt with them, grab the cargo and take it to the freight elevator at <EM4>[DESTINATION]</EM4>. Make sure you're flying a ship that can carry <EM4>[MAX_SCU] cargo containers</EM4> and bring a <EM4>heavy-duty tractor beam</EM4> too.\\n\\nFly safe out there,\\n\\nLima Endicott\\nLead Dispatcher\\nCitizens for Prosperity",
       "tr": "边境生活艰难，每一次给我们定居者的补给都至关重要，今年我们真的不能再有更多损失了。\\n\\n在 <EM4>[LOCATION]</EM4> 有位我们的关键供应商遭到一伙不法分子袭击，此后便彻底失联。我担心最坏的情况已经发生，但如果还能抢回他们当时运输的物资，那将意义重大。\\n\\n袭击他们的不法分子很可能仍潜伏在附近，务必提高警惕。等你清理掉他们后，尽快取走货物，并运送到 <EM4>[DESTINATION]</EM4> 的货运电梯。请确保你驾驶的飞船能装载 <EM4>[MAX_SCU] 尺寸的集装箱</EM4>，同时务必配备一把 <EM4>重型牵引光束</EM4>。\\n\\n祝你在那飞行平安，\\n\\n利玛·恩迪科特\\n首席调度员\\n繁荣公民\n\n\n- P8-SC 冲锋枪 P8-SC SMG\\n- C54 冲锋枪 C54 SMG\\n- S71步枪 S71 Rifle\\n- ORC-mkX 臂甲 林地版 ORC-mkX Arms Woodland\\n- ORC-mkX 腿甲 林地版 ORC-mkX Legs Woodland\\n- ORC-mkX 胸甲 林地版 ORC-mkX Core Woodland\\n- ORC-mkX 头盔 林地版 ORC-mkX Helmet Woodland\\n- ORC-mkV 臂甲 ORC-mkV Arms\\n- ORC-mkV 腿甲 ORC-mkV Legs\\n- ORC-mkV 胸甲 ORC-mkV Core\\n- G-2 头盔 林地版 G-2 Helmet Woodland\\n- P8-SC 冲锋枪弹匣 (45 发) P8-SC SMG Magazine (45 cap)\\n- C54 冲锋枪弹匣 (50 发) C54 SMG Magazine (50 cap)\\n- S71 步枪弹匣 (30 发) S71 Rifle Magazine (30 cap)"
+    },
+    "Intersec_ShipWaveAttack_DrawOutBoss_VH_Van_Desc_001": {
+      "en": "MISSION SPECS\\n\\nArea of Operation: Nyx System \\nHostile Forces: Vanduul\\nEquipment Specs: Combat-rated ship\\nBriefing:\\n\\nIntersec are looking for experienced pilots to join a Mauler-hunting operation being at  <EM4>[LOCATION]</EM4>. The Vanduul ship has been spotted in the area and it poses too large a threat to leave it to its own devices. As such, pilots will be tasked with drawing the Mauler into combat by attacking Vanduul fighters in the area. \\n\\nGiven the risks, Intersec highly recommends assembling a team of experienced pilots with well-armed ships.\\n\\nRespectfully,   \\n\\nDeacon Tobin \\nOperations Manager \\nInterSec Defense Solutions  \\n\\nThis communication consists of confidential information solely intended for the recipient. Please disregard if received in error and notify the sender. All operations are conducted at the contractor’s own personal risk and must adhere to UEE and system law where applicable.",
+      "tr": "任务说明\\n\\n行动区域：尼克斯星系\\n敌对势力：剜度\\n装备规格：战斗级飞船\\n任务简报：\\n\\n互安防务正在招募经验丰富的飞行员，加入一场在 <EM4>[LOCATION]</EM4> 展开的猎杀重拳行动。有人在附近区域发现了剜度的飞船，其威胁太大，不能放任不管。因此，飞行员的任务是通过攻击该区域的剜度战机，把重拳引诱出来交战。\\n\\n考虑到其中的风险，互安防务强烈建议组建一支由经验丰富的飞行员组成的队伍，并配备火力充足的飞船。\\n\\n此致，\\n\\n迪肯·托宾\\n运营经理\\n互安防务\\n\\n本通信内容包含机密内容，仅限收件人阅读。如误收请忽略并通知发件人。所有行动均由承包商自行承担风险，并须遵守适用的 UEE 及星系法律。"
     },
     "Foxwell_X2_ShipWaves_Desc": {
       "en": "Multiple reports are coming in of XenoThreat ships massing at <EM4>[LOCATION]</EM4>\\nWe're looking for contractors ready to take the fight to them. \\n\\nThey want us to believe that they have right on their side. They want us to believe that they have overwhelming force. This is a chance to show them we know better.\\n\\nI won't lie, this is more than just a simple security contract to me. I really hate those intolerant assholes and everything they stand for.\\n\\nYou with me?\\n\\nEugene Walton\\nDispatcher, Foxwell Enforcement\\n'Security, Your Way'\\n\\nFoxwell Enforcement is a bonded security specialist licensed to operate throughout the UEE. We are always looking for new operators to join our family. If you or anyone you know is interested, please reach out to one of our contract representatives.",
@@ -4857,7 +4925,7 @@
     },
     "LingFamily_HaulCargo_AToB_desc_Party_Timed": {
       "en": "Hi, \\n\\nGuess the folks at <EM4>[DESTINATION]</EM4> are planning a party and need help acquiring everything in a timely manner. You’ll need to make multiple pick-ups for this one, including one in Nyx to grab some Jynx gin. Not sure if you’ve ever had the stuff, but it’s a Nyx specialty. Some folks can’t get past that it glows pink, but I love it. Got a truly unique kick to it.\\n\\nHere are the pick ups:  \\n\\nPICK UP LOCATIONS (ANY ORDER) \\n\\n[MULTITOSINGLETOKEN]     \\n\\nPlease remember to bring a <EM4>handheld tractor beam</EM4>, as you’ll be handling cargo containers up to <EM4>8 SCU</EM4>.  \\n\\n  \\nHappy Hauling,  \\nReyes Ling \\nCargo Logistics Coordinator \\nLing Family Hauling\\n\\nLing Family Hauling knows it’s a dangerous and unpredictable universe and has established several protocols to protect both you and our client’s cargo. To ensure you aren’t punished for circumstances outside of your control, total payment will be prorated to the percentage of cargo successfully delivered. A delivery timer will be set for each haul. Any cargo that remains undelivered upon its expiration will be flagged as stolen and treated as such. All pick-ups and deliveries must be autoloaded or done at a freight elevator.",
-      "tr": "嗨，\\n\\n我猜 <EM4>[DESTINATION]</EM4> 那帮人是打算要开派对，所以急着凑齐所有东西，你这单得跑好几趟，其中一趟能去尼克斯提点“金克斯金酒”——你没喝过吧？那可是尼克斯的招牌，有人嫌它粉嘟嘟地发光，但我超爱，就爱喝那一口独特的劲道。\\n\\n以下是取货地点：\\n\\n取货地点（任意顺序）\\n\\n[MULTITOSINGLETOKEN]\\n\\n忘了带个<EM4>手持式牵引光束</EM4>，货箱最大尺寸有 <EM4>[MAX_SCU]</EM4>，光靠胳膊可搬不动。\n\n运货顺利，\\n雷耶斯·玲\\n货运物流协调员\\n玲家快递\n\n玲家快递深知宇宙危险莫测，因此制定了多项协议，以保护你和客户货物的安全。为确保你不会因不可控因素受罚，总报酬将按成功交付的货物比例计算。每趟运输都会设置交付倒计时，倒计时结束时仍未交付的货物将被标记为被盗，并按盗窃处理。所有取货和送货必须通过自动装载或货运电梯完成。\n\n\n- 幽魂Spectre [量子 S1 隐形 A]\\n- 和风Zephyr [量子 S1 隐形 B]\\n- 雷电Bolt [量子 S2 隐形 B]\\n- 刺针Spicule [量子 S2 隐形 A]\\n- 守卫Guardian [护盾 S1 工业 B]\\n- 要塞Citadel [护盾 S2 工业 B]\\n- 外堡Barbican [护盾 S3 工业 B]"
+      "tr": "嗨，\\n\\n我猜 <EM4>[DESTINATION]</EM4> 那帮人是打算要开派对，所以急着凑齐所有东西，你这单得跑好几趟，其中一趟能去尼克斯提点“金克斯金酒” —— 你没喝过吧？那可是尼克斯的招牌，有人嫌它粉嘟嘟地发光，但我超爱，就爱喝那一口独特的劲道。\\n\\n以下是取货地点：\\n\\n取货地点（任意顺序）\\n\\n[MULTITOSINGLETOKEN]\\n\\n忘了带个<EM4>手持式牵引光束</EM4>，货箱最大尺寸有 <EM4>[MAX_SCU]</EM4>，光靠胳膊可搬不动。\n\n运货顺利，\\n雷耶斯·玲\\n货运物流协调员\\n玲家快递\n\n玲家快递深知宇宙危险莫测，因此制定了多项协议，以保护你和客户货物的安全。为确保你不会因不可控因素受罚，总报酬将按成功交付的货物比例计算。每趟运输都会设置交付倒计时，倒计时结束时仍未交付的货物将被标记为被盗，并按盗窃处理。所有取货和送货必须通过自动装载或货运电梯完成。\n\n\n- 幽魂Spectre [量子 S1 隐形 A]\\n- 和风Zephyr [量子 S1 隐形 B]\\n- 雷电Bolt [量子 S2 隐形 B]\\n- 刺针Spicule [量子 S2 隐形 A]\\n- 守卫Guardian [护盾 S1 工业 B]\\n- 要塞Citadel [护盾 S2 工业 B]\\n- 外堡Barbican [护盾 S3 工业 B]"
     },
     "LingFamily_HaulCargo_AToB_desc_Fruit_Timed": {
       "en": "Hi, \\n \\nNormally Reyes schedules our hauls, but she’s gone for the day, and I just got a comm inquiring about a simple, direct run from <EM4>[LOCATION]</EM4> to <EM4>[DESTINATION]</EM4>. The cargo is a load of fruit that will lose its value if it spoils. We don't want to anger this client, so would appreciate it if you knocked this out in a timely manner.  \\n\\nHere’s some other details you should know. The largest container used is <EM4>2 SCU</EM4>, so don’t forget your <EM4>handheld tractor beam</EM4>. \\n\\n \\nSincerely,  \\nPetra Ling  \\nManaging Director of Cargo Operations \\nLing Family Hauling\\n\\nLing Family Hauling knows it’s a dangerous and unpredictable universe and has established several protocols to protect both you and our client’s cargo. To ensure you aren’t punished for circumstances outside of your control, total payment will be prorated to the percentage of cargo successfully delivered. A delivery timer will be set for each haul. Any cargo that remains undelivered upon its expiration will be flagged as stolen and treated as such. All pick-ups and deliveries must be autoloaded or done at a freight elevator.",
@@ -4874,6 +4942,10 @@
     "Headhunters_Delivery_Outpost_Multi_desc_001": {
       "en": "Got a bunch of boxes sitting at <EM4>[LOCATION]</EM4> that have to be moved to <EM4>[DESTINATION]</EM4>. Seems easy enough, right? Well, guess it ain’t. \\n\\nThe idiot who was supposed to move these things threw out his back trying to carry all of ‘em at once. So, you know, maybe bring a <EM4> handheld tractor beam</EM4> and try taking ‘em one at a time like a normal person. But, hey, don’t let me tell you how to do your job. Just get it done. \\n\\nStows out.",
       "tr": "在 <EM4>[LOCATION]</EM4> 有一堆箱子需要搬到 <EM4>[DESTINATION]</EM4>。听起来挺简单，对吧？可实际上并没那么容易。\\n\\n本来负责搬运的那个傻逼试图一次性把所有箱子都扛过去，结果背扭了。所以，你知道的，或许可以带个牵引光束，像个正常人一样一次搬一个。不过，嘿，别让我告诉你怎么做你的工作。把事情办妥就行。带个<EM4>手持式牵引光束</EM4>也是个聪明选择。\\n\\n- 斯托斯通讯完毕。"
+    },
+    "Intersec_BlueCryo_Desc_001": {
+      "en": "MISSION SPECS\\n\\nArea of Operation: Nyx System \\nHostile Forces: Shattered Blade\\nEquipment Specs: Combat Ready\\nBriefing: \\n\\nIntel has been received that Shattered Blade have possession of a cryopod believed to contain a living Vanduul sample. Reports say that this pod is marked out by having blue trim on its casing.\\n\\nAny Intersec contractor that locates one of these cryopods should consider its acquisition a vital priority and adjust their mission parameters accordingly.\\n\\nOnce secured, the cryopod should be delivered with all due haste to <EM4>[DESTINATION]</EM4>.\\n\\nRespectfully,   \\n\\nDeacon Tobin \\nOperations Manager \\nInterSec Defense Solutions  \\n\\nThis communication consists of confidential information solely intended for the recipient. Please disregard if received in error and notify the sender. All operations are conducted at the contractor’s own personal risk and must adhere to UEE and system law where applicable.",
+      "tr": "任务说明\\n\\n行动区域：尼克斯星系\\n敌对势力：碎刃帮\\n装备规格：战斗级\\n任务简报：\\n\\n情报显示，碎刃帮手里有一个冷冻舱，据说里面装着一份活体剜度样本。有报告称，这个冷冻舱外壳上带有蓝色饰边，因此可以辨认出来。\\n\\n任何互安防务的承包商一旦发现这类冷冻舱，就应当把获取它视为首要任务，并相应调整自己的任务安排。\\n\\n拿到冷冻舱后，务必尽快把它送到 <EM4>[DESTINATION]</EM4>。\\n\\n此致，\\n\\n迪肯·托宾\\n运营经理\\n互安防务\\n\\n本通信内容包含机密内容，仅限收件人阅读。如误收请忽略并通知发件人。所有行动均由承包商自行承担风险，并须遵守适用的 UEE 及星系法律。"
     },
     "Hockrow_searchbody_space_H_Desc_001": {
       "en": "Hockrow Agency \\nCase File #MP65817\\nLead Investigator: Arken Mallor\\n\\nCase Summary: \\nA client has hired the agency to look for a missing friend who has not been returning their comms and have been acting increasingly erratic. The client has shared all the information they possess on <EM4>[TARGET]</EM4> and we’ve been able to pinpoint their ship’s location.\\n\\nContract Investigator Actions:\\nTravel to <EM4>[LOCATION]</EM4> and verify the status of <EM4>[TARGET]</EM4>. If they are deceased, examine their body and we will pass the information on to the client.\\n\\nAdditional Notes:\\nOur scout reported heavy outlaw activity in the vicinity and was forced to retreat, meaning we have designated this as a highly dangerous case.",
@@ -4937,7 +5009,7 @@
     },
     "Headhunters_SecurityPatrol_H_Desc_001": {
       "en": "I’ve noticed an uptick in attacks on Headhunter ships and it's got me feelin' jumpy. Got an important resupply shipment that we can’t afford to lose, and need help determining what route to send it. I’ve strung together a few potential spots that I’d set up in if I was gonna hit ‘em. Any chance you could visit and clear out any lowlifes that may be hiding there? \\n\\nThe route starts at the <EM4>location marker</EM4> on your HUD. After you scan it and clear whatever’s there, I’ll send you to a few other areas that could work. I’ve been hearing people have been rolling through these spots, so would be smart to <EM4>bring a friend</EM4> to watch your back.\\n\\nYou make it to the end and I'll give the main contractor a bonus <EM4>14 Council Scrip</EM4> as thanks. \\n\\n- Stows",
-      "tr": "最近针对猎头帮飞船的袭击变多了，这让我感到不安。有批重要补给物资经不起闪失，得找人探路清场——我标了几个要是我就肯定会埋伏的点。\\n\\n从你 HUD 上的<EM4>位置标记</EM4>开始扫荡，完事再发你下个坐标。听说这些地方最近总有杂碎晃悠，所以<EM4>带上个朋友</EM4>掩护你是个明智的选择。\\n\\n只要你把这事办成，我就给主承包商 <EM4>[SCRIPAMOUNT] 个堂会凭证</EM4>作为额外奖励。\\n\\n- 斯托斯"
+      "tr": "最近针对猎头帮飞船的袭击变多了，这让我感到不安。有批重要补给物资经不起闪失，得找人探路清场 —— 我标了几个要是我就肯定会埋伏的点。\\n\\n从你 HUD 上的<EM4>位置标记</EM4>开始扫荡，完事再发你下个坐标。听说这些地方最近总有杂碎晃悠，所以<EM4>带上个朋友</EM4>掩护你是个明智的选择。\\n\\n只要你把这事办成，我就给主承包商 <EM4>[SCRIPAMOUNT] 个堂会凭证</EM4>作为额外奖励。\\n\\n- 斯托斯"
     },
     "DeadSaints_RecoverCargo_Super_Description": {
       "en": "A rival crew was able to get their hands on our delivery routes and now they have one of my cargo ships pinned down at <EM4>[LOCATION]</EM4>.\\n\\nNow the ship’s sitting there being guarded by a full crew of these assholes. They must be waiting for someone to show up with a transport ship, but you’re going to get there first.\\n\\nHead there with a crew of your own and a <EM4>heavy-duty tractor beam</EM4> to take the goods away. Make sure they’re the best people you got. It’d be a mistake to underestimate these bastards.\\n\\nGhost them and bring my cargo back to the freight elevator at <EM4>[DESTINATION]</EM4> and I’ll make sure you’re seriously comp’d for this.\\n\\n-Twitch",
@@ -5188,19 +5260,23 @@
       "tr": "最近有个团队一直在袭击猎头帮的飞船。他们的首领是个真正的麻烦，名叫 [TARGET]。我们已经追踪到他们位于 [LOCATION]，所以我们需要找人把他们彻底解决掉。\\n\\n这个团队喜欢打斗，但对于你这样的人来说应该没问题。\\n\\n“过去那里，把事情搞定。\\n\\n- 斯托斯通讯完毕。\n\n\n- 解剖刀 狙击步枪 Scalpel Sniper Rifle\\n- 终曲实弹手枪 Coda Pistol\\n- 终曲 “夜鹰” 手枪 Coda \"Nighthawk\" Pistol\\n- 终曲 “巨贾” 手枪 Coda \"Big Boss\" Pistol\\n- 莫罗佐夫-SH 臂甲 Morozov-SH Arms\\n- 莫罗佐夫-SH 胸甲 Morozov-SH Core\\n- 莫罗佐夫-SH 腿甲 Morozov-SH Legs\\n- 莫罗佐夫-SH 头盔 Morozov-SH Helmet\\n- 解剖刀狙击步枪弹匣 (12 发) Scalpel Sniper Rifle Magazine (12 cap)\\n- 终曲实弹手枪弹匣 (6 发) Coda Pistol Magazine (6 cap)"
     },
     "CFP_ShipWaveAttack_ClearHostiles_Desc_H_001": {
-      "en": "A criminal fleet has taken up root in a sector that Citizens For Prosperity is trying to develop and all forward progress has stopped thanks to their violent actions. It is imperative to a long term goals that we find a way to neutralize this fleet before that cause any further damage.\\n\\nYou and your most trusted support ships will head to [LOCATION] and neutralize any hostiles you find laying in wait there. They have been known to operate in smaller packs, so it's vital that you wait until all of the hostiles have been dealt with.\\n\\nYour assistance is much appreciated,\\nLima Endicott\\nLead Dispatcher\\nCitizens for Prosperity",
-      "tr": "一支罪犯舰队已在繁荣公民正着力开发的星区扎根，其暴力行径已致使所有前进步伐都停滞了。为保障长期战略目标，我们必须在事态进一步恶化前设法彻底瓦解这支舰队。\\n\\n你及你最信赖的支援飞船需要前往 [LOCATION]，清除所有埋伏于此的敌对目标。据知，他们惯以小股编队行动，因此务必确保全部敌人都已被歼灭后方可撤离。\\n\\n非常感谢您的帮助，\\n利玛·恩迪科特\\n首席调度员\\n繁荣公民"
+      "en": "A criminal fleet has taken up root in a sector that Citizens For Prosperity is trying to develop and all forward progress has stopped thanks to their violent actions. It is imperative to a long term goals that we find a way to neutralize this fleet before that cause any further damage.\\n\\nYou and your most trusted support ships will head to <EM4>[LOCATION]</EM4> and neutralize any hostiles you find laying in wait there. They have been known to operate in smaller packs, so it's vital that you wait until all of the hostiles have been dealt with.\\n\\nYour assistance is much appreciated,\\nLima Endicott\\nLead Dispatcher\\nCitizens for Prosperity",
+      "tr": "一支罪犯舰队已在繁荣公民正着力开发的星区扎根，其暴力行径已致使所有前进步伐都停滞了。为保障长期战略目标，我们必须在事态进一步恶化前设法彻底瓦解这支舰队。\\n\\n你及你最信赖的支援飞船需要前往 <EM4>[LOCATION]</EM4>，清除所有埋伏于此的敌对目标。据知，他们惯以小股编队行动，因此务必确保全部敌人都已被歼灭后方可撤离。\\n\\n非常感谢您的帮助，\\n利玛·恩迪科特\\n首席调度员\\n繁荣公民"
     },
     "Intersec_KillShip_Desc_Medium_001": {
       "en": "MISSION SPECS\\n\\nArea of Operation: Nyx System\\nHostile Forces: Outlaws\\nEquipment Specs: Combat-rated Ships\\nBriefing: Seemingly unsatisfied with their takings in Nyx, an outlaw group lead by <EM4>[TARGET]</EM4> has been planning a major strike against the UEE. This cannot be allowed to come to pass.\\n\\nThanks to the work of our Intelligence team, we've been able to track them down to <EM4>[LOCATION]</EM4>.\\n\\nHead there as soon as you can and engage before they have a chance to leave the system. Based on our strategic analysis, we recommend a <EM4>well-armed and skilled fleet</EM4> will be necessary for the successful completion of this mission.\\n\\nRespectfully, \\n\\nDeacon Tobin \\nOperations Manager \\nInterSec Defense Solutions  \\n\\nThis communication consists of a non-binding offer that upon acceptance may be immediately terminated by either party without any given notice. All operations are conducted at the contractor’s own personal risk and must adhere to system law where applicable.",
       "tr": "任务说明\\n\\n行动区域：尼克斯星系\\n敌对势力：不法分子\\n装备规格：战斗级飞船\\n任务简报：看样子他们在尼克斯的收获还不够满意，由 <EM4>[TARGET]</EM4> 领导的一伙不法分子正策划对 UEE 发动大规模袭击，这一计划绝不能得逞。\\n\\n多亏了我们情报部门的努力，我们已找到他们锁定在 <EM4>[LOCATION]</EM4>。\\n\\n请尽快赶到那里，并在他们逃离星系前发动攻击。根据我们的战略分析，成功完成此次任务需要一支<EM4>装备精良技术娴熟的舰队</EM4>。\n\n此致，\\n迪肯·托宾\\n运营经理\\n互安防务\\n\\n本通讯内容是一份非约束性的提议，一旦接受，任何一方都可以在不另行通知的情况下立即终止。所有行动均由承包商自行承担风险，并且必须遵守 UEE 和相关星系的法律。\n\n\n- R97 霰弹枪 R97 Shotgun\\n- 蒙德 臂甲 Monde Arms\\n- 蒙德 胸甲 Monde Core\\n- 蒙德 腿甲 Monde Legs\\n- 蒙德 头盔 Monde Helmet\\n- 蒙德 臂甲 弘 Monde Arms Hiro\\n- 蒙德 胸甲 弘 Monde Core Hiro\\n- 蒙德 腿甲 弘 Monde Legs Hiro\\n- 蒙德 头盔 弘 Monde Helmet Hiro\\n- R97 霰弹枪弹匣 (18 发) R97 Shotgun Magazine (18 cap)"
+    },
+    "Intersec_3Way_Desc_VeryHard_001": {
+      "en": "MISSION SPECS\\n\\nArea of Operation: Nyx System \\nHostile Forces: Shattered Blade, Vanduul\\nEquipment Specs: Combat-rated ship\\nBriefing:\\n\\nIncreasing Vanduul and Shattered Blade activity is beginning to negatively impact the ability of People's Alliance shipping to safely navigate <EM4>[LOCATION]</EM4>.\\n\\nIntersec is recruiting pilots with combat experience to neutralize the threat and allow for the safe flow of shipping traffic again.\\n\\nRespectfully,   \\n\\nDeacon Tobin \\nOperations Manager \\nInterSec Defense Solutions  \\n\\nThis communication consists of confidential information solely intended for the recipient. Please disregard if received in error and notify the sender. All operations are conducted at the contractor’s own personal risk and must adhere to UEE and system law where applicable.",
+      "tr": "任务说明\\n\\n行动区域：尼克斯星系\\n敌对势力：碎刃帮，剜度\\n装备规格：战斗级飞船\\n任务简报：\\n\\n剜度与碎刃帮的活动越来越频繁，已经开始对人民联盟的航运造成负面影响，导致他们的飞船难以安全通过 <EM4>[LOCATION]</EM4>。\\n\\n互安防务正在招募有战斗经验的飞行员，希望消除这一威胁，让航运交通重新恢复安全畅通。\\n\\n此致，\\n\\n迪肯·托宾\\n运营经理\\n互安防务\\n\\n本通信内容包含机密内容，仅限收件人阅读。如误收请忽略并通知发件人。所有行动均由承包商自行承担风险，并须遵守适用的 UEE 及星系法律。"
     },
     "Intersec_KillShip_Vanduul_Desc_VeryHard_001": {
       "en": "MISSION SPECS\\n\\nArea of Operation: Nyx System\\nHostile Forces: Vanduul\\nEquipment Specs: Combat-rated Ships\\nBriefing: InterSec is in need of a highly skilled combat pilot who can locate and neutralize a dangerous Vanduul target.\\n\\nAn operator of ours has identified a Vanduul ship flying within the vicinity of <EM4>[LOCATION]</EM4>. We've been given strict instructions to eliminate any Vanduul spotted on the fringes of UEE space, for fear of encroachment into the Empire's territory.\\n\\nBring a <EM4>small fleet of competent pilots</EM4> with you to engage and neutralize the target.\\n\\nRespectfully, \\n\\nDeacon Tobin \\nOperations Manager \\nInterSec Defense Solutions  \\n\\nThis communication consists of a non-binding offer that upon acceptance may be immediately terminated by either party without any given notice. All operations are conducted at the contractor’s own personal risk and must adhere to system law where applicable.",
       "tr": "任务说明\\n\\n行动区域：尼克斯星系\\n敌对势力：剜度\\n装备规格：战斗级飞船\\n任务简报：互安急需一位技艺高超的战斗飞行员，负责找到并清除一名危险的剜度目标。\\n\\n我们的一名特工发现，一艘剜度飞船正在 <EM4>[LOCATION]</EM4> 附近活动。我们接到明确指令，必须消灭任何出现在 UEE 边境的剜度飞船，以防其侵入帝国领土。\\n\\n请带一支<EM4>由优秀飞行员组成的小型舰队</EM4>前去对付并消灭目标。\n\n此致，\\n迪肯·托宾\\n运营经理\\n互安防务\\n\\n本通讯内容是一份非约束性的提议，一旦接受，任何一方都可以在不另行通知的情况下立即终止。所有行动均由承包商自行承担风险，并且必须遵守 UEE 和相关星系的法律。\n\n\n- R97 霰弹枪 R97 Shotgun\\n- 蒙德 臂甲 Monde Arms\\n- 蒙德 胸甲 Monde Core\\n- 蒙德 腿甲 Monde Legs\\n- 蒙德 头盔 Monde Helmet\\n- 蒙德 臂甲 弘 Monde Arms Hiro\\n- 蒙德 胸甲 弘 Monde Core Hiro\\n- 蒙德 腿甲 弘 Monde Legs Hiro\\n- 蒙德 头盔 弘 Monde Helmet Hiro\\n- R97 霰弹枪弹匣 (18 发) R97 Shotgun Magazine (18 cap)"
     },
     "Intersec_KillShip_Desc_Intro_001": {
-      "en": "MISSION SPECS\\n\\nArea of Operation: Nyx System\\nHostile Forces: Outlaws\\nEquipment Specs: Combat-rated Ships\\nBriefing: InterSec has been hired to combat the rising number of outlaws using Nyx as a staging ground for their operations, with the intention of attacking neighboring UEE systems.\\n\\nAs a preventative measure, we require you to travel to <EM4>[LOCATION]</EM4> and eliminate the ringleader <EM4>[TARGET]</EM4> to deter their planned attack on Stanton. They and their crew are highly dangerous and you are <EM4>advised  to bring a wingman</EM4> for support.\\n\\nContractors who can prove themselves reliable and competent in executing operations will be eligible for future missions with InterSec.\\n\\nRespectfully,\\n\\nDeacon Tobin\\nOperations Manager\\nInterSec Defense Solutions\\n\\nThis communication consists of a non-binding offer that upon acceptance may be immediately terminated by either party without any given notice. All operations are conducted at the contractor’s own personal risk and must adhere to system law where applicable.",
+      "en": "MISSION SPECS\\n\\nArea of Operation: Nyx System\\nHostile Forces: Outlaws\\nEquipment Specs: Combat-rated Ships\\nBriefing: InterSec has been hired to combat the rising number of outlaws using Nyx as a staging ground for their operations, with the intention of attacking neighboring UEE systems.\\n\\nAs a preventative measure, we require you to travel to <EM4>[LOCATION]</EM4> and eliminate the ringleader <EM4>[TARGET]</EM4> to deter their planned attack on Stanton. They and their crew are highly dangerous and you are <EM4>advised to bring a wingman</EM4> for support.\\n\\nContractors who can prove themselves reliable and competent in executing operations will be eligible for future missions with InterSec.\\n\\nRespectfully,\\n\\nDeacon Tobin\\nOperations Manager\\nInterSec Defense Solutions\\n\\nThis communication consists of a non-binding offer that upon acceptance may be immediately terminated by either party without any given notice. All operations are conducted at the contractor’s own personal risk and must adhere to system law where applicable.",
       "tr": "任务说明\\n\\n行动区域：尼克斯星系\\n敌对势力：不法分子\\n装备规格：战斗级飞船\\n任务简报：互安受雇打击以尼克斯为行动基地、意图攻击邻近 UEE 星系的不法分子日益增多的问题。\\n\\n作为预防措施，你需要前往 <EM4>[LOCATION]</EM4>，干掉幕后黑手 <EM4>[TARGET]</EM4>，以阻止他们对斯坦顿的袭击计划。他和他的船员极其危险，<EM4>建议带上僚机</EM4>提供支援。\\n\\n凡能证明自己可靠且有能力完成任务的承包商，将有资格参与互安防务未来的任务。\n\n此致，\\n迪肯·托宾\\n运营经理\\n互安防务\\n\\n本通讯内容是一份非约束性的提议，一旦接受，任何一方都可以在不另行通知的情况下立即终止。所有行动均由承包商自行承担风险，并且必须遵守 UEE 和相关星系的法律。\n\n\n- R97 霰弹枪 R97 Shotgun\\n- 蒙德 臂甲 Monde Arms\\n- 蒙德 胸甲 Monde Core\\n- 蒙德 腿甲 Monde Legs\\n- 蒙德 头盔 Monde Helmet\\n- 蒙德 臂甲 弘 Monde Arms Hiro\\n- 蒙德 胸甲 弘 Monde Core Hiro\\n- 蒙德 腿甲 弘 Monde Legs Hiro\\n- 蒙德 头盔 弘 Monde Helmet Hiro\\n- R97 霰弹枪弹匣 (18 发) R97 Shotgun Magazine (18 cap)"
     },
     "searchbodyspace_desc_intro": {
@@ -5249,7 +5325,7 @@
     },
     "Covalex_HaulCargo_AToB_Intro_desc": {
       "en": "Earning such accolades as 'Imperial Finances' Top 10 Shipping Companies' and 'Delivery Digest's 2945's Most Trusted Transport,' Covalex is busier than ever. And that means more cargo going to more places. That's where you come in.  \\n\\nCovalex is looking for dependable and industrious pilots to join our expanding family. Do you have access to a ship that can hold <EM4>1 SCU cargo containers</EM4>? Can you pass an Advocacy background check if required? Then a universe of opportunity is waiting for you. \\n\\nSimply complete an 'Evaluation Trial’ by picking up a shipment of <EM4>Quartz</EM4> from a freight elevator at <EM4>[LOCATION]</EM4> and successfully delivering it to a freight elevator at <EM4>[DESTINATION]</EM4>.\\n\\nUpon satisfactory completion, you'll be eligible to become part of Covalex Shipping's vast network of independent transport specialists*.\\n\\nBy the way, we strongly encourage contractors to bring a <EM4>handheld tractor beam</EM4> along.   \\n\\nCovalex Shipping  \\n'Anything you need, anywhere you need it.'\\n\\n*Covalex Shipping is a limited liability corporation. To encourage timely deliveries and prevent fraud on cargo hauls, Covalex Shipping will set a delivery time limit and upon expiration, any undelivered cargo will be considered stolen and treated as such. Total payment will be prorated according to the percentage of cargo successfully delivered.",
-      "tr": "摘得“帝国金融Top10航运公司”和“投递领域2945最值得信赖的运输”等荣誉后，科瓦莱什比以往都更加繁忙。这意味着更多的货物将运往更多的地方，这就是需要你发挥作用的地方。\\n\\n科瓦莱什正在寻找可靠且勤奋的飞行员加入我们不断壮大的家庭。你有能装载尺寸为 <EM4>[MAX_SCU]</EM4> 的集装箱货物的飞船吗？如果需要，你能通过督导局的背景调查吗？那么，一个充满机会的宇宙正在等着你。\\n\\n从 <EM4>[LOCATION]</EM4> 的货运电梯里取出 <EM4>[[ITEM]]</EM4> 并把它成功送到 <EM4>[DESTINATION]</EM4> 的货运电梯，即可完成“试用评估”。\\n\\n圆满完成后，你将有资格成为拥有庞大的运输网络的科瓦莱什货运专员。\\n\\n顺便提醒，我们强烈建议承包商随身携带<EM4>手持式牵引光束</EM4>。\n\n科瓦莱什货运\\n“尽你所需，达你所在。”\n\n科瓦莱什货运是一家有限责任公司，为鼓励及时交付和防止货运欺诈，科瓦莱什货运将设定交货时间限制。到期后，任何未交付的货物将被视为被盗。总酬金将会根据货物成功交付的百分比按比例支付。"
+      "tr": "摘得“帝国金融Top10航运公司”和“投递领域2945最值得信赖的运输”等荣誉后，科瓦莱什比以往都更加繁忙。这意味着更多的货物将运往更多的地方，这就是需要你发挥作用的地方。\\n\\n科瓦莱什正在寻找可靠且勤奋的飞行员加入我们不断壮大的家庭。你有能装载尺寸为 <EM4>[MAX_SCU]</EM4> 的集装箱货物的飞船吗？如果需要，你能通过督导局的背景调查吗？那么，一个充满机会的宇宙正在等着你。\\n\\n从 <EM4>[LOCATION]</EM4> 的货运电梯里取出 <EM4>[ITEM]</EM4> 并把它成功送到 <EM4>[DESTINATION]</EM4> 的货运电梯，即可完成“试用评估”。\\n\\n圆满完成后，你将有资格成为拥有庞大的运输网络的科瓦莱什货运专员。\\n\\n顺便提醒，我们强烈建议承包商随身携带<EM4>手持式牵引光束</EM4>。\n\n科瓦莱什货运\\n“尽你所需，达你所在。”\n\n科瓦莱什货运是一家有限责任公司，为鼓励及时交付和防止货运欺诈，科瓦莱什货运将设定交货时间限制。到期后，任何未交付的货物将被视为被盗。总酬金将会根据货物成功交付的百分比按比例支付。"
     },
     "foxwell_DefendShip_M_desc_001": {
       "en": "Got an orange level contract for any available combat pilots. A [SHIP] is under attack around [LOCATION] and is in desperate need for assistance. We're not sure how many perpetrators there are, but they seem motivated and dangerous so exercise caution.\\n\\nOnce on site, engage and destroy any hostiles you encounter and protect the client. Once they've transferred the credits, we'll route you your payment.\\n\\nEugene Walton\\nFoxwell Enforcement\\n'Security, Your Way'\\n\\nFoxwell Enforcement is a bonded security specialist licensed to operate throughout the UEE. We are always looking for new operators to join our family. If you or anyone you know is interested, please reach out to one of our contract representatives.",
@@ -5716,16 +5792,16 @@
       "tr": "我们一直在监测 <EM4>[LOCATION]</EM4> 的情况，过去几个月 <EM4>[CREATURE]</EM4> 的数量有所增加。我们的模型显示，如果这种情况持续下去，许多本地植物和动物将受到不利影响。在此之前，必须减少 <EM4>[CREATURE]</EM4> 的数量。\\n\\n如果您能提供帮助，请参阅<EM4>《斯坦顿野生动物指南》</EM4>。\\n\\n祝好，\\n\\n旺达·沃克海瑟\\n合约经理\\n高境荒野专家"
     },
     "Highpoint_KillAnimals_rockcracker_desc_E_001": {
-      "en": "If you have any work that's going to be bringing you to one of those old QV Breaker Stations in the Keeger Belt, we have something else that we could use your help on while you're there.\\n \\nWe've recently been contacted by the People's Alliance to assist with an initiative to help prepare these abandoned stations for repairs. Unfortunately, a Valakkar infestation is creating serious problems for not only the stations' infrastructure, but also for the chances of them being brought back online one day. Due to Valakkar's status as an invasive species, we have decided that culling them is the only viable option.\\n \\nReduce the Valakkar numbers at any of the old QV Breaker Stations and we will offer you payment.\\n \\nBest,\\n \\nWanda Werkheiser\\n\\nContract Manager\\n\\nHighpoint Wilderness Specialists",
-      "tr": "若您近期有任务需前往基格小行星带的任一老旧 QV 碎岩站，我们另有一项工作希望您顺道协助。\\n\\n我们近日接到人民联盟的请求，协助推进一项计划：为修复这些废弃空间站做前期准备。遗憾的是，瓦拉卡种群的入侵已严重破坏站内基础设施，并极大降低了其未来重启的可能性。鉴于瓦拉卡属入侵物种，经评估，清除其种群实为唯一可行方案。\\n\\n请在任一老旧 QV 碎岩站内削减瓦拉卡数量，任务完成后我们将支付相应报酬。\\n\\n祝好，\\n\\n旺达·沃克海瑟\\n合约经理\\n高境荒野专家\n\n\n- R97 霰弹枪 R97 Shotgun\\n- 蒙德 臂甲 Monde Arms\\n- 蒙德 胸甲 Monde Core\\n- 蒙德 腿甲 Monde Legs\\n- 蒙德 头盔 Monde Helmet\\n- 蒙德 臂甲 弘 Monde Arms Hiro\\n- 蒙德 胸甲 弘 Monde Core Hiro\\n- 蒙德 腿甲 弘 Monde Legs Hiro\\n- 蒙德 头盔 弘 Monde Helmet Hiro\\n- R97 霰弹枪弹匣 (18 发) R97 Shotgun Magazine (18 cap)"
+      "en": "If you have any work that's going to be bringing you to one of those old <EM4>QV Breaker Stations</EM4> in the Keeger Belt, we have something else that we could use your help on while you're there.\\n \\nWe've recently been contacted by the People's Alliance to assist with an initiative to help prepare these abandoned stations for repairs. Unfortunately, a <EM4>Valakkar infestation</EM4> is creating serious problems for not only the stations' infrastructure, but also for the chances of them being brought back online one day. Due to Valakkar's status as an invasive species, we have decided that culling them is the only viable option.\\n \\nReduce the Valakkar numbers at any of the old QV Breaker Stations and we will offer you payment.\\n \\nBest,\\n \\nWanda Werkheiser\\nContract Manager\\nHighpoint Wilderness Specialists",
+      "tr": "若您近期有任务需前往基格小行星带的任一老旧 <EM4>QV 碎岩站</EM4>，我们另有一项工作希望您顺道协助。\\n\\n我们近日接到人民联盟的请求，协助推进一项计划：为修复这些废弃空间站做前期准备。遗憾的是，瓦拉卡种群的入侵已严重破坏站内基础设施，并极大降低了其未来重启的可能性。鉴于<EM4>瓦拉卡属入侵物种</EM4>，经评估，清除其种群实为唯一可行方案。\\n\\n请在任一老旧 QV 碎岩站内削减瓦拉卡数量，任务完成后我们将支付相应报酬。\\n\\n祝好，\\n\\n旺达·沃克海瑟\\n合约经理\\n高境荒野专家\n\n\n- R97 霰弹枪 R97 Shotgun\\n- 蒙德 臂甲 Monde Arms\\n- 蒙德 胸甲 Monde Core\\n- 蒙德 腿甲 Monde Legs\\n- 蒙德 头盔 Monde Helmet\\n- 蒙德 臂甲 弘 Monde Arms Hiro\\n- 蒙德 胸甲 弘 Monde Core Hiro\\n- 蒙德 腿甲 弘 Monde Legs Hiro\\n- 蒙德 头盔 弘 Monde Helmet Hiro\\n- R97 霰弹枪弹匣 (18 发) R97 Shotgun Magazine (18 cap)"
     },
     "UWC_Refueling_easy_desc_001": {
       "en": "Hey there,\\n\\nIf you're fitted for refueling, you might like this one. \\n\\nA beacon has just gone live at <EM4>[LOCATION]</EM4>, from a client whose <EM4>[SHIP]</EM4> is in need of [FUELTYPE], so make sure your pods are topped off.\\n\\nThe client vessel will pay you at the rate of [REFUELREQUEST], and as a United Wayfarers Club contractor, you will also qualify for the UWC service fee listed above upon completion.\\n\\nLooks like a zero-drama one and done, but it never hurts to keep your scanners live.\\nLet me know if you're interested and let's get these good people on their way.\\n\\nWaiting to hear from you,\\n\\nDina Deloit\\nDispatch Hub\\nUnited Wayfarers Club\\n\"We’ve got your back\"",
       "tr": "你好啊，\\n\\n如果你加装了加油设备，可能会喜欢这个任务。\\n\\n一个信标刚刚在 <EM4>[LOCATION]</EM4> 附近上线。是一位客户的委托，他的 <EM4>[SHIP]</EM4> 需要 [FUELTYPE]\\n\\n客户飞船将按 [REFUELREQUEST] 的价格向你支付报酬。作为旅者联合俱乐部的承包商，完成任务后你还将获得上述列出的 UWC 服务费。\\n\\n看起来是个零麻烦、一次搞定就完事的活，但保持扫描器开启总没坏处。\\n如有兴趣请告知，我们好让这些人顺利启程。\\n\\n静候佳音，\\n\\n迪娜·德洛特\\n调度中心\\n旅者联合俱乐部\\n“我们是你坚实的后盾。”\n\n\n- 诺菲尔德Norfield [燃料喷嘴 流速氢1.45量子0.8 | 血量7140]\\n- 枪鱼Marlin [燃料喷嘴 流速氢1.05量子0.58 | 血量9818]\\n- 林斯特龙Lindstrom [燃料喷嘴 流速氢2.0量子1.1 | 血量6300]\\n- 哈金Harkin [燃料喷嘴 流速氢1.05量子0.58 | 血量12390]\\n- RN-7s [燃料喷嘴 流速氢1.65量子0.91 | 血量9000]\\n- 奔德士Bendix [燃料喷嘴 流速氢2.54量子1.4 | 血量6300]\\n- 托雷斯Torrez [燃料喷嘴 流速氢2.15量子1.18 | 血量16992]\\n- 以斯拉Ezra [燃料喷嘴 流速氢2.18量子1.2 | 血量10800]"
     },
     "CFP_ShipWaveAttack_ClearHostiles_Desc_M_001": {
-      "en": "It feels that whenever we start to make real progress in the system, the outlaws are there to push one step back. We had recently cleared out [LOCATION] only to learn that a new outlaw gang has taken root there, using it as a launching point for various criminal enterprises. \\n\\nSince we can't afford to let this rot spread, you and a few support ships are being charged with heading there to clear out all the gang's packs. After you deal with one pack, be sure to wait until all of the hostile packs have been dealt with.\\n\\nKnow that you are helping to make a real difference,\\nLima Endicott\\nLead Dispatcher\\nCitizens for Prosperity",
-      "tr": "总感觉每当我们在星系中刚取得实质性进展，不法分子就会跳出来让我们往回退一步。我们不久前才刚肃清 [LOCATION]，却得知一支新的不法团伙已在此扎根，并将其作为各类犯罪活动的跳板。\\n\\n鉴于我们无法容忍这种腐化继续蔓延，现指派你携数艘支援飞船前往该地，彻底清除所有帮派成员。每击溃一股敌军编队后，请务必耐心等待，直至所有敌对势力均被歼灭为止。\\n\\n要知道，你正在做出真正的贡献，\\n利玛·恩迪科特\\n首席调度员\\n繁荣公民"
+      "en": "It feels that whenever we start to make real progress in the system, the outlaws are there to push one step back. We had recently cleared out <EM4>[LOCATION]</EM4> only to learn that a new outlaw gang has taken root there, using it as a launching point for various criminal enterprises. \\n\\nSince we can't afford to let this rot spread, you and a few support ships are being charged with heading there to clear out all the gang's packs. After you deal with one pack, be sure to wait until all of the hostile packs have been dealt with.\\n\\nKnow that you are helping to make a real difference,\\nLima Endicott\\nLead Dispatcher\\nCitizens for Prosperity",
+      "tr": "总感觉每当我们在星系中刚取得实质性进展，不法分子就会跳出来让我们往回退一步。我们不久前才刚肃清 <EM4>[LOCATION]</EM4>，却得知一支新的不法团伙已在此扎根，并将其作为各类犯罪活动的跳板。\\n\\n鉴于我们无法容忍这种腐化继续蔓延，现指派你携数艘支援飞船前往该地，彻底清除所有帮派成员。每击溃一股敌军编队后，请务必耐心等待，直至所有敌对势力均被歼灭为止。\\n\\n要知道，你正在做出真正的贡献，\\n利玛·恩迪科特\\n首席调度员\\n繁荣公民"
     },
     "EckhartSecurity_Defend_H_Desc_001": {
       "en": "ECKHART SECURITY, LLC.\\nCONTRACTS & DISPATCH\\n\\nCONTRACT TYPE: Defend Location\\nAPPROVAL CODE = [APPROVAL_CODE]\\n\\nFOR IMMEDIATE PROCESSING\\n\\nThere’s a serious problem brewing for one of our clients at <EM4>[LOCATION]</EM4>. They’ve been warned that a highly skilled outlaw crew has their sights set on overrunning and occupying that location. We’ve been hired to make sure that doesn’t happen. \\n\\nNeed a contractor to deploy to the location immediately. Based on the intel provided by the client, this won’t be a walk in the park. We strongly advise you to bring allies and plenty of supplies to help ward of the impending attack.   \\n\\nPayment will be issued upon successful completion of contract.\\n\\nThis contract is non-negotiable.\\n\\nThis message may contain confidential, proprietary, privileged and/or private information. The information is intended to be for the use of the individual or entity designated above.",
@@ -5737,7 +5813,7 @@
     },
     "HeadHunters_ShipAmbush_H_desc_001": {
       "en": "A squad of ships recently shanked one of our convoys, and ten credits says they’re gonna try and do it again. Looking for someone to launch a reprisal attack before that can happen.  \\n\\nWe’ve ID’d the idiots as consisting of several large craft and a sizable escort. We believe the leader is flying a <EM4>[TARGET]</EM4> and set that ship as the primary target. Since it’s a sizable and aggressive squad, a surprise attack seems like a smart play. They often pass by <EM4>[LOCATION]</EM4>, which has an emission cloud to hide in. Be smart and patient then strike when the time is right. \\n\\nUnless you fancy yourself a real ace, it’s probably best to bring some friends. Maybe you can entice folks by letting them know they can pick through the wreckage for valuables once the deed is done.\\n\\nAnd on top of that, I'll give the main contractor a bonus <EM4>8 Council Scrip</EM4> to sweeten the pot.\\n\\nStows out.",
-      "tr": "有一队飞船最近劫了我们的运输舰队，我赌十块钱他们还会再来。想找人在那之前给他们给他们点颜色看看。\\n\\n已经确认这帮蠢货由几艘大船和一艘护卫舰组成。领队开的是 <EM4>[TARGET]</EM4>，就把它定为首要目标。既然对方人多势众又穷凶极恶，搞突袭才是上策。他们常经过 <EM4>[LOCATION]</EM4> 那片带辐射云的星域——藏好身形，伺机而动。\\n\\n除非你自认是王牌飞行员，否则最好带几个帮手。不妨告诉来帮忙的人，干完这票可以在可以在残骸里随便捡值钱货。\\n\\n更重要的是，我还会额外奖励给主承包商 <EM4>[SCRIPAMOUNT] 个堂会凭证</EM4> 作为甜头。\\n\\n- 斯托斯"
+      "tr": "有一队飞船最近劫了我们的运输舰队，我赌十块钱他们还会再来。想找人在那之前给他们给他们点颜色看看。\\n\\n已经确认这帮蠢货由几艘大船和一艘护卫舰组成。领队开的是 <EM4>[TARGET]</EM4>，就把它定为首要目标。既然对方人多势众又穷凶极恶，搞突袭才是上策。他们常经过 <EM4>[LOCATION]</EM4> 那片带辐射云的星域 —— 藏好身形，伺机而动。\\n\\n除非你自认是王牌飞行员，否则最好带几个帮手。不妨告诉来帮忙的人，干完这票可以在可以在残骸里随便捡值钱货。\\n\\n更重要的是，我还会额外奖励给主承包商 <EM4>[SCRIPAMOUNT] 个堂会凭证</EM4> 作为甜头。\\n\\n- 斯托斯"
     },
     "headhunters_eliminateall_outpost_desc_01": {
       "en": "Some assholes are refusing to pay us what we’re owed. Problem is, these idiots are bragging about it. Had they kept it quiet, we could’ve taken care of this more surgically, but now we need to send a message.\\n\\nThe fools are operating from [LOCATION]. We need them all gone. Make it as loud as you can. We’ll send your payment once everyone’s taken care of.\\n\\n- Stows out.",
@@ -5762,6 +5838,10 @@
     "Headhunters_DefendLocation_S_Desc_001": {
       "en": "Our crew at <EM4>[LOCATION]</EM4> needs help. Enemy ships are swarming the area and attacking anything and everything they can find. That’d be bad enough as is, but this site has some absolutely crucial gear and personnel that we can’t have destroyed or compromised. \\n\\nConsidering the size and scale of the attack, you’re gonna need a fully supplied ship and some reliable wingmen. Gather your crew, fly out to the site, and I’ll send you specifics on where you’re needed most.\\n\\nTo prove just how serious we are about getting this done right, the main contractor will earn a bonus <EM4>9 Council Scrip</EM4> for making sure absolutely nothing goes wrong.\\n\\n- Stow",
       "tr": "我们在 <EM4>[LOCATION]</EM4> 的船员需要支援。敌方飞船正在这片区域疯狂出没，见什么打什么。这已经够糟了，但这个地点还有一些极其关键的设备和人员，绝对不能被摧毁或者落入敌人手里。\\n\\n考虑到这次袭击的规模，你得有一艘全副武装的飞船，再带上几个靠谱的僚机伙伴。召集你的队伍，飞到现场，我会告诉你最需要支援的具体位置。\\n\\n为了表明我们对完成任务的重视程度，只要确保一切顺利，没有任何闪失，主承包人将会获得一笔额外奖金：<EM4>[SCRIPAMOUNT] 个堂会凭证</EM4>。\\n\\n- 斯托斯"
+    },
+    "Intersec_BoardShip_ShatteredBlade_Desc_001": {
+      "en": "MISSION SPECS\\n\\nArea of Operation: Nyx System \\nHostile Forces: Shattered Blade\\nEquipment Specs: Combat Ready\\nBriefing: \\n\\nUrgent assistance is required for a ship at <EM4>[LOCATION]</EM4>. Intercepted comms indicate it has been boarded by Shattered Blade intent on hijacking the recovered Vanduul cryopods in the ship's hold.\\n\\nProceed to location and take back the vessel. Lethal force has been authorized against all Shattered Blade operatives. The captured crew is counting on you.\\n\\nRespectfully,   \\n\\nDeacon Tobin \\nOperations Manager \\nInterSec Defense Solutions  \\n\\nThis communication consists of confidential information solely intended for the recipient. Please disregard if received in error and notify the sender. All operations are conducted at the contractor’s own personal risk and must adhere to UEE and system law where applicable.",
+      "tr": "任务说明\\n\\n行动区域：尼克斯星系\\n敌对势力：碎刃帮\\n装备规格：战斗级\\n任务简报：\\n\\n位于 <EM4>[LOCATION]</EM4> 的一艘飞船急需紧急援助。截获的通讯表明，碎刃帮已登船，企图劫走货舱里回收的那批剜度冷冻舱。\\n\\n前往该地点，夺回飞船。已授权对所有碎刃帮成员使用致命武力。被俘的船员都指望你了。\\n\\n此致，\\n\\n迪肯·托宾\\n运营经理\\n互安防务\\n\\n本通信内容包含机密内容，仅限收件人阅读。如误收请忽略并通知发件人。所有行动均由承包商自行承担风险，并须遵守适用的 UEE 及星系法律。"
     },
     "northrock_SOO_repeat_desc_001": {
       "en": "Glad to have you undertaking this operation for Northrock. Here is the full brief:\\n\\nYour priority is to <EM4>disable all three Identify Friend or Foe Inverters</EM4> that are blocking Crusader Security from accessing the airspace around these platforms. Once the inverters are offline, Crusader Security will be able to fly their ships in and resecure the platforms. In the meanwhile, the platforms are connected by a series of shuttles unaffected by the inverters and will serve as your main form of transport between them.\\n\\nBe aware that you will meet heavy resistance as you progress. Crusader has tried multiple times to deal with this incursion themselves but have thus far been unsuccessful. However, we believe a small strike team will prove more effective in dealing with the Nine Tails forces. \\n\\nAdditionally, in the spirit of full cooperation, Crusader has given you carte blanche to utilize any of the resources you discover that may prove helpful to the mission. \\n\\nBest of luck,\\nAdrienne Du-Buisson\\nLogistics Officer - Stanton Branch\\nNorthrock Service Group",
@@ -5801,7 +5881,7 @@
     },
     "RedWind_HaulCargo_MultiToSingle_desc_RantaDung": {
       "en": "RED WIND LINEHAUL\\n'YOUR GOODS IN GOOD HANDS'\\n----------------------------\\n\\nGot a request from a farmer in Pyro for specialized agricultural supplies - namely, ranta dung. Apparently, normal fertilizers aren't cutting it. They've put in orders from multiple distributors and need someone to bring everything back to <EM4>[DESTINATION]</EM4>.\\n\\nHere are all the places you can collect the dung:\\n\\nPICK UP LOCATIONS (ANY ORDER)\\n\\n [MULTITOSINGLETOKEN]\\n\\nThe client says your ship needs to be able to carry at least <EM4>8 SCU cargo containers</EM4>. Don't forget to bring your own <EM4>handheld tractor beam</EM4> for loading and unloading.",
-      "tr": "红风物流\\n“您的货物，有我保障”\\n----------------------------\\n\\n派罗的一位农民需要一批专用农用物资——兰塔有机粪便。听说普通化肥根本不管用。他从多个分销商下了单，需要有人把所有东西运回 <EM4>[DESTINATION]</EM4>。\\n\\n以下是你可以收集有机粪便的地点（任意顺序）：\\n\\n[MULTITOSINGLETOKEN]\\n\\n客户说你的飞船至少得能装下 <EM4>[MAX_SCU] 尺寸的集装箱</EM4>。别忘了自带<EM4>手持式牵引光束</EM4>，方便装卸。"
+      "tr": "红风物流\\n“您的货物，有我保障”\\n----------------------------\\n\\n派罗的一位农民需要一批专用农用物资 —— 兰塔有机粪便。听说普通化肥根本不管用。他从多个分销商下了单，需要有人把所有东西运回 <EM4>[DESTINATION]</EM4>。\\n\\n以下是你可以收集有机粪便的地点（任意顺序）：\\n\\n[MULTITOSINGLETOKEN]\\n\\n客户说你的飞船至少得能装下 <EM4>[MAX_SCU] 尺寸的集装箱</EM4>。别忘了自带<EM4>手持式牵引光束</EM4>，方便装卸。"
     },
     "iasi_EliminateAll_M_Desc": {
       "en": "Greetings,\\n\\nUnfortunately, I've just received word that one of RSI's Discovery Month host locations has been attacked by a group of outlaws. Fortunately, the criminals in question left a rather messy trail of evidence behind allowing us to easily track down their location.\\n\\nWe need a contractor to head to <EM4>[LOCATION]</EM4> and deal with the criminals on site before they can strike again. \\n\\nArm yourself appropriately and be wary.\\n\\nBest of luck,\\nAdrienne Du-Buisson\\nLogistics Officer\\nNorthrock Service Group",
@@ -5809,7 +5889,7 @@
     },
     "iasi_GoldBox_Delivery_Desc_0": {
       "en": "Calling all RSI Enthusiasts!\\n\\nA core value of Robert Space Industries is exploration and adventure - and in keeping with that - we are thrilled to provide all pilots with the chance to test fly the new <EM4>RSI Constellation Mk V</EM4>!\\n\\nAll you have to do is collect the Golden Constellation box from the plinth at one of our special event locations and deliver it to another <EM4>RSI Event Platform</EM4>. Once you've done that, you'll be able to enjoy the test flight period. It’s as simple as that!\\n\\nThe Constellation Mk V is one of RSI's most versatile ships to date. Featuring four S5 weapons, two remote turrets, and 240 SCU of cargo storage, this ship caters for all kinds of adventures.\\n\\nWe hope you enjoy this opportunity to experience the future of spaceflight first hand and that it will be just the first of many more adventures to come.\\n\\nEnjoy your journey,\\n\\nChristoph Roester\\nRSI Community Outreach Manager\\n---\\nRoberts Space Industries\\nDelivering the Stars since 2075",
-      "tr": "呼叫所有 RSI 爱好者！\\n\\n探索与冒险，是罗伯茨太空工业的核心价值——正因如此，我们非常激动地要让所有飞行员都有机会试飞全新的 <EM4>RSI 星座 Mk V</EM4>！\\n\\n你只需要从我们某个特别活动地点的基座取走金色星座包装盒，再把它送到另一个 <EM4>RSI 活动平台</EM4>。完成后，你就能享受这段试飞期了。就这么简单！\\n\\n星座 Mk V 是 RSI 迄今为止用途最广的飞船之一。它配备四门 S5 武器、两座遥控炮塔，以及 240 SCU 的货舱容量，它能应对各种各样的冒险。\\n\\n希望你能享受这次亲身体验未来太空飞行的机会，也希望这只是未来众多冒险中的第一段。\\n\\n祝您旅途愉快，\\n\\n克里斯托夫·罗斯特\\nRSI 社区外联活动经理\\n---\\n罗伯茨太空工业\\n自 2075 年，为你摘下星辰"
+      "tr": "呼叫所有 RSI 爱好者！\\n\\n探索与冒险，是罗伯茨太空工业的核心价值 —— 正因如此，我们非常激动地要让所有飞行员都有机会试飞全新的 <EM4>RSI 星座 Mk V</EM4>！\\n\\n你只需要从我们某个特别活动地点的基座取走金色星座包装盒，再把它送到另一个 <EM4>RSI 活动平台</EM4>。完成后，你就能享受这段试飞期了。就这么简单！\\n\\n星座 Mk V 是 RSI 迄今为止用途最广的飞船之一。它配备四门 S5 武器、两座遥控炮塔，以及 240 SCU 的货舱容量，它能应对各种各样的冒险。\\n\\n希望你能享受这次亲身体验未来太空飞行的机会，也希望这只是未来众多冒险中的第一段。\\n\\n祝您旅途愉快，\\n\\n克里斯托夫·罗斯特\\nRSI 社区外联活动经理\\n---\\n罗伯茨太空工业\\n自 2075 年，为你摘下星辰"
     },
     "iasi_Delivery_2H_Desc": {
       "en": "FOR IMMEDIATE ASSIGNMENT\\n\\n**CONTRACT DETAILS** \\nRECOMMENDED EXPERIENCE LEVEL – ENTRY\\n\\nPICKUP LOCATION – Courier to collect RSI supplies from <EM4>[LOCATION]</EM4>.\\n\\nDROPOFF LOCATION – Deliver supplies to the <EM4>RSI Event Platform</EM4>.\\n\\nTHREAT LEVEL – Highly unlikely.\\n\\nTRAVEL –  All transportation needs should be arranged by courier.\\n\\nBy accepting this contract you agree to take full responsibility for the safety of the assigned packages.\\n\\nGood luck and good speed, courier!",
@@ -5889,7 +5969,7 @@
     },
     "iasi_Refueling_E_Desc_001": {
       "en": "Hey!\\n\\nIf you're top notch refueller, this job might just interest you.\\n\\nPicked up a beacon at <EM4>[LOCATION]</EM4> from a client who's flying a <EM4>[SHIP]</EM4> and needs <EM4>[FUELTYPE]</EM4> to help them out of a pinch. Looks like they were heading to that fancy new RSI Discovery location and forgot to refuel along the way. If I had a cred for every time I did that - well, let's just say I wouldn't be working here anymore!\\n\\nThe client vessel will pay you at the rate of [REFUELREQUEST], and as a United Wayfarers Club contractor, you will also qualify for the UWC service fee listed above upon completion.\\n\\nCan't imagine you'll run into any trouble, but that's exactly the kind of thing people say in those old vids right before they do. So keep an eye out for danger. \\n\\nHappy trails,\\n\\nDina Deloit\\nDispatch Hub\\nUnited Wayfarers Club\\n\"\"We’ve got your back\"\"",
-      "tr": "嘿！\\n\\n如果你是个顶尖的加油员，这份活儿说不定正合你胃口。\\n\\n我在 <EM4>[LOCATION]</EM4> 收到一个信标，客户开着一艘 <EM4>[SHIP]</EM4>，需要 <EM4>[FUELTYPE]</EM4> 来帮他们脱离困境。看样子他们正赶往那个气派的新 RSI 探索站点，结果半路上忘了加油。要是我每次犯这毛病都能拿一个信用点——这么说吧，我现在早就不在这儿干了！\\n\\n客户飞船将按 [REFUELREQUEST] 的价格向你支付报酬。作为旅者联合俱乐部的承包商，完成任务后你还将获得上述列出的 UWC 服务费。\\n\\n我猜你这一趟不会遇到什么麻烦，不过老录像带里那些人也都这么说，然后麻烦就来了。所以还是多留个心眼。\\n\\n一路顺风，\\n\\n迪娜·德洛特\\n调度中心\\n旅者联合俱乐部\\n“我们是你坚实的后盾。”"
+      "tr": "嘿！\\n\\n如果你是个顶尖的加油员，这份活儿说不定正合你胃口。\\n\\n我在 <EM4>[LOCATION]</EM4> 收到一个信标，客户开着一艘 <EM4>[SHIP]</EM4>，需要 <EM4>[FUELTYPE]</EM4> 来帮他们脱离困境。看样子他们正赶往那个气派的新 RSI 探索站点，结果半路上忘了加油。要是我每次犯这毛病都能拿一个信用点 —— 这么说吧，我现在早就不在这儿干了！\\n\\n客户飞船将按 [REFUELREQUEST] 的价格向你支付报酬。作为旅者联合俱乐部的承包商，完成任务后你还将获得上述列出的 UWC 服务费。\\n\\n我猜你这一趟不会遇到什么麻烦，不过老录像带里那些人也都这么说，然后麻烦就来了。所以还是多留个心眼。\\n\\n一路顺风，\\n\\n迪娜·德洛特\\n调度中心\\n旅者联合俱乐部\\n“我们是你坚实的后盾。”"
     },
     "iasi_GoldBox_Delivery_Desc": {
       "en": "Calling all RSI Enthusiasts!\\n\\nAre you interested in participating in a special, long distance relay race?\\n\\nWe're looking for eager pilots to collect a Gold Constellation model box from one of our special event platforms and deliver it to another. Then another participant will pick it up and continue the relay!\\n\\nGood luck and have fun out there!\\n\\nChristoph Roester\\nRSI Community Outreach Manager\\n---\\nRoberts Space Industries\\nDelivering the Stars since 2075",
@@ -6051,6 +6131,10 @@
       "en": "ECKHART SECURITY, LLC.\\nCONTRACTS & DISPATCH\\n\\nCONTRACT TYPE: Destroy Server\\nAPPROVAL CODE = VS-14\\n\\nFOR IMMEDIATE PROCESSING\\n\\nClient has requested a discreet contractor to infiltrate an ASD research site, locate a group of servers, and destroy the information stored on them permanently.\\n\\nThe client was able to share the location of the servers within the facility: the <EM4>Control Center in the Engineering wing</EM4>. The site has officially been shuttered, but there still may be hostile forces there. Be on your guard.\\n\\nPayment will be issued upon successful completion of contract.\\n\\nThis contract is non-negotiable.\\n\\nThis message may contain confidential, proprietary, privileged and/or private information. The information is intended to be for the use of the individual or entity designated above.",
       "tr": "埃克哈特安保有限公司\\n合约 & 派遣\\n\\n合约类型：摧毁服务器\\n授权代码 = VS-14\\n\\n需要立即处理\\n\\n客户要求一名行事谨慎的承包商潜入一个联合科学与开发公司(ASD)的研究站点，找到一组服务器，并永久销毁存储在其中的信息。\\n\\n客户能够分享设施内服务器的位置：位于<EM4>工程翼楼的控制中心</EM4>。该地点已正式关闭，但仍可能存在敌对势力。请保持警惕。\\n\\n报酬将于合约成功完成后发放。\\n\\n该合约不可转让。\\n\\n此消息中可能包含机密、专有、特许保密的和/或私人信息，该等资料仅供上述指定的个人或实体使用。"
     },
+    "Intersec_ShipWaveAttack_DrawOutBoss_H_Van_Desc_001": {
+      "en": "MISSION SPECS\\n\\nArea of Operation: Nyx System \\nHostile Forces: Vanduul\\nEquipment Specs: Combat-rated ship\\nBriefing:\\n\\nScanners have detected the engine signatures of a significant number of Vanduul vessels, including potential Super Stingers, at <EM4>[LOCATION]</EM4>. In the event these scans prove accurate, the Super Stingers should be considered priority targets. \\n\\nYou are advised to arrange for backup to accompany you. This looks to be the kind of mission that leads to more substantial  contracts.\\n\\nRespectfully,   \\n\\nDeacon Tobin \\nOperations Manager \\nInterSec Defense Solutions  \\n\\nThis communication consists of confidential information solely intended for the recipient. Please disregard if received in error and notify the sender. All operations are conducted at the contractor’s own personal risk and must adhere to UEE and system law where applicable.",
+      "tr": "任务说明\\n\\n行动区域：尼克斯星系\\n敌对势力：剜度\\n装备规格：战斗级飞船\\n任务简报：\\n\\n扫描仪在 <EM4>[LOCATION]</EM4> 探测到大量剜度飞船的引擎信号，其中可能包括超级毒刺。如果这些扫描结果属实，超级毒刺应被视为优先目标。\\n\\n建议你安排后援与你同行。这看起来像是那种能带来更丰厚合约的任务。\\n\\n此致，\\n\\n迪肯·托宾\\n运营经理\\n互安防务\\n\\n本通信内容包含机密内容，仅限收件人阅读。如误收请忽略并通知发件人。所有行动均由承包商自行承担风险，并须遵守适用的 UEE 及星系法律。"
+    },
     "cfp_defendship_Intro_Desc_001": {
       "en": "Citizens for Prosperity is in need of pilots with dogfighting experience. If you’re looking to put your skills to the test, I have a mission here for you to try. \\n\\nA civilian ship has requested combat support near <EM4>[LOCATION]</EM4>. Head there and show us that you have the skills to excel in these types of missions and we’ll put you to good use.  \\n\\nPlease be aware. This mission is not a training exercise. This is a real encounter, so please do your best to save the ship in distress. \\n\\nGood Luck,\\n\\nLima Endicott\\nLead Dispatcher\\nCitizens for Prosperity",
       "tr": "繁荣公民组织正在寻找具有空战狗斗经验的飞行员。如果你想展示自己的技能，这里有一个任务可以给你试试。\\n\\n有一艘民用飞船在<EM4>[LOCATION]</EM4>附近请求战斗支援。前往那里，证明你具备执行这类任务的能力，我们会好好利用你的才能。\\n\\n请注意，这并不是一次训练演习，而是一次真正的战斗。请尽你最大努力拯救那艘处于困境中的飞船。\\n\\n祝你好运，\\n\\n利玛·恩迪科特\\n首席调度员\\n繁荣公民"
@@ -6060,7 +6144,7 @@
       "tr": "埃克哈特安保有限公司\\n合约 & 派遣\\n\\n合约类型：保卫飞船\\n授权代码 = [APPROVAL_CODE]\\n\\n需要立即处理\\n\\n这里有一个紧急情况，需要我们立即处理。一位客户在 <EM4>[LOCATION]</EM4> 附近遇到了碎刃帮的成员，现在处境非常危险。我们正在寻找一位技术娴熟的飞行员去救援他们。\\n\\n报酬将在合约顺利完成后支付。\\n\\n该合约不可转让。\\n\\n此消息中可能包含机密、专有、特许保密的和/或私人信息，该等资料仅供上述指定的个人或实体使用。\n\n\n- R97 霰弹枪 R97 Shotgun\\n- 蒙德 臂甲 Monde Arms\\n- 蒙德 胸甲 Monde Core\\n- 蒙德 腿甲 Monde Legs\\n- 蒙德 头盔 Monde Helmet\\n- 蒙德 臂甲 弘 Monde Arms Hiro\\n- 蒙德 胸甲 弘 Monde Core Hiro\\n- 蒙德 腿甲 弘 Monde Legs Hiro\\n- 蒙德 头盔 弘 Monde Helmet Hiro\\n- R97 霰弹枪弹匣 (18 发) R97 Shotgun Magazine (18 cap)"
     },
     "HeadHunters_ShipAmbush_Intro_desc_001": {
-      "en": "Got an opportunity for someone eager to show off their flying skills. Headhunters have been running afoul of this numbrain flying a<EM4>[TARGET]</EM4> and we’re gonna put a stop to it once and for all.\\n\\nYou’re gonna help us set a trap for them. See, there’s an <EM4>emission cloud</EM4> near <EM4>[LOCATION]</EM4> that they fly by frequently. \\n\\nHead there, hide inside the cloud by powering down your ship, and attack the asshole as soon as you see ‘em and other single-seaters dumb enough to fly with them. It’ll be all you for that first hit, but we’ll put some support ships nearby to help finish the job. \\n\\nAnd in honor of this being your first surprise attack for us, there's a bonus of <EM4>1 Council Scrip</EM4> for the main contractor at the end of the job. \\n\\nStows out.",
+      "en": "Got an opportunity for someone eager to show off their flying skills. Headhunters have been running afoul of this numbrain flying this <EM4>[TARGET]</EM4> and we’re gonna put a stop to it once and for all.\\n\\nYou’re gonna help us set a trap for them. See, there’s an <EM4>emission cloud</EM4> near <EM4>[LOCATION]</EM4> that they fly by frequently. \\n\\nHead there, hide inside the cloud by powering down your ship, and attack the asshole as soon as you see ‘em and other single-seaters dumb enough to fly with them. It’ll be all you for that first hit, but we’ll put some support ships nearby to help finish the job. \\n\\nAnd in honor of this being your first surprise attack for us, there's a bonus of <EM4>1 Council Scrip</EM4> for the main contractor at the end of the job. \\n\\nStows out.",
       "tr": "有个机会适合那些想展示自己飞行技巧的人。猎头帮最近惹上了这个驾驶 <EM4>[TARGET]</EM4> 飞船的蠢货，我们得彻底解决这个问题。\\n\\n你要帮我们设一个陷阱。你看，<EM4>[LOCATION]</EM4> 附近有一片<EM4>辐射云</EM4>，他们经常从那里飞过。\\n\\n你去那里，把飞船的引擎关掉藏在云里，一旦看到他们和其他蠢货一起飞，就立刻发动攻击。第一次攻击就靠你一个人了，但我们会派几艘支援飞船来帮忙完成剩下的工作。\\n\\n作为为我们完成的首次突袭，完成任务后，主承包商会得到<EM4>[SCRIPAMOUNT] 个堂会凭证</EM4>的额外奖励。\\n\\n斯托斯通讯完毕。"
     },
     "Eckhart_ShipAmbush_VE_desc": {
@@ -6205,7 +6289,7 @@
     },
     "Headhunters_SecurityPatrol_VH_Desc_001": {
       "en": "We’re getting pushback from folks who don’t seem happy that we’re here. Folks have gotten keen to our haunts and started sending out squads to hit our ships. You down to visit a few of those spots to show that we won’t be scared off? \\n\\nIf so, start by seeing what’s around the <EM4>location marker</EM4> on your HUD. From there I’ll guide you to a few other hotspots that we need checked. Better get your shit in order before heading out. I'd recommend loading up on ammo and convincing <EM4>two friends</EM4> to join the patrol.\\n\\nYou do this for the Headhunters and I'll see to it that the main contractor gets a bonus of <EM4>18 Council Scrip</EM4>. \\n\\nStows out.",
-      "tr": "有些人不爽咱们在这儿混，专门派小队搞咱们的船。敢不敢去几个据点让他们明白——猎头帮可不是吓大的？\\n\\n从 HUD 上的<EM4>位置标记</EM4>开始侦查，完事带你去点其他几个火药桶。出发前最好把家伙事儿备齐。我建议你多带点弹药，再拉上<EM4>两个朋友</EM4>一起参与巡逻。\\n\\n给猎头帮办成这事儿的话，我保证让主承包商多拿 <EM4>[SCRIPAMOUNT] 个堂会凭证</EM4> 当外快。\\n\\n- 斯托斯"
+      "tr": "有些人不爽咱们在这儿混，专门派小队搞咱们的船。敢不敢去几个据点让他们明白 —— 猎头帮可不是吓大的？\\n\\n从 HUD 上的<EM4>位置标记</EM4>开始侦查，完事带你去点其他几个火药桶。出发前最好把家伙事儿备齐。我建议你多带点弹药，再拉上<EM4>两个朋友</EM4>一起参与巡逻。\\n\\n给猎头帮办成这事儿的话，我保证让主承包商多拿 <EM4>[SCRIPAMOUNT] 个堂会凭证</EM4> 当外快。\\n\\n- 斯托斯"
     },
     "EckhartSecurity_RecoverCargo_Medium_Description": {
       "en": "ECKHART SECURITY, LLC.\\nCONTRACTS & DISPATCH\\n\\nCONTRACT TYPE: Recover Cargo\\nApproval code: = [APPROVAL_CODE]\\n\\nFOR IMMEDIATE PROCESSING\\n\\nLooking for a competent contractor who can salvage a messy situation. A client's trusted pilot apparently wasn't so trustworthy and made off with a shipment. But thankfully our trackers are reporting the shipment's static for the moment, waiting to be picked up. If we play our cards right, there's still time to resolve this.\\n\\nThe abandoned ship is located at <EM4>[LOCATION]</EM4> and will need a <EM4>heavy-duty tractor beam</EM4> to transport the goods. A ship that can handle <EM4>[MAX_SCU] cargo containers</EM4> is a necessity, and expect contact from whatever outlaws this double-crossing pilot was hoping to sell to. \\n\\nOnce recovered, deliver the cargo to the freight elevator at <EM4>[DESTINATION]</EM4>.\\n\\nThis contract is non-negotiable.\\n\\nThis message may contain confidential, proprietary, privileged and/or private information. The information is intended to be for the use of the individual or entity designated above.",
@@ -6263,6 +6347,10 @@
       "en": "ECKHART SECURITY, LLC.\\nCONTRACTS & DISPATCH\\n\\nCONTRACT TYPE: Defend Ship\\nAPPROVAL CODE = [APPROVAL_CODE]\\n\\nFOR IMMEDIATE PROCESSING\\n\\nWe’re getting comms from a client who accidentally disturbed a Shattered Blade deal and are now under attack. Last update I got placed their ship near <EM4>[LOCATION]</EM4>.\\n\\nLooking for a contractor who can provide dogfighting support for our client.\\n\\nPayment will be issued upon successful completion of contract.\\n\\nThis contract is non-negotiable.\\n\\nThis message may contain confidential, proprietary, privileged and/or private information. The information is intended to be for the use of the individual or entity designated above.",
       "tr": "埃克哈特安保有限公司\\n合约 & 派遣\\n\\n合约类型：保卫飞船\\n授权代码 = [APPROVAL_CODE]\\n\\n需要立即处理\\n\\n我们收到了一位客户的通讯，他们不小心破坏了一笔与碎刃帮的交易，现在正遭到攻击。我得到的最新消息是，他们的飞船就在 <EM4>[LOCATION]</EM4> 附近。\\n\\n我们正在寻找一位能够为我们的客户提供空战支援的承包商。\\n\\n报酬将在合约顺利完成后支付。\\n\\n该合约不可转让。\\n\\n此消息中可能包含机密、专有、特许保密的和/或私人信息，该等资料仅供上述指定的个人或实体使用。\n\n\n- R97 霰弹枪 R97 Shotgun\\n- 蒙德 臂甲 Monde Arms\\n- 蒙德 胸甲 Monde Core\\n- 蒙德 腿甲 Monde Legs\\n- 蒙德 头盔 Monde Helmet\\n- 蒙德 臂甲 弘 Monde Arms Hiro\\n- 蒙德 胸甲 弘 Monde Core Hiro\\n- 蒙德 腿甲 弘 Monde Legs Hiro\\n- 蒙德 头盔 弘 Monde Helmet Hiro\\n- R97 霰弹枪弹匣 (18 发) R97 Shotgun Magazine (18 cap)"
     },
+    "Intersec_3Way_Desc_Super_001": {
+      "en": "MISSION SPECS\\n\\nArea of Operation: Nyx System \\nHostile Forces: Shattered Blade, Vanduul\\nEquipment Specs: Combat-rated ship\\nBriefing:\\n\\n<EM4>[LOCATION]</EM4> has become impassable due to a severe escalation in hostilities between Vanduul and Shattered Blade vessels. Intersec has been tasked with recruiting experienced combat-rated pilots to neutralize the threat.\\n\\nPut together a capable fleet and then proceed with all due haste. It is unacceptable that this has become a no-go zone for commerical shipping.\\n\\nRespectfully,   \\n\\nDeacon Tobin \\nOperations Manager \\nInterSec Defense Solutions  \\n\\nThis communication consists of confidential information solely intended for the recipient. Please disregard if received in error and notify the sender. All operations are conducted at the contractor’s own personal risk and must adhere to UEE and system law where applicable.",
+      "tr": "任务说明\\n\\n行动区域：尼克斯星系\\n敌对势力：碎刃帮，剜度\\n装备规格：战斗级飞船\\n任务简报：\\n\\n<EM4>[LOCATION]</EM4> 因剜度与碎刃帮飞船之间的敌对行动严重升级，已经无法通行。互安防务受命招募有经验的、具备战斗资质的飞行员，来消除这一威胁。\\n\\n组织一支有实力的舰队，然后尽快出发。这里竟成了商业航运的禁航区，实在是不可接受。\\n\\n此致，\\n\\n迪肯·托宾\\n运营经理\\n互安防务\\n\\n本通信内容包含机密内容，仅限收件人阅读。如误收请忽略并通知发件人。所有行动均由承包商自行承担风险，并须遵守适用的 UEE 及星系法律。"
+    },
     "headhunters_bombingrun_M_desc_001": {
       "en": "Feels like everyone wants a piece of our pie these days. Scouts are reporting that <EM4>[LOCATION]</EM4> is crawling with some new gang who've got it in for us.\\n\\nSo let's show them why you don't mess with us. Take out their fuel stores and leave them stranded.\\n\\nThat oughta send a message.\\n\\n-Stows out",
       "tr": "最近感觉谁都想来分我们一杯羹。侦察兵报告说 <EM4>[LOCATION]</EM4> 那边窜出来一帮新帮派，专门跟我们过不去。\\n\\n那咱们就让他们知道为啥不该惹我们。端掉他们的燃料贮藏，把他们搁浅。\\n\\n这绝对能给他们长点记性。\\n\\n-斯托斯通讯完毕"
@@ -6293,7 +6381,7 @@
     },
     "HeadHunters_ShipAmbush_VE_desc_001": {
       "en": "Some numskull flying a <EM4>[TARGET]</EM4> was caught spying on our ops. We ran ‘em off with a warning only to spot ‘em doing the same shit someplace else. Since they didn’t get the message, seems we gotta send a stronger one.    \\n\\nThere’s an emission cloud near <EM4>[LOCATION]</EM4> that they fly by frequently. Primo place to power down, hide, and launch a surprise attack. Sometimes they fly solo, sometimes there’s other single-seaters with them. It’ll be all you for that first hit, but we’ll put some support ships nearby to help finish the job. \\n\\nAnd if you needed some extra motivation, there's a bonus of <EM4>1 Council Scrip</EM4> for the main contractor at the end of the job. \\n\\nStows out.",
-      "tr": "有个二五仔开着 <EM4>[TARGET]</EM4> 刺探咱们行动。上次轰走时警告过，结果这货又换地方继续偷窥。既然听不懂人话，那就送份“大礼”。\\n\\n他们在 <EM4>[LOCATION]</EM4> 附近辐射云经常出没。关引擎藏好搞突袭最合适——有时候单飞，有时候带几架小飞机。第一波得靠你，不过咱在附近安排了支援船收尾。\\n\\n如果你还需要点额外的动力，任务结束后主承包商还能拿到 <EM4>[SCRIPAMOUNT] 个堂会凭证</EM4> 。\\n\\n- 斯托斯"
+      "tr": "有个二五仔开着 <EM4>[TARGET]</EM4> 刺探咱们行动。上次轰走时警告过，结果这货又换地方继续偷窥。既然听不懂人话，那就送份“大礼”。\\n\\n他们在 <EM4>[LOCATION]</EM4> 附近辐射云经常出没。关引擎藏好搞突袭最合适 —— 有时候单飞，有时候带几架小飞机。第一波得靠你，不过咱在附近安排了支援船收尾。\\n\\n如果你还需要点额外的动力，任务结束后主承包商还能拿到 <EM4>[SCRIPAMOUNT] 个堂会凭证</EM4> 。\\n\\n- 斯托斯"
     },
     "Foxwell_EliminateAll_desc_001": {
       "en": "Looking for someone willing to take out the trash at <EM4>[LOCATION]</EM4>. Guess a gang has settled in without the permission of the owners. So they’ve hired us to get them out whatever way we see fit. \\n\\nI’d bring plenty of ammo, if I were you. Doubt they’ll want to leave willingly. \\n\\nEugene Walton\\nFoxwell Enforcement\\n'Security, Your Way'\\n\\nFoxwell Enforcement is a bonded security specialist licensed to operate throughout the UEE. We are always looking for new operators to join our family. If you or anyone you know is interested, please reach out to one of our contract representatives.",
@@ -6305,7 +6393,7 @@
     },
     "HeadHunters_ShipAmbush_VH_desc_001": {
       "en": "Some folks don’t seem happy with us. Got word that several sub-capital ships and a number of escorts are targeting our ops. Figured the best way to keep ‘em from causing us trouble is to hit them before they hit us. \\n\\nWe got eyes on a <EM4>[TARGET]</EM4> that’s part of this squad, and it looks like they regularly pass by <EM4>[LOCATION]</EM4>, a spot tailor made for a surprise attack. A nearby emission cloud can hide you and anyone you bring along for muscle.\\n\\nNo sugarcoating it. This ain’t gonna be easy. But the payoff should make it worth your while. Finish the job and the main contractor gets a bonus <EM4>12 Council Scrip</EM4>. \\n\\nPlus, who knows what kinda good stuff you’ll find floating in all that wreckage.\\n\\nStows out.",
-      "tr": "有些人就是见不得咱们好。有线报说几艘次主力舰带着护航队在搞咱们。先下手为强总比等着挨揍强。\\n\\n发现他们的 <EM4>[TARGET]</EM4> 经常经过 <EM4>[LOCATION]</EM4> ——这地方天生就是打埋伏的料。边边上的辐射云能藏住你和带来的帮手。\\n\\n丑话说前头：这活儿不轻松。但赏金绝对对对得起卖命钱。活干完主承包商就能拿 <EM4>[SCRIPAMOUNT] 个堂会凭证</EM4>作为额外奖励。\\n\\n再说了，天知道那些残骸里能捞出什么宝贝。\\n\\n- 斯托斯"
+      "tr": "有些人就是见不得咱们好。有线报说几艘次主力舰带着护航队在搞咱们。先下手为强总比等着挨揍强。\\n\\n发现他们的 <EM4>[TARGET]</EM4> 经常经过 <EM4>[LOCATION]</EM4> —— 这地方天生就是打埋伏的料。边边上的辐射云能藏住你和带来的帮手。\\n\\n丑话说前头：这活儿不轻松。但赏金绝对对对得起卖命钱。活干完主承包商就能拿 <EM4>[SCRIPAMOUNT] 个堂会凭证</EM4>作为额外奖励。\\n\\n再说了，天知道那些残骸里能捞出什么宝贝。\\n\\n- 斯托斯"
     },
     "Intersec_TSG_Group_Desc_001": {
       "en": "MISSION SPECS\\n\\nArea of Operation: Nyx System \\nHostile Forces: Shattered Blade\\nEquipment Specs: Strike Group\\nBriefing: \\nWe've received word that a People's Alliance security ship called Tranquility stumbled across  Shattered Blade hiding out in an old QV Extraction station. Details are sketchy but will connect you with local assets once on site. \\n\\nIntersec is looking for a team to intervene and protect the Tranquility and their personnel. Based on discussions with the Tranquility's captain, you will <EM4>need  ballistic and ordnance to break down the defenses of the station</EM4> and ultimately <EM4>get boots on the ground to save their pilot</EM4>.\\n\\n<EM4>Recruiting additional ships</EM4> to support you in this mission is absolutely critical. You will <EM4>need a variety of ship types</EM4> to balance multiple combat zones in space and on the ground.\\n\\nRespectfully,   \\n\\nDeacon Tobin \\nOperations Manager \\nInterSec Defense Solutions  \\n\\nThis communication consists of confidential information solely intended for the recipient. Please disregard if received in error and notify the sender. All operations are conducted at the contractor’s own personal risk and must adhere to UEE and system law where applicable.",
@@ -6347,6 +6435,10 @@
       "en": "There's a nest that needs to be taken out around [LOCATION] that has been taken over by some squatters. We don't care about most of them, but word's gotten back to us that they're sheltering [TARGET] who has a long history of stealing Headhunter loot. Time's come to take them out.\\n\\nWord is that [TARGET] is in a ship, but may rely on the base's defenses to protect them, so be careful. You kill 'em, you get paid. \\n\\nYou know, the usual.\\n\\nStows out.",
       "tr": "在 [LOCATION] 附近有一个巢穴需要清除，那里被一些侵占者占领了。我们对他们大多数人不感兴趣，但有消息传回来，他们正在庇护 [TARGET]，这个家伙有着偷窃猎头帮战利品的悠久历史。是时候解决他们了。\\n\\n据说 [TARGET] 在一艘船上，但可能依靠基地的防御来保护自己，所以要小心。杀了他们，就能拿到报酬。\\n\\n你知道的，老规矩。\\n\\n- 斯托斯通讯完毕。\n\n\n\\n任务地点在派罗 I、殁氧星、死局空间站、补丁城附近时\\n- 9系 长剑 实弹加农炮 9-Series Longsword Cannon\\n- 10系 大剑 实弹加农炮 10-Series Greatsword Cannon\\n- 11系 阔剑 实弹加农炮 11-Series Broadsword Cannon\\n- 大锤 I 电磁加农炮 Sledge I Mass Driver Cannon\\n- 纷争 电磁炮 Strife Mass Driver Cannon\\n- 大锤 II 电磁加农炮 Sledge II Mass Driver Cannon\\n- 大锤 III 电磁加农炮 Sledge III Mass Driver Cannon\\n\\n任务地点在盛放星、轨道讣闻站、星光服务站、鼠巢空间站附近时\\n- 安全热控HeatSafe [冷却 S1 隐形 C]\\n- 低温之星SL CryoStarSL [冷却 S0 民用 B]\\n- 统治-1 能量霰弹炮 Dominance-1 Scattergun\\n- 统治-2 能量霰弹炮 Dominance-2 Scattergun\\n- 统治-3 能量霰弹炮 Dominance-3 Scattergun\\n\\n任务地点在派罗 V、煤气灯空间站附近时\\n- 蒸汽遏制VaporBlock [冷却 S1 隐形 B]\\n- 低温之星SL CryoStarSL [冷却 S0 民用 B]\\n- NN-13 中子加农炮 NN-13 Cannon\\n- NN-14 中子加农炮 NN-14 Cannon\\n- NN-15 中子加农炮 NN-15 Cannon\\n\\n任务地点在端点星、废墟空间站附近时\\n- 雪盲SnowBlind [冷却 S1 隐形 A]\\n- 低温之星SL CryoStarSL [冷却 S0 民用 B]\\n- M6A 激光加农炮 M6A Cannon\\n- M7A 激光加农炮 M7A Cannon\\n- M8A 激光加农炮 M8A Cannon\\n- 焦糊 快子加农炮 (S1) Singe Cannon (S1)\\n- 焦糊 快子加农炮 (S2) Singe Cannon (S2)\\n- 焦糊 快子加农炮 (S3) Singe Cannon (S3)"
     },
+    "Intersec_ElimAux_ShatteredBlade_Med_Desc_001": {
+      "en": "MISSION SPECS\\n\\nArea of Operation: Nyx System \\nHostile Forces: Shattered Blade\\nEquipment Specs: Combat Ready\\nBriefing: \\n\\nLooking for operatives to raid a recently-located Shattered Blade base at <EM4>[LOCATION]</EM4> and target one of their key members, <EM4>[TARGET]</EM4>. Shattered Blade have been using this auxiliary base as a launch pad for numerous missions and it is hoped that strikes against this critical target will limit their ability to launch future criminal operations.\\n\\nRespectfully,   \\n\\nDeacon Tobin \\nOperations Manager \\nInterSec Defense Solutions  \\n\\nThis communication consists of confidential information solely intended for the recipient. Please disregard if received in error and notify the sender. All operations are conducted at the contractor’s own personal risk and must adhere to UEE and system law where applicable.",
+      "tr": "任务说明\\n\\n行动区域：尼克斯星系\\n敌对势力：碎刃帮\\n装备规格：战斗级\\n任务简报：\\n\\n正在招募行动人员，突袭一个刚被找到的碎刃帮基地，位置在 <EM4>[LOCATION]</EM4>，并锁定他们的关键成员之一的 <EM4>[TARGET]</EM4>。碎刃帮一直把这个辅助基地当作众多行动的发起点，而这次精确的定位，是经过大量情报搜集工作才换来的成果。我们希望对这一关键目标的打击，能削弱他们今后发动犯罪行动的能力。\\n\\n此致，\\n\\n迪肯·托宾\\n运营经理\\n互安防务\\n\\n本通信内容包含机密内容，仅限收件人阅读。如误收请忽略并通知发件人。所有行动均由承包商自行承担风险，并须遵守适用的 UEE 及星系法律。"
+    },
     "headhunters_killship_asteroid_rank0_desc_001": {
       "en": "So here's the deal, Headhunters are looking to expand their talent pool and have a few openings for anyone who's got the stones.\\n\\nThere's a real piece of work named [TARGET] who thinks they've been really clever pinching cargo off of haulers moving through the system. We asked for a cut of their profits as a licensing tax to continue operating. When [TARGET] responded, they were very disrespectful.\\n\\nWe've tracked their ship to [LOCATION] and need them taken out. You should know, they're being smart and sticking close to some allies so they won't be alone.\\n\\nDo this and we'll consider you for future Headhunter work.\\n\\nStows out.",
       "tr": "事情是这样的，猎头帮想要扩大他们的人才库，现在有几个职位空缺，欢迎任何有胆量的人来应征。\\n\\n有个家伙名叫 [TARGET]，觉得自己很聪明，从在星系中运输的货船那里偷走货物。我们要求他们支付一部分利润作为运营的许可税。当 [TARGET] 回应时，他们非常无礼。\\n\\n我们追踪到他们的飞船在 [LOCATION]，需要将他们解决掉。你应该知道，他们很聪明，知道紧靠一些盟友就不会孤立无援。\\n\\n完成这个任务后，我们将考虑让你参与未来的猎头帮工作。\\n\\n- 斯托斯通讯完毕。\n\n\n\\n任务地点在派罗 I、殁氧星、死局空间站、补丁城附近时\\n- 9系 长剑 实弹加农炮 9-Series Longsword Cannon\\n- 10系 大剑 实弹加农炮 10-Series Greatsword Cannon\\n- 11系 阔剑 实弹加农炮 11-Series Broadsword Cannon\\n- 大锤 I 电磁加农炮 Sledge I Mass Driver Cannon\\n- 纷争 电磁炮 Strife Mass Driver Cannon\\n- 大锤 II 电磁加农炮 Sledge II Mass Driver Cannon\\n- 大锤 III 电磁加农炮 Sledge III Mass Driver Cannon\\n\\n任务地点在盛放星、轨道讣闻站、星光服务站、鼠巢空间站附近时\\n- 安全热控HeatSafe [冷却 S1 隐形 C]\\n- 低温之星SL CryoStarSL [冷却 S0 民用 B]\\n- 统治-1 能量霰弹炮 Dominance-1 Scattergun\\n- 统治-2 能量霰弹炮 Dominance-2 Scattergun\\n- 统治-3 能量霰弹炮 Dominance-3 Scattergun\\n\\n任务地点在派罗 V、煤气灯空间站附近时\\n- 蒸汽遏制VaporBlock [冷却 S1 隐形 B]\\n- 低温之星SL CryoStarSL [冷却 S0 民用 B]\\n- NN-13 中子加农炮 NN-13 Cannon\\n- NN-14 中子加农炮 NN-14 Cannon\\n- NN-15 中子加农炮 NN-15 Cannon\\n\\n任务地点在端点星、废墟空间站附近时\\n- 雪盲SnowBlind [冷却 S1 隐形 A]\\n- 低温之星SL CryoStarSL [冷却 S0 民用 B]\\n- M6A 激光加农炮 M6A Cannon\\n- M7A 激光加农炮 M7A Cannon\\n- M8A 激光加农炮 M8A Cannon\\n- 焦糊 快子加农炮 (S1) Singe Cannon (S1)\\n- 焦糊 快子加农炮 (S2) Singe Cannon (S2)\\n- 焦糊 快子加农炮 (S3) Singe Cannon (S3)"
@@ -6385,7 +6477,7 @@
     },
     "Eckhart_ShipAmbush_E_desc": {
       "en": "ECKHART SECURITY, LLC.\\nCONTRACTS & DISPATCH\\n\\nCONTRACT TYPE: Ship Ambush\\nAPPROVAL CODE = [APPROVAL_CODE]\\n\\nFOR IMMEDIATE PROCESSING\\n\\nA client of ours has been receiving anonymous threats in an attempt to blackmail them, and after a bit of leg work on our part, we’ve managed to trace it back to an individual who pilots a particular <EM4>[TARGET]</EM4>. The client wants us to take care of this blackmailer before they have a chance to make good. \\n\\nBased on our assessment, the target shouldn’t be too difficult to handle. They fly by <EM4>[LOCATION]</EM4> on the regular, which has an <EM4>emission cloud</EM4> that’s an ideal spot to power down your ship and lie in wait. Sometimes the target is alone but they often travel with other single-seat ships as protection. Best be strategic when you launch your ambush or the <EM4>[TARGET]</EM4> could have a chance to get away. We don’t want to lose this one. We’ll alert other contractors in the area of the ambush so they can come help once it pops off.     \\n\\nPayment will be issued upon successful completion of contract. The client has also added a bonus payment of <EM4>3 MG Scrip</EM4> for the main contractor.\\n\\nThis contract is non-negotiable.\\n\\nThis message may contain confidential, proprietary, privileged and/or private information. The information is intended to be for the use of the individual or entity designated above.",
-      "tr": "埃克哈特安保有限公司\\n合约 & 派遣\\n\\n合约类型：飞船伏击\\n授权代码 = [APPROVAL_CODE]\\n\\n需要立即处理\\n\\n我们的客户一直收到匿名威胁，试图勒索他们。经过我们一番调查，终于追查到一名驾驶 <EM4>[TARGET]</EM4> 的家伙，就是他干的。客户希望我们赶在对方金盆洗手之前，彻底解决掉这个敲诈犯。\\n\\n根据我们的评估，目标并不难对付。他经常经过 <EM4>[LOCATION]</EM4>，那里有一片<EM4>辐射云</EM4>，正适合你关掉飞船、潜伏待机。目标有时独来独往，但更多时候会有一两艘单座飞船护航。你发动伏击时务必谨慎，否则 <EM4>[TARGET]</EM4> 可能会溜走——我们可不能放跑他。一旦动手，我们会通知附近其他承包商赶来支援。\\n\\n合约完成后立即付款。客户还会额外奖励主承包商 <EM4>[SCRIPAMOUNT] 个雇佣兵凭证</EM4>。\\n\\n该合约不可转让。\\n\\n此消息中可能包含机密、专有、特许保密的和/或私人信息，该等资料仅供上述指定的个人或实体使用。\n\n\n- 轻音SonicLite [发电 S1 隐形 C]\\n- 卷云Cirrus [发电 S2 隐形 C]\\n- 光击 I 能量加农炮 Lightstrike I Cannon\\n- 光击 II 能量加农炮 Lightstrike II Cannon\\n- 光击 III 能量加农炮 Lightstrike III Cannon"
+      "tr": "埃克哈特安保有限公司\\n合约 & 派遣\\n\\n合约类型：飞船伏击\\n授权代码 = [APPROVAL_CODE]\\n\\n需要立即处理\\n\\n我们的客户一直收到匿名威胁，试图勒索他们。经过我们一番调查，终于追查到一名驾驶 <EM4>[TARGET]</EM4> 的家伙，就是他干的。客户希望我们赶在对方金盆洗手之前，彻底解决掉这个敲诈犯。\\n\\n根据我们的评估，目标并不难对付。他经常经过 <EM4>[LOCATION]</EM4>，那里有一片<EM4>辐射云</EM4>，正适合你关掉飞船、潜伏待机。目标有时独来独往，但更多时候会有一两艘单座飞船护航。你发动伏击时务必谨慎，否则 <EM4>[TARGET]</EM4> 可能会溜走 —— 我们可不能放跑他。一旦动手，我们会通知附近其他承包商赶来支援。\\n\\n合约完成后立即付款。客户还会额外奖励主承包商 <EM4>[SCRIPAMOUNT] 个雇佣兵凭证</EM4>。\\n\\n该合约不可转让。\\n\\n此消息中可能包含机密、专有、特许保密的和/或私人信息，该等资料仅供上述指定的个人或实体使用。\n\n\n- 轻音SonicLite [发电 S1 隐形 C]\\n- 卷云Cirrus [发电 S2 隐形 C]\\n- 光击 I 能量加农炮 Lightstrike I Cannon\\n- 光击 II 能量加农炮 Lightstrike II Cannon\\n- 光击 III 能量加农炮 Lightstrike III Cannon"
     },
     "TheCollector_Recipes_Desc_aparGatlingGun": {
       "en": "This gun is very big and very loud. Wikelo love it. Made it extra bright so that everyone can see how special this gun is. I think you will like this so bring me trade.",
@@ -6445,11 +6537,11 @@
     },
     "Tutorial03_MissionDesc": {
       "en": "You’re almost through with the tutorial. All that remains is to take flight!\\n\\nWith your business in [LOCATION] finished, it’s time to leave the city – and eventually the planet. Make your way to the [TRANSITNAMESHORT] transit shuttles. These shuttles can take you all around [LOCATION] – but your destination is the spaceport, where an Anvil C8 Pisces has been temporarily provided for you.\\n\\nThis snub scouting ship is a great starter vessel, perfect for new pilots looking to get their wings.",
-      "tr": "您马上就要完成本教程了。接下来就该起飞了！\\n\\n既然您已经处理完了 [LOCATION] 的事务，那么是时候离开城市了——接下来还会离开这颗星球。请前往 [TRANSITNAMESHORT] 乘坐穿梭机，这些穿梭机可以带您前往 [LOCATION] 各地。不过当前您的目的地是空港，在那里会有一艘铁砧航天的 C8 双鱼座临时供您使用。\\n\\n这艘方正小巧的探索船是艘很棒的新手船，非常适合想要展翅高飞的新手驾驶员们使用。"
+      "tr": "您马上就要完成本教程了。接下来就该起飞了！\\n\\n既然您已经处理完了 [LOCATION] 的事务，那么是时候离开城市了 —— 接下来还会离开这颗星球。请前往 [TRANSITNAMESHORT] 乘坐穿梭机，这些穿梭机可以带您前往 [LOCATION] 各地。不过当前您的目的地是空港，在那里会有一艘铁砧航天的 C8 双鱼座临时供您使用。\\n\\n这艘方正小巧的探索船是艘很棒的新手船，非常适合想要展翅高飞的新手驾驶员们使用。"
     },
     "Tutorial02_MissionDesc": {
       "en": "Well done!\\n\\nWith the first part behind you, you should now have some basic familiarity with the movement controls, managing your hunger and thirst, and some of the core functionality of your mobiGlas – namely the Contract Manager and your Journal.\\n\\nThis next section will help you familiarize yourself with [LOCATION] and take you to visit [STORENAME], a weapons store here in [LOCATION].\\n\\nYou can shop there, and at other stores like it, using United Earth Credits (UEC). During the Alpha phase of Star Citizen’s development, we will be using a currency called aUEC (Alpha United Earth Credits). This is a temporary currency specifically designed for testing the in-game economy and balance.",
-      "tr": "干得漂亮！\\n\\n在完成了教程的第一部分后，您现在应该对基础移动控制、自身饥渴状态管理、还有一些mobiGlas的核心功能——即合约管理和日志都有所了解了。\\n\\n接下来的部分将会帮您熟悉一下 [LOCATION]，并带您去逛一下 [LOCATION] 的武器店 [STORENAME]。\\n\\n您可以使用联合地球信劵（UEC）在这些商店中进行购物。在星际公民的阿尔法测试阶段，我们会使用名为aUEC（阿尔法联合地球信劵）的货币。这是一种专门用于测试游戏内经济和平衡系统的临时货币。"
+      "tr": "干得漂亮！\\n\\n在完成了教程的第一部分后，您现在应该对基础移动控制、自身饥渴状态管理、还有一些mobiGlas的核心功能 —— 即合约管理和日志都有所了解了。\\n\\n接下来的部分将会帮您熟悉一下 [LOCATION]，并带您去逛一下 [LOCATION] 的武器店 [STORENAME]。\\n\\n您可以使用联合地球信劵（UEC）在这些商店中进行购物。在星际公民的阿尔法测试阶段，我们会使用名为aUEC（阿尔法联合地球信劵）的货币。这是一种专门用于测试游戏内经济和平衡系统的临时货币。"
     },
     "Tutorial01_MissionDesc": {
       "en": "Congratulations on taking your first steps into the universe!\\n\\nOver the course of this tutorial, you’ll learn how to get around both on foot and in space. \\n\\nFirst up is helping you familiarize yourself with some basic movement controls and the use of your mobiGlas while still inside your “Hab” (or habitation). Follow the objectives and hints on your HUD (heads-up display) to proceed through this mission.",
@@ -6478,6 +6570,10 @@
     "UWC_Refueling_intro_desc_001": {
       "en": "Hey!\\n\\nDD from the United Wayfarers Club here.\\n\\nThe UWC offers repair, rearming and refueling services across the UEE. It just so happens that we're on the look-out for new affiliates whose ships are fitted for refueling. If you've got the fuel pods and like it when people are pleased to see you, the UWC might be the club for you.\\n\\nAnd if you think it might be, I've got a live beacon you might like.\\n\\nIf you do happen to like it, a word to the wise: <EM4>make sure your fuel pods are full before you head out</EM4>.\\n\\nA Club member has run out of [FUELTYPE] at <EM4>[LOCATION]</EM4>. I'm not sure on the details, like how they ended up out there with no Go Juice, but the UWC doesn't like to leave folk hanging.\\n\\nThe client vessel will pay you at the rate of [REFUELREQUEST]. As a United Wayfarers Club contractor, you will also qualify for the UWC service fee listed above upon completion.\\n\\nIt's a straightforward run. Perfect if you want to get a feel for this kind of job. Get out there, fill up the tanks of their <EM4>[SHIP]</EM4> and get them on their way. Do enough runs like this, and the process becomes muscle memory. Until then, there's a <EM4>journal entry</EM4> on your mobiGlas called \"Refueling Protocols\" that covers the basics.\\n\\nThere have been no reports of outlaw activity in that sector, but stay alert. I always recommend you aim for a fast turnaround. The sooner you're done, the sooner I can fix you up with another contract. UWC's always looking for new affiliates. \\n\\nLooking forward to working with you.\\n\\nDina Deloit\\nDispatch Hub\\nUnited Wayfarers Club\\n\"We’ve got your back\"",
       "tr": "嘿！\\n\\n我是来自旅者联合俱乐部的 DD。\\n\\nUWC 在全 UEE 范围内提供维修、补给和加油服务。碰巧我们正在寻找新的合作伙伴，只要你的飞船配备了加油设备。如果你拥有燃料吊舱，并且喜欢被人热情迎接，那么 UWC 可能很适合你来。\\n\\n如果你觉得这不错，那我手头正好有一个正在运行的信标你可能喜欢。\\n\\n如果你确实喜欢它，那么给你一个提醒：<EM4>出发前务必确保燃料吊舱已满</EM4>。\\n\\n一名俱乐部成员在 <EM4>[LOCATION]</EM4> 那边耗尽了 [FUELTYPE]。具体细节我还不太清楚，比如他们怎么就跑到那儿连“动力果汁”都没了，但 UWC 不想把大家晾在一边不管。\\n\\n客户飞船将按 [REFUELREQUEST] 的价格向你支付报酬。作为旅者联合俱乐部的承包商，完成任务后你还将获得上述列出的 UWC 服务费。\\n\\n这是一趟很简单的活儿。如果你想感受熟悉这类工作，这再合适不过了。去那里给他们的 <EM4>[SHIP]</EM4> 加满油，然后让他们启程吧。多做几次这样的任务，操作就会变成肌肉记忆。在此之前，你的 mobiGlas 里有一篇名为“加油协议”的<EM4>日志条目</EM4>，涵盖了所有基础内容。\\n\\n该区域尚未报告有不法分子活动，但仍需保持警惕。我始终建议你追求快速周转。越早完成，我就越能尽快为你安排下一份合约。UWC 一直在寻找新的合作伙伴。\\n\\n期待与你合作，\\n\\n迪娜·德洛特\\n调度中心\\n旅者联合俱乐部\\n“我们是你坚实的后盾。”"
+    },
+    "Intersec_ShipWaveAttack_H_Van_Desc_001": {
+      "en": "MISSION SPECS\\n\\nArea of Operation: Nyx System \\nHostile Forces: Vanduul\\nEquipment Specs: Combat-rated ship\\nBriefing:\\n\\nCivilian pilots have reported narrowly avoiding conflict with a Vanduul strike group at <EM4>[LOCATION]</EM4>. Intersec is looking for combat-ready pilots to engage. Reports include mention of additional Vanduul vessels in close proximity, so be prepared to encounter reinforcements.\\n\\nRespectfully,   \\n\\nDeacon Tobin \\nOperations Manager \\nInterSec Defense Solutions  \\n\\nThis communication consists of confidential information solely intended for the recipient. Please disregard if received in error and notify the sender. All operations are conducted at the contractor’s own personal risk and must adhere to UEE and system law where applicable.",
+      "tr": "任务说明\\n\\n行动区域：尼克斯星系\\n敌对势力：剜度\\n装备规格：战斗级飞船\\n任务简报：\\n\\n有民用飞行员报告称，在 <EM4>[LOCATION]</EM4> 险些与一支剜度打击编队发生冲突。互安防务正在招募做好战斗准备的飞行员前去交战。报告里还提到附近有其他的剜度飞船，所以要做好遭遇援军的准备。\\n\\n此致，\\n\\n迪肯·托宾\\n运营经理\\n互安防务\\n\\n本通信内容包含机密内容，仅限收件人阅读。如误收请忽略并通知发件人。所有行动均由承包商自行承担风险，并须遵守适用的 UEE 及星系法律。"
     },
     "Kaboos_Intro_Description": {
       "en": "MISSION SPECS\\n\\nArea of Operation: Nyx System\\nHostile Forces: Unknown\\nEquipment Specs: Combat-rated Ship, Personal Arms\\nBriefing: InterSec has been enlisted by the UEE to gather intel on a group of <EM4>black marketeers dealing in Vanduul parts</EM4>, that have been linked to the illegal Vanduul experiments happening at ASD’s Onyx Facility. The UEE is eager to understand and put an end to their operations.\\n\\nBased on evidence extracted from the ASD facilities, we’ve potentially managed to track down the location of one of their storage sites.\\n\\nOnce accepted, head over to the old <EM4>QV Planet Services Logistics station</EM4> and we’ll be in touch.\\n\\nRespectfully, \\n\\nDeacon Tobin\\nOperations Manager\\nInterSec Defense Solutions\\n\\nThis communication consists of confidential information solely intended for the recipient. Please disregard if received in error and notify sender. All operations are conducted at the contractor’s own personal risk and must adhere to UEE and system law where applicable.",
@@ -6749,7 +6845,7 @@
     },
     "Covalex_HaulCargo_AToB_Rehire_desc": {
       "en": "Hey,\\n\\nHave a bit of good news for you. Covalex recently finished an evaluation of our contractor pool, and decided to reconsider your status as a cargo hauler. To requalify, all you need is to successfully complete the following delivery.\\n\\nPick up <EM4>Quartz</EM4> from a freight elevator at <EM4>[LOCATION]</EM4> and deliver it to a freight elevator at <EM4>[DESTINATION]</EM4>. In order to complete this haul in a fast and efficient manner, you'll need a ship that can haul <EM4>1 SCU cargo containers</EM4>.\\n\\nHopefully everything goes smoothly so we can welcome you back to the team.\\n\\nBy the way, we strongly encourage contractors to bring a <EM4>handheld tractor beam</EM4> along.   \\n\\nCovalex Shipping  \\n'Anything you need, anywhere you need it.'\\n\\nCovalex Shipping is a limited liability corporation. To encourage timely deliveries and prevent fraud on cargo hauls, Covalex Shipping will set a delivery time limit and upon expiration, any undelivered cargo will be considered stolen and treated as such. Total payment will be prorated according to the percentage of cargo successfully delivered.",
-      "tr": "嘿，\\n\\n我有个好消息要告诉你，科瓦莱什最近完成了对我们备用承包商的评估，并决定重新考虑你作为货运员的身份。要重新获得资格，您只需要成功完成下列的投递。\\n\\n从 <EM4>[LOCATION]</EM4> 的货运电梯取得 <EM4>[[ITEM]]</EM4> ，并把它送到 <EM4>[DESTINATION]</EM4> 的货运电梯。为了快速高效地完成这次运输，你需要一艘能运 尺寸为 <EM4>[MAX_SCU]</EM4> 集装箱的飞船。\\n\\n希望一切顺利，这样我们就能欢迎你重新回到队伍了。\\n\\n顺便提醒，我们强烈建议承包商随身携带<EM4>手持式牵引光束</EM4>。\n\n科瓦莱什货运\\n“尽你所需，达你所在。”\n\n科瓦莱什货运是一家有限责任公司，为鼓励及时交付和防止货运欺诈，科瓦莱什货运将设定交货时间限制。到期后，任何未交付的货物将被视为被盗。总酬金将会根据货物成功交付的百分比按比例支付。"
+      "tr": "嘿，\\n\\n我有个好消息要告诉你，科瓦莱什最近完成了对我们备用承包商的评估，并决定重新考虑你作为货运员的身份。要重新获得资格，您只需要成功完成下列的投递。\\n\\n从 <EM4>[LOCATION]</EM4> 的货运电梯取得 <EM4>[ITEM]</EM4> ，并把它送到 <EM4>[DESTINATION]</EM4> 的货运电梯。为了快速高效地完成这次运输，你需要一艘能运 尺寸为 <EM4>[MAX_SCU]</EM4> 集装箱的飞船。\\n\\n希望一切顺利，这样我们就能欢迎你重新回到队伍了。\\n\\n顺便提醒，我们强烈建议承包商随身携带<EM4>手持式牵引光束</EM4>。\n\n科瓦莱什货运\\n“尽你所需，达你所在。”\n\n科瓦莱什货运是一家有限责任公司，为鼓励及时交付和防止货运欺诈，科瓦莱什货运将设定交货时间限制。到期后，任何未交付的货物将被视为被盗。总酬金将会根据货物成功交付的百分比按比例支付。"
     },
     "HaulCargo_AtoB_desc": {
       "en": "Hello,\\n\\nNeed a contractor for a simple cargo haul going from a freight elevator at <EM4>[LOCATION]</EM4> to a freight elevator at <EM4>[DESTINATION]</EM4>. At most the containers will be <EM4>4 SCU</EM4> in size. \\n\\nAlso, we strongly encourage contractors to bring a <EM4>handheld tractor beam</EM4> along. \\n\\nAny chance you’re available to take care of it for us?\\n\\n[SIGN_OFF]\\n\\nChase Hewitt\\nJr. Logistics Coordinator\\nCovalex Shipping  \\n'Anything you need, anywhere you need it.'\\n\\nCovalex Shipping is a limited liability corporation. To encourage timely deliveries and prevent fraud on cargo hauls, Covalex Shipping will set a delivery time limit and upon expiration, any undelivered cargo will be considered stolen and treated as such. Total payment will be prorated according to the percentage of cargo successfully delivered.",
@@ -6781,7 +6877,7 @@
     },
     "Covalex_HaulCargo_SingleToMulti_Processed_Mixed_QTFuelHydroFuelShipAmmo": {
       "en": "Hey,\\n\\nThe folks at <EM4>[LOCATION]</EM4> have what I like to call a “pilot’s special” waiting to be distributed - a haul of quantum fuel, hydrogen fuel, and ship ammo. Load it up from a freight elevator and deliver it to the following spots in whatever order works best for you. Expect the containers to all be <EM4>16 SCU</EM4> or smaller.   \\n\\nDROP OFF LOCATIONS (ANY ORDER)\\n\\n- Freight elevator at <EM4>[DESTINATION]</EM4>\\n- Freight elevator at <EM4>[DESTINATION1]</EM4>\\n- Freight elevator at <EM4>[DESTINATION2]</EM4>\\n- Freight elevator at <EM4>[DESTINATION3]</EM4> \\n\\nBy the way, we strongly encourage contractors to bring a <EM4>handheld tractor beam</EM4> along.   \\n\\nThanks in advance for ensuring prompt service,\\n\\nChase Hewitt\\nJr. Logistics Coordinator\\nCovalex Shipping  \\n'Anything you need, anywhere you need it.'\\n\\nCovalex Shipping is a limited liability corporation. To encourage timely deliveries and prevent fraud on cargo hauls, Covalex Shipping will set a delivery time limit and upon expiration, any undelivered cargo will be considered stolen and treated as such. Total payment will be prorated according to the percentage of cargo successfully delivered.",
-      "tr": "Hey,\\n\\n在 <EM4>[LOCATION]</EM4> 的有一种我喜欢叫做“飞行员专用”的东西等待分发——一堆量子燃料、氢燃料和舰载弹药。从货运电梯上把他装上，然后按最适合你的顺序送到以下地点。预计所有的集装箱尺寸都不超过 <EM4>[MAX_SCU]</EM4>。\\n\\n卸货地点（任意顺序）\\n\\n[SINGLETOMULTITOKEN]\\n\\n顺便提醒，我们强烈建议承包商随身携带<EM4>手持式牵引光束</EM4>。\\n\\n[SIGN_OFF]\\n\\n蔡斯·休伊特\\n初级物流协调员\\n科瓦莱什货运\\n“尽你所需，达你所在。”\n\n科瓦莱什货运是一家有限责任公司，为鼓励及时交付和防止货运欺诈，科瓦莱什货运将设定交货时间限制。到期后，任何未交付的货物将被视为被盗。总酬金将会根据货物成功交付的百分比按比例支付。"
+      "tr": "Hey,\\n\\n在 <EM4>[LOCATION]</EM4> 的有一种我喜欢叫做“飞行员专用”的东西等待分发 —— 一堆量子燃料、氢燃料和舰载弹药。从货运电梯上把他装上，然后按最适合你的顺序送到以下地点。预计所有的集装箱尺寸都不超过 <EM4>[MAX_SCU]</EM4>。\\n\\n卸货地点（任意顺序）\\n\\n[SINGLETOMULTITOKEN]\\n\\n顺便提醒，我们强烈建议承包商随身携带<EM4>手持式牵引光束</EM4>。\\n\\n[SIGN_OFF]\\n\\n蔡斯·休伊特\\n初级物流协调员\\n科瓦莱什货运\\n“尽你所需，达你所在。”\n\n科瓦莱什货运是一家有限责任公司，为鼓励及时交付和防止货运欺诈，科瓦莱什货运将设定交货时间限制。到期后，任何未交付的货物将被视为被盗。总酬金将会根据货物成功交付的百分比按比例支付。"
     },
     "Covalex_HaulCargo_MultiToSingle_desc_ScrapWaste_Stanton3": {
       "en": "Hi there,\\n\\nThere’s a few sites on ArcCorp that need their waste and scrap collected (all boxes <EM4>4 SCU</EM4> or smaller) and taken to a freight elevator at <EM4>[DESTINATION]</EM4>. Doesn’t matter what order you do the run, as long as you grab it all.    \\n\\nPICK UP LOCATIONS (ANY ORDER)\\n\\n- Freight elevator at <EM4>[LOCATION]</EM4>\\n- Freight elevator at <EM4>[LOCATION1]</EM4>\\n\\nYou know, my mom was a hauler who specialized in runs like this. It might not be the most glamorous stuff, but she claimed these runs had the best pay-to-risk ratio. Pirates never gave her any trouble when they found out what was on board.  \\n\\nBy the way, we strongly encourage contractors to bring a <EM4>handheld tractor beam</EM4> along.   \\n\\nThanks in advance for ensuring prompt service,\\n\\nChase Hewitt\\nJr. Logistics Coordinator\\nCovalex Shipping  \\n'Anything you need, anywhere you need it.'\\n\\nCovalex Shipping is a limited liability corporation. To encourage timely deliveries and prevent fraud on cargo hauls, Covalex Shipping will set a delivery time limit and upon expiration, any undelivered cargo will be considered stolen and treated as such. Total payment will be prorated according to the percentage of cargo successfully delivered.",
@@ -6793,7 +6889,7 @@
     },
     "Covalex_HaulCargo_SingleToMulti_RefinedOre": {
       "en": "Hi there,\\n\\nThe refinery at <EM4>[LOCATION]</EM4> has been busy. They’ve processed a bunch of <EM4>Tungsten</EM4> into containers <EM4>16 SCU</EM4> or smaller, and are looking to get it shipped out from a freight elevator. I just checked with the LEOs to see which ones needed this stuff and was able to put together this run.  \\n\\nDROP OFF LOCATIONS (ANY ORDER)\\n\\n- Freight elevator at <EM4>[DESTINATION]</EM4>\\n- Freight elevator at <EM4>[DESTINATION1]</EM4>\\n- Freight elevator at <EM4>[DESTINATION2]</EM4>\\n- Freight elevator at <EM4>[DESTINATION3]</EM4>\\n\\nShould be an easy run for you, if you’re free. \\n\\nBy the way, we strongly encourage contractors to bring a <EM4>handheld tractor beam</EM4> along.   \\n\\nThanks in advance for ensuring prompt service,\\n\\nChase Hewitt\\nJr. Logistics Coordinator\\nCovalex Shipping  \\n'Anything you need, anywhere you need it.'\\n\\nCovalex Shipping is a limited liability corporation. To encourage timely deliveries and prevent fraud on cargo hauls, Covalex Shipping will set a delivery time limit and upon expiration, any undelivered cargo will be considered stolen and treated as such. Total payment will be prorated according to the percentage of cargo successfully delivered.",
-      "tr": "你好啊，\\n\\n在 <EM4>[LOCATION]</EM4> 的精炼站一直很忙，他们已经把一大堆的 <EM4>[[ITEM]]</EM4> 加工成了不超过 <EM4>[MAX_SCU]</EM4> 尺寸集装箱的货。并且想用货运电梯把它们运走。我刚才和物流主管们确认了一下，看看哪些人需要这些东西让这趟活一次跑完。卸货地点（任意顺序）\\n\\n[SINGLETOMULTITOKEN]\\n\\n如果你有空的话这趟活应该很容易跑。\\n\\n顺便提醒，我们强烈建议承包商随身携带<EM4>手持式牵引光束</EM4>。\\n\\n[SIGN_OFF]\\n\\n蔡斯·休伊特\\n初级物流协调员\\n科瓦莱什货运\\n“尽你所需，达你所在。”\n\n科瓦莱什货运是一家有限责任公司，为鼓励及时交付和防止货运欺诈，科瓦莱什货运将设定交货时间限制。到期后，任何未交付的货物将被视为被盗。总酬金将会根据货物成功交付的百分比按比例支付。"
+      "tr": "你好啊，\\n\\n在 <EM4>[LOCATION]</EM4> 的精炼站一直很忙，他们已经把一大堆的 <EM4>[ITEM]</EM4> 加工成了不超过 <EM4>[MAX_SCU]</EM4> 尺寸集装箱的货。并且想用货运电梯把它们运走。我刚才和物流主管们确认了一下，看看哪些人需要这些东西让这趟活一次跑完。卸货地点（任意顺序）\\n\\n[SINGLETOMULTITOKEN]\\n\\n如果你有空的话这趟活应该很容易跑。\\n\\n顺便提醒，我们强烈建议承包商随身携带<EM4>手持式牵引光束</EM4>。\\n\\n[SIGN_OFF]\\n\\n蔡斯·休伊特\\n初级物流协调员\\n科瓦莱什货运\\n“尽你所需，达你所在。”\n\n科瓦莱什货运是一家有限责任公司，为鼓励及时交付和防止货运欺诈，科瓦莱什货运将设定交货时间限制。到期后，任何未交付的货物将被视为被盗。总酬金将会根据货物成功交付的百分比按比例支付。"
     },
     "Covalex_HaulCargo_AToB_Scrap": {
       "en": "Hello,\\n\\nThere’s some junk waiting at a freight elevator in <EM4>[LOCATION]</EM4> that needs to go to a freight elevator at <EM4>[DESTINATION]</EM4> for processing. I've confirmed that the containers won't be bigger than <EM4>4 SCU</EM4>. \\n\\nMy mom would’ve loved this run. She’s one of those who thinks every scrapyard is filled with hidden treasures. Can’t even tell you how many hours I spent bored out of my mind following her around one. If that’s your thing, here’s a chance to actually make credits going to one.\\n\\nBy the way, we strongly encourage contractors to bring a <EM4>handheld tractor beam</EM4> along.   \\n \\nThanks in advance for ensuring prompt service,\\n\\nChase Hewitt\\nJr. Logistics Coordinator\\nCovalex Shipping  \\n'Anything you need, anywhere you need it.'\\n\\nCovalex Shipping is a limited liability corporation. To encourage timely deliveries and prevent fraud on cargo hauls, Covalex Shipping will set a delivery time limit and upon expiration, any undelivered cargo will be considered stolen and treated as such. Total payment will be prorated according to the percentage of cargo successfully delivered.",
@@ -9115,9 +9211,9 @@
       "en": "Lamina PAF-I",
       "tr": "薄片站 平台校准设施-I (Lamina PAF-I)"
     },
-    "mission_location_stanton_611": {
-      "en": "a derelict outpost",
-      "tr": "一个废弃前哨站"
+    "mission_location_pyro_187": {
+      "en": "Abandoned Facility",
+      "tr": "废弃设施"
     },
     "mission_location_stanton_0174": {
       "en": "HDSF-Elbridge",
@@ -9294,10 +9390,6 @@
     "mission_location_stanton_400": {
       "en": "Shubin Processing Facility SPMC-3",
       "tr": "舒宾矿业设施 SPMC-3\\nShubin Processing Facility SPMC-3"
-    },
-    "mission_location_pyro_187": {
-      "en": "Frontier Fighters Hideout",
-      "tr": "边境战士藏身处"
     },
     "_noloc_location_UGF_Drug_Stanton3a": {
       "en": "UGF_Drug_Stanton3a",
@@ -9663,9 +9755,13 @@
       "en": "RSI Constellation Mk IV Andromeda",
       "tr": "RSI 星座 Mk IV 仙女座\\nRSI Constellation Mk IV Andromeda"
     },
-    "vehicle_NameAEGS_Hammerhead": {
-      "en": "Aegis Hammerhead",
-      "tr": "圣盾 锤头鲨\\nAegis Hammerhead"
+    "vehicle_NameRSI_Constellation_Aquila": {
+      "en": "RSI Constellation Mk IV Aquila",
+      "tr": "RSI 星座 Mk IV 天鹰座\\nRSI Constellation Mk IV Aquila"
+    },
+    "vehicle_NameRSI_Constellation_Phoenix": {
+      "en": "RSI Constellation Mk IV Phoenix",
+      "tr": "RSI 星座 Mk IV 凤凰座\\nRSI Constellation Mk IV Phoenix"
     },
     "vehicle_NameRSI_Polaris": {
       "en": "RSI Polaris",
@@ -9767,25 +9863,9 @@
       "en": "Origin 85X Limited",
       "tr": "起源 85X 限量版\\nOrigin 85X Limited"
     },
-    "vehicle_NameRSI_Aurora_LX": {
-      "en": "RSI Aurora Mk I  LX",
-      "tr": "RSI 极光 LX Mk I\\nRSI Aurora LX Mk I"
-    },
-    "vehicle_NameRSI_Aurora_CL": {
-      "en": "RSI Aurora Mk I CL",
-      "tr": "RSI 极光 CL Mk I\\nRSI Aurora CL Mk I"
-    },
-    "vehicle_NameRSI_Aurora_ES": {
-      "en": "RSI Aurora Mk I ES",
-      "tr": "RSI 极光 ES Mk I\\nRSI Aurora ES Mk I"
-    },
     "vehicle_NameRSI_Aurora_LN": {
       "en": "RSI Aurora Mk I LN",
       "tr": "RSI 极光 LN Mk I\\nRSI Aurora LN Mk I"
-    },
-    "vehicle_NameRSI_Aurora_MR": {
-      "en": "RSI Aurora Mk I MR",
-      "tr": "RSI 极光 MR Mk I\\nRSI Aurora MR Mk I"
     },
     "vehicle_NameANVL_Terrapin": {
       "en": "Anvil Terrapin",
@@ -9851,14 +9931,6 @@
       "en": "Mirai Guardian MX",
       "tr": "未来 守护者 MX\\nMirai Guardian MX"
     },
-    "vehicle_NameRSI_Constellation_Aquila": {
-      "en": "RSI Constellation Mk IV Aquila",
-      "tr": "RSI 星座 Mk IV 天鹰座\\nRSI Constellation Mk IV Aquila"
-    },
-    "vehicle_NameRSI_Constellation_Phoenix": {
-      "en": "RSI Constellation Mk IV Phoenix",
-      "tr": "RSI 星座 Mk IV 凤凰座\\nRSI Constellation Mk IV Phoenix"
-    },
     "vehicle_NameMisc_Fury": {
       "en": "Mirai Fury",
       "tr": "未来 狂怒\\nMirai Fury"
@@ -9879,37 +9951,161 @@
       "en": "CHCO Auris PDC Monitor",
       "tr": "CHCO 奥瑞斯 被动数据收集监测设备"
     },
-    "vehicle_NameVNCL_Mauler": {
-      "en": "Vanduul Mauler Destroyer",
-      "tr": "剜度 重拳 驱逐舰\\nVanduul Mauler Destroyer"
+    "vehicle_NameRSI_Aurora_LX": {
+      "en": "RSI Aurora Mk I  LX",
+      "tr": "RSI 极光 LX Mk I\\nRSI Aurora LX Mk I"
     },
-    "vehicle_NameVNCL_Stinger": {
-      "en": "Vanduul Stinger",
-      "tr": "剜度 毒刺\\nVanduul Stinger"
+    "vehicle_NameRSI_Aurora_ES": {
+      "en": "RSI Aurora Mk I ES",
+      "tr": "RSI 极光 ES Mk I\\nRSI Aurora ES Mk I"
+    },
+    "vehicle_NameRSI_Aurora_MR": {
+      "en": "RSI Aurora Mk I MR",
+      "tr": "RSI 极光 MR Mk I\\nRSI Aurora MR Mk I"
+    },
+    "vehicle_NameAEGS_Hammerhead": {
+      "en": "Aegis Hammerhead",
+      "tr": "圣盾 锤头鲨\\nAegis Hammerhead"
     },
     "vehicle_NameANVL_Hornet_F7A": {
       "en": "Anvil F7A Hornet Mk I",
       "tr": "铁砧 F7A 大黄蜂 Mk I\\nAnvil F7A Hornet Mk I"
     },
+    "vehicle_NameVNCL_Stinger": {
+      "en": "Vanduul Stinger",
+      "tr": "剜度 毒刺\\nVanduul Stinger"
+    },
     "vehicle_NameKRIG_P52_Merlin": {
       "en": "Kruger P-52 Merlin",
       "tr": "克鲁格 P-52 梅林\\nKruger P-52 Merlin"
+    },
+    "vehicle_NameRSI_Aurora_CL": {
+      "en": "RSI Aurora Mk I CL",
+      "tr": "RSI 极光 CL Mk I\\nRSI Aurora CL Mk I"
     },
     "vehicles_NameOrbital_Sentry": {
       "en": "Broad & Rabiee Overseer Orbital Sentry",
       "tr": "布拉德&拉比 监督者 轨道哨卫"
     },
-    "vehicle_NameXNAA_SantokYai": {
-      "en": "Aopoa San'tok.yāi",
-      "tr": "奥波亚 桑托起亚\\nAopoa San'tok.yai"
+    "_noloc_ship_@vehicle_NameVNCL_King_Hunter": {
+      "en": "@vehicle_NameVNCL_King_Hunter",
+      "tr": "@vehicle_NameVNCL_King_Hunter"
     },
-    "vehicle_NameCRUS_Intrepid": {
-      "en": "Crusader Intrepid",
-      "tr": "十字军 无畏\\nCrusader Intrepid"
+    "vehicle_NameANVL_Lightning_F8C": {
+      "en": "Anvil F8C Lightning",
+      "tr": "铁砧 F8C 闪电\\nAnvil F8C Lightning"
+    },
+    "vehicle_NameANVL_Lightning_F8C_Exec": {
+      "en": "Anvil F8C Lightning Executive Edition",
+      "tr": "铁砧 F8C 闪电 行政版\\nAnvil F8C Lightning Executive Edition"
+    },
+    "vehicle_NameANVL_Lightning_F8C_Collector_Stealth": {
+      "en": "Anvil F8C Lightning Wikelo Sneak Special",
+      "tr": "铁砧 F8C 闪电 维科洛 鬼祟特别版\\nAnvil F8C Lightning Wikelo Sneak Special"
+    },
+    "vehicle_NameANVL_Lightning_F8C_Collector_Military": {
+      "en": "Anvil F8C Lightning Wikelo War Special",
+      "tr": "铁砧 F8C 闪电 维科洛 战争特别版\\nAnvil F8C Lightning Wikelo War Special"
+    },
+    "vehicle_NameCRUS_Starfighter_Inferno_Collector_Military": {
+      "en": "Crusader Ares Star Fighter Inferno Wikelo War Special",
+      "tr": "十字军 战神 星际战斗机 地狱火 维科洛 战争特别版\\nCrusader Ares Star Fighter Inferno Wikelo War Special"
+    },
+    "vehicle_NameCRUS_Starfighter_Ion_Collector_Stealth": {
+      "en": "Crusader Ares Star Fighter Ion Wikelo Sneak Special",
+      "tr": "十字军 战神 星际战斗机 离子光 维科洛 鬼祟特别版\\nCrusader Ares Star Fighter Ion Wikelo Sneak Special"
+    },
+    "vehicle_NameDRAK_Cutlass_Black_PYAM_Exec": {
+      "en": "Cutlass Black PYAM Exec",
+      "tr": "德雷克 黑弯刀 焰火联合 行政版\\nCutlass Black PYAM Exec"
+    },
+    "vehicle_NameDRAK_Cutlass_Black_ShipShowdown": {
+      "en": "Drake Cutlass 2949 Best In Show Edition",
+      "tr": "德雷克 黑弯刀 2949展会最佳版\\nDrake Cutlass 2949 Best In Show Edition"
     },
     "vehicle_NameDRAK_Cutlass_Blue": {
       "en": "Drake Cutlass Blue",
       "tr": "德雷克 蓝弯刀\\nDrake Cutlass Blue"
+    },
+    "vehicle_NameANVL_Lightning_F8C_PYAM_Exec": {
+      "en": "F8C Lightning PYAM Exec",
+      "tr": "铁砧 F8C 闪电 焰火联合 行政版\\nF8C Lightning PYAM Exec"
+    },
+    "vehicle_NameORIG_M80": {
+      "en": "Origin M80",
+      "tr": "起源 M80\\nOrigin M80"
+    },
+    "vehicle_NameRSI_Meteor": {
+      "en": "RSI Meteor",
+      "tr": "RSI 流星\\nRSI Meteor"
+    },
+    "vehicle_NameRSI_Meteor_Collector_Military": {
+      "en": "RSI Meteor PYAM Exec",
+      "tr": "RSI 流星 焰火联合 行政版\\nRSI Meteor PYAM Exec"
+    },
+    "vehicle_NameRSI_Meteor_Collector_Stealth": {
+      "en": "RSI Meteor Wikelo Sneak Special",
+      "tr": "RSI 流星 维科洛 鬼祟特别版\\nRSI Meteor Wikelo Sneak Special"
+    },
+    "vehicle_NameAEGS_Firebird_Collector_Milt": {
+      "en": "Aegis Sabre Firebird Wikelo War Special",
+      "tr": "圣盾 军刀 火鸟 维科洛 战争特别版\\nAegis Sabre Firebird Wikelo War Special"
+    },
+    "vehicle_NameAEGS_Sabre_Raven_EX": {
+      "en": "Aegis Sabre Raven EX",
+      "tr": "圣盾 军刀 渡鸦 EX\\nAegis Sabre Raven EX"
+    },
+    "TheCollector_ShipMod_F7_Hornet_VehicleName": {
+      "en": "Anvil F7 Hornet Mk Wikelo",
+      "tr": "铁砧 F7C-M 超级大黄蜂 Mk II 维科洛 特别版\\nAnvil F7C-M Super Hornet Mk II Wikelo Special"
+    },
+    "vehicle_NameANVL_Hornet_F7C_Wildfire": {
+      "en": "Anvil F7C Hornet Wildfire Mk I",
+      "tr": "铁砧 F7C 大黄蜂 野火 Mk I\\nAnvil F7C Hornet Wildfire Mk I"
+    },
+    "vehicle_NameANVL_Hornet_F7CM_Heartseeker": {
+      "en": "Anvil F7C-M Hornet Heartseeker Mk I",
+      "tr": "铁砧 F7C-M 大黄蜂 寻心者 Mk I\\nAnvil F7C-M Hornet Heartseeker Mk I"
+    },
+    "vehicle_NameANVL_Hornet_F7CM_Heartseeker_Mk2": {
+      "en": "Anvil F7C-M Hornet Heartseeker Mk II",
+      "tr": "铁砧 F7C-M 大黄蜂 寻心者 Mk II\\nAnvil F7C-M Hornet Heartseeker Mk II"
+    },
+    "vehicle_NameANVL_Hornet_F7CM_Mk2": {
+      "en": "Anvil F7C-M Super Hornet Mk II",
+      "tr": "铁砧 F7C-M 超级大黄蜂 Mk II\\nAnvil F7C-M Super Hornet Mk II"
+    },
+    "vehicle_NameANVL_Hornet_F7CR_Mk2": {
+      "en": "Anvil F7C-R Hornet Tracker Mk II",
+      "tr": "铁砧 F7C-R 大黄蜂 追踪者 Mk II\\nAnvil F7C-R Hornet Tracker Mk II"
+    },
+    "vehicle_NameANVL_Hornet_F7CS_Mk2": {
+      "en": "Anvil F7C-S Hornet Ghost Mk II",
+      "tr": "铁砧 F7C-S 大黄蜂 幽灵 Mk II\\nAnvil F7C-S Hornet Ghost Mk II"
+    },
+    "vehicle_NameXNAA_SantokYai": {
+      "en": "Aopoa San'tok.yāi",
+      "tr": "奥波亚 桑托起亚\\nAopoa San'tok.yai"
+    },
+    "vehicle_NameDRAK_Marauder": {
+      "en": "Drake Marauder",
+      "tr": "德雷克 Marauder\\nDrake Marauder"
+    },
+    "vehicle_NameANVL_Hornet_F7A_Mk2_PYAM_Exec": {
+      "en": "Hornet F7A Mk II PYAM Exec",
+      "tr": "铁砧 F7A 大黄蜂 Mk II 焰火联合 行政版\\nHornet F7A Mk II PYAM Exec"
+    },
+    "vehicle_NameRSI_Scorpius_Collector_Stealth": {
+      "en": "RSI Scorpius Wikelo Sneak Special",
+      "tr": "RSI 天蝎座 维科洛 鬼祟特别版\\nRSI Scorpius Wikelo Sneak Special"
+    },
+    "vehicle_NameVNCL_Mauler": {
+      "en": "Vanduul Mauler Destroyer",
+      "tr": "剜度 重拳 驱逐舰\\nVanduul Mauler Destroyer"
+    },
+    "vehicle_NameCRUS_Intrepid": {
+      "en": "Crusader Intrepid",
+      "tr": "十字军 无畏\\nCrusader Intrepid"
     },
     "mobiGlas_Reputation_Stance_Neutral": {
       "en": "Neutral",
@@ -10937,7 +11133,7 @@
     },
     "Tutorial01_Lorville_JournalToken": {
       "en": "Currently, you are in Lorville, on Hurston, the first planet in the Stanton System – a great distance from Humanity’s origins in the Sol System. The four planets in the system are owned by megacorporations who each purchased a planet from the UEE and now govern their own region of space. They are: Hurston Dynamics, Crusader Industries, ArcCorp, and microTech. \\n\\n~mission(Location|Name) is the main commercial zone of the thriving city that is the heart of Hurston Dynamics corporate empire. From here, the tutorial will guide you to ~mission(Destination), the space station in orbit above the planet that can serve as your gateway to further exploration of the Stanton system.",
-      "tr": "目前，你在赫斯顿的罗威尔，这是斯坦顿系统的第一颗行星——距离人类起源的太阳系很远。系统中的四颗行星由大型公司所有，每家公司从UEE购买了一颗行星，现在管理着自己的空间区域。它们是:赫斯顿动力、十字军工业、弧光集团和微科公司。\\n\\n[LOCATION] 是这座繁荣城市的主要商业区，也是赫斯顿动力公司帝国的核心。从这里开始，教程将引导你到达 [DESTINATION]，即在轨道上的空间站"
+      "tr": "目前，你在赫斯顿的罗威尔，这是斯坦顿系统的第一颗行星 —— 距离人类起源的太阳系很远。系统中的四颗行星由大型公司所有，每家公司从UEE购买了一颗行星，现在管理着自己的空间区域。它们是:赫斯顿动力、十字军工业、弧光集团和微科公司。\\n\\n[LOCATION] 是这座繁荣城市的主要商业区，也是赫斯顿动力公司帝国的核心。从这里开始，教程将引导你到达 [DESTINATION]，即在轨道上的空间站"
     },
     "mission_location_stanton_335": {
       "en": "Everus Harbor",
@@ -11627,13 +11823,25 @@
       "en": "M3A Cannon",
       "tr": "M3A 激光加农炮"
     },
+    "_noloc_item_M3A Cannon Raider Camo": {
+      "en": "M3A Cannon Raider Camo",
+      "tr": "M3A 激光加农炮 掠夺者迷彩"
+    },
     "_noloc_item_M4A Cannon": {
       "en": "M4A Cannon",
       "tr": "M4A 激光加农炮"
     },
+    "_noloc_item_M4A Cannon Raider Camo": {
+      "en": "M4A Cannon Raider Camo",
+      "tr": "M4A 激光加农炮 掠夺者迷彩"
+    },
     "_noloc_item_M5A Cannon": {
       "en": "M5A Cannon",
       "tr": "M5A 激光加农炮"
+    },
+    "_noloc_item_M5A Cannon Raider Camo": {
+      "en": "M5A Cannon Raider Camo",
+      "tr": "M5A 激光加农炮 掠夺者迷彩"
     },
     "_noloc_item_M6A Cannon": {
       "en": "M6A Cannon",
@@ -11785,7 +11993,7 @@
     },
     "_noloc_item_P8-SC \"Midnight\" SMG": {
       "en": "P8-SC \"Midnight\" SMG",
-      "tr": "P8-SC冲锋枪"
+      "tr": "P8-SC “暗夜迷彩” 冲锋枪"
     },
     "_noloc_item_P8-SC \"Nightstalker\" SMG": {
       "en": "P8-SC \"Nightstalker\" SMG",
@@ -11793,7 +12001,7 @@
     },
     "_noloc_item_P8-SC \"Warhawk\" SMG": {
       "en": "P8-SC \"Warhawk\" SMG",
-      "tr": "P8-SC冲锋枪"
+      "tr": "P8-SC “战鹰迷彩” 冲锋枪"
     },
     "_noloc_item_Parallax \"Sanguine\" Energy Assault Rifle": {
       "en": "Parallax \"Sanguine\" Energy Assault Rifle",
@@ -11978,6 +12186,10 @@
     "_noloc_item_Singe Cannon (S3)": {
       "en": "Singe Cannon (S3)",
       "tr": "焦糊 快子加农炮 (S3)"
+    },
+    "_noloc_item_Skarnov \"Raider Camo\" Rifle": {
+      "en": "Skarnov \"Raider Camo\" Rifle",
+      "tr": "斯卡诺夫 “掠夺者迷彩” 步枪"
     },
     "_noloc_item_Sledge I Mass Driver Cannon": {
       "en": "Sledge I Mass Driver Cannon",
@@ -13195,6 +13407,10 @@
       "en": "Corbel Arms Patina",
       "tr": "拱石 臂甲 铜绿"
     },
+    "_noloc_item_Corbel Arms Raider Camo": {
+      "en": "Corbel Arms Raider Camo",
+      "tr": "拱石 臂甲 掠夺者迷彩"
+    },
     "_noloc_item_Corbel Arms Smolder": {
       "en": "Corbel Arms Smolder",
       "tr": "拱石 臂甲 余烬"
@@ -13214,6 +13430,10 @@
     "_noloc_item_Corbel Core Patina": {
       "en": "Corbel Core Patina",
       "tr": "拱石 胸甲 铜绿"
+    },
+    "_noloc_item_Corbel Core Raider Camo": {
+      "en": "Corbel Core Raider Camo",
+      "tr": "拱石 胸甲 掠夺者迷彩"
     },
     "_noloc_item_Corbel Core Smolder": {
       "en": "Corbel Core Smolder",
@@ -13235,6 +13455,10 @@
       "en": "Corbel Helmet Patina",
       "tr": "拱石 头盔 铜绿"
     },
+    "_noloc_item_Corbel Helmet Raider Camo": {
+      "en": "Corbel Helmet Raider Camo",
+      "tr": "拱石 头盔 掠夺者迷彩"
+    },
     "_noloc_item_Corbel Helmet Smolder": {
       "en": "Corbel Helmet Smolder",
       "tr": "拱石 头盔 余烬"
@@ -13254,6 +13478,10 @@
     "_noloc_item_Corbel Legs Patina": {
       "en": "Corbel Legs Patina",
       "tr": "拱石 腿甲 铜绿"
+    },
+    "_noloc_item_Corbel Legs Raider Camo": {
+      "en": "Corbel Legs Raider Camo",
+      "tr": "Corbel Legs Raider Camo"
     },
     "_noloc_item_Corbel Legs Smolder": {
       "en": "Corbel Legs Smolder",
@@ -15043,9 +15271,17 @@
       "en": "Palatino Arms Necropolis",
       "tr": "帕拉蒂诺 臂甲 墓场"
     },
+    "_noloc_item_Palatino Arms Raider Camo": {
+      "en": "Palatino Arms Raider Camo",
+      "tr": "帕拉蒂诺 臂甲 掠夺者迷彩"
+    },
     "_noloc_item_Palatino Arms Sunstone": {
       "en": "Palatino Arms Sunstone",
       "tr": "帕拉蒂诺 臂甲 日光石"
+    },
+    "_noloc_item_Palatino Backpack Raider Camo": {
+      "en": "Palatino Backpack Raider Camo",
+      "tr": "帕拉蒂诺 背包 掠夺者迷彩"
     },
     "_noloc_item_Palatino Core": {
       "en": "Palatino Core",
@@ -15067,6 +15303,10 @@
       "en": "Palatino Core Necropolis",
       "tr": "帕拉蒂诺 胸甲 墓场"
     },
+    "_noloc_item_Palatino Core Raider Camo": {
+      "en": "Palatino Core Raider Camo",
+      "tr": "帕拉蒂诺 胸甲 掠夺者迷彩"
+    },
     "_noloc_item_Palatino Core Sunstone": {
       "en": "Palatino Core Sunstone",
       "tr": "帕拉蒂诺 胸甲 日光石"
@@ -15086,6 +15326,10 @@
     "_noloc_item_Palatino Helmet Moonfall": {
       "en": "Palatino Helmet Moonfall",
       "tr": "帕拉蒂诺 头盔 月陨"
+    },
+    "_noloc_item_Palatino Helmet Raider Camo": {
+      "en": "Palatino Helmet Raider Camo",
+      "tr": "帕拉蒂诺 头盔 掠夺者迷彩"
     },
     "_noloc_item_Palatino Helmet Sunstone": {
       "en": "Palatino Helmet Sunstone",
@@ -15110,6 +15354,10 @@
     "_noloc_item_Palatino Legs Necropolis": {
       "en": "Palatino Legs Necropolis",
       "tr": "帕拉蒂诺 腿甲 墓场"
+    },
+    "_noloc_item_Palatino Legs Raider Camo": {
+      "en": "Palatino Legs Raider Camo",
+      "tr": "帕拉蒂诺 腿甲 掠夺者迷彩"
     },
     "_noloc_item_Palatino Legs Sunstone": {
       "en": "Palatino Legs Sunstone",
@@ -15338,6 +15586,14 @@
     "_noloc_item_Tailwind Flight Suit Dominion Camo": {
       "en": "Tailwind Flight Suit Dominion Camo",
       "tr": "顺风 飞行服 统御迷彩"
+    },
+    "_noloc_item_Tailwind Flight Suit Raider Camo": {
+      "en": "Tailwind Flight Suit Raider Camo",
+      "tr": "顺风 飞行服 掠夺者迷彩"
+    },
+    "_noloc_item_Tailwind Helmet Raider Camo": {
+      "en": "Tailwind Helmet Raider Camo",
+      "tr": "顺风 飞行头盔 Raider Camo"
     },
     "_noloc_item_Testudo Arms": {
       "en": "Testudo Arms",
@@ -15729,7 +15985,7 @@
     },
     "_noloc_item_Why Not? Flight Helmet": {
       "en": "Why Not? Flight Helmet",
-      "tr": "飞行头盔"
+      "tr": "有何不妥？ 飞行头盔"
     },
     "_noloc_item_Xanthule Flight Helmet": {
       "en": "Xanthule Flight Helmet",
@@ -15753,27 +16009,27 @@
     },
     "_noloc_item_6CA 'Bila'": {
       "en": "6CA 'Bila'",
-      "tr": "6CA “比拉Bila” [护盾 S3 民用 B]"
+      "tr": "6CA 'Bila'"
     },
     "_noloc_item_6MA 'Kozane'": {
       "en": "6MA 'Kozane'",
-      "tr": "6MA “科赞Kozane” [护盾 S2 民用 B]"
+      "tr": "6MA 'Kozane'"
     },
     "_noloc_item_6SA 'Arbiter'": {
       "en": "6SA 'Arbiter'",
-      "tr": "6SA “阿比特Arbiter” [护盾 S1 民用 B]"
+      "tr": "6SA 'Arbiter'"
     },
     "_noloc_item_7CA 'Nargun'": {
       "en": "7CA 'Nargun'",
-      "tr": "7CA “纳尔贡Nargun” [护盾 S3 民用 A]"
+      "tr": "7CA 'Nargun'"
     },
     "_noloc_item_7MA 'Lorica'": {
       "en": "7MA 'Lorica'",
-      "tr": "7MA “洛丽卡Lorica” [护盾 S2 民用 A]"
+      "tr": "7MA 'Lorica'"
     },
     "_noloc_item_7SA 'Concord'": {
       "en": "7SA 'Concord'",
-      "tr": "7SA “康科德Concord” [护盾 S1 民用 A]"
+      "tr": "7SA 'Concord'"
     },
     "_noloc_item_A03 Sniper Rifle Magazine (15 cap)": {
       "en": "A03 Sniper Rifle Magazine (15 cap)",
@@ -16130,6 +16386,10 @@
     "_noloc_item_Denning": {
       "en": "Denning",
       "tr": "丹宁 [雷达 S0 民用 C]"
+    },
+    "_noloc_item_Deterrent": {
+      "en": "Deterrent",
+      "tr": "Deterrent [护盾 S4 定制]"
     },
     "_noloc_item_Devastator Shotgun Battery (12 cap)": {
       "en": "Devastator Shotgun Battery (12 cap)",
@@ -16621,7 +16881,11 @@
     },
     "_noloc_item_Lawson Mining Laser": {
       "en": "Lawson Mining Laser",
-      "tr": "劳森采矿激光器"
+      "tr": "劳森采矿激光器 [+30%不稳定|-40%抗性|+40%绿区]"
+    },
+    "_noloc_item_Lephari": {
+      "en": "Lephari",
+      "tr": "莱法利 [雷达 S3 民用 C]"
     },
     "_noloc_item_LightBlossom": {
       "en": "LightBlossom",
@@ -17006,6 +17270,10 @@
     "_noloc_item_Siren": {
       "en": "Siren",
       "tr": "警笛 [量子 S1 军用 B]"
+    },
+    "_noloc_item_Skarnov Rifle Battery (30 cap)": {
+      "en": "Skarnov Rifle Battery (30 cap)",
+      "tr": "斯卡诺夫 步枪电池 (30 cap)"
     },
     "_noloc_item_Slipstream": {
       "en": "Slipstream",
@@ -18498,30 +18766,6 @@
     "5SA 'Rhada'": {
       "en": "5SA 'Rhada'",
       "tr": "5SA 拉达 [护盾 S1 民用 C]"
-    },
-    "6CA 'Bila'": {
-      "en": "6CA 'Bila'",
-      "tr": "6CA “比拉Bila” [护盾 S3 民用 B]"
-    },
-    "6MA 'Kozane'": {
-      "en": "6MA 'Kozane'",
-      "tr": "6MA “科赞Kozane” [护盾 S2 民用 B]"
-    },
-    "6SA 'Arbiter'": {
-      "en": "6SA 'Arbiter'",
-      "tr": "6SA “阿比特Arbiter” [护盾 S1 民用 B]"
-    },
-    "7CA 'Nargun'": {
-      "en": "7CA 'Nargun'",
-      "tr": "7CA “纳尔贡Nargun” [护盾 S3 民用 A]"
-    },
-    "7MA 'Lorica'": {
-      "en": "7MA 'Lorica'",
-      "tr": "7MA “洛丽卡Lorica” [护盾 S2 民用 A]"
-    },
-    "7SA 'Concord'": {
-      "en": "7SA 'Concord'",
-      "tr": "7SA “康科德Concord” [护盾 S1 民用 A]"
     },
     "9-Series Longsword Cannon": {
       "en": "9-Series Longsword Cannon",
@@ -20443,6 +20687,10 @@
       "en": "Corbel Arms Patina",
       "tr": "拱石 臂甲 铜绿"
     },
+    "Corbel Arms Raider Camo": {
+      "en": "Corbel Arms Raider Camo",
+      "tr": "拱石 臂甲 掠夺者迷彩"
+    },
     "Corbel Arms Smolder": {
       "en": "Corbel Arms Smolder",
       "tr": "拱石 臂甲 余烬"
@@ -20463,6 +20711,10 @@
       "en": "Corbel Core Patina",
       "tr": "拱石 胸甲 铜绿"
     },
+    "Corbel Core Raider Camo": {
+      "en": "Corbel Core Raider Camo",
+      "tr": "拱石 胸甲 掠夺者迷彩"
+    },
     "Corbel Core Smolder": {
       "en": "Corbel Core Smolder",
       "tr": "拱石 胸甲 余烬"
@@ -20482,6 +20734,10 @@
     "Corbel Helmet Patina": {
       "en": "Corbel Helmet Patina",
       "tr": "拱石 头盔 铜绿"
+    },
+    "Corbel Helmet Raider Camo": {
+      "en": "Corbel Helmet Raider Camo",
+      "tr": "拱石 头盔 掠夺者迷彩"
     },
     "Corbel Helmet Smolder": {
       "en": "Corbel Helmet Smolder",
@@ -20563,12 +20819,16 @@
       "en": "Cryo-Star XL",
       "tr": "低温之星XL [冷却 S3 民用 B]"
     },
-    "CryoPod": {
-      "en": "CryoPod",
+    "Cryopod": {
+      "en": "Cryopod",
       "tr": "冷冻舱"
     },
-    "CryoPod (Vanduul)": {
-      "en": "CryoPod (Vanduul)",
+    "Cryopod (Living Vanduul)": {
+      "en": "Cryopod (Living Vanduul)",
+      "tr": "冷冻舱（活体剜度）"
+    },
+    "Cryopod (Vanduul)": {
+      "en": "Cryopod (Vanduul)",
       "tr": "冷冻舱（剜度）"
     },
     "Custodian \"Big Boss\" SMG": {
@@ -20826,6 +21086,10 @@
     "Denning": {
       "en": "Denning",
       "tr": "丹宁 [雷达 S0 民用 C]"
+    },
+    "Deterrent": {
+      "en": "Deterrent",
+      "tr": "Deterrent [护盾 S4 定制]"
     },
     "Devastator \"Brimstone\" Shotgun": {
       "en": "Devastator \"Brimstone\" Shotgun",
@@ -22373,7 +22637,11 @@
     },
     "Lawson Mining Laser": {
       "en": "Lawson Mining Laser",
-      "tr": "劳森采矿激光器"
+      "tr": "劳森采矿激光器 [+30%不稳定|-40%抗性|+40%绿区]"
+    },
+    "Lephari": {
+      "en": "Lephari",
+      "tr": "莱法利 [雷达 S3 民用 C]"
     },
     "Levin Undersuit (Refurbished)": {
       "en": "Levin Undersuit (Refurbished)",
@@ -22479,13 +22747,25 @@
       "en": "M3A Cannon",
       "tr": "M3A 激光加农炮"
     },
+    "M3A Cannon Raider Camo": {
+      "en": "M3A Cannon Raider Camo",
+      "tr": "M3A 激光加农炮 掠夺者迷彩"
+    },
     "M4A Cannon": {
       "en": "M4A Cannon",
       "tr": "M4A 激光加农炮"
     },
+    "M4A Cannon Raider Camo": {
+      "en": "M4A Cannon Raider Camo",
+      "tr": "M4A 激光加农炮 掠夺者迷彩"
+    },
     "M5A Cannon": {
       "en": "M5A Cannon",
       "tr": "M5A 激光加农炮"
+    },
+    "M5A Cannon Raider Camo": {
+      "en": "M5A Cannon Raider Camo",
+      "tr": "M5A 激光加农炮 掠夺者迷彩"
     },
     "M6A Cannon": {
       "en": "M6A Cannon",
@@ -23637,7 +23917,7 @@
     },
     "P8-SC \"Midnight\" SMG": {
       "en": "P8-SC \"Midnight\" SMG",
-      "tr": "P8-SC冲锋枪"
+      "tr": "P8-SC “暗夜迷彩” 冲锋枪"
     },
     "P8-SC \"Nightstalker\" SMG": {
       "en": "P8-SC \"Nightstalker\" SMG",
@@ -23645,7 +23925,7 @@
     },
     "P8-SC \"Warhawk\" SMG": {
       "en": "P8-SC \"Warhawk\" SMG",
-      "tr": "P8-SC冲锋枪"
+      "tr": "P8-SC “战鹰迷彩” 冲锋枪"
     },
     "PAB-1 Arms": {
       "en": "PAB-1 Arms",
@@ -23915,6 +24195,10 @@
       "en": "Palatino Arms Necropolis",
       "tr": "帕拉蒂诺 臂甲 墓场"
     },
+    "Palatino Arms Raider Camo": {
+      "en": "Palatino Arms Raider Camo",
+      "tr": "帕拉蒂诺 臂甲 掠夺者迷彩"
+    },
     "Palatino Arms Sunstone": {
       "en": "Palatino Arms Sunstone",
       "tr": "帕拉蒂诺 臂甲 日光石"
@@ -23926,6 +24210,10 @@
     "Palatino Backpack Mark I": {
       "en": "Palatino Backpack Mark I",
       "tr": "帕拉蒂诺 背包 I 型"
+    },
+    "Palatino Backpack Raider Camo": {
+      "en": "Palatino Backpack Raider Camo",
+      "tr": "帕拉蒂诺 背包 掠夺者迷彩"
     },
     "Palatino Core": {
       "en": "Palatino Core",
@@ -23951,6 +24239,10 @@
       "en": "Palatino Core Necropolis",
       "tr": "帕拉蒂诺 胸甲 墓场"
     },
+    "Palatino Core Raider Camo": {
+      "en": "Palatino Core Raider Camo",
+      "tr": "帕拉蒂诺 胸甲 掠夺者迷彩"
+    },
     "Palatino Core Sunstone": {
       "en": "Palatino Core Sunstone",
       "tr": "帕拉蒂诺 胸甲 日光石"
@@ -23974,6 +24266,10 @@
     "Palatino Helmet Moonfall": {
       "en": "Palatino Helmet Moonfall",
       "tr": "帕拉蒂诺 头盔 月陨"
+    },
+    "Palatino Helmet Raider Camo": {
+      "en": "Palatino Helmet Raider Camo",
+      "tr": "帕拉蒂诺 头盔 掠夺者迷彩"
     },
     "Palatino Helmet Sunstone": {
       "en": "Palatino Helmet Sunstone",
@@ -24002,6 +24298,10 @@
     "Palatino Legs Necropolis": {
       "en": "Palatino Legs Necropolis",
       "tr": "帕拉蒂诺 腿甲 墓场"
+    },
+    "Palatino Legs Raider Camo": {
+      "en": "Palatino Legs Raider Camo",
+      "tr": "帕拉蒂诺 腿甲 掠夺者迷彩"
     },
     "Palatino Legs Sunstone": {
       "en": "Palatino Legs Sunstone",
@@ -24453,7 +24753,7 @@
     },
     "SLAM": {
       "en": "SLAM",
-      "tr": "冠军()"
+      "tr": "“冠军”"
     },
     "SNS-R5x": {
       "en": "SNS-R5x",
@@ -24666,6 +24966,14 @@
     "Size 4 Vehicle Weapon Ammuniton": {
       "en": "Size 4 Vehicle Weapon Ammuniton",
       "tr": "尺寸 4 载具武器弹药"
+    },
+    "Skarnov \"Raider Camo\" Rifle": {
+      "en": "Skarnov \"Raider Camo\" Rifle",
+      "tr": "斯卡诺夫 “掠夺者迷彩” 步枪"
+    },
+    "Skarnov Rifle Battery (30 cap)": {
+      "en": "Skarnov Rifle Battery (30 cap)",
+      "tr": "斯卡诺夫 步枪电池 (30 cap)"
     },
     "Sledge I Mass Driver Cannon": {
       "en": "Sledge I Mass Driver Cannon",
@@ -25102,6 +25410,14 @@
     "Tailwind Flight Suit Dominion Camo": {
       "en": "Tailwind Flight Suit Dominion Camo",
       "tr": "顺风 飞行服 统御迷彩"
+    },
+    "Tailwind Flight Suit Raider Camo": {
+      "en": "Tailwind Flight Suit Raider Camo",
+      "tr": "顺风 飞行服 掠夺者迷彩"
+    },
+    "Tailwind Helmet Raider Camo": {
+      "en": "Tailwind Helmet Raider Camo",
+      "tr": "顺风 飞行头盔 Raider Camo"
     },
     "Taranite": {
       "en": "Taranite",
@@ -25793,7 +26109,7 @@
     },
     "Why Not? Flight Helmet": {
       "en": "Why Not? Flight Helmet",
-      "tr": "飞行头盔"
+      "tr": "有何不妥？ 飞行头盔"
     },
     "WiDoW": {
       "en": "WiDoW",

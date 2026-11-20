@@ -28,14 +28,14 @@ To remove the translation: visit `https://scmdb.net?lang=clear`, or remove the U
 
 | Version | Total keys | Translated | Missing | No loc key | Placeholder fallback |
 |---|---|---|---|---|---|
-| 4.10.2-live.12913470 (LIVE) | 6473 | 6262 | 0 | 1736 | 69 |
+| 4.10.3-live.13165946 (LIVE) | 6552 | 6333 | 0 | 1755 | 69 |
 | 4.10.3-ptu.13093654 (PTU) | 6515 | 6295 | 0 | 1753 | 69 |
 
 Notes:
 - Covers missions, locations, ships, items, factions and other game data, plus 60 interface entries supported by the site's `scmdb_ui_*` mechanism.
-- Both versions count translated entries using `tr != en`. Entries retaining English: 211 in LIVE and 220 in PTU.
+- Both versions count translated entries using `tr != en`. Entries retaining English: 219 in LIVE and 220 in PTU.
 
-The 4.10.3 PTU update adds Chinese text for Intersec missions in Nyx and Raider Camo equipment names, and updates several existing item names.
+The 4.10.3 LIVE update adds Intersec mission titles and briefings, Raider Camo equipment names and ship names.
 
 ## Maintenance
 
